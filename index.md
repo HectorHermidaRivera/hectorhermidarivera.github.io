@@ -187,12 +187,59 @@ My papers and projects.
 ## References
 <a id="references"></a>
 
-<div class="two-column">
+<div class="two-column-2rows">
   <div class="label">5.</div>
   <div class="value">
     <div class="fill-line">
       <span>Assistant Professor Ben McQuillin</span>
-      <span>University of East Anglia</span>
+      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+    </div>
+    <div class="second-row">
+      University of East Anglia Doctoral thesis supervisor
+    </div>
+  </div>
+
+  <div class="label">5.</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Assistant Professor Ben McQuillin</span>
+      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+    </div>
+    <div class="second-row">
+      University of East Anglia Doctoral thesis supervisor
+    </div>
+  </div>
+
+  <div class="label">5.</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Assistant Professor Ben McQuillin</span>
+      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+    </div>
+    <div class="second-row">
+      University of East Anglia Doctoral thesis supervisor
+    </div>
+  </div>
+
+  <div class="label">5.</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Assistant Professor Ben McQuillin</span>
+      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+    </div>
+    <div class="second-row">
+      University of East Anglia Doctoral thesis supervisor
+    </div>
+  </div>
+
+  <div class="label">1.</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Assistant Professor Toygar T. Kerman</span>
+      <span><a href="toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a></span>
+    </div>
+    <div class="second-row">
+      Corvinus University of Budapest Coauthor
     </div>
   </div>
 </div>
