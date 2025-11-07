@@ -249,6 +249,7 @@ title: Home
   </div>
 
 </div>
+
 ## Teaching
 <a id="teaching"></a>
 
@@ -266,7 +267,7 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link">Bargaining Theory</span>
+          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Bargaining Theory</span>
           <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
         </div>
         <div class="institution">University of Technology & Economics</div>
@@ -294,12 +295,14 @@ title: Home
     </div>
   </div>
 
+  <div style="height:4px;"></div>
+
   <div class="two-column-3rows">
     <div class="label">2022 - 23</div>
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link">Intermediate Microeconomics</span>
+          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Intermediate Microeconomics</span>
           <span style="margin:10px;">•</span>Undergraduate<span style="margin:10px;">•</span>20h
         </div>
         <div class="institution">University of East Anglia</div>
@@ -318,7 +321,7 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link">Game Theory</span>
+          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Game Theory</span>
           <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>15h
         </div>
         <div class="institution">Autonomous University of Barcelona</div>
