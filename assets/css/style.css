@@ -4,6 +4,7 @@ body {
   display: flex;
 }
 
+/* Sidebar */
 .sidebar {
   width: 260px;
   position: fixed;
@@ -19,7 +20,7 @@ body {
 .sidebar a {
   display: block;
   margin: 12px 0;
-  color: #333;
+  color: #0000FF; /* LaTeX Blue */
   text-decoration: none;
   font-variant: small-caps;
   font-weight: bold;
@@ -27,9 +28,11 @@ body {
 }
 
 .sidebar a:hover {
-  color: #000;
+  color: #0000CC; /* darker hover */
+  text-decoration: underline;
 }
 
+/* Main content */
 .content {
   margin-left: 280px;
   padding: 20px;
@@ -41,7 +44,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* two-column grid used across the page */
+/* Two-column layout */
 .two-column {
   display: grid;
   grid-template-columns: 120px auto;
@@ -50,52 +53,55 @@ body {
   margin-top: 10px;
 }
 
-/* FORCE non-bold in the first column (higher specificity) */
-.content .two-column .label,
+/* First column: non-bold, right aligned */
 .two-column .label {
-  font-weight: 400; /* normal */
+  font-weight: normal;
   text-align: right;
-  color: inherit;
 }
 
-/* values styling */
-.two-column .value {
-  text-align: left; /* keep the column left-aligned by default */
-}
-
+/* Second column: normal flow, left aligned */
 .two-column .value a {
-  color: #333;
+  color: #0000FF; /* LaTeX Blue */
   text-decoration: none;
 }
 
 .two-column .value a:hover {
+  color: #0000CC;
   text-decoration: underline;
 }
 
-/* fallback line utility (if used) */
-.line {
-  display: flex;
-  justify-content: space-between;
-}
-
-.line span {
-  white-space: nowrap;
-}
-
-/* fill-line: creates the hfill effect inside the right column */
+/* Fill-line for \hfill-like spacing */
 .fill-line {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 .fill-line span {
   white-space: nowrap;
 }
 
-/* make the right-hand element smaller (footnote size) */
+/* Right-aligned institution name smaller (footnotesize) */
 .fill-line span:last-child {
-  font-size: 0.8em; /* footnote-like */
-  font-weight: 400; /* ensure it's not bold */
-  opacity: 0.95;
+  font-size: 0.8em;
+}
+
+/* General link color override (for safety) */
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000CC;
+  text-decoration: underline;
+}
+
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6 {
+  margin-left: 280px; /* same as .content margin-left */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
