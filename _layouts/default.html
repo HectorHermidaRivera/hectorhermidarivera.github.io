@@ -190,14 +190,27 @@
   </script>
 <script>
 if (window.innerWidth < 768) {
+  // Remove any existing content
   document.body.innerHTML = `
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;text-align:center;padding:20px;">
-      <h1>Sorry</h1>
-      <p>Sadly, mobile access is not (yet) supported!</p>
-    </div>`;
-  // prevent scrolling
-  document.documentElement.style.overflow = 'hidden';
-  document.body.style.overflow = 'hidden';
+    <div style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    ">
+      <h1 style="margin: 0 0 20px 0;">Sorry</h1>
+      <p style="margin: 0;">Sadly, mobile access is not (yet) supported!</p>
+    </div>
+  `;
+
+  // Prevent scrolling
+  document.body.style.overflow = "hidden";
 }
 </script>
 </body>
