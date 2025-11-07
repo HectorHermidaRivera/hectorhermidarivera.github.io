@@ -172,9 +172,10 @@ body {
 
 /* REDEFINITION OF BULLET SPACING */
 
-.two-column .value span.bullet::before {
-  content: "•";
-  padding: 0 6px; /* 6px space on each side */
+.bullet::before {
+  content: "•";               /* the bullet */
+  margin: 0 0.5em;            /* horizontal space on both sides */
+  display: inline-block;       /* so margin applies correctly */
 }
 
 /* Collapsible content */
