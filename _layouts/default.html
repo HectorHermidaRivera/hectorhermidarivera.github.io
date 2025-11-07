@@ -19,14 +19,6 @@
     }
   </style>
 </head>
-<script>
-document.querySelectorAll('.collapsible-link').forEach(link => {
-  link.addEventListener('click', () => {
-    const content = link.closest('.value').querySelector('.collapsible-content');
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-  });
-});
-</script>
 <body>
   <div class="sidebar">
     <a href="#about">About</a>
@@ -49,5 +41,19 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
     <h1 class="main-name">Héctor Hermida-Rivera</h1>
     {{ content }}
   </div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.collapsible-link').forEach(link => {
+    link.addEventListener('click', () => {
+      const content = link.closest('.value').querySelector('.collapsible-content');
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;  // collapse
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px"; // expand
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
