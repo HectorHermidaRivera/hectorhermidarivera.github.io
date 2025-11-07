@@ -208,6 +208,16 @@ body {
   color: #333;
 }
 
+.two-column-3rows .value {
+  margin-bottom: 0;       /* remove extra bottom margin */
+  padding-bottom: 0;      /* remove extra padding */
+}
+
+.two-column-3rows .second-row.collapsible-content p {
+  margin-top: 0;          /* remove paragraph top margin */
+  margin-bottom: 0;       /* remove paragraph bottom margin */
+}
+
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
 .ai-open-access::before {
   color: #556B2F;
@@ -217,7 +227,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -0.25em;
+  top: -2.5em;
 }
 
 /* Collapsible content */
