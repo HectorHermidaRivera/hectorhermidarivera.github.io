@@ -19,9 +19,9 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 240px; /* wider */
+      width: 240px;
       height: 100%;
-      background: #000000; /* black background */
+      background: #000000;
       padding: 25px 15px;
       box-sizing: border-box;
       display: flex;
@@ -41,7 +41,7 @@
       margin: 8px 0;
       width: 100%;
       display: block;
-      line-height: 1.6; /* more separation */
+      line-height: 1.6;
     }
 
     .sidebar a:hover {
@@ -50,21 +50,58 @@
 
     /* --- Main content --- */
     .content {
-      margin-left: 260px; /* match sidebar width + spacing */
+      margin-left: 260px;
       padding: 20px 40px;
       box-sizing: border-box;
     }
 
+    /* --- Title --- */
+    .main-name {
+      font-family: 'Merriweather', serif;
+      font-size: 2.5em;
+      font-weight: 400;
+      margin-bottom: 0.4em;
+      line-height: 1.1;
+    }
+
+    .main-name strong {
+      font-weight: 700;
+    }
+
     /* --- Bullet fix --- */
-    .bullet { display:inline-block; vertical-align:middle; }
-    .bullet::before { content:"•"; margin: 0 0.4em; display:inline-block; color: inherit; }
+    .bullet {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .bullet::before {
+      content: "•";
+      margin: 0 0.4em;
+      display: inline-block;
+      color: inherit;
+    }
 
     /* --- PDF icon tweak --- */
-    .fa-file-pdf { font-size: 0.8em; position: relative; top: 0; }
+    .fa-file-pdf {
+      font-size: 0.8em;
+      position: relative;
+      top: 0;
+    }
 
     /* --- Collapsible elements --- */
-    .collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; margin-top:4px; padding-left:10px; }
-    .collapsible-link { color: #00008B; text-decoration: underline; cursor: pointer; }
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+      margin-top: 4px;
+      padding-left: 10px;
+    }
+
+    .collapsible-link {
+      color: #00008B;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   </style>
 </head>
 
@@ -87,7 +124,7 @@
   </div>
 
   <div class="content">
-    <h1 class="main-name">Héctor Hermida-Rivera</h1>
+    <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
     {{ content }}
   </div>
 
