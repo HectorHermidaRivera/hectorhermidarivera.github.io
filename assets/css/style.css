@@ -81,7 +81,7 @@ body {
 
 .two-column .value a:hover {
   color: #00008B !important;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Fill-line for left-right alignment */
@@ -250,7 +250,7 @@ body {
 
 .collapsible-link {
   color: #00008B;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
