@@ -29,7 +29,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="label">2023–26</div>
   <div class="value">
     <div class="fill-line">
-      <span>Postdoctoral Fellowship</span>
+      <span><b>Postdoctoral Fellowship</b></span>
       <span>Budapest University of Technology &amp; Economics</span>
     </div>
   </div>
@@ -42,7 +42,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="label">2019–24</div>
   <div class="value">
     <div class="fill-line">
-      <span>Doctorate in Economics</span>
+      <span><b>Doctorate in Economics</b></span>
       <span>University of East Anglia</span>
     </div>
   </div>
@@ -50,7 +50,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="label">2019–24</div>
   <div class="value">
     <div class="fill-line">
-      <span>Master's Degree in Economic Analysis</span>
+      <span><b>Master's Degree in Economic Analysis</b></span>
       <span>Autonomous University of Barcelona</span>
     </div>
   </div>
@@ -58,7 +58,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="label">2019–24</div>
   <div class="value">
     <div class="fill-line">
-      <span>Master's Degree in Political Economy</span>
+      <span><b>Master's Degree in Political Economy</b></span>
       <span>University of Essex</span>
     </div>
   </div>
@@ -66,7 +66,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="label">2019–24</div>
   <div class="value">
     <div class="fill-line">
-      <span>Bachelor's Degree in Political &amp; Administration Sciences</span>
+      <span><b>Bachelor's Degree in Political &amp; Administration Sciences</b></span>
       <span>Pompeu Fabra University</span>
     </div>
   </div>
