@@ -23,13 +23,16 @@ body {
   text-decoration: none;
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 1.1em; /* larger font */
+  font-size: 1.1em;
+}
+
+.sidebar a:hover {
+  color: #000;
 }
 
 .content {
   margin-left: 280px;
   padding: 20px;
-  scroll-behavior: smooth;
 }
 
 .main-name {
