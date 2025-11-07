@@ -258,7 +258,7 @@ title: Home
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
-      <div class="role"><b></b>Lecturer</div></div>
+      <div class="role"><b>Lecturer</b></div>
     </div>
   </div>
   <div class="two-column-3rows">
@@ -275,7 +275,7 @@ title: Home
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
-      <div class="role"><b></b>Teaching Assistant</div></div>
+      <div class="role"><b>Teaching Assistant</b></div>
     </div>
   </div>
   <div class="two-column-3rows">
