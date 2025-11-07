@@ -99,7 +99,7 @@ title: Home
 </a></div>
 
   <div class="label">3.</div>
-  <div class="value">Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
+  <div class="value">Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. Kerman</a> (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
   <i class="far fa-file-pdf"></i>
 </a> </div>
 
@@ -166,7 +166,7 @@ title: Home
         <span>in progress</span>
       </div>
       <div class="second-row">
-        Héctor HERMIDA-RIVERA & Toygar T. KERMAN
+        Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. Kerman</a>
       </div>
       <div class="second-row collapsible-content">
         <p><i>
@@ -365,7 +365,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">1.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Assistant Professor Toygar T. Kerman</b></span>
+        <span><b>Assistant Professor <a href="https://sites.google.com/view/ttkerman/">Toygar T. Kerman</a></b></span>
         <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a> • <a href="tel:3614825155">+36 1 482 5155</a></span>
       </div>
       <div class="second-row">
