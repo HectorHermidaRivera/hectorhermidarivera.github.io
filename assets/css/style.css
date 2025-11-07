@@ -2,7 +2,7 @@
 body {
   font-family: 'Merriweather', serif;
   margin: 0;
-  background-color: #f9f9f9; /* very light gray background for main body */
+  background-color: #f2f2f2; /* very light gray background for main body */
 }
 
 /* Topbar */
@@ -12,40 +12,40 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #d0d0d0;      /* gray background */
-  padding: 0 20px;          /* horizontal padding */
+  background: #b0b0b0;       /* darker gray background for topbar */
+  padding: 0 15px;           /* smaller horizontal padding */
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: flex-end; /* links on the right */
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #999;
   z-index: 1000;
 }
 
 .topbar a {
-  margin-left: 16px;          /* smaller spacing between links */
-  color: #00008B !important;  /* dark blue */
-  text-decoration: none;       /* remove underline */
+  margin-left: 12px;         /* smaller spacing between links */
+  color: #00008B !important; /* dark blue */
+  text-decoration: none;      /* remove underline */
   font-variant: normal;
   font-weight: normal;
   font-size: 1.1em;
 }
 
 .topbar a:hover {
-  color: #00008B !important;  /* no change on hover */
-  text-decoration: none;       /* no underline on hover */
+  color: #00008B !important; /* no change on hover */
+  text-decoration: none;      /* ensure underline stays removed */
 }
 
 /* Main content */
 .content {
   margin: 0 auto;
-  padding-top: 100px;          /* leave space for topbar */
-  padding-left: 30px;          /* left margin */
-  padding-right: 45px;         /* right = left + 50% */
+  padding-top: 80px;          /* leave space for topbar */
+  padding-left: 10px;         /* small left margin */
+  padding-right: 15px;        /* right = left + 50% */
   max-width: 900px;
   box-sizing: border-box;
-  text-align: justify;          /* justify text */
-  background-color: #f9f9f9;   /* very slight gray background */
+  text-align: justify;         /* justify text */
+  background-color: #f2f2f2;  /* very slight gray background */
 }
 
 /* Align main name with second column */
@@ -53,7 +53,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 30px;
-  padding-left: 136px;         /* align with second column */
+  padding-left: 136px;        /* align with second column */
 }
 
 /* Headings alignment with second column, all caps */
@@ -66,7 +66,7 @@ body {
   padding-left: 136px;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  text-transform: uppercase;   /* titles in all caps */
+  text-transform: uppercase;  /* titles in all caps */
 }
 
 /* Links in main content */
