@@ -101,13 +101,13 @@ title: Home
 <a id="jobmarketpaper"></a>
 <div class="two-column">
   <div class="label">Title</div>
-  <div class="value">Self-Equivalent Voting Rules</div>
+  <div class="value"><b>Self-Equivalent Voting Rules</b></div>
 
   <div class="label">Author</div>
   <div class="value">Héctor Hermida-Rivera</div>
 
   <div class="label">Abstract</div>
-  <div class="value">In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</div>
+  <div class="value"><i>In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</i></div>
 </div>
 
 ## Manuscripts
@@ -133,14 +133,14 @@ title: Home
   <div class="label">2019-22</div>
   <div class="value">
     <div class="fill-line">
-      <span>Full Doctoral Scholarship</span>
+      <span>&pound61,650 Full Doctoral Scholarship</span>
       <span>University of East Anglia</span>
     </div>
   </div>
   <div class="label">2014-15</div>
   <div class="value">
     <div class="fill-line">
-      <span>Undergraduate Academic Internship</span>
+      <span>&euro1,500 Undergraduate Academic Internship</span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
@@ -148,7 +148,7 @@ title: Home
   <div class="label">2011-15</div>
   <div class="value">
     <div class="fill-line">
-      <span>Undergraduate First Class Honors Scholarship</span>
+      <span>&euro1,365 Undergraduate First Class Honors Scholarship</span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
@@ -209,7 +209,7 @@ title: Home
 <div class="two-column-2rows">
   <div class="label">5.</div>
   <div class="value">
-    <div class="fill-line">
+    <div class="top-row">
       <span>Assistant Professor Ben McQuillin</span>
       <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
     </div>
