@@ -195,11 +195,11 @@ title: Home
 <a id="presentations"></a>
 
 <div class="two-column">
-  <div class="label">Conferences</div>
+  <div class="label"><b>Conferences</b></div>
   <div class="value">Coalition Theory Network Workshop (×3) • Conference on Economic Design (×3) • Conference on Mechanism & Institution Design (×3) • European Meeting on Game Theory (×4) • Game Theory & Applications International Conference (×1) • Lisbon Meetings in Game Theory & Applications (×1) • Political Economy of International Organisations Conference (×1) • Stony Brook International
 Conference on Game Theory (×1) • World Congress of the Game Theory Society (×1)</div>
 
-  <div class="label">Seminars</div>
+  <div class="label"><b>Seminars</b></div>
   <div class="value">Budapest University of Technology & Economics (×2) • Centre for Economic & Regional Studies (×1) • Corvinus University of Budapest (×2) • University of Barcelona (×1) • University of East Anglia (×3) • University of Granada (×1) • University of Liverpool (×2) • University of Rovira i Virgili (×1) • University of Vienna (×1)</div>
 </div>
 
