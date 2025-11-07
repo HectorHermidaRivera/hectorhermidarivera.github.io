@@ -106,7 +106,7 @@ title: Home
   <div class="label">2.</div>
   <div class="value">Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1007/s11127-024-01213-w">The Implementability of Liberalism</a></i>. <b>Public Choice</b> 203, pp. 493 - 501 <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view" target="_blank">
   <i class="far fa-file-pdf"></i>
-</a></i></div>
+</a></div>
   
   <div class="label">1.</div>
   <div class="value">Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897 - 935 <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
@@ -130,10 +130,29 @@ title: Home
 ## Manuscripts
 <a id="manuscripts"></a>
 
-<div class="two-column">
-    <div class="label"></div>
-    <div class="value">Under construction</div>
+<div class="two-column-2rows-container">
+
+  <div class="two-column-2rows">
+    <div class="label">5.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Self-Equivalent Voting Rules</b> • Job Market Paper</span>
+        <span>available preprint</span>
+      </div>
+      <div class="second-row">
+        Héctor HERMIDA-RIVERA
+      </div>
+    </div>
+  </div>
+
 </div>
+
+
+Héctor HERMIDA-RIVERA. Self-Equivalent Voting Rules   •   Job Market Paper [available preprint]
+Héctor HERMIDA-RIVERA. A Simple Characterization of Qualified Majority Voting Rules [available preprint]
+Héctor HERMIDA-RIVERA & Toygar T. Kerman. Farsighted Stable Voting Rules [in progress]
+Fatma ASLAN & Héctor HERMIDA-RIVERA. Liberalism, Fairness, & Equilibrium [in progress]
+Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE. The Residual Claimant [in progress]
 
 ## Teaching
 <a id="teaching"></a>
