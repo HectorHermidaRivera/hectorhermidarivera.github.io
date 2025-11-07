@@ -276,6 +276,22 @@ body {
   text-decoration: underline; /* optional: underline on hover */
 }
 
+/* Collapsible course title inside teaching entries: blue and normal weight */
+.two-column-3rows .course.collapsible-link {
+  color: #00008B;       /* dark blue */
+  font-weight: normal;   /* normal weight, not bold */
+  text-decoration: none; /* remove underline */
+  cursor: pointer;
+  font-size: inherit;    /* ensure it doesn’t shrink like footnotesize */
+}
+
+/* Optional: ensure Job Market Paper retains normal size */
+.two-column-3rows .teaching .job-market-paper {
+  font-size: 1em;        /* explicitly normal size */
+  font-weight: normal;   /* ensure not bold */
+  color: inherit;        /* inherits color from parent or .course if needed */
+}
+
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
