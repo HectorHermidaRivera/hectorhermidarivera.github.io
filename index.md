@@ -261,6 +261,7 @@ title: Home
       <div class="role"><b>Lecturer</b></div>
     </div>
   </div>
+
   <div class="two-column-3rows">
     <div class="label">2024 - 26</div>
     <div class="value">
@@ -270,7 +271,6 @@ title: Home
       </div>
     </div>
   </div>
-  </div>
 
   <div class="two-column-3rows">
     <div class="label blank"></div>
@@ -278,6 +278,7 @@ title: Home
       <div class="role"><b>Teaching Assistant</b></div>
     </div>
   </div>
+
   <div class="two-column-3rows">
     <div class="label">2022 - 23</div>
     <div class="value">
@@ -287,6 +288,7 @@ title: Home
       </div>
     </div>
   </div>
+
   <div class="two-column-3rows">
     <div class="label">2017 - 18</div>
     <div class="value">
