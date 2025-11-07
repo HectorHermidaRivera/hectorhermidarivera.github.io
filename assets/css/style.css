@@ -249,9 +249,10 @@ body {
 }
 
 .collapsible-link {
-  color: #00008B;
-  text-decoration: none;
+  color: #00008B;       /* same as other links */
+  text-decoration: none; /* no underline */
   cursor: pointer;
+  font-weight: normal;   /* not bold */
 }
 
 /* Row of social/research icons aligned with second column */
