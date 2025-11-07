@@ -94,16 +94,16 @@ title: Home
 
 <div class="two-column">
   <div class="label">4.</div>
-  <div class="value">Héctor HERMIDA-RIVERA (2025). <i>Minimal Stable Voting Rules</i>. <b>Games and Economic Behavior</b> 153, pp. 541 - 553 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1016/j.geb.2025.07.006">Minimal Stable Voting Rules</a></i>. <b>Games and Economic Behavior</b> 153, pp. 541 - 553 [pdf | Open Access]</div>
 
   <div class="label">3.</div>
-  <div class="value">Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). <i>Binary Self-Selective Voting Rules</i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 [pdf | Open Access]</div>
 
   <div class="label">2.</div>
-  <div class="value">Héctor HERMIDA-RIVERA (2025). <i>The Implementability of Liberalism</i>. <b>Public Choice</b> 203, pp. 493 - 501 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1007/s11127-024-01213-w">The Implementability of Liberalism</a></i>. <b>Public Choice</b> 203, pp. 493 - 501 [pdf | Open Access]</div>
   
   <div class="label">1.</div>
-  <div class="value">Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). <i>Government Ideology and Bailout Conditionality in the European Financial Crisis</i>. <b>International Interactions</b> 48.5, pp.  897 - 935 [pdf | Open Access]</div>
+  <div class="value">Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897 - 935 [pdf | Open Access]</div>
 </div>
 
 ## Job Market Paper
