@@ -8,7 +8,7 @@ title: Home
 
 <div class="two-column">
     <div class="label"></div>
-    <div class="value">I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral research fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a Master's Degree in Economic Analysis from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a Master's Degree in Political Economy from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a Bachelor's Degree in Political & Administration Sciences from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).</div>
+    <div class="value">I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my Doctorate in Economics from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a Master's Degree in Economic Analysis from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a Master's Degree in Political Economy from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a Bachelor's Degree in Political & Administration Sciences from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).</div>
 </div>
 
 ## Contact
@@ -197,7 +197,7 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Public Choice</span>
+      <span><b>Public Choice</b></span>
       <span>2024</span>
     </div>
   </div>
