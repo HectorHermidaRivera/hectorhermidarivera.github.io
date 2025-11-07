@@ -20,7 +20,7 @@ body {
 .sidebar a {
   display: block;
   margin: 12px 0;
-  color: #0000FF; /* LaTeX Blue */
+  color: #0000CD; /* LaTeX Blue */
   text-decoration: none;
   font-variant: small-caps;
   font-weight: bold;
@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar a:hover {
-  color: #0000CC; /* darker hover */
+  color: #00008B; /* darker hover */
   text-decoration: underline;
 }
 
@@ -38,25 +38,25 @@ body {
   padding: 20px;
 }
 
-/* Headings aligned with content column */
+/* Align headings with second column of the grid */
 .content h2, 
 .content h3, 
 .content h4, 
 .content h5, 
 .content h6 {
-  margin-left: 0; /* remove extra left margin */
+  margin-left: 136px; /* left column width + gap */
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* Links in main content, ensure correct color */
+/* Links in main content, force LaTeX Blue */
 .content a {
-  color: #0000FF !important; /* force LaTeX Blue */
+  color: #0000CD !important;
   text-decoration: none;
 }
 
 .content a:hover {
-  color: #0000CC !important;
+  color: #00008B !important;
   text-decoration: underline;
 }
 
@@ -83,12 +83,12 @@ body {
 
 /* Second column: normal flow, left aligned */
 .two-column .value a {
-  color: #0000FF !important; /* force LaTeX Blue */
+  color: #0000CD !important;
   text-decoration: none;
 }
 
 .two-column .value a:hover {
-  color: #0000CC !important;
+  color: #00008B !important;
   text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ body {
   white-space: nowrap;
 }
 
-/* Right-aligned institution name smaller (footnotesize) */
+/* Right-aligned element smaller (footnotesize) */
 .fill-line span:last-child {
   font-size: 0.8em;
   font-weight: normal;
@@ -110,11 +110,11 @@ body {
 
 /* General link override for safety */
 a {
-  color: #0000FF !important;
+  color: #0000CD !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0000CC !important;
+  color: #00008B !important;
   text-decoration: underline;
 }
