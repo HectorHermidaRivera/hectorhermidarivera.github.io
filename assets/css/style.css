@@ -142,74 +142,63 @@ body {
   color: #333;
 }
 
-/* Three-row variant: top row (no left label) + two labeled rows below */
+/* Teaching entries: three-row layout */
 .two-column-3rows-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   margin-top: 8px;
 }
 
-/* outer grid: two columns (left = label width, right = content) */
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 120px 1fr; /* left column fixed, right flexible */
-  gap: 6px 16px;                     /* vertical gap then horizontal gap */
+  grid-template-columns: 120px auto;
+  gap: 8px 16px;
   align-items: start;
-  align-content: start;
 }
 
-/* left labels (dates). blank label class keeps column width but hides text */
 .two-column-3rows .label {
   text-align: right;
   font-weight: normal;
-  align-self: start;   /* aligns the label with the top of its row */
-  padding-top: 0.15em;
-}
-.two-column-3rows .label.blank {
-  visibility: hidden;  /* leaves space but hides content */
 }
 
-/* right column container: stack the top-row (title) and subsequent lines */
 .two-column-3rows .value {
   display: flex;
   flex-direction: column;
-  gap: 4px;
 }
 
-/* top-row: single-line title that spans the right column */
 .two-column-3rows .value .top-row {
-  font-weight: normal;
-  /* intentionally left-aligned text for the top-row title */
-}
-
-/* each subsequent row in the right column should align left text and right text */
-.two-column-3rows .value .line {
   display: flex;
-  justify-content: space-between; /* left item stays left, right item goes to the far right */
+  justify-content: space-between;
   align-items: baseline;
-  gap: 12px;
   width: 100%;
-}
-
-/* prevent undesired wrapping for the two-line items, but allow wrap if viewport too small */
-.two-column-3rows .value .line span {
   white-space: nowrap;
 }
 
-/* smaller right-side text if you want (optional) */
-.two-column-3rows .value .line span.right {
-  font-size: 0.95em;
-  font-weight: normal;
+/* Right-align university and shrink its size */
+.two-column-3rows .value .top-row .institution {
+  text-align: right;
+  font-size: 0.8em; /* footnotesize */
+  flex-shrink: 0;
 }
 
-/* spacing tweaks to keep rows tight */
+/* Course name and university on same line, large gap between them */
+.two-column-3rows .value .top-row .course {
+  flex-grow: 1;
+  padding-right: 80px; /* adjust spacing as desired */
+}
+
+/* second and third rows */
 .two-column-3rows .value .second-row,
 .two-column-3rows .value .third-row {
-  margin: 0;      /* we rely on the .line gap above */
-  padding: 0;
+  margin-top: 2px;
   font-size: 1em;
   color: #333;
+}
+
+/* blank label for continuation rows */
+.two-column-3rows .label.blank {
+  visibility: hidden;
 }
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
