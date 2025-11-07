@@ -173,9 +173,17 @@ body {
 /* REDEFINITION OF BULLET SPACING */
 
 .bullet::before {
-  content: "•";               /* the bullet */
-  margin: 0 1em;            /* horizontal space on both sides */
-  display: inline-block;       /* so margin applies correctly */
+  content: "•";            
+  margin: 0.1em;            
+  display: inline-block;     
+}
+
+/* REDEFINITION OF PDF ICON */
+
+.fa-file-pdf {
+  font-size: 0.8em;     /* like \scalebox{0.8}{...} */
+  position: relative;
+  top: 0.00em;          /* like \raisebox{0pt}{...} */
 }
 
 /* Collapsible content */
