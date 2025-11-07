@@ -44,7 +44,7 @@ body {
   margin-left: 0;
   padding-left: 136px;
   margin-top: 1.5em;
-  margin-bottom: 0em;
+  margin-bottom: -10em;
   text-transform: uppercase;
 }
 
@@ -228,7 +228,7 @@ is not rising the icon. try again
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.2s ease;
   margin-top: 4px;
   padding-left: 10px;
 }
