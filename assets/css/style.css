@@ -45,7 +45,7 @@ body {
   margin-left: 0;
   padding-left: 136px; /* keep aligned with second column */
   margin-bottom: 0px;  /* same as row gap in two-column layouts */
-  margin-top: 20px;  /* same as row gap in two-column layouts */
+  margin-top: 40px;  /* same as row gap in two-column layouts */
   text-transform: uppercase;
 }
 
