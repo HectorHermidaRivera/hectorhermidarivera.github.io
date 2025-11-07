@@ -240,6 +240,19 @@ body {
   cursor: pointer;       /* pointer to show it's clickable */
 }
 
+/* Collapsible content */
+.collapsible-content p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Collapsible course title: blue and normal weight */
+.course > .collapsible-link {
+  color: #00008B !important;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
