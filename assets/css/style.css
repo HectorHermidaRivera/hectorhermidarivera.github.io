@@ -208,10 +208,8 @@ body {
 /* REDEFINITION OF PDF ICON */
 
 .fa-file-pdf {
-  font-size: 0.8em;           /* scale down */
-  vertical-align: text-bottom; /* align with text baseline */
-  position: relative;          /* optional, can remove */
-  top: 0;                      /* reset top */
+  font-size: 0.8em;          /* scale down */
+  vertical-align: -0.15em;   /* raise slightly, aligned with text baseline */
 }
 
 /* Collapsible content */
