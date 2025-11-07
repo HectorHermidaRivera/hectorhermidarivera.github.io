@@ -22,9 +22,9 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 ## Employment
 <a id="employment"></a>
-<div class="line">
-  <span>2023–26&nbsp;Postdoctoral&nbsp;Fellowship</span>
-  <span>Budapest University of Technology &amp; Economics</span>
+<div class="two-column">
+  <div class="label">2023-26</div>
+  <div class="value">Postdoctoral Fellowship Budapest University of Technology & Economics</div>
 </div>
 
 ## Education
