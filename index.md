@@ -202,7 +202,7 @@ My papers and projects.
   <div class="label">5.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Assistant Professor Ben McQuillin</span>
+      <span><b>Assistant Professor <span style="font-variant: small-caps;">Ben McQuillin</span></b></span>
       <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
     </div>
     <div class="second-row">
@@ -235,7 +235,7 @@ My papers and projects.
   <div class="label">1.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Assistant Professor Toygar T. Kerman</span>
+      <span>Assistant Professor <span style="font-variant: small-caps;">Toygar T. Kerman</span></span>
       <span><a href="toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a></span>
     </div>
     <div class="second-row">
