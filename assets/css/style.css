@@ -71,3 +71,12 @@ body {
 .line span {
   white-space: nowrap;
 }
+
+.fill-line {
+  display: flex;
+  justify-content: space-between; /* creates the “\hfill” effect */
+}
+
+.fill-line span {
+  white-space: nowrap;
+}
