@@ -254,22 +254,32 @@ title: Home
 <a id="teaching"></a>
 
 <div class="two-column-3rows-container">
+
+  <div class="two-column-3rows">
+    <div class="label blank"></div>
+    <div class="value">
+      <div class="role">Teaching Assistant</div>
+    </div>
+  </div>
   <div class="two-column-3rows">
     <div class="label">2022–23</div>
     <div class="value">
       <div class="top-row">
-        <span class="course">Intermediate Microeconomics</span>
-        <span class="institution">University of East Anglia</span>
-      </div>
-    </div>
-    <div class="label">2017–18</div>
-    <div class="value">
-      <div class="top-row">
-        <span class="course">Game Theory</span>
-        <span class="institution">Autonomous University of Barcelona</span>
+        <div class="course">Intermediate Microeconomics</div>
+        <div class="institution">University of East Anglia</div>
       </div>
     </div>
   </div>
+  <div class="two-column-3rows">
+    <div class="label">2017–18</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">Game Theory</div>
+        <div class="institution">Autonomous University of Barcelona</div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 ## Awards
