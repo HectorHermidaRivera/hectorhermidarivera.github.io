@@ -20,7 +20,7 @@ body {
 .sidebar a {
   display: block;
   margin: 12px 0;
-  color: #0000CD; /* LaTeX Blue */
+  color: #00008B !important; /* always dark blue */
   text-decoration: none;
   font-variant: small-caps;
   font-weight: bold;
@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar a:hover {
-  color: #00008B; /* slightly darker on hover */
+  color: #00008B !important; /* same color on hover */
   text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@ body {
   margin-bottom: 0.5em;
 }
 
-/* Links in main content, always LaTeX Blue */
+/* Links in main content, always dark blue */
 .content a {
   color: #00008B !important;
   text-decoration: none;
@@ -84,7 +84,7 @@ body {
 
 /* Second column: normal flow, left aligned */
 .two-column .value a {
-  color: #0000CD !important;
+  color: #00008B !important;
   text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ body {
 
 /* General link override for safety */
 a {
-  color: #0000CD !important;
+  color: #00008B !important;
   text-decoration: none;
 }
 
@@ -155,9 +155,20 @@ a:hover {
   white-space: nowrap;
 }
 
-/* Second row: full width below top row */
+/* Second row: full width below top row, normal font size */
 .two-column-2rows .value .second-row {
   margin-top: 2px;
-  font-size: 0.9em;
+  font-size: 1em; /* normal font size */
   color: #333;
+}
+
+/* Ensure all links are dark blue, including in two-column-2rows */
+.two-column-2rows a {
+  color: #00008B !important;
+  text-decoration: none;
+}
+
+.two-column-2rows a:hover {
+  color: #00008B !important;
+  text-decoration: underline;
 }
