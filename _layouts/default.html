@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <style>
@@ -19,16 +18,16 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 190px;
+      width: 240px; /* wider */
       height: 100%;
-      background: #333333;
-      padding: 20px 10px;
+      background: #000000; /* black background */
+      padding: 25px 15px;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
-      border-right: 1px solid #222;
+      border-right: 1px solid #111;
       z-index: 10000;
     }
 
@@ -38,18 +37,19 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.4px;
-      margin: 6px 0;
+      margin: 8px 0;
       width: 100%;
       display: block;
+      line-height: 1.6; /* more separation */
     }
 
     .sidebar a:hover {
       color: #dddddd;
     }
 
-    /* --- Main content area --- */
+    /* --- Main content --- */
     .content {
-      margin-left: 210px; /* leave space for sidebar */
+      margin-left: 260px; /* match sidebar width + spacing */
       padding: 20px 40px;
       box-sizing: border-box;
     }
@@ -69,20 +69,20 @@
 
 <body>
   <div class="sidebar">
-    <a href="#ABOUT">About</a>
-    <a href="#CONTACT">Contact</a>
-    <a href="#EMPLOYMENT">Employment</a>
-    <a href="#EDUCATION">Education</a>
-    <a href="#SKILLS">Skills</a>
-    <a href="#PUBLICATIONS">Publications</a>
-    <a href="#JOBMARKETPAPER">Job Market Paper</a>
-    <a href="#MANUSCRIPTS">Manuscripts</a>
-    <a href="#TEACHING">Teaching</a>
-    <a href="#AWARDS">Awards</a>
-    <a href="#TRAINING">Training</a>
-    <a href="#PRESENTATIONS">Presentations</a>
-    <a href="#REFEREEING">Refereeing</a>
-    <a href="#REFERENCES">References</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#employment">Employment</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+    <a href="#jobmarketpaper">Job Market Paper</a>
+    <a href="#manuscripts">Manuscripts</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#awards">Awards</a>
+    <a href="#training">Training</a>
+    <a href="#presentations">Presentations</a>
+    <a href="#refereeing">Refereeing</a>
+    <a href="#references">References</a>
   </div>
 
   <div class="content">
@@ -91,6 +91,19 @@
   </div>
 
   <script>
+    // ensure smooth scroll works for all anchors
+    document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // collapsible sections
     document.addEventListener('DOMContentLoaded', function() {
       document.querySelectorAll('.collapsible-link').forEach(link => {
         link.addEventListener('click', function() {
