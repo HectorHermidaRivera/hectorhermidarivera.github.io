@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar {
-  width: 260px;              /* wider sidebar */
+  width: 260px;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,26 +13,27 @@ body {
   background: #f4f4f4;
   padding: 20px;
   box-sizing: border-box;
-  text-align: right;         /* right align links */
-}
-
-.sidebar .name {
-  font-variant: small-caps;  /* small caps name */
-  font-size: 1.4em;
-  font-weight: bold;
-  margin-bottom: 30px;
+  text-align: right;
 }
 
 .sidebar a {
   display: block;
-  margin: 10px 0;
+  margin: 12px 0;
   color: #333;
   text-decoration: none;
-  font-variant: small-caps;  /* small caps links */
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.1em; /* larger font */
 }
 
 .content {
-  margin-left: 280px;        /* match sidebar width + padding */
+  margin-left: 280px;
   padding: 20px;
   scroll-behavior: smooth;
+}
+
+.main-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
