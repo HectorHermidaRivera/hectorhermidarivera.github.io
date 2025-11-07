@@ -189,7 +189,7 @@ body {
 .bullet::before {
   content: "•";
   display: inline-block;
-  margin: 0 0.5em; /* adds horizontal space before and after */
+  margin: 0 10.5em; /* adds horizontal space before and after */
   color: inherit;
   vertical-align: middle;
 }
