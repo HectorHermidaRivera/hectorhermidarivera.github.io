@@ -5,17 +5,17 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Main content */
-.content {
+/* Main content */.content {
   margin: 0 auto;
   padding-top: 80px;
-  margin-left: 180px;   /* wider left margin */
-  margin-right: 220px;  /* wider right margin */
+  margin-left: 150px;   /* increase left margin */
+  margin-right: 225px;  /* right = left + 1/2 left */
   max-width: 1100px;
   box-sizing: border-box;
   text-align: justify;
   background-color: #f2f2f2;
   padding-bottom: 500px;
+}
 }
 
 /* Align main name with second column */
