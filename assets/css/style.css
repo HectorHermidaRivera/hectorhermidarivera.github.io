@@ -66,7 +66,7 @@ body {
   grid-template-columns: 120px auto;
   gap: 8px 16px;
   align-items: start;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .two-column .label {
@@ -175,7 +175,7 @@ body {
 .two-column-3rows .value {
   display: flex;
   flex-direction: column;
-  gap: 4px;          /* match text density of .two-column-2rows .value */
+  gap: 8px;          /* match text density of .two-column-2rows .value */
 }
 
 /* top-row: course (left) and university (right) */
