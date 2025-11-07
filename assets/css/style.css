@@ -38,6 +38,28 @@ body {
   padding: 20px;
 }
 
+/* Headings aligned with content column */
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6 {
+  margin-left: 0; /* remove extra left margin */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Links in main content, ensure correct color */
+.content a {
+  color: #0000FF !important; /* force LaTeX Blue */
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #0000CC !important;
+  text-decoration: underline;
+}
+
 .main-name {
   font-size: 2em;
   font-weight: bold;
@@ -61,12 +83,12 @@ body {
 
 /* Second column: normal flow, left aligned */
 .two-column .value a {
-  color: #0000FF; /* LaTeX Blue */
+  color: #0000FF !important; /* force LaTeX Blue */
   text-decoration: none;
 }
 
 .two-column .value a:hover {
-  color: #0000CC;
+  color: #0000CC !important;
   text-decoration: underline;
 }
 
@@ -83,25 +105,16 @@ body {
 /* Right-aligned institution name smaller (footnotesize) */
 .fill-line span:last-child {
   font-size: 0.8em;
+  font-weight: normal;
 }
 
-/* General link color override (for safety) */
+/* General link override for safety */
 a {
-  color: #0000FF;
+  color: #0000FF !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0000CC;
+  color: #0000CC !important;
   text-decoration: underline;
-}
-
-.content h2, 
-.content h3, 
-.content h4, 
-.content h5, 
-.content h6 {
-  margin-left: 280px; /* same as .content margin-left */
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
 }
