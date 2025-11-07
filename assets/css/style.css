@@ -52,7 +52,7 @@ body {
 
 /* Links in main content, always LaTeX Blue */
 .content a {
-  color: #0000CD !important;
+  color: #00008B !important;
   text-decoration: none;
 }
 
@@ -123,10 +123,10 @@ a:hover {
 /* Two-column layout with a second row inside the right column */
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 40px auto; /* first column narrower for numbering */
-  gap: 4px 16px;
+  grid-template-columns: 120px auto; /* first column narrower for numbering */
+  gap: 8px 16px;
   align-items: start;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 /* First column (numbers) */
