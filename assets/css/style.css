@@ -150,55 +150,61 @@ body {
   margin-top: 8px;
 }
 
+/* grid for date + right content */
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 120px auto;
-  gap: 8px 16px;
+  grid-template-columns: 120px 1fr;
+  gap: 6px 16px;
   align-items: start;
 }
 
+/* left label: years */
 .two-column-3rows .label {
   text-align: right;
   font-weight: normal;
+  align-self: start;
 }
 
+/* hide empty label but keep grid alignment */
+.two-column-3rows .label.blank {
+  visibility: hidden;
+}
+
+/* right column with lines stacked */
 .two-column-3rows .value {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
+/* top-row: course (left) and university (right) */
 .two-column-3rows .value .top-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
-  white-space: nowrap;
 }
 
-/* Right-align university and shrink its size */
+/* left part: course name */
+.two-column-3rows .value .top-row .course {
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* right part: university name */
 .two-column-3rows .value .top-row .institution {
   text-align: right;
   font-size: 0.8em; /* footnotesize */
   flex-shrink: 0;
-}
-
-/* Course name and university on same line, large gap between them */
-.two-column-3rows .value .top-row .course {
-  flex-grow: 1;
-  padding-right: 80px; /* adjust spacing as desired */
-}
-
-/* second and third rows */
-.two-column-3rows .value .second-row,
-.two-column-3rows .value .third-row {
-  margin-top: 2px;
-  font-size: 1em;
   color: #333;
 }
 
-/* blank label for continuation rows */
-.two-column-3rows .label.blank {
-  visibility: hidden;
+/* optional: smaller vertical gap for compactness */
+.two-column-3rows .value .second-row,
+.two-column-3rows .value .third-row {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
 }
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
