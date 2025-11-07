@@ -154,7 +154,7 @@ title: Home
 <a id="jobmarketpaper"></a>
 <div class="two-column">
   <div class="label">Title</div>
-  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view"> Self-Equivalent Voting Rules</a></b></div>
+  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b></div>
 
   <div class="label">Author</div>
   <div class="value">Héctor Hermida-Rivera</div>
@@ -172,7 +172,7 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b><span class="bullet"></span>Job Market Paper</span>
+        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b><span class="bullet"></span><a href="https://drive.google.com/file/d/1hKOv9RvaCknSuoOqd6QBiJCijjgsD0pX/view?usp=share_link">Slides</a><span class="bullet">Job Market Paper</span>
         <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
