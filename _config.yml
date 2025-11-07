@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>
