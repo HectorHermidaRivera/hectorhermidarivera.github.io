@@ -149,7 +149,7 @@ title: Home
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Simple Characterization of Qualified Majority Voting Rules</b></span>
+        <span><b>A Simple Characterization of Qualified Majority Voting Rules</b></span>
         <span>available preprint</span>
       </div>
       <div class="second-row">
@@ -158,31 +158,41 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
-    <div class="label">3.</div>
-    <div class="value">
-      <div class="top-row">
-        <span><b>Farsighted Stable Voting Rules</b></span>
-        <span>in progress</span>
-      </div>
-      <div class="second-row">
-        Héctor HERMIDA-RIVERA & Toygar T. KERMAN
-      </div>
+<div class="two-column-2rows">
+  <div class="label">1.</div>
+  <div class="value">
+    <div class="top-row">
+      <span><a class="collapsible-link">Farsighted Stable Voting Rules</a></span>
+      <span>in progress</span>
+    </div>
+    <div class="second-row">
+      Héctor HERMIDA-RIVERA & Toygar T. KERMAN
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>
+      In this paper, we introduce considerations of farsightedness into Hermida-Rivera's (2024) setup. Crucially, we assume that voters only care about the voting rules and constitutions that will not be subject to further changes (i.e., they only care about the long run). Moreover, we add a natural monotonicity axiom to the non-dominance, anonymity, null voter, and swing voter axioms used by Hermida-Rivera (2024) to characterise voters' preferences over voting rules. We then identify farsighted stable voting rules and constitutions, where a constitution is a pair of voting rules: one for ordinary issues, and one for amendments. The key conclusion is that considerations of farsightedness do not enlarge the families of minimal stable voting rules and minimal self-stable constitutions.
+      </i></p>
     </div>
   </div>
+</div>
 
-  <div class="two-column-2rows">
-    <div class="label">2.</div>
-    <div class="value">
-      <div class="top-row">
-        <span><b>Liberalism, Fairness, & Equilibrium</b></span>
-        <span>in progress</span>
-      </div>
-      <div class="second-row">
-        Fatma ASLAN & Héctor HERMIDA-RIVERA
-      </div>
+<div class="two-column-2rows">
+  <div class="label">1.</div>
+  <div class="value">
+    <div class="top-row">
+      <span><a class="collapsible-link">Liberalism, Fairness, & Equilibrium</a></span>
+      <span>in progress</span>
+    </div>
+    <div class="second-row">
+      Fatma ASLAN & Héctor HERMIDA-RIVERA
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>
+      Can a rational society be liberal and fair? This paper answers this question by investigating under which conditions there exists a liberal, fair, and Nash implementable social choice rule. A social choice rule is liberal if and only if for every player, there exists an issue such that when this player unconditionally prefers one of its features, the optimal outcome set is a subset of those outcomes with that feature. A social choice rule is fair if and only if when it is no worse to be anyone in one outcome than to be someone else in some other outcome, then the latter is not socially optimal. A social choice rule is Nash implementable if and only if there exists a mechanism whose set of Nash equilibrium outcomes coincides with the set of socially desirable ones for every preference profile.
+      </i></p>
     </div>
   </div>
+</div>
 
 <div class="two-column-2rows">
   <div class="label">1.</div>
