@@ -19,6 +19,14 @@
     }
   </style>
 </head>
+<script>
+document.querySelectorAll('.collapsible-link').forEach(link => {
+  link.addEventListener('click', () => {
+    const content = link.closest('.value').querySelector('.collapsible-content');
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  });
+});
+</script>
 <body>
   <div class="sidebar">
     <a href="#about">About</a>
