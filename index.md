@@ -133,14 +133,14 @@ title: Home
   <div class="label">2019-22</div>
   <div class="value">
     <div class="fill-line">
-      <span><p>&pound61,650</p> Full Doctoral Scholarship</span>
+      <span><b><p>&pound61,650</p> Full Doctoral Scholarship</b></span>
       <span>University of East Anglia</span>
     </div>
   </div>
   <div class="label">2014-15</div>
   <div class="value">
     <div class="fill-line">
-      <span><p>&euro1,500</p> Undergraduate Academic Internship</span>
+      <span><b><p>&euro1,500</p> Undergraduate Academic Internship</b></span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
@@ -148,7 +148,7 @@ title: Home
   <div class="label">2011-15</div>
   <div class="value">
     <div class="fill-line">
-      <span><p>&euro1,365</p> Undergraduate First Class Honors Scholarship</span>
+      <span><b><p>&euro1,365</p> Undergraduate First Class Honors Scholarship</b></span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
@@ -161,14 +161,14 @@ title: Home
   <div class="label">2022</div>
   <div class="value">
     <div class="fill-line">
-      <span>Course on Higher Education Teaching Skills</span>
+      <span><b>Course on Higher Education Teaching Skills</b></span>
       <span>University of East Anglia</span>
     </div>
   </div>
   <div class="label">2017</div>
   <div class="value">
     <div class="fill-line">
-      <span>Summer School on Epistemic Game Theory</span>
+      <span><b>Summer School on Epistemic Game Theory</b></span>
       <span>Maastricth University</span>
     </div>
   </div>
@@ -176,7 +176,7 @@ title: Home
   <div class="label">2016</div>
   <div class="value">
     <div class="fill-line">
-      <span>Summer School in Social Science Data Analysis</span>
+      <span><b>Summer School in Social Science Data Analysis</b></span>
       <span>University of Essex</span>
     </div>
   </div>
