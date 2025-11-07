@@ -116,13 +116,13 @@ title: Home
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value"><b>LaTeX</b> (high) • <b>Excel</b> (medium) • <b>Mathematica</b> (medium) • <b>STATA</b> (medium) • <b>R</b> (low)</div>
+  <div class="value"><b>LaTeX</b> (high)<span style="margin: 0 4px;">•</span><b>Excel</b> (medium)<span style="margin: 0 4px;">•</span><b>Mathematica</b> (medium)<span style="margin: 0 4px;">•</span><b>STATA</b> (medium)<span style="margin: 0 4px;">•</span><b>R</b> (low)</div>
 
   <div class="label">Research</div>
-  <div class="value"><b>Social Choice</b> • <b>Mechanism Design</b> • <b>Game Theory</b> • <b>Political Economy</b></div>
+  <div class="value"><b>Social Choice</b><span style="margin: 0 4px;">•</span><b>Mechanism Design</b><span style="margin: 0 4px;">•</span><b>Game Theory</b><span style="margin: 0 4px;">•</span><b>Political Economy</b></div>
 
   <div class="label">Languages</div>
-  <div class="value"><b>English</b> (fluent) • <b>Spanish</b> (native) • <b>Catalan</b> (native)</div>
+  <div class="value"><b>English</b> (fluent)<span style="margin: 0 4px;">•</span><b>Spanish</b> (native)<span style="margin: 0 4px;">•</span><b>Catalan</b> (native)</div>
 </div>
 
 ## Publications
@@ -154,7 +154,7 @@ title: Home
 <a id="jobmarketpaper"></a>
 <div class="two-column">
   <div class="label">Title</div>
-  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b> • <a href="https://drive.google.com/file/d/1hKOv9RvaCknSuoOqd6QBiJCijjgsD0pX/view?usp=share_link">Slides</a></div>
+  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b><span style="margin: 0 4px;">•</span><a href="https://drive.google.com/file/d/1hKOv9RvaCknSuoOqd6QBiJCijjgsD0pX/view?usp=share_link">Slides</a></div>
 
   <div class="label">Author</div>
   <div class="value">Héctor Hermida-Rivera</div>
@@ -174,7 +174,7 @@ title: Home
     <div class="top-row">
       <span>
         <b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b>
-        <span> • Job Market Paper</span>
+        <span><span style="margin: 0 4px;">•</span>Job Market Paper</span>
       </span>
       <span>
         <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a>
@@ -273,13 +273,13 @@ title: Home
     <div class="top-row">
       <div class="course">
         <span class="collapsible-link">Bargaining Theory</span>
-         • Graduate • 6h
+        <span style="margin: 0 4px;">•</span>Graduate<span style="margin: 0 4px;">•</span>6h
       </div>
       <div class="institution">University of Technology & Economics</div>
     </div>
     <div class="second-row collapsible-content">
       <p><i>
-        <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a> • <a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a> • <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
+        <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a><span style="margin: 0 4px;">•</span><a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a><span style="margin: 0 4px;">•</span><a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
       </i></p>
     </div>
   </div>
@@ -298,7 +298,7 @@ title: Home
     <div class="top-row">
       <div class="course">
         <span class="collapsible-link">Intermediate Microeconomics</span>
-         • Undergraduate • 20h
+        <span style="margin: 0 4px;">•</span>Undergraduate<span style="margin: 0 4px;">•</span>20h
       </div>
       <div class="institution">University of East Anglia</div>
     </div>
@@ -316,7 +316,7 @@ title: Home
     <div class="top-row">
       <div class="course">
         <span class="collapsible-link">Game Theory</span>
-         • Graduate • 15h
+        <span style="margin: 0 4px;">•</span>Graduate<span style="margin: 0 4px;">•</span>15h
       </div>
       <div class="institution">Autonomous University of Barcelona</div>
     </div>
@@ -391,10 +391,10 @@ title: Home
 
 <div class="two-column">
   <div class="label"><b>Conferences</b></div>
-  <div class="value">Coalition Theory Network Workshop (<b>×3</b>) • Conference on Economic Design (<b>×3</b>) • Conference on Mechanism & Institution Design (<b>×3</b>) • European Meeting on Game Theory (<b>×4</b>) • Game Theory & Applications International Conference (<b>×1</b>) • Lisbon Meetings in Game Theory & Applications (<b>×1</b>) • Political Economy of International Organisations Conference (<b>×1</b>) • Stony Brook International Conference on Game Theory (<b>×1</b>) • World Congress of the Game Theory Society (<b>×1</b>)</div>
+  <div class="value">Coalition Theory Network Workshop (<b>×3</b>)<span style="margin: 0 4px;">•</span>Conference on Economic Design (<b>×3</b>)<span style="margin: 0 4px;">•</span>Conference on Mechanism & Institution Design (<b>×3</b>)<span style="margin: 0 4px;">•</span>European Meeting on Game Theory (<b>×4</b>)<span style="margin: 0 4px;">•</span>Game Theory & Applications International Conference (<b>×1</b>)<span style="margin: 0 4px;">•</span>Lisbon Meetings in Game Theory & Applications (<b>×1</b>)<span style="margin: 0 4px;">•</span>Political Economy of International Organisations Conference (<b>×1</b>)<span style="margin: 0 4px;">•</span>Stony Brook International Conference on Game Theory (<b>×1</b>)<span style="margin: 0 4px;">•</span>World Congress of the Game Theory Society (<b>×1</b>)</div>
 
   <div class="label"><b>Seminars</b></div>
-  <div class="value">Budapest University of Technology & Economics (<b>×2</b>) • Centre for Economic & Regional Studies (<b>×1</b>) • Corvinus University of Budapest (<b>×2</b>) • University of Barcelona (<b>×1</b>) • University of East Anglia (<b>×3</b>) • University of Granada (<b>×1</b>) • University of Liverpool (<b>×2</b>) • University of Rovira i Virgili (<b>×1</b>) • University of Vienna (<b>×1</b>)</div>
+  <div class="value">Budapest University of Technology & Economics (<b>×2</b>)<span style="margin: 0 4px;">•</span>Centre for Economic & Regional Studies (<b>×1</b>)<span style="margin: 0 4px;">•</span>Corvinus University of Budapest (<b>×2</b>)<span style="margin: 0 4px;">•</span>University of Barcelona (<b>×1</b>)<span style="margin: 0 4px;">•</span>University of East Anglia (<b>×3</b>)<span style="margin: 0 4px;">•</span>University of Granada (<b>×1</b>)<span style="margin: 0 4px;">•</span>University of Liverpool (<b>×2</b>)<span style="margin: 0 4px;">•</span>University of Rovira i Virgili (<b>×1</b>)<span style="margin: 0 4px;">•</span>University of Vienna (<b>×1</b>)</div>
 </div>
 
 ## Refereeing
@@ -420,10 +420,10 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a></b></span>
-        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a> • <a href="tel:441603593895">+44 1603 593895</a></span>
+        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a><span style="margin: 0 4px;">•</span><a href="tel:441603593895">+44 1603 593895</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia • Doctoral thesis supervisor
+        University of East Anglia<span style="margin: 0 4px;">•</span>Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -433,10 +433,10 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Professor <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a></b></span>
-        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a> • <a href="tel:441142223324">+44 1142 223324</a></span>
+        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><span style="margin: 0 4px;">•</span><a href="tel:441142223324">+44 1142 223324</a></span>
       </div>
       <div class="second-row">
-        University of Sheffield • Doctoral thesis supervisor
+        University of Sheffield<span style="margin: 0 4px;">•</span>Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -446,10 +446,10 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Associate Professor <a href="https://sites.google.com/site/robertsomogyi/">Róbert SOMOGYI</a></b></span>
-        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a> • <a href="tel:3614632342">+36 1 463 2342</a></span>
+        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><span style="margin: 0 4px;">•</span><a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
-        Budapest University of Technology & Economics • Colleague
+        Budapest University of Technology & Economics<span style="margin: 0 4px;">•</span>Colleague
       </div>
     </div>
   </div>
@@ -459,10 +459,10 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Professor <a href="https://sites.google.com/view/antoniomiralles">Antonio MIRALLES ASENSIO</a></b></span>
-        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a> • <a href="tel:390906766179">+39 090 676 6179</a></span>
+        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><span style="margin: 0 4px;">•</span><a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
-        University of Messina • Master thesis supervisor
+        University of Messina<span style="margin: 0 4px;">•</span>Master thesis supervisor
       </div>
     </div>
   </div>
@@ -472,10 +472,10 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a></b></span>
-        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a> • <a href="tel:3614825155">+36 1 482 5155</a></span>
+        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><span style="margin: 0 4px;">•</span><a href="tel:3614825155">+36 1 482 5155</a></span>
       </div>
       <div class="second-row">
-        Corvinus University of Budapest • Coauthor
+        Corvinus University of Budapest<span style="margin: 0 4px;">•</span>Coauthor
       </div>
     </div>
   </div>
