@@ -13,13 +13,13 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 <div class="two-column">
   <div class="label">Email</div>
-  <div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu">hermida.rivera.hector@gtk.bme.hu</a></div>
+  <div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu"><b>hermida.rivera.hector@gtk.bme.hu</b>b></a></div>
 
   <div class="label">Website</div>
-  <div class="value"><a href="https://www.hectorhermidarivera.com">www.hectorhermidarivera.com</a></div>
+  <div class="value"><a href="https://www.hectorhermidarivera.com"><b>www.hectorhermidarivera.com</b></a></div>
 
   <div class="label">Office</div>
-  <div class="value">QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary</div>
+  <div class="value"><b>QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary</b></div>
 </div>
 
 ## Employment
