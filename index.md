@@ -274,7 +274,7 @@ title: Home
     </div>
     <div class="second-row collapsible-content">
       <p><i>
-        Slides<span class="bullet"></span>Papers<span class="bullet"></span>William Spaniel's Bargaining 101 (YouTube)
+        <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a><span class="bullet"></span><a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a><span class="bullet"></span><a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
       </i></p>
     </div>
   </div>
