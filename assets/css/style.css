@@ -5,37 +5,6 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Topbar */
-.topbar {
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #333333; /* dark gray */
-  padding: 0 15px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  border-bottom: 1px solid #222;
-  z-index: 1000;
-}
-
-.topbar a {
-  margin-left: 12px;
-  color: #ffffff !important;  /* white text */
-  text-decoration: none;       /* no underline */
-  font-weight: bold;
-  text-transform: uppercase;   /* all caps */
-  letter-spacing: 0.5px;
-}
-
-.topbar a:hover {
-  color: #dddddd !important;
-  text-decoration: none;
-}
-
 /* Main content */
 .content {
   margin: 0 auto;
@@ -164,6 +133,51 @@ body {
   color: #333;
 }
 
+/* Three-row variant of two-column-2rows */
+.two-column-3rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.two-column-3rows {
+  display: grid;
+  grid-template-columns: 120px auto;
+  gap: 8px 16px;
+}
+
+.two-column-3rows .label {
+  text-align: right;
+  font-weight: normal;
+}
+
+.two-column-3rows .value {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-column-3rows .value .top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* second and third rows */
+.two-column-3rows .value .second-row,
+.two-column-3rows .value .third-row {
+  margin-top: 2px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* blank label for the top row */
+.two-column-3rows .label.blank {
+  visibility: hidden;
+}
+
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
 
 .ai-open-access::before {
@@ -199,4 +213,38 @@ body {
   color: #00008B;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* Strong, last-loaded topbar rules */
+.topbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #333333 !important; /* dark gray */
+  padding: 0 12px !important;
+  box-sizing: border-box;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  border-bottom: 1px solid #222 !important;
+  z-index: 10000 !important;
+}
+
+/* ensure nav links are visible and not underlined, uppercase */
+.topbar nav a {
+  margin-left: 14px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.4px !important;
+  display: inline-block !important;
+}
+
+/* hover */
+.topbar nav a:hover {
+  color: #dddddd !important;
+  text-decoration: none !important;
 }
