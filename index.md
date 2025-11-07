@@ -29,7 +29,7 @@ title: Home
 <a id="employment"></a>
 
 <div class="two-column">
-  <div class="label">2023–26</div>
+  <div class="label">2023 – 26</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Postdoctoral Fellowship</b></span>
@@ -42,7 +42,7 @@ title: Home
 <a id="EDUCATION"></a>
 
 <div class="two-column">
-  <div class="label">2019–24</div>
+  <div class="label">2019 – 24</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Doctorate in Economics</b></span>
@@ -50,7 +50,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019–24</div>
+  <div class="label">2019 – 24</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Master's Degree in Economic Analysis</b></span>
@@ -58,7 +58,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019–24</div>
+  <div class="label">2019 – 24</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Master's Degree in Political Economy</b></span>
@@ -66,7 +66,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019–24</div>
+  <div class="label">2019 – 24</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Bachelor's Degree in Political &amp; Administration Sciences</b></span>
@@ -238,14 +238,14 @@ title: Home
 <a id="awards"></a>
 
 <div class="two-column">
-  <div class="label">2019-22</div>
+  <div class="label">2019 - 22</div>
   <div class="value">
     <div class="fill-line">
       <span><b>&pound;61,650 Full Doctoral Scholarship</b></span>
       <span>University of East Anglia</span>
     </div>
   </div>
-  <div class="label">2014-15</div>
+  <div class="label">2014 - 15</div>
   <div class="value">
     <div class="fill-line">
       <span><b>&euro;1,500 Undergraduate Academic Internship</b></span>
@@ -253,7 +253,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2011-15</div>
+  <div class="label">2011 - 15</div>
   <div class="value">
     <div class="fill-line">
       <span><b>&euro;1,365 Undergraduate First Class Honors Scholarship</b></span>
@@ -295,8 +295,7 @@ title: Home
 
 <div class="two-column">
   <div class="label"><b>Conferences</b></div>
-  <div class="value">Coalition Theory Network Workshop (×3)    •    Conference on Economic Design (×3)    •    Conference on Mechanism & Institution Design (×3)    •    European Meeting on Game Theory (×4)    •    Game Theory & Applications International Conference (×1)    •    Lisbon Meetings in Game Theory & Applications (×1)    •    Political Economy of International Organisations Conference (×1)    •    Stony Brook International
-Conference on Game Theory (×1)    •    World Congress of the Game Theory Society (×1)</div>
+  <div class="value">Coalition Theory Network Workshop (×3)    •    Conference on Economic Design (×3)    •    Conference on Mechanism & Institution Design (×3)    •    European Meeting on Game Theory (×4)    •    Game Theory & Applications International Conference (×1)    •    Lisbon Meetings in Game Theory & Applications (×1)    •    Political Economy of International Organisations Conference (×1)    •    Stony Brook International Conference on Game Theory (×1)    •    World Congress of the Game Theory Society (×1)</div>
 
   <div class="label"><b>Seminars</b></div>
   <div class="value">Budapest University of Technology & Economics (×2)    •    Centre for Economic & Regional Studies (×1)    •    Corvinus University of Budapest (×2)    •    University of Barcelona (×1)    •    University of East Anglia (×3)    •    University of Granada (×1)    •    University of Liverpool (×2)    •    University of Rovira i Virgili (×1)    •    University of Vienna (×1)</div>
