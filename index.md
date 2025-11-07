@@ -31,8 +31,34 @@ hector.hermida.rivera@gtk.bme.hu
 <a id="jobmarketpaper"></a>
 hector.hermida.rivera@gtk.bme.hu
 
-## Research
-<a id="research"></a>
+## Manuscripts
+<a id="manuscripts"></a>
 My papers and projects.
 
+## Manuscripts
+<a id="manuscripts"></a>
+My papers and projects.
 
+## Teaching
+<a id="teaching"></a>
+My papers and projects.
+
+## Awards
+<a id="awards"></a>
+My papers and projects.
+
+## Training
+<a id="training"></a>
+My papers and projects.
+
+## Presentations
+<a id="presentations"></a>
+My papers and projects.
+
+## Refereeing
+<a id="refereeing"></a>
+My papers and projects.
+
+## References
+<a id="references"></a>
+My papers and projects.
