@@ -41,7 +41,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="value">
     <div class="fill-line">
       <span>Doctorate in Economics</span>
-      <span> University of East Anglia</span>
+      <span>University of East Anglia</span>
     </div>
   </div>
 </div>
@@ -52,14 +52,46 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
   <div class="value">
     <div class="fill-line">
       <span>Master's Degree in Economic Analysis</span>
-      <span> Autonomous University of Barcelona</span>
+      <span>Autonomous University of Barcelona</span>
+    </div>
+  </div>
+</div>
+
+<a id="education"></a>
+<div class="two-column">
+  <div class="label">2019–24</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Master's Degree in Political Economy</span>
+      <span>University of Essex</span>
+    </div>
+  </div>
+</div>
+
+<a id="education"></a>
+<div class="two-column">
+  <div class="label">2019–24</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Bachelor's Degree in Political &amp; Administration Sciences</span>
+      <span>Pompeu Fabra University</span>
     </div>
   </div>
 </div>
 
 ## Skills
 <a id="skills"></a>
-hector.hermida.rivera@gtk.bme.hu
+
+<div class="two-column">
+  <div class="label">Software</div>
+  <div class="value">LaTeX (high) Excel (medium) Mathematica (medium) STATA (medium) R (low)</div>
+
+  <div class="label">Website</div>
+  <div class="value"><a href="https://www.hectorhermidarivera.com">www.hectorhermidarivera.com</a></div>
+
+  <div class="label">Office</div>
+  <div class="value">QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary</div>
+</div>
 
 ## Publications
 <a id="publications"></a>
