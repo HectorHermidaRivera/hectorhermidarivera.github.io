@@ -206,59 +206,71 @@ title: Home
 ## References
 <a id="references"></a>
 
-<div class="two-column-2rows">
-  <div class="label">5.</div>
-  <div class="value">
-    <div class="fill-line">
-      <span><b>Assistant Professor Ben McQUILLIN</b></span>
-      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
-    </div>
-    <div class="second-row">
-      University of East Anglia Doctoral thesis supervisor
+<div class="two-column-2rows-container">
+
+  <div class="two-column-2rows">
+    <div class="label">5.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Assistant Professor Ben McQUILLIN</b></span>
+        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a><a href="tel:"></a></span>
+      </div>
+      <div class="second-row">
+        University of East Anglia Doctoral thesis supervisor
+      </div>
     </div>
   </div>
 
-  <div class="label">4.</div>
-  <div class="value">
-    <div class="fill-line">
-      <span><b>Professor Mich TVEDE</b></span>
-      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><a href="tel:></a></span>
-    </div>
-    <div class="second-row">
-      University of East Anglia Doctoral thesis supervisor
-    </div>
-  </div>
-
-  <div class="label">3.</div>
-  <div class="value">
-    <div class="fill-line">
-      <span><b>Associate Professor Róbert SOMOGYI</b></span>
-      <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><a href="tel:></a></span>
-    </div>
-    <div class="second-row">
-      University of East Anglia Doctoral thesis supervisor
-    </div>
-  </div>
-  
-  <div class="label">2.</div>
-  <div class="value">
-    <div class="fill-line">
-      <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
-      <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><a href="tel:></a></span>
-    </div>
-    <div class="second-row">
-      University of East Anglia Doctoral thesis supervisor
+  <div class="two-column-2rows">
+    <div class="label">4.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Professor Mich TVEDE</b></span>
+        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><a href="tel:"></a></span>
+      </div>
+      <div class="second-row">
+        University of East Anglia Doctoral thesis supervisor
+      </div>
     </div>
   </div>
 
-  <div class="label">1.</div>
-  <div class="value">
-    <div class="fill-line">
-      <span><b>Assistant Professor Toygar T. Kerman</b></span>
-      <span><a href="toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><a href="tel:></a></span>
-    </div>
-    <div class="second-row">
-      Corvinus University of Budapest Coauthor
+  <div class="two-column-2rows">
+    <div class="label">3.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Associate Professor Róbert SOMOGYI</b></span>
+        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><a href="tel:"></a></span>
+      </div>
+      <div class="second-row">
+        University of East Anglia Doctoral thesis supervisor
+      </div>
     </div>
   </div>
+
+  <div class="two-column-2rows">
+    <div class="label">2.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
+        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><a href="tel:"></a></span>
+      </div>
+      <div class="second-row">
+        University of East Anglia Doctoral thesis supervisor
+      </div>
+    </div>
+  </div>
+
+  <div class="two-column-2rows">
+    <div class="label">1.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Assistant Professor Toygar T. Kerman</b></span>
+        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><a href="tel:"></a></span>
+      </div>
+      <div class="second-row">
+        Corvinus University of Budapest Coauthor
+      </div>
+    </div>
+  </div>
+
 </div>
