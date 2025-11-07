@@ -254,21 +254,28 @@ title: Home
 <a id="teaching"></a>
 
 <div class="two-column-3rows-container">
+
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
-      <div class="top-row">
-        <span><b>Title or heading here</b></span>
-        <span>right-aligned text</span>
+      <div class="top-row">Teaching Assistant</div>
+    </div>
+    <div class="label">2022–23</div>
+    <div class="value">
+      <div class="line">
+        <span class="left">Intermediate Microeconomics</span>
+        <span class="right">University of East Anglia</span>
       </div>
-      <div class="second-row">
-        <span class="label">1.</span> Second row content
-      </div>
-      <div class="third-row">
-        <span class="label">2.</span> Third row content
+    </div>
+    <div class="label">2017–18</div>
+    <div class="value">
+      <div class="line">
+        <span class="left">Game Theory</span>
+        <span class="right">Autonomous University of Barcelona</span>
       </div>
     </div>
   </div>
+
 </div>
 
 ## Awards
