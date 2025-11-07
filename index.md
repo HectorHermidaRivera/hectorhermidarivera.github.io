@@ -184,7 +184,7 @@ title: Home
         <span>in progress</span>
       </div>
       <div class="second-row">
-        Fatma ASLAN & Héctor HERMIDA-RIVERA
+        <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> & Héctor HERMIDA-RIVERA & Héctor HERMIDA-RIVERA
       </div>
       <div class="second-row collapsible-content">
         <p><i>
