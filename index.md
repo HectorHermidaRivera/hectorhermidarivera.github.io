@@ -109,7 +109,7 @@ title: Home
 </a></div>
   
   <div class="label">1.</div>
-  <div class="value"><i class="ai ai-open-access"></i> Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897-935. <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
+  <div class="value"><i class="ai ai-open-access"></i> <a href="https://www.federica-genovese.com"> Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897-935. <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
   <i class="far fa-file-pdf"></i>
 </a></div>
 </div>
@@ -184,7 +184,7 @@ title: Home
         <span>in progress</span>
       </div>
       <div class="second-row">
-        <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> & Héctor HERMIDA-RIVERA & Héctor HERMIDA-RIVERA
+        <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> & Héctor HERMIDA-RIVERA
       </div>
       <div class="second-row collapsible-content">
         <p><i>
