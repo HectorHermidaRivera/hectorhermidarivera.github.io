@@ -310,7 +310,7 @@ title: Home
   <div class="value">
     <div class="top-row">
       <div class="course">
-        <span class="collapsible-link">Game Theorys</span>
+        <span class="collapsible-link">Game Theory</span>
         <span class="bullet"></span>Graduate<span class="bullet"></span>15h
       </div>
       <div class="institution">Autonomous University of Barcelona</div>
