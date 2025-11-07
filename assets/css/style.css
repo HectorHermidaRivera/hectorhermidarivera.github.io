@@ -40,3 +40,25 @@ body {
   font-weight: bold;
   margin-bottom: 30px;
 }
+
+.two-column {
+  display: grid;
+  grid-template-columns: 120px auto;
+  gap: 8px 16px;
+  align-items: start;
+  margin-top: 10px;
+}
+
+.two-column .label {
+  font-weight: bold;
+  text-align: right;
+}
+
+.two-column .value a {
+  color: #333;
+  text-decoration: none;
+}
+
+.two-column .value a:hover {
+  text-decoration: underline;
+}
