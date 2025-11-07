@@ -41,6 +41,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* two-column grid used across the page */
 .two-column {
   display: grid;
   grid-template-columns: 120px auto;
@@ -49,9 +50,17 @@ body {
   margin-top: 10px;
 }
 
+/* FORCE non-bold in the first column (higher specificity) */
+.content .two-column .label,
 .two-column .label {
-  font-weight: normal; /* non-bold */
+  font-weight: 400; /* normal */
   text-align: right;
+  color: inherit;
+}
+
+/* values styling */
+.two-column .value {
+  text-align: left; /* keep the column left-aligned by default */
 }
 
 .two-column .value a {
@@ -63,6 +72,7 @@ body {
   text-decoration: underline;
 }
 
+/* fallback line utility (if used) */
 .line {
   display: flex;
   justify-content: space-between;
@@ -72,15 +82,20 @@ body {
   white-space: nowrap;
 }
 
+/* fill-line: creates the hfill effect inside the right column */
 .fill-line {
   display: flex;
-  justify-content: space-between; /* creates the “\hfill” effect */
+  justify-content: space-between;
+  width: 100%;
 }
 
 .fill-line span {
   white-space: nowrap;
 }
 
+/* make the right-hand element smaller (footnote size) */
 .fill-line span:last-child {
-  font-size: 0.8em; /* footnote size for right-aligned text */
+  font-size: 0.8em; /* footnote-like */
+  font-weight: 400; /* ensure it's not bold */
+  opacity: 0.95;
 }
