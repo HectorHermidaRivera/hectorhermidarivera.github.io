@@ -220,8 +220,8 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease;
-  margin-top: 4px;
-  padding-left: 10px;
+  margin-top: 0px;
+  padding-left: 0px;
 }
 
 .collapsible-link {
