@@ -42,7 +42,7 @@ body {
   padding-top: 80px;          /* leave space for topbar */
   margin-left: 100px;         /* small left margin */
   margin-right: 150px;        /* right = left + 50% */
-  max-width: 2000px;          /* optional */
+  max-width: 1500px;          /* optional */
   box-sizing: border-box;
   text-align: justify;         /* justify text */
   background-color: #f2f2f2;  /* very slight gray background */
