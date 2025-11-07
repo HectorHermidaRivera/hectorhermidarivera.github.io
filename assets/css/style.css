@@ -208,14 +208,20 @@ body {
   color: #333;
 }
 
+/* Force minimal vertical spacing for all collapsible rows */
+.two-column-3rows {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .two-column-3rows .value {
-  margin-bottom: 0;       /* remove extra bottom margin */
-  padding-bottom: 0;      /* remove extra padding */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .two-column-3rows .second-row.collapsible-content p {
-  margin-top: 0;          /* remove paragraph top margin */
-  margin-bottom: 0;       /* remove paragraph bottom margin */
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
@@ -227,7 +233,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -2.5em;
+  top: -5em;
 }
 
 /* Collapsible content */
