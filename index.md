@@ -136,8 +136,8 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Self-Equivalent Voting Rules</b> • Job Market Paper</span>
-        <span>available preprint</span>
+        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b> • Job Market Paper</span>
+        <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
         Héctor HERMIDA-RIVERA
@@ -149,8 +149,8 @@ title: Home
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>A Simple Characterization of Qualified Majority Voting Rules</b></span>
-        <span>available preprint</span>
+        <span><b><a href="https://arxiv.org/abs/2509.19823">A Simple Characterization of Qualified Majority Voting Rules</a></b></span>
+        <span><a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view">available preprint</a></span>
       </div>
       <div class="second-row">
         Héctor HERMIDA-RIVERA
@@ -194,7 +194,6 @@ title: Home
     </div>
   </div>
 
-  <!-- Paper 3 -->
   <div class="two-column-2rows">
     <div class="label">1.</div>
     <div class="value">
@@ -339,7 +338,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">3.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Associate Professor <a href"https://sites.google.com/site/robertsomogyi/">Róbert SOMOGYI</a></b></span>
+        <span><b>Associate Professor <a href="https://sites.google.com/site/robertsomogyi/">Róbert SOMOGYI</a></b></span>
         <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a> • <a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
