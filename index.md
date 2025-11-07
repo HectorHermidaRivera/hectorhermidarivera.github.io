@@ -176,7 +176,7 @@ title: Home
         <b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b>
         <span>
           <span style="margin:4px;">•</span>
-          <span style="font-size: 1em; font-weight: normal;">Job Market Paper</span>
+          <span style="font-size: 16px !important; font-weight: normal !important;">Job Market Paper</span>
         </span>
       </span>
       <span>
