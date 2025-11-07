@@ -108,7 +108,31 @@ My papers and projects.
 
 ## Awards
 <a id="awards"></a>
-My papers and projects.
+
+<div class="two-column">
+  <div class="label">2019-22</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Full Doctoral Scholarship</span>
+      <span>University of East Anglia</span>
+    </div>
+  </div>
+  <div class="label">2014-15</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Undergraduate Academic Internship</span>
+      <span>Pomepu Fabra University</span>
+    </div>
+  </div>
+
+  <div class="label">2011-15</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Undergraduate First Class Honors Scholarship</span>
+      <span>Pomepu Fabra University</span>
+    </div>
+  </div>
+</div>
 
 ## Training
 <a id="training"></a>
@@ -118,14 +142,14 @@ My papers and projects.
   <div class="value">
     <div class="fill-line">
       <span>Course on Higher Education Teaching Skills</span>
-      <span>2024</span>
+      <span>University of East Anglia</span>
     </div>
   </div>
   <div class="label">2017</div>
   <div class="value">
     <div class="fill-line">
       <span>Summer School on Epistemic Game Theory</span>
-      <span>2024</span>
+      <span>Maastricth University</span>
     </div>
   </div>
 
