@@ -15,38 +15,38 @@
     html { scroll-behavior: smooth; }
 
     /* --- Sidebar --- */
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 240px;
-      height: 100%;
-      background: #000000;
-      padding: 25px 15px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      border-right: 1px solid #111;
-      z-index: 10000;
-    }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  background: #000000;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* align text to the right */
+  justify-content: center; /* vertical centering */
+  border-right: 1px solid #111;
+  z-index: 10000;
+}
 
-    .sidebar a {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-      margin: 8px 0;
-      width: 100%;
-      display: block;
-      line-height: 1.6;
-    }
+.sidebar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 8px 0;
+  width: 100%;
+  text-align: right; /* right-align text */
+  line-height: 1.6;
+}
 
-    .sidebar a:hover {
-      color: #dddddd;
-    }
+.sidebar a:hover {
+  color: #dddddd;
+}
 
     /* --- Main content --- */
     .content {
