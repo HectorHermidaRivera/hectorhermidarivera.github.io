@@ -226,7 +226,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor Ben McQUILLIN</b></span>
-        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a><a href="tel:"></a></span>
+        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a> • <a href="tel:441603593895">+44 1603 593895</a></span>
       </div>
       <div class="second-row">
         University of East Anglia • Doctoral thesis supervisor
@@ -239,7 +239,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Professor Mich TVEDE</b></span>
-        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><a href="tel:"></a></span>
+        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a> • <a href="tel:441142223324">+44 1142 223324</a></span>
       </div>
       <div class="second-row">
         University of East Anglia • Doctoral thesis supervisor
@@ -252,7 +252,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Associate Professor Róbert SOMOGYI</b></span>
-        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><a href="tel:"></a></span>
+        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a> • <a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
         University of East Anglia • Colleague
@@ -265,7 +265,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
-        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><a href="tel:"></a></span>
+        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a> • <a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
         University of East Anglia • Master thesis supervisor
@@ -278,7 +278,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor Toygar T. Kerman</b></span>
-        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><a href="tel:"></a></span>
+        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a> • <a href="tel:3614825155">+36 1 482 5155</a></span>
       </div>
       <div class="second-row">
         Corvinus University of Budapest • Coauthor
