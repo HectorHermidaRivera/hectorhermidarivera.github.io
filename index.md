@@ -13,7 +13,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 <div class="two-column">
   <div class="label">Email</div>
-  <div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu"><b>hermida.rivera.hector@gtk.bme.hu</b>b></a></div>
+  <div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu"><b>hermida.rivera.hector@gtk.bme.hu</b></a></div>
 
   <div class="label">Website</div>
   <div class="value"><a href="https://www.hectorhermidarivera.com"><b>www.hectorhermidarivera.com</b></a></div>
