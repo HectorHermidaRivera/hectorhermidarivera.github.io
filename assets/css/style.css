@@ -150,17 +150,19 @@ body {
   text-decoration: underline;
 }
 
-/* Collapsible content */
 .collapsible-content {
-  max-height: 0;
+  max-height: 0;          /* hidden initially */
   overflow: hidden;
-  transition: max-height 0.35s ease;
+  transition: max-height 0.3s ease;
   margin-top: 4px;
   padding-left: 10px;
   border-left: 2px solid #ccc;
 }
 
-/* Collapsible link */
+.collapsible-content i {
+  font-style: italic;      /* ensure italics */
+}
+
 .collapsible-link {
   color: #00008B;
   text-decoration: underline;
