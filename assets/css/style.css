@@ -62,3 +62,12 @@ body {
 .two-column .value a:hover {
   text-decoration: underline;
 }
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line span {
+  white-space: nowrap;
+}
