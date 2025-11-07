@@ -7,9 +7,6 @@ title: Home
   <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing" target="_blank">
     <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
   </a>
-  <a href="http://www.hectorhermidarivera.com" target="_blank">
-    <i class="fas fa-external-link-square-alt" style="font-size:1.50em;"></i>
-  </a>
   <a href="mailto:hermida.rivera.hector@gtk.bme.hu">
     <i class="fas fa-envelope-square" style="font-size:1.50em;"></i>
   </a>
