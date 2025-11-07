@@ -120,7 +120,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Outer container stacks entries vertically */
+/* Two-column layout with an extra row in the second column */
 .two-column-2rows-container {
   display: flex;
   flex-direction: column;
@@ -128,56 +128,54 @@ a:hover {
   margin-top: 8px;
 }
 
-/* Two-column layout with an extra row in the second column */
-.two-column-extra-row-container {
-  display: flex;
-  flex-direction: column;  /* stack multiple entries vertically */
-  gap: 8px;                /* space between entries */
-  margin-top: 10px;
-}
-
-/* Each entry: first column + second column */
-.two-column-extra-row {
+/* Each entry in two-column-2rows */
+.two-column-2rows {
   display: grid;
-  grid-template-columns: 120px auto; /* first column fixed, second column flexible */
+  grid-template-columns: 120px auto; /* MATCHES two-column first column width */
   align-items: start;
-  gap: 8px 16px;                     /* vertical + horizontal gaps */
+  gap: 8px 16px; /* vertical + horizontal gaps */
 }
 
 /* First column: right-aligned, non-bold */
-.two-column-extra-row .label {
+.two-column-2rows .label {
   font-weight: normal;
   text-align: right;
 }
 
-/* Second column */
-.two-column-extra-row .value {
-  display: grid;
-  grid-template-rows: auto auto; /* top row + second row */
+/* Second column container */
+.two-column-2rows .value {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Top row: left + right aligned items */
-.two-column-extra-row .value .top-row {
+.two-column-2rows .value .top-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   white-space: nowrap;
 }
 
-/* Second row: below top row */
-.two-column-extra-row .value .second-row {
+/* Right-aligned top row: footnotesize */
+.two-column-2rows .value .top-row span:last-child {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+/* Second row: full width below top row, normal size */
+.two-column-2rows .value .second-row {
   margin-top: 2px;
-  font-size: 1em; /* normal font size */
+  font-size: 1em;
   color: #333;
 }
 
 /* Links in second column always dark blue */
-.two-column-extra-row a {
+.two-column-2rows a {
   color: #00008B !important;
   text-decoration: none;
 }
 
-.two-column-extra-row a:hover {
+.two-column-2rows a:hover {
   color: #00008B !important;
   text-decoration: underline;
 }
