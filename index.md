@@ -9,7 +9,7 @@ title: Home
 I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral research fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the University of East Anglia (UEA) in 2024 under the supervision of Ben McQuillin & Mich Tvede. Prior to this, I obtained a Master's Degree in Economic Analysis from the Autonomous University of Barcelona (UAB), a Master's Degree in Political Economy from the University of Essex (UoE), and a Bachelor's Degree in Political & Administration Sciences from Pompeu Fabra University (UPF).
 
 ## Contact
-<a id="contact">Contact</a>
+<a id="contact"></a>
 
 <div class="two-column">
   <div class="label">Email</div>
