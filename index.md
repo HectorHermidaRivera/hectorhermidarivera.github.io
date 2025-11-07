@@ -253,7 +253,7 @@ title: Home
 ## Teaching
 <a id="teaching"></a>
 
-<div class="two-column-3rows-container">
+<div class="two-column-2rows-container">
 
   <div class="two-column-3rows">
     <div class="label blank"></div>
@@ -280,6 +280,10 @@ title: Home
   </div>
 </div>
 
+</div>
+
+<div class="two-column-3rows-container">
+  
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
