@@ -145,10 +145,7 @@ body {
 
 /* Teaching entries: three-row layout */
 .two-column-3rows-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;          /* same internal gap as .two-column-2rows-container */
-  margin-top: 0px;
+  gap: 4px !important;
 }
 
 /* grid for date + right content */
@@ -173,9 +170,7 @@ body {
 
 /* right column with lines stacked */
 .two-column-3rows .value {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;          /* match text density of .two-column-2rows .value */
+  gap: 2px !important;
 }
 
 /* top-row: course (left) and university (right) */
@@ -206,22 +201,6 @@ body {
   margin: 0;
   font-size: 1em;
   color: #333;
-}
-
-/* Force minimal vertical spacing for all collapsible rows */
-.two-column-3rows {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.two-column-3rows .value {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.two-column-3rows .second-row.collapsible-content p {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
 }
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
