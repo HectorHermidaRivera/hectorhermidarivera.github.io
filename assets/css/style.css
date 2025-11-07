@@ -255,6 +255,14 @@ body {
   font-weight: normal;   /* not bold */
 }
 
+/* Collapsible course title: blue and normal weight */
+.two-column-3rows .course.collapsible-link {
+  color: #00008B;       /* blue like other links */
+  text-decoration: none; /* no underline */
+  font-weight: normal;   /* normal font weight */
+  cursor: pointer;       /* pointer to show it's clickable */
+}
+
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
