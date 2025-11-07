@@ -174,7 +174,7 @@ body {
 
 .bullet::before {
   content: "•";               /* the bullet */
-  margin: 0 0.5em;            /* horizontal space on both sides */
+  margin: 0 1em;            /* horizontal space on both sides */
   display: inline-block;       /* so margin applies correctly */
 }
 
