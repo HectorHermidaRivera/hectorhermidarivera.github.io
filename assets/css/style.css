@@ -213,26 +213,6 @@ body {
   color: #556B2F;
 }
 
-/* Reset bullet span so it does not shrink text */
-.bullet {
-  display: inline-block;       /* guarantee a box */
-  vertical-align: baseline;
-  width: auto;
-  line-height: 1;
-  pointer-events: none;        /* decorative only */
-  font-size: inherit;          /* inherit from surrounding text */
-}
-
-.bullet::before {
-  content: "\2022";            /* Unicode bullet */
-  display: inline-block;
-  margin: 0 0.5em;
-  color: inherit;
-  font-size: 1em;              /* same as surrounding text */
-  line-height: 1;
-  vertical-align: baseline;
-}
-
 /* REDEFINITION OF PDF ICON */
 .fa-file-pdf {
   font-size: 0.8em;
