@@ -23,27 +23,27 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: calc(150px + 36px); /* aligned with second column */
+  padding-left: 136px;
 }
 
-/* Title styling */
 .name-title {
   font-size: 4.0em;
   font-family: 'Merriweather', serif;
-  font-weight: 400; /* normal for “Héctor” */
+  font-weight: 400;
 }
+
 .name-title strong {
-  font-weight: 700; /* bold “Hermida-Rivera” */
+  font-weight: 700;
 }
 
 /* Headings alignment with second column, all caps */
-.content h2,
-.content h3,
-.content h4,
-.content h5,
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
 .content h6 {
   margin-left: 0;
-  padding-left: calc(150px + 36px);
+  padding-left: 136px;
   margin-top: 1.5em;
   margin-bottom: 0em;
   text-transform: uppercase;
@@ -178,31 +178,29 @@ body {
   gap: 4px;
 }
 
-/* top-row: role (left), course (center), university (right) */
+/* top-row: course (left) and university (right) */
 .two-column-3rows .value .top-row {
-  display: grid;
-  grid-template-columns: 200px 1fr auto; /* role, course, university */
+  display: flex;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 20px;
+  width: 100%;
 }
 
-.two-column-3rows .value .top-row .role {
-  text-align: left;
-  font-weight: normal;
-}
-
+/* left part: course name */
 .two-column-3rows .value .top-row .course {
-  text-align: left;
   flex-grow: 1;
+  text-align: left;
 }
 
+/* right part: university name */
 .two-column-3rows .value .top-row .institution {
   text-align: right;
   font-size: 0.8em; /* footnotesize */
+  flex-shrink: 0;
   color: #333;
 }
 
-/* optional: smaller vertical gap for compactness */
+/* second and third rows */
 .two-column-3rows .value .second-row,
 .two-column-3rows .value .third-row {
   margin: 0;
@@ -212,7 +210,7 @@ body {
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
 .ai-open-access::before {
-  color: #556B2F; /* OliveGreen */
+  color: #556B2F;
 }
 
 /* REDEFINITION OF BULLET SPACING */
@@ -223,6 +221,7 @@ body {
   line-height: 1;
   pointer-events: none;
 }
+
 .bullet::before {
   content: "\2022";
   display: inline-block;
@@ -237,7 +236,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -0.25em; /* correctly raises the icon */
+  top: -0.25em;
 }
 
 /* Collapsible content */
@@ -295,7 +294,7 @@ body {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: calc(150px + 38px);
+  margin-left: 138px;
   margin-top: -10px;
 }
 
@@ -304,6 +303,7 @@ body {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
+
 .icon-row a:hover {
   transform: scale(1.2);
 }
@@ -324,39 +324,4 @@ a {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
-}
-
-/* ---------- FINAL ALIGNMENT FIXES ---------- */
-:root {
-  --main-left: 150px;
-  --col-offset: 36px;
-  --second-col-offset: calc(var(--main-left) + var(--col-offset));
-}
-
-/* Force correct left alignment across elements */
-.content {
-  margin-left: var(--main-left) !important;
-}
-
-.main-name {
-  padding-left: var(--second-col-offset) !important;
-}
-
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  padding-left: var(--second-col-offset) !important;
-  margin-left: 0 !important;
-  text-align: left;
-}
-
-.icon-row {
-  margin-left: calc(var(--second-col-offset) + 2px) !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: left !important;
 }
