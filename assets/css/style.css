@@ -274,14 +274,15 @@ is not rising the icon. try again
   margin-top: 8px;            /* small vertical spacing */
 }
 
-/* All links in the icon row */
-.icon-row a {
-  text-decoration: none;      
-  transition: transform 0.2s ease; /* smooth hover effect */
-  color: inherit;             
+/* All hyperlinks (text or icon) */
+a {
+  text-decoration: none;      /* remove underline */
+  transition: transform 0.2s ease; /* smooth scaling */
+  display: inline-block;      /* ensures transform works */
 }
 
-/* Hover effect: slightly enlarge */
-.icon-row a:hover {
-  transform: scale(1.2);
+/* Hover effect for all hyperlinks */
+a:hover {
+  transform: scale(1.2);      /* increase size by 20% */
+  text-decoration: none;      /* ensure no underline appears */
 }
