@@ -340,7 +340,7 @@ title: Home
         <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><span class="bullet"></span><a href="tel:441142223324">+44 1142 223324</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia<span class="bullet"></span>Doctoral thesis supervisor
+        University of Sheffield<span class="bullet"></span>Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -353,7 +353,7 @@ title: Home
         <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><span class="bullet"></span><a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia<span class="bullet"></span>Colleague
+        Budapest University of Technology & Economics<span class="bullet"></span>Colleague
       </div>
     </div>
   </div>
@@ -366,7 +366,7 @@ title: Home
         <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><span class="bullet"></span><a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia<span class="bullet"></span>Master thesis supervisor
+        University of Messina<span class="bullet"></span>Master thesis supervisor
       </div>
     </div>
   </div>
