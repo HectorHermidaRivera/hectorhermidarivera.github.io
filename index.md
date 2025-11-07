@@ -184,18 +184,23 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
-    <div class="label">1.</div>
-    <div class="value">
-      <div class="top-row">
-        <span><b>The Residual Claimant</b></span>
-        <span>in progress</span>
-      </div>
-      <div class="second-row">
-        Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE
-      </div>
+<div class="two-column-2rows">
+  <div class="label">1.</div>
+  <div class="value">
+    <div class="top-row">
+      <span>
+        <a class="collapsible-link" href="javascript:void(0)">The Residual Claimant</a>
+      </span>
+      <span>in progress</span>
+    </div>
+    <div class="second-row collapsible-content">
+      Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE
+      <p>
+      This paper makes sense of non-cooperative games within the Nash (1953) program in which players make utility offers as implementing mechanisms. We construct an environment in which the feasible outcome set is the set of all feasible transfers among members of the same coalition. Since this outcome set is independent of the underlying characteristic function, we then rely on the well-known implementation theory results to check if the main cooperative solution concepts are implementable in Nash, virtual Nash, undominated, and subgame perfect equilibrium. The paper obtains mostly positive results, thus setting possibility frontiers for the implementability of cooperative solutions.
+      </p>
     </div>
   </div>
+</div>
 
 </div>
 
