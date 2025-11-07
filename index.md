@@ -184,7 +184,11 @@ title: Home
 
 ## Presentations
 <a id="presentations"></a>
-My papers and projects.
+
+<div class="two-column">
+    <div class="label"></div>
+    <div class="value">Under construction</div>
+</div>
 
 ## Refereeing
 <a id="refereeing"></a>
