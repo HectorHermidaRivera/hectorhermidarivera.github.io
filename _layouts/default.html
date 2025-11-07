@@ -42,14 +42,14 @@
     {{ content }}
   </div>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.collapsible-link').forEach(link => {
     link.addEventListener('click', () => {
       const content = link.closest('.value').querySelector('.collapsible-content');
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;  // collapse
+      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+        content.style.maxHeight = '0';
       } else {
-        content.style.maxHeight = content.scrollHeight + "px"; // expand
+        content.style.maxHeight = content.scrollHeight + 'px';
       }
     });
   });
