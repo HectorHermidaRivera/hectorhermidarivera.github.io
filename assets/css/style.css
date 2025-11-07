@@ -120,7 +120,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Two-column layout with two rows inside the right column */
+/* Two-column layout with a second row inside the right column */
 .two-column-2rows {
   display: grid;
   grid-template-columns: 40px auto; /* first column narrower for numbering */
@@ -132,29 +132,31 @@ a:hover {
 /* First column (numbers) */
 .two-column-2rows .label {
   font-weight: normal;
-  text-align: right;
+  text-align: right; /* right-align number */
+  line-height: 1.2em; /* ensures vertical alignment with top row */
 }
 
 /* Right column container */
 .two-column-2rows .value {
-  display: grid;
-  grid-template-rows: auto auto; /* two rows inside right column */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Top row of right column: left + right aligned items */
-.two-column-2rows .value .fill-line {
+/* Top row inside right column: left + right aligned */
+.two-column-2rows .value .top-row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
-/* Second row of right column */
+/* Preserve nowrap for top row spans */
+.two-column-2rows .value .top-row span {
+  white-space: nowrap;
+}
+
+/* Second row inside right column */
 .two-column-2rows .value .second-row {
   margin-top: 2px;
   font-size: 0.9em; /* optional smaller text */
   color: #333;
-}
-
-/* Preserve nowrap for top row */
-.two-column-2rows .value .fill-line span {
-  white-space: nowrap;
 }
