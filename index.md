@@ -188,9 +188,7 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="top-row">
-      <span>
-        <a class="collapsible-link" href="javascript:void(0)">The Residual Claimant xxx</a>
-      </span>
+      <span><a class="collapsible-link">The Residual Claimant</a></span>
       <span>in progress</span>
     </div>
     <div class="second-row collapsible-content">
