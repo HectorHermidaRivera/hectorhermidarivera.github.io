@@ -77,13 +77,13 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value">LaTeX (high) Excel (medium) Mathematica (medium) STATA (medium) R (low)</div>
+  <div class="value"></>LaTeX</b> (high) <b>Excel</b> (medium) <b>Mathematica</b> (medium) <b>STATA</b> (medium) <b>R</b> (low)</div>
 
   <div class="label">Research</div>
-  <div class="value">Social Choice Mechanism Design Game Theory Political Economy</div>
+  <div class="value"><b>Social Choice</b> <b>Mechanism Design</b> <b>Game Theory</b> <b>Political Economy</b></div>
 
   <div class="label">Languages</div>
-  <div class="value">English (fluent) Spanish (native) Catalan (native)</div>
+  <div class="value"><b>English</b> (fluent) <b>Spanish</b> (native) <b>Catalan</b> (native)</div>
 </div>
 
 ## Publications
