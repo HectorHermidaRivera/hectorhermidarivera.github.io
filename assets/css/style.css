@@ -1,300 +1,123 @@
-/* Body */
-body {
-  font-family: 'Merriweather', serif;
-  margin: 0;
-  background-color: #f2f2f2;
+:root{
+  /* tune these once and both 2-row and 3-row variants follow */
+  --sidebar-width: 220px;
+  --container-gap: 18px;        /* horizontal gap between label and value column */
+  --row-vertical-gap: 14px;    /* vertical gap between .two-column blocks */
+  --label-width: var(--sidebar-width);
+  --label-font-size: 0.95rem;
+  --value-padding: 6px 0;
 }
 
-/* Main content */
-.content {
-  margin: 0 auto;
-  padding-top: 80px;
-  margin-left: 150px;   /* increase left margin */
-  margin-right: 225px;  /* right = left + 1/2 left */
-  max-width: 1100px;
-  box-sizing: border-box;
-  text-align: justify;
-  background-color: #f2f2f2;
-  padding-bottom: 500px;
-}
-
-/* Align main name with second column */
-.main-name {
-  font-size: 2em;
-  font-weight: bold;
-  margin-bottom: 0px;
-  padding-left: calc(150px + 36px); /* 150px = left margin, 36px = column offset */
-}
-
-.name-title {
-  font-size: 4.0em;
-  font-family: 'Merriweather', serif;
-  font-weight: 400;
-}
-.name-title strong {
-  font-weight: 700;
-}
-
-/* Headings alignment with second column, all caps */
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin-left: 0;
-  padding-left: calc(150px + 36px);
-  margin-top: 1.5em;
-  margin-bottom: 0em;
-  text-transform: uppercase;
-}
-
-/* Links in main content */
-.content a {
-  color: #00008B !important;
-  text-decoration: none;
-}
-.content a:hover {
-  color: #00008B !important;
-  text-decoration: underline;
-}
-
-/* Two-column layout */
-.two-column {
+/* Page layout */
+.page {
   display: grid;
-  grid-template-columns: 120px auto;
-  gap: 8px 16px;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  gap: 0;               /* page-level gaps handled inside columns */
   align-items: start;
-  margin-top: 10px;
-}
-.two-column .label {
-  font-weight: normal;
-  text-align: right;
-}
-.two-column .value a {
-  color: #00008B !important;
-  text-decoration: none;
-}
-.two-column .value a:hover {
-  color: #00008B !important;
-  text-decoration: underline;
 }
 
-/* Fill-line for left-right alignment */
-.fill-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.fill-line span {
-  white-space: nowrap;
-}
-.fill-line span:last-child {
-  font-size: 0.8em;
-  font-weight: normal;
-}
-
-/* Two-column layout with two rows in second column */
-.two-column-2rows-container {
+/* Sidebar: fixed width, contents vertically centered */
+.sidebar {
+  width: var(--sidebar-width);
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-top: 8px;
-}
-.two-column-2rows {
-  display: grid;
-  grid-template-columns: 120px auto;
-  gap: 8px 16px;
-}
-.two-column-2rows .label {
-  text-align: right;
-  font-weight: normal;
-}
-.two-column-2rows .value {
-  display: flex;
-  flex-direction: column;
-}
-.two-column-2rows .value .top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-  white-space: nowrap;
-}
-.two-column-2rows .value .top-row span:last-child {
-  font-size: 0.8em;
-  font-weight: normal;
-}
-.two-column-2rows .value .second-row {
-  margin-top: 2px;
-  font-size: 1em;
-  color: #333;
+  justify-content: center; /* vertical centering */
+  align-items: stretch;
+  padding: 18px 12px;
+  box-sizing: border-box;
 }
 
-/* Teaching entries: three-row layout */
+/* Main content area */
+.content {
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+/* Ensure top-level header aligns with content column */
+.main-header {
+  grid-column: 2 / -1;      /* force header to start at the content column */
+  text-align: left;
+  margin: 0 0 18px 0;
+}
+
+/* Generic style used by both 2-row and 3-row blocks */
+.two-column-2rows-container,
 .two-column-3rows-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 8px;
+  display: block;
+  margin-bottom: 28px; /* space between groups */
 }
+
+/* Each row uses a 2-column internal grid: label + value */
+.two-column-2rows,
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 6px 16px;
-  align-items: start;
+  grid-template-columns: var(--label-width) 1fr;
+  column-gap: var(--container-gap);
+  align-items: start;                 /* top-aligned by default */
+  row-gap: var(--row-vertical-gap);   /* vertical spacing between stacked items inside */
+  padding: var(--value-padding) 0;
+  box-sizing: border-box;
 }
+
+/* If you want the label vertically centered for its row, use this on label */
+.two-column-2rows .label,
 .two-column-3rows .label {
-  text-align: right;
-  font-weight: normal;
-  align-self: start;
+  font-size: var(--label-font-size);
+  padding-right: 8px;
+  align-self: start;    /* default: start. change to center if you want center */
 }
-.two-column-3rows .label.blank {
-  visibility: hidden;
-}
+
+/* styles specific to value column content */
+.two-column-2rows .value,
 .two-column-3rows .value {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.two-column-3rows .value .top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-}
-.two-column-3rows .value .top-row .course {
-  flex-grow: 1;
-  text-align: left;
-}
-.two-column-3rows .value .top-row .institution {
-  text-align: right;
-  font-size: 0.8em;
-  flex-shrink: 0;
-  color: #333;
-}
-.two-column-3rows .value .second-row,
-.two-column-3rows .value .third-row {
-  margin: 0;
-  font-size: 1em;
-  color: #333;
+  padding-left: 6px;
 }
 
-/* REDEFINITION OF OPEN ACCESS ICON COLOR */
-.ai-open-access::before {
-  color: #556B2F;
+/* For the 3-row look we often want consistent spacing between stacked internal items.
+   Ensure .top-row and .role use predictable margin */
+.top-row,
+.role {
+  margin: 0 0 6px 0;
 }
 
-/* REDEFINITION OF BULLET SPACING */
+/* Small helper for bullets inside course text */
 .bullet {
   display: inline-block;
-  vertical-align: baseline;
-  width: auto;
-  line-height: 1;
-  pointer-events: none;
-}
-.bullet::before {
-  content: "\2022";
-  display: inline-block;
-  margin: 0 0.5em;
-  color: inherit;
-  font-size: 1em;
-  line-height: 1;
-  vertical-align: baseline;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  margin: 0 8px;
+  vertical-align: middle;
 }
 
-/* REDEFINITION OF PDF ICON */
-.fa-file-pdf {
-  font-size: 0.8em;
-  position: relative;
-  top: -2.5em;
+/* Fix for sidebar being visually shifted north: ensure the page grid rows don't collapse */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Collapsible content */
-.collapsible-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease;
-  margin-top: 4px;
-  padding-left: 10px;
-}
-.collapsible-link {
-  color: #00008B;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-/* Strong, last-loaded topbar rules */
-.topbar {
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #333333 !important;
-  padding: 0 12px !important;
-  box-sizing: border-box;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: flex-end !important;
-  border-bottom: 1px solid #222 !important;
-  z-index: 10000 !important;
-}
-.topbar nav a {
-  margin-left: 14px !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.4px !important;
-  display: inline-block !important;
-}
-.topbar nav a:hover {
-  color: #dddddd !important;
-  text-decoration: none !important;
-}
-
-/* Row of social/research icons aligned with second column */
-.icon-row {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-left: calc(150px + 38px);
-  margin-top: -10px;
-}
-.icon-row a {
-  display: inline-block;
-  transition: transform 0.3s ease-in-out;
-}
-.icon-row a:hover {
-  transform: scale(1.2);
-}
-
-/* Mimic LaTeX microtype spacing */
-body {
-  font-family: 'Merriweather', serif;
-  font-stretch: 95%;
-  letter-spacing: -0.015em;
-  word-spacing: -0.1em;
-  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
-  text-rendering: optimizeLegibility;
-}
-
-/* Enable natural hyphenation and wrapping in hyperlinks */
-a {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  hyphens: auto;
-}
-
-/* Vertically center sidebar contents */
-.sidebar {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Mobile / narrow screens: stack sidebar above content but keep header alignment */
+@media (max-width: 880px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    order: 0;
+    width: 100%;
+    padding: 12px;
+  }
+  .main-header {
+    grid-column: auto;
+    margin-left: 0;
+  }
+  .two-column-2rows,
+  .two-column-3rows {
+    grid-template-columns: 1fr; /* label on top of value */
+  }
+  .two-column-2rows .label,
+  .two-column-3rows .label {
+    padding: 0 0 6px 0;
+  }
 }
