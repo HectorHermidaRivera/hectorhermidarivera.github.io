@@ -298,7 +298,7 @@ body {
   font-family: 'Merriweather', serif;
   font-stretch: 95%;          /* horizontally compress font */
   letter-spacing: -0.015em;   /* tighten space between letters */
-  word-spacing: -0.05em;      /* tighten space between words */
+  word-spacing: -0.1em;      /* tighten space between words */
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1; /* advanced typography */
   text-rendering: optimizeLegibility;
 }
