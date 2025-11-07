@@ -2,6 +2,7 @@
 body {
   font-family: 'Merriweather', serif;
   margin: 0;
+  background-color: #f9f9f9; /* very light gray background for main body */
 }
 
 /* Topbar */
@@ -12,7 +13,7 @@ body {
   top: 0;
   left: 0;
   background: #d0d0d0;      /* gray background */
-  padding: 0 20px;          /* smaller horizontal padding */
+  padding: 0 20px;          /* horizontal padding */
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -39,11 +40,12 @@ body {
 .content {
   margin: 0 auto;
   padding-top: 100px;          /* leave space for topbar */
-  padding-left: 30px;          /* smaller left margin */
+  padding-left: 30px;          /* left margin */
   padding-right: 45px;         /* right = left + 50% */
   max-width: 900px;
   box-sizing: border-box;
   text-align: justify;          /* justify text */
+  background-color: #f9f9f9;   /* very slight gray background */
 }
 
 /* Align main name with second column */
@@ -54,7 +56,7 @@ body {
   padding-left: 136px;         /* align with second column */
 }
 
-/* Headings alignment with second column */
+/* Headings alignment with second column, all caps */
 .content h2, 
 .content h3, 
 .content h4, 
@@ -64,6 +66,7 @@ body {
   padding-left: 136px;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+  text-transform: uppercase;   /* titles in all caps */
 }
 
 /* Links in main content */
