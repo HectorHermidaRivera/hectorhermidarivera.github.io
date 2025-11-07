@@ -217,21 +217,22 @@ title: Home
 ## Teaching
 <a id="teaching"></a>
 
-<div class="two-column-2rows-container">
-    
-  <div class="two-column-2rows">
-    <div class="label"></div>
+<div class="two-column-3rows-container">
+  <div class="two-column-3rows">
+    <div class="label blank"></div>
     <div class="value">
       <div class="top-row">
-        <span><b>Teaching Assistant</a></b></span>
-        <span>Game Theory</span>
+        <span><b>Title or heading here</b></span>
+        <span>right-aligned text</span>
       </div>
       <div class="second-row">
-        Autonomous University of Barcelona
+        <span class="label">1.</span> Second row content
+      </div>
+      <div class="third-row">
+        <span class="label">2.</span> Third row content
       </div>
     </div>
   </div>
-
 </div>
 
 ## Awards
