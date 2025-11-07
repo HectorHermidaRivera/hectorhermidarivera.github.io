@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6678348" target="_blank">
+  <i class="ai ai-ssrn" style="font-size:1.2em; color:#00008B;"></i>
+</a>
+
 ## About
 <a id="ABOUT"></a>
 
