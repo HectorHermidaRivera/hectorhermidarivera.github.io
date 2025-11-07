@@ -6,7 +6,9 @@ title: Home
 ## About
 <a id="about"></a>
 
-I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral research fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the University of East Anglia (UEA) in 2024 under the supervision of Ben McQuillin & Mich Tvede. Prior to this, I obtained a Master's Degree in Economic Analysis from the Autonomous University of Barcelona (UAB), a Master's Degree in Political Economy from the University of Essex (UoE), and a Bachelor's Degree in Political & Administration Sciences from Pompeu Fabra University (UPF).
+<div class="two-column">
+    <div class="label"></div>
+    <div class="value">I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral research fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the University of East Anglia (UEA) in 2024 under the supervision of Ben McQuillin & Mich Tvede. Prior to this, I obtained a Master's Degree in Economic Analysis from the Autonomous University of Barcelona (UAB), a Master's Degree in Political Economy from the University of Essex (UoE), and a Bachelor's Degree in Political & Administration Sciences from Pompeu Fabra University (UPF).</div>
 
 ## Contact
 <a id="contact"></a>
@@ -77,7 +79,7 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value"></>LaTeX</b> (high) <b>Excel</b> (medium) <b>Mathematica</b> (medium) <b>STATA</b> (medium) <b>R</b> (low)</div>
+  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium) <b>Mathematica</b> (medium) <b>STATA</b> (medium) <b>R</b> (low)</div>
 
   <div class="label">Research</div>
   <div class="value"><b>Social Choice</b> <b>Mechanism Design</b> <b>Game Theory</b> <b>Political Economy</b></div>
