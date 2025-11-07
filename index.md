@@ -15,7 +15,7 @@ QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary
 
 ## Employment
 <a id="employment"></a>
-hector.hermida.rivera@gtk.bme.hu
+Postdoctoral Fellowship
 
 ## Education
 <a id="education"></a>
