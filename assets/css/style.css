@@ -210,7 +210,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;     /* like \scalebox{0.8}{...} */
   position: relative;
-  top: 10.00em;          /* like \raisebox{0pt}{...} */
+  top: -10.00em;          /* like \raisebox{0pt}{...} */
 }
 
 /* Collapsible content */
