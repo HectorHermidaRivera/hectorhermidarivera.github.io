@@ -105,7 +105,6 @@ title: Home
   <div class="label">1.</div>
   <div class="value"><b>Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). Government Ideology and Bailout Conditionality in the European Financial Crisis. International Interactions 48.5, pp.  897 - 935 [pdf | Open Access]
 </div>
-</div>
 
 ## Job Market Paper
 <a id="jobmarketpaper"></a>
