@@ -171,7 +171,6 @@ body {
   transition: max-height 0.3s ease;
   margin-top: 4px;
   padding-left: 10px;
-  border-left: 2px solid #ccc;
 }
 
 .collapsible-link {
