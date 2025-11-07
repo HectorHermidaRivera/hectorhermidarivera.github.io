@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 260px;              /* wider sidebar */
   position: fixed;
   top: 0;
   left: 0;
@@ -13,6 +13,14 @@ body {
   background: #f4f4f4;
   padding: 20px;
   box-sizing: border-box;
+  text-align: right;         /* right align links */
+}
+
+.sidebar .name {
+  font-variant: small-caps;  /* small caps name */
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .sidebar a {
@@ -20,10 +28,11 @@ body {
   margin: 10px 0;
   color: #333;
   text-decoration: none;
+  font-variant: small-caps;  /* small caps links */
 }
 
 .content {
-  margin-left: 220px;
+  margin-left: 280px;        /* match sidebar width + padding */
   padding: 20px;
   scroll-behavior: smooth;
 }
