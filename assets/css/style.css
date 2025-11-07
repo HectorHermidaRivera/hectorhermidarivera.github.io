@@ -274,15 +274,51 @@ is not rising the icon. try again
   margin-top: 8px;            /* small vertical spacing */
 }
 
-/* All hyperlinks (text or icon) */
-a {
-  text-decoration: none;      /* remove underline */
-  transition: transform 0.2s ease; /* smooth scaling */
-  display: inline-block;      /* ensures transform works */
+/* ======= Strong global link behaviour (place at end of style.css) ======= */
+
+/* remove underlines for all link states and for any children */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+a * {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+  box-shadow: none !important;
 }
 
-/* Hover effect for all hyperlinks */
-a:hover {
-  transform: scale(1.2);      /* increase size by 20% */
-  text-decoration: none;      /* ensure no underline appears */
+/* ensure transform works on all anchors (inline-block required) */
+a {
+  display: inline-block !important;
+  transform-origin: center center !important;
+  transition: transform 0.18s ease, color 0.18s ease !important;
+  -webkit-tap-highlight-color: transparent;
 }
+
+/* hover / focus / active: scale by 1.2 (20%) */
+a:hover,
+a:focus,
+a:active {
+  transform: scale(1.20) !important;
+  text-decoration: none !important;
+}
+
+/* prevent layout shift for inline text links when scaling:
+   make them use warming GPU transform but avoid line-height change */
+a { will-change: transform; }
+
+/* if you have icon fonts using ::before glyphs, ensure they inherit link transform */
+a > i,
+a i,
+a svg {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Optional: keep the scaled links above neighbors (avoid overlap) */
+a:hover { z-index: 20; position: relative; }
+
+/* Accessibility: keep focus visible (outline only when keyboard-focused) */
+a:focus { outline: 3px solid rgba(0,0,0,0.08); outline-offset: 3px; }
