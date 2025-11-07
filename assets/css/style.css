@@ -11,39 +11,39 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #e0e0e0;      /* light gray background */
-  padding: 0 40px;          /* horizontal padding */
+  background: #d0d0d0;      /* gray background */
+  padding: 0 20px;          /* smaller horizontal padding */
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* links on right */
+  justify-content: flex-end; /* links on the right */
   border-bottom: 1px solid #ccc;
   z-index: 1000;
 }
 
 .topbar a {
-  margin-left: 24px;
-  color: #00008B !important; /* always dark blue */
-  text-decoration: none;      /* remove underline */
+  margin-left: 16px;          /* smaller spacing between links */
+  color: #00008B !important;  /* dark blue */
+  text-decoration: none;       /* remove underline */
   font-variant: normal;
   font-weight: normal;
   font-size: 1.1em;
 }
 
 .topbar a:hover {
-  color: #00008B !important; /* no hover change */
-  text-decoration: none;
+  color: #00008B !important;  /* no change on hover */
+  text-decoration: none;       /* no underline on hover */
 }
 
 /* Main content */
 .content {
   margin: 0 auto;
-  padding-top: 100px;               /* clear topbar */
-  padding-left: 40px;               /* left margin */
-  padding-right: 60px;              /* right margin = left + 50% */
+  padding-top: 100px;          /* leave space for topbar */
+  padding-left: 30px;          /* smaller left margin */
+  padding-right: 45px;         /* right = left + 50% */
   max-width: 900px;
   box-sizing: border-box;
-  text-align: justify;              /* justify text */
+  text-align: justify;          /* justify text */
 }
 
 /* Align main name with second column */
@@ -51,7 +51,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 30px;
-  padding-left: 136px;  /* align with second column */
+  padding-left: 136px;         /* align with second column */
 }
 
 /* Headings alignment with second column */
