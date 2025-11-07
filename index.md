@@ -145,14 +145,59 @@ title: Home
     </div>
   </div>
 
+  <div class="two-column-2rows">
+    <div class="label">4.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Simple Characterization of Qualified Majority Voting Rules</b></span>
+        <span>available preprint</span>
+      </div>
+      <div class="second-row">
+        Héctor HERMIDA-RIVERA
+      </div>
+    </div>
+  </div>
+
+  <div class="two-column-2rows">
+    <div class="label">3.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Farsighted Stable Voting Rules</b></span>
+        <span>in progress</span>
+      </div>
+      <div class="second-row">
+        Héctor HERMIDA-RIVERA & Toygar T. KERMAN
+      </div>
+    </div>
+  </div>
+
+  <div class="two-column-2rows">
+    <div class="label">2.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>Liberalism, Fairness, & Equilibrium</b></span>
+        <span>in progress</span>
+      </div>
+      <div class="second-row">
+        Fatma ASLAN & Héctor HERMIDA-RIVERA
+      </div>
+    </div>
+  </div>
+
+  <div class="two-column-2rows">
+    <div class="label">1.</div>
+    <div class="value">
+      <div class="top-row">
+        <span><b>The Residual Claimant</b></span>
+        <span>in progress</span>
+      </div>
+      <div class="second-row">
+        Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE
+      </div>
+    </div>
+  </div>
+
 </div>
-
-
-Héctor HERMIDA-RIVERA. Self-Equivalent Voting Rules   •   Job Market Paper [available preprint]
-Héctor HERMIDA-RIVERA. A Simple Characterization of Qualified Majority Voting Rules [available preprint]
-Héctor HERMIDA-RIVERA & Toygar T. Kerman. Farsighted Stable Voting Rules [in progress]
-Fatma ASLAN & Héctor HERMIDA-RIVERA. Liberalism, Fairness, & Equilibrium [in progress]
-Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE. The Residual Claimant [in progress]
 
 ## Teaching
 <a id="teaching"></a>
