@@ -147,15 +147,15 @@ body {
 .two-column-3rows-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-top: 8px;
+  gap: 4px;          /* reduce to match visual rhythm */
+  margin-top: 8px;   /* consistent with others */
 }
 
 /* grid for date + right content */
 .two-column-3rows {
   display: grid;
   grid-template-columns: 120px 1fr;
-  gap: 6px 16px;
+  gap: 8px 16px;     /* match .two-column and .two-column-2rows */
   align-items: start;
 }
 
