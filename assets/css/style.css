@@ -12,27 +12,27 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #b0b0b0;
+  background: #333333; /* dark gray */
   padding: 0 15px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #222;
   z-index: 1000;
 }
 
 .topbar a {
   margin-left: 12px;
-  color: #00008B !important;
-  text-decoration: none;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: 1.1em;
+  color: #ffffff !important;  /* white text */
+  text-decoration: none;       /* no underline */
+  font-weight: bold;
+  text-transform: uppercase;   /* all caps */
+  letter-spacing: 0.5px;
 }
 
 .topbar a:hover {
-  color: #00008B !important;
+  color: #dddddd !important;
   text-decoration: none;
 }
 
