@@ -203,7 +203,7 @@ title: Home
         <span>in progress</span>
       </div>
       <div class="second-row">
-        Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE
+        Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>
       </div>
       <div class="second-row collapsible-content">
         <p><i>
@@ -313,7 +313,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Assistant Professor Ben McQUILLIN</b></span>
+        <span><b>Assistant Professor <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a></b></span>
         <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a> • <a href="tel:441603593895">+44 1603 593895</a></span>
       </div>
       <div class="second-row">
@@ -326,7 +326,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Professor Mich TVEDE</b></span>
+        <span><b>Professor <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a></b></span>
         <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a> • <a href="tel:441142223324">+44 1142 223324</a></span>
       </div>
       <div class="second-row">
