@@ -147,15 +147,15 @@ body {
 .two-column-3rows-container {
   display: flex;
   flex-direction: column;
-  gap: 4px;          /* reduce to match visual rhythm */
-  margin-top: 8px;   /* consistent with others */
+  gap: 8px;          /* same internal gap as .two-column-2rows-container */
+  margin-top: 40px;  /* same vertical distance after section titles */
 }
 
 /* grid for date + right content */
 .two-column-3rows {
   display: grid;
   grid-template-columns: 120px 1fr;
-  gap: 8px 16px;     /* match .two-column and .two-column-2rows */
+  gap: 8px 16px;     /* identical horizontal and vertical gap as other two-column layouts */
   align-items: start;
 }
 
@@ -175,7 +175,7 @@ body {
 .two-column-3rows .value {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 4px;          /* match text density of .two-column-2rows .value */
 }
 
 /* top-row: course (left) and university (right) */
