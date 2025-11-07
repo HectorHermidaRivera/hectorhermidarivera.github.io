@@ -274,6 +274,11 @@ is not rising the icon. try again
   margin-top: 8px;            /* small vertical spacing */
 }
 
+/* Hover effect: slightly enlarge */
+.icon-row a:hover {
+  transform: scale(1.2);
+}
+
 /* Mimic LaTeX microtype spacing */
 body {
   font-family: 'Merriweather', serif;
@@ -291,3 +296,6 @@ a {
   word-break: break-word;
   hyphens: auto;
 }
+
+
+
