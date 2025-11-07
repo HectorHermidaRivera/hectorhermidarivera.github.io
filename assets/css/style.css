@@ -5,7 +5,8 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Main content */.content {
+/* Main content */
+.content {
   margin: 0 auto;
   padding-top: 80px;
   margin-left: 150px;   /* increase left margin */
@@ -16,30 +17,30 @@ body {
   background-color: #f2f2f2;
   padding-bottom: 500px;
 }
-}
 
 /* Align main name with second column */
 .main-name {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: calc(150px + 36px); /* 150px = left margin, 36px = column offset */
+  padding-left: calc(150px + 36px); /* aligned with second column */
 }
 
+/* Title styling */
 .name-title {
-  font-size: 4.0em;          /* increase size */
+  font-size: 4.0em;
   font-family: 'Merriweather', serif;
-  font-weight: 400;          /* normal for “Héctor” */
+  font-weight: 400; /* normal for “Héctor” */
 }
 .name-title strong {
-  font-weight: 700;          /* bold “Hermida-Rivera” */
+  font-weight: 700; /* bold “Hermida-Rivera” */
 }
 
 /* Headings alignment with second column, all caps */
-.content h2, 
-.content h3, 
-.content h4, 
-.content h5, 
+.content h2,
+.content h3,
+.content h4,
+.content h5,
 .content h6 {
   margin-left: 0;
   padding-left: calc(150px + 36px);
@@ -142,7 +143,7 @@ body {
   color: #333;
 }
 
-/* Teaching entries: three-row layout with role (e.g., Teaching Assistant) */
+/* Teaching entries: three-row layout */
 .two-column-3rows-container {
   display: flex;
   flex-direction: column;
@@ -150,7 +151,7 @@ body {
   margin-top: 8px;
 }
 
-/* grid for left label (years) + right content */
+/* grid for date + right content */
 .two-column-3rows {
   display: grid;
   grid-template-columns: 120px 1fr;
@@ -158,7 +159,7 @@ body {
   align-items: start;
 }
 
-/* left label: years or role */
+/* left label: years */
 .two-column-3rows .label {
   text-align: right;
   font-weight: normal;
@@ -177,67 +178,66 @@ body {
   gap: 4px;
 }
 
-/* top-row: role (e.g., Teaching Assistant) */
-.two-column-3rows .value .role {
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-
-/* second-row: course (left) and university (right) */
+/* top-row: role (left), course (center), university (right) */
 .two-column-3rows .value .top-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 200px 1fr auto; /* role, course, university */
   align-items: baseline;
-  width: 100%;
+  gap: 20px;
 }
 
-/* left: course name */
-.two-column-3rows .value .top-row .course {
-  flex-grow: 1;
+.two-column-3rows .value .top-row .role {
   text-align: left;
+  font-weight: normal;
 }
 
-/* right: university name */
+.two-column-3rows .value .top-row .course {
+  text-align: left;
+  flex-grow: 1;
+}
+
 .two-column-3rows .value .top-row .institution {
   text-align: right;
   font-size: 0.8em; /* footnotesize */
-  flex-shrink: 0;
+  color: #333;
+}
+
+/* optional: smaller vertical gap for compactness */
+.two-column-3rows .value .second-row,
+.two-column-3rows .value .third-row {
+  margin: 0;
+  font-size: 1em;
   color: #333;
 }
 
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
-
 .ai-open-access::before {
   color: #556B2F; /* OliveGreen */
 }
 
 /* REDEFINITION OF BULLET SPACING */
-
 .bullet {
-  display: inline-block;       /* guarantee a rendering box */
-  vertical-align: baseline;    /* align with surrounding text baseline */
-  width: auto;                 /* ensure it doesn't collapse */
-  line-height: 1;              /* prevents extra internal leading */
-  pointer-events: none;        /* bullet is decorative, not interactive */
-}
-
-/* Render the glyph in the pseudo-element so CSS can control spacing */
-.bullet::before {
-  content: "\2022";            /* Unicode bullet (•) */
   display: inline-block;
-  margin: 0 0.5em;             /* horizontal space on both sides (adjust 0.5em as needed) */
-  color: inherit;              /* inherit parent color */
-  font-size: 1em;              /* same size as surrounding text */
+  vertical-align: baseline;
+  width: auto;
+  line-height: 1;
+  pointer-events: none;
+}
+.bullet::before {
+  content: "\2022";
+  display: inline-block;
+  margin: 0 0.5em;
+  color: inherit;
+  font-size: 1em;
   line-height: 1;
   vertical-align: baseline;
 }
 
 /* REDEFINITION OF PDF ICON */
-
 .fa-file-pdf {
-  font-size: 0.8em;     /* like \scalebox{0.8}{...} */
+  font-size: 0.8em;
   position: relative;
-  top: -2.50em;          /* like \raisebox{0pt}{...} */
+  top: -0.25em; /* correctly raises the icon */
 }
 
 /* Collapsible content */
@@ -262,7 +262,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #333333 !important; /* dark gray */
+  background: #333333 !important;
   padding: 0 12px !important;
   box-sizing: border-box;
   display: flex !important;
@@ -302,9 +302,8 @@ body {
 /* Smooth hover enlargement */
 .icon-row a {
   display: inline-block;
-  transition: transform 0.3s ease-in-out; /* smooth timing */
+  transition: transform 0.3s ease-in-out;
 }
-
 .icon-row a:hover {
   transform: scale(1.2);
 }
@@ -312,10 +311,10 @@ body {
 /* Mimic LaTeX microtype spacing */
 body {
   font-family: 'Merriweather', serif;
-  font-stretch: 95%;          /* horizontally compress font */
-  letter-spacing: -0.015em;   /* tighten space between letters */
-  word-spacing: -0.1em;      /* tighten space between words */
-  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1; /* advanced typography */
+  font-stretch: 95%;
+  letter-spacing: -0.015em;
+  word-spacing: -0.1em;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   text-rendering: optimizeLegibility;
 }
 
@@ -325,4 +324,39 @@ a {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
+}
+
+/* ---------- FINAL ALIGNMENT FIXES ---------- */
+:root {
+  --main-left: 150px;
+  --col-offset: 36px;
+  --second-col-offset: calc(var(--main-left) + var(--col-offset));
+}
+
+/* Force correct left alignment across elements */
+.content {
+  margin-left: var(--main-left) !important;
+}
+
+.main-name {
+  padding-left: var(--second-col-offset) !important;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  padding-left: var(--second-col-offset) !important;
+  margin-left: 0 !important;
+  text-align: left;
+}
+
+.icon-row {
+  margin-left: calc(var(--second-col-offset) + 2px) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left !important;
 }
