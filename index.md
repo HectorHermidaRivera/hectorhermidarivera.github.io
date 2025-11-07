@@ -209,17 +209,6 @@ title: Home
 <div class="two-column-2rows">
   <div class="label">5.</div>
   <div class="value">
-    <div class="top-row">
-      <span>Assistant Professor Ben McQuillin</span>
-      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
-    </div>
-    <div class="second-row">
-      University of East Anglia Doctoral thesis supervisor
-    </div>
-  </div>
-
-  <div class="label">5.</div>
-  <div class="value">
     <div class="fill-line">
       <span><b>Assistant Professor <span style="font-variant: small-caps;">Ben McQuillin</span></b></span>
       <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
@@ -229,22 +218,33 @@ title: Home
     </div>
   </div>
 
-  <div class="label">5.</div>
+  <div class="label">4.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Assistant Professor Ben McQuillin</span>
-      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+      <span><b>Professor Mich TVEDE</b></span>
+      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a></span>
     </div>
     <div class="second-row">
       University of East Anglia Doctoral thesis supervisor
     </div>
   </div>
 
-  <div class="label">5.</div>
+  <div class="label">3.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Assistant Professor Ben McQuillin</span>
-      <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
+      <span><b>Associate Professor Róbert SOMOGYI</b></span>
+      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a></span>
+    </div>
+    <div class="second-row">
+      University of East Anglia Doctoral thesis supervisor
+    </div>
+  </div>
+  
+  <div class="label">2.</div>
+  <div class="value">
+    <div class="fill-line">
+      <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
+      <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a></span>
     </div>
     <div class="second-row">
       University of East Anglia Doctoral thesis supervisor
