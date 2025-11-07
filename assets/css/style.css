@@ -2,7 +2,7 @@
 body {
   font-family: 'Merriweather', serif;
   margin: 0;
-  background-color: #f2f2f2; /* very light gray background for main body */
+  background-color: #f2f2f2;
 }
 
 /* Topbar */
@@ -12,72 +12,66 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #b0b0b0;       /* darker gray background for topbar */
-  padding: 0 15px;           /* smaller horizontal padding */
+  background: #b0b0b0;
+  padding: 0 15px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* links on the right */
+  justify-content: flex-end;
   border-bottom: 1px solid #999;
   z-index: 1000;
 }
 
 .topbar a {
-  margin-left: 12px;         /* smaller spacing between links */
-  color: #00008B !important; /* dark blue */
-  text-decoration: none;      /* remove underline */
-  font-variant: normal;
+  margin-left: 12px;
+  color: #00008B !important;
+  text-decoration: none;
   font-weight: normal;
   font-size: 1.1em;
 }
 
 .topbar a:hover {
-  color: #00008B !important; /* no change on hover */
-  text-decoration: none;      /* ensure underline stays removed */
+  color: #00008B !important;
+  text-decoration: none;
 }
 
 /* Main content */
 .content {
   margin: 0 auto;
-  padding-top: 80px;          /* leave space for topbar */
-  margin-left: 100px;         /* small left margin */
-  margin-right: 150px;        /* right = left + 50% */
-  max-width: 1500px;          /* optional */
+  padding-top: 80px;
+  margin-left: 100px;
+  margin-right: 150px;
+  max-width: 1000px;
   box-sizing: border-box;
-  text-align: justify;         /* justify text */
-  background-color: #f2f2f2;  /* very slight gray background */
-  padding-bottom: 100px;      /* vertical white space at bottom */
+  text-align: justify;
+  background-color: #f2f2f2;
+  padding-bottom: 100px;
 }
 
-/* Align main name with second column */
+/* Align main name */
 .main-name {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 30px;
-  padding-left: 136px;        /* align with second column */
+  padding-left: 136px;
 }
 
-/* Headings alignment with second column, all caps */
-.content h2, 
-.content h3, 
-.content h4, 
-.content h5, 
-.content h6 {
+/* Headings all caps */
+.content h2, .content h3, .content h4, .content h5, .content h6 {
   margin-left: 0;
   padding-left: 136px;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  text-transform: uppercase;  /* titles in all caps */
+  text-transform: uppercase;
 }
 
-/* Links in main content */
+/* Links */
 .content a {
   color: #00008B !important;
   text-decoration: none;
 }
 
 .content a:hover {
-  color: #00008B !important;
   text-decoration: underline;
 }
 
@@ -101,26 +95,10 @@ body {
 }
 
 .two-column .value a:hover {
-  color: #00008B !important;
   text-decoration: underline;
 }
 
-/* Fill-line for hfill effect */
-.fill-line {
-  display: flex;
-  justify-content: space-between;
-}
-
-.fill-line span {
-  white-space: nowrap;
-}
-
-.fill-line span:last-child {
-  font-size: 0.8em; /* footnotesize for right-aligned elements */
-  font-weight: normal;
-}
-
-/* Two-column layout with two rows in second column */
+/* Two-column with two rows */
 .two-column-2rows-container {
   display: flex;
   flex-direction: column;
@@ -130,7 +108,7 @@ body {
 
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 120px auto; /* matches two-column first column width */
+  grid-template-columns: 120px auto;
   gap: 8px 16px;
 }
 
@@ -153,13 +131,13 @@ body {
 }
 
 .two-column-2rows .value .top-row span:last-child {
-  font-size: 0.8em; /* footnotesize */
+  font-size: 0.8em;
   font-weight: normal;
 }
 
 .two-column-2rows .value .second-row {
   margin-top: 2px;
-  font-size: 1em; /* normal size */
+  font-size: 1em;
   color: #333;
 }
 
@@ -169,20 +147,20 @@ body {
 }
 
 .two-column-2rows a:hover {
-  color: #00008B !important;
   text-decoration: underline;
 }
 
-/* Collapsible sections */
+/* Collapsible content */
 .collapsible-content {
-  max-height: 0;          /* hidden initially */
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.35s ease;
   margin-top: 4px;
   padding-left: 10px;
   border-left: 2px solid #ccc;
 }
 
+/* Collapsible link */
 .collapsible-link {
   color: #00008B;
   text-decoration: underline;
