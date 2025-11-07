@@ -270,7 +270,7 @@ is not rising the icon. try again
   gap: 10px;                 /* spacing between icons */
   align-items: center;        /* vertical alignment */
   flex-wrap: wrap;            /* wrap on small screens */
-  margin-left: 136px;         /* match second column offset */
+  margin-left: 140px;         /* match second column offset */
   margin-top: 8px;            /* small vertical spacing */
 }
 
