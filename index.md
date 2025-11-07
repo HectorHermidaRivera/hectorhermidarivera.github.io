@@ -162,7 +162,7 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="top-row">
-      <span><a class="collapsible-link">Farsighted Stable Voting Rules</a></span>
+      <span><a class="collapsible-link"><b>Farsighted Stable Voting Rules</b></a></span>
       <span>in progress</span>
     </div>
     <div class="second-row">
@@ -180,7 +180,7 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="top-row">
-      <span><a class="collapsible-link">Liberalism, Fairness, & Equilibrium</a></span>
+      <span><a class="collapsible-link"><b>Liberalism, Fairness, & Equilibrium</b></a></span>
       <span>in progress</span>
     </div>
     <div class="second-row">
@@ -198,7 +198,7 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="top-row">
-      <span><a class="collapsible-link">The Residual Claimant</a></span>
+      <span><a class="collapsible-link"><b>The Residual Claimant</b></a></span>
       <span>in progress</span>
     </div>
     <div class="second-row">
