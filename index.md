@@ -93,8 +93,18 @@ title: Home
 <a id="publications"></a>
 
 <div class="two-column">
-    <div class="label"></div>
-    <div class="value">Under construction</div>
+  <div class="label">4.</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). Minimal Stable Voting Rules. Games and Economic Behavior 153, pp. 541 - 553 [pdf | Open Access]</div>
+
+  <div class="label">3.</div>
+  <div class="value"><b>Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). Binary Self-Selective Voting Rules. Journal of Public Economic Theory 27.3, pp. 1 - 7 [pdf | Open Access]</div>
+
+  <div class="label">2.</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). The Implementability of Liberalism. Public Choice 203, pp. 493 - 501 [pdf | Open Access]</div>
+  
+  <div class="label">1.</div>
+  <div class="value"><b>Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). Government Ideology and Bailout Conditionality in the European Financial Crisis. International Interactions 48.5, pp.  897 - 935 [pdf | Open Access]
+</div>
 </div>
 
 ## Job Market Paper
