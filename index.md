@@ -40,7 +40,7 @@ title: Home
 </div>
 
 ## About
-<a id="ABOUT"></a>
+<a id="ABOUT ME"></a>
 
 <div class="two-column">
     <div class="label"></div>
