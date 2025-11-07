@@ -10,7 +10,9 @@ I am a microeconomic theorist in the 2025/26 JOB MARKET, looking for a job that 
 ## Contact
 <a id="contact"></a>
 hector.hermida.rivera@gtk.bme.hu
+
 www.hectorhermidarivera.com
+
 QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary
 
 ## Employment
