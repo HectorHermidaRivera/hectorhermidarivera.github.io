@@ -5,10 +5,14 @@
   <title>{{ page.title }}</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <div class="sidebar">
-    <div class="name">Héctor Hermida-Rivera</div>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
     <a href="#employment">Employment</a>
@@ -26,6 +30,7 @@
   </div>
 
   <div class="content">
+    <h1 class="main-name">Héctor Hermida-Rivera</h1>
     {{ content }}
   </div>
 </body>
