@@ -262,12 +262,17 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-3rows">
+  <div class="two-column-2rows">
     <div class="label">2024 - 26</div>
     <div class="value">
       <div class="top-row">
         <div class="course">Bargaining Theory<span class="bullet"></span>Graduate<span class="bullet"></span>6h</div>
         <div class="institution">University of Technology & Economics</div>
+        <div class="second-row collapsible-content">
+        <p><i>
+        This paper makes sense of non-cooperative games within the Nash (1953) program in which players make utility offers as implementing mechanisms. We construct an environment in which the feasible outcome set is the set of all feasible transfers among members of the same coalition. Since this outcome set is independent of the underlying characteristic function, we then rely on the well-known implementation theory results to check if the main cooperative solution concepts are implementable in Nash, virtual Nash, undominated, and subgame perfect equilibrium. The paper obtains mostly positive results, thus setting possibility frontiers for the implementability of cooperative solutions.
+        </i></p>
+      </div>
       </div>
     </div>
   </div>
