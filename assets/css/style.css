@@ -44,13 +44,13 @@ body {
 .content h4, 
 .content h5, 
 .content h6 {
-  margin-left: 0;       /* remove default left margin */
-  padding-left: 136px;  /* left column width (120px) + gap (16px) */
+  margin-left: 0;
+  padding-left: 136px; /* left column width + gap */
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* Links in main content, always dark blue */
+/* Links always dark blue */
 .content a {
   color: #00008B !important;
   text-decoration: none;
@@ -67,7 +67,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Two-column layout */
+/* Standard two-column layout */
 .two-column {
   display: grid;
   grid-template-columns: 120px auto;
@@ -76,13 +76,11 @@ body {
   margin-top: 10px;
 }
 
-/* First column: non-bold, right aligned */
 .two-column .label {
   font-weight: normal;
   text-align: right;
 }
 
-/* Second column: normal flow, left aligned */
 .two-column .value a {
   color: #00008B !important;
   text-decoration: none;
@@ -93,7 +91,6 @@ body {
   text-decoration: underline;
 }
 
-/* Fill-line for \hfill effect */
 .fill-line {
   display: flex;
   justify-content: space-between;
@@ -103,43 +100,30 @@ body {
   white-space: nowrap;
 }
 
-/* Right-aligned element smaller (footnotesize) */
 .fill-line span:last-child {
-  font-size: 0.8em;
+  font-size: 0.8em; /* footnotesize */
   font-weight: normal;
-}
-
-/* General link override for safety */
-a {
-  color: #00008B !important;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #00008B !important;
-  text-decoration: underline;
 }
 
 /* Two-column layout with an extra row in the second column */
 .two-column-2rows-container {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* space between entries */
+  gap: 8px;
   margin-top: 8px;
 }
 
-/* Each entry in two-column-2rows */
+/* Each entry */
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 120px auto; /* MATCHES two-column first column width */
-  align-items: start;
-  gap: 8px 16px; /* vertical + horizontal gaps */
+  grid-template-columns: 120px auto; /* same as two-column */
+  gap: 8px 16px;
 }
 
 /* First column: right-aligned, non-bold */
 .two-column-2rows .label {
-  font-weight: normal;
   text-align: right;
+  font-weight: normal;
 }
 
 /* Second column container */
@@ -148,28 +132,29 @@ a:hover {
   flex-direction: column;
 }
 
-/* Top row: left + right aligned items */
+/* Top row: horizontal next to number */
 .two-column-2rows .value .top-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  width: 100%;
   white-space: nowrap;
 }
 
-/* Right-aligned top row: footnotesize */
+/* Right-aligned email/phone in top row: footnotesize */
 .two-column-2rows .value .top-row span:last-child {
   font-size: 0.8em;
   font-weight: normal;
 }
 
-/* Second row: full width below top row, normal size */
+/* Second row below top row */
 .two-column-2rows .value .second-row {
   margin-top: 2px;
   font-size: 1em;
   color: #333;
 }
 
-/* Links in second column always dark blue */
+/* Links always dark blue */
 .two-column-2rows a {
   color: #00008B !important;
   text-decoration: none;
