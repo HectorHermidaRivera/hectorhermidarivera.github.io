@@ -80,13 +80,13 @@ title: Home
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium) <b>Mathematica</b> (medium) <b>STATA</b> (medium) <b>R</b> (low)</div>
+  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium) • <b>Mathematica</b> (medium) • <b>STATA</b> (medium) • <b>R</b> (low)</div>
 
   <div class="label">Research</div>
-  <div class="value"><b>Social Choice</b> <b>Mechanism Design</b> <b>Game Theory</b> <b>Political Economy</b></div>
+  <div class="value"><b>Social Choice</b> • <b>Mechanism Design</b> • <b>Game Theory</b> • <b>Political Economy</b></div>
 
   <div class="label">Languages</div>
-  <div class="value"><b>English</b> (fluent) <b>Spanish</b> (native) <b>Catalan</b> (native)</div>
+  <div class="value"><b>English</b> (fluent) • <b>Spanish</b> (native) • <b>Catalan</b> (native)</div>
 </div>
 
 ## Publications
@@ -94,16 +94,16 @@ title: Home
 
 <div class="two-column">
   <div class="label">4.</div>
-  <div class="value">Héctor HERMIDA-RIVERA (2025). Minimal Stable Voting Rules. <b>Games and Economic Behavior</b> 153, pp. 541 - 553 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). <i>Minimal Stable Voting Rules</i>. <b>Games and Economic Behavior</b> 153, pp. 541 - 553 [pdf | Open Access]</div>
 
   <div class="label">3.</div>
-  <div class="value">Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). <b>Binary Self-Selective Voting Rules. Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA & Toygar T. KERMAN (2025). <i>Binary Self-Selective Voting Rules</i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1 - 7 [pdf | Open Access]</div>
 
   <div class="label">2.</div>
-  <div class="value">Héctor HERMIDA-RIVERA (2025). The Implementability of Liberalism. <b>Public Choice</b> 203, pp. 493 - 501 [pdf | Open Access]</div>
+  <div class="value">Héctor HERMIDA-RIVERA (2025). <i>The Implementability of Liberalism</i>. <b>Public Choice</b> 203, pp. 493 - 501 [pdf | Open Access]</div>
   
   <div class="label">1.</div>
-  <div class="value">Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). Government Ideology and Bailout Conditionality in the European Financial Crisis. <b>International Interactions</b> 48.5, pp.  897 - 935 [pdf | Open Access]</div>
+  <div class="value">Federica GENOVESE & Héctor HERMIDA-RIVERA (2022). <i>Government Ideology and Bailout Conditionality in the European Financial Crisis</i>. <b>International Interactions</b> 48.5, pp.  897 - 935 [pdf | Open Access]</div>
 </div>
 
 ## Job Market Paper
@@ -229,7 +229,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
         <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a><a href="tel:"></a></span>
       </div>
       <div class="second-row">
-        University of East Anglia Doctoral thesis supervisor
+        University of East Anglia • Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -242,7 +242,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
         <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><a href="tel:"></a></span>
       </div>
       <div class="second-row">
-        University of East Anglia Doctoral thesis supervisor
+        University of East Anglia • Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -255,7 +255,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
         <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><a href="tel:"></a></span>
       </div>
       <div class="second-row">
-        University of East Anglia Doctoral thesis supervisor
+        University of East Anglia • Colleague
       </div>
     </div>
   </div>
@@ -268,7 +268,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
         <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><a href="tel:"></a></span>
       </div>
       <div class="second-row">
-        University of East Anglia Doctoral thesis supervisor
+        University of East Anglia • Master thesis supervisor
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
         <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><a href="tel:"></a></span>
       </div>
       <div class="second-row">
-        Corvinus University of Budapest Coauthor
+        Corvinus University of Budapest • Coauthor
       </div>
     </div>
   </div>
