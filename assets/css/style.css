@@ -279,11 +279,16 @@ is not rising the icon. try again
   gap: 10px;                 /* spacing between icons */
   align-items: center;        /* vertical alignment */
   flex-wrap: wrap;            /* wrap on small screens */
-  margin-left: 140px;         /* match second column offset */
+  margin-left: 138px;         /* match second column offset */
   margin-top: 8px;            /* small vertical spacing */
 }
 
-/* Hover effect: slightly enlarge */
+/* Smooth hover enlargement */
+.icon-row a {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; /* smooth timing */
+}
+
 .icon-row a:hover {
   transform: scale(1.2);
 }
