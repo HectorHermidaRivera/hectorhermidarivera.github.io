@@ -50,7 +50,7 @@ body {
 }
 
 .two-column .label {
-  font-weight: bold;
+  font-weight: normal; /* non-bold */
   text-align: right;
 }
 
@@ -79,4 +79,8 @@ body {
 
 .fill-line span {
   white-space: nowrap;
+}
+
+.fill-line span:last-child {
+  font-size: 0.8em; /* footnote size for right-aligned text */
 }
