@@ -279,7 +279,7 @@ body {
   font-family: 'Merriweather', serif;
   font-stretch: 95%;
   letter-spacing: -0.015em;
-  word-spacing: -0.1em;
+  word-spacing: -0.05em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   text-rendering: optimizeLegibility;
 }
