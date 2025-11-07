@@ -22,7 +22,7 @@ body {
 .main-name {
   font-size: 2em;
   font-weight: bold;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
   padding-left: 136px;
 }
 
@@ -280,7 +280,7 @@ is not rising the icon. try again
   align-items: center;        /* vertical alignment */
   flex-wrap: wrap;            /* wrap on small screens */
   margin-left: 138px;         /* match second column offset */
-  margin-top: 8px;            /* small vertical spacing */
+  margin-top: -10px;            /* small vertical spacing */
 }
 
 /* Smooth hover enlargement */
