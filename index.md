@@ -266,7 +266,10 @@ title: Home
   <div class="label">2024–26</div>
   <div class="value">
     <div class="top-row">
-      <div class="course collapsible-link">Bargaining Theory<span class="bullet"></span>Graduate<span class="bullet"></span>6h</div>
+      <div class="course">
+        <span class="collapsible-link">Bargaining Theory</span>
+        <span class="bullet"></span>Graduate<span class="bullet"></span>6h
+      </div>
       <div class="institution">University of Technology & Economics</div>
     </div>
     <div class="second-row collapsible-content">
