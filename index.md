@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## About
-<a id="about"></a>
+<a id="ABOUT"></a>
 
 <div class="two-column">
     <div class="label"></div>
@@ -12,7 +12,7 @@ title: Home
 </div>
 
 ## Contact
-<a id="contact"></a>
+<a id="CONTACT"></a>
 
 <div class="two-column">
   <div class="label">Email</div>
@@ -39,7 +39,7 @@ title: Home
 </div>
 
 ## Education
-<a id="education"></a>
+<a id="EDUCATION"></a>
 
 <div class="two-column">
   <div class="label">2019–24</div>
@@ -76,7 +76,7 @@ title: Home
 </div>
 
 ## Skills
-<a id="skills"></a>
+<a id="SKILLS"></a>
 
 <div class="two-column">
   <div class="label">Software</div>
@@ -90,7 +90,7 @@ title: Home
 </div>
 
 ## Publications
-<a id="publications"></a>
+<a id="PUBLICATIONS"></a>
 
 <div class="two-column">
   <div class="label">4.</div>
