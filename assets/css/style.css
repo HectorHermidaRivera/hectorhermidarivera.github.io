@@ -164,6 +164,13 @@ body {
   color: #333;
 }
 
+/* REDEFINITION OF OPEN ACCESS ICON COLOR */
+
+.ai-open-access {
+  color: #556B2F; /* OliveGreen */
+  font-size: 1.2em; /* optional size */
+}
+
 /* Collapsible content */
 .collapsible-content {
   max-height: 0;
