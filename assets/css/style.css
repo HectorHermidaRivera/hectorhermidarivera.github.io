@@ -263,6 +263,18 @@ body {
   cursor: pointer;       /* pointer to show it's clickable */
 }
 
+/* Collapsible course title inside teaching entries: blue and normal weight */
+.two-column-3rows .course.collapsible-link {
+  color: #00008B;       /* same blue as other links */
+  font-weight: normal;   /* normal weight */
+  text-decoration: none; /* remove underline */
+  cursor: pointer;       /* pointer on hover */
+}
+
+.two-column-3rows .course.collapsible-link:hover {
+  text-decoration: underline; /* optional: underline on hover */
+}
+
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
