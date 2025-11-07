@@ -322,3 +322,14 @@ a:hover { z-index: 20; position: relative; }
 
 /* Accessibility: keep focus visible (outline only when keyboard-focused) */
 a:focus { outline: 3px solid rgba(0,0,0,0.08); outline-offset: 3px; }
+
+/* Mimic LaTeX microtype spacing */
+body {
+  font-family: 'Merriweather', serif;
+  font-stretch: 95%;          /* horizontally compress font */
+  letter-spacing: -0.015em;   /* tighten space between letters */
+  word-spacing: -0.05em;      /* tighten space between words */
+  line-height: 1.35;          /* keep readability reasonable */
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1; /* advanced typography */
+  text-rendering: optimizeLegibility;
+}
