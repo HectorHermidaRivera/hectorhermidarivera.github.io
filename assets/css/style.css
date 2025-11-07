@@ -128,54 +128,56 @@ a:hover {
   margin-top: 8px;
 }
 
-/* Each entry: number + right column */
-.two-column-2rows {
+/* Two-column layout with an extra row in the second column */
+.two-column-extra-row-container {
   display: flex;
-  align-items: flex-start;
-  gap: 16px; /* space between number and right column */
+  flex-direction: column;  /* stack multiple entries vertically */
+  gap: 8px;                /* space between entries */
+  margin-top: 10px;
 }
 
-/* Number column */
-.two-column-2rows .label {
-  width: 40px;       /* fixed width for numbers */
-  text-align: right; /* right-align number */
+/* Each entry: first column + second column */
+.two-column-extra-row {
+  display: grid;
+  grid-template-columns: 120px auto; /* first column fixed, second column flexible */
+  align-items: start;
+  gap: 8px 16px;                     /* vertical + horizontal gaps */
+}
+
+/* First column: right-aligned, non-bold */
+.two-column-extra-row .label {
   font-weight: normal;
-  line-height: 1.2em;
+  text-align: right;
 }
 
-/* Right column */
-.two-column-2rows .value {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+/* Second column */
+.two-column-extra-row .value {
+  display: grid;
+  grid-template-rows: auto auto; /* top row + second row */
 }
 
-/* Top row inside right column: left + right aligned */
-.two-column-2rows .value .top-row {
+/* Top row: left + right aligned items */
+.two-column-extra-row .value .top-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
-
-/* Preserve nowrap for top row spans */
-.two-column-2rows .value .top-row span {
   white-space: nowrap;
 }
 
-/* Second row inside right column */
-.two-column-2rows .value .second-row {
+/* Second row: below top row */
+.two-column-extra-row .value .second-row {
   margin-top: 2px;
-  font-size: 1em; /* normal size */
+  font-size: 1em; /* normal font size */
   color: #333;
 }
 
-/* All links dark blue */
-.two-column-2rows a {
+/* Links in second column always dark blue */
+.two-column-extra-row a {
   color: #00008B !important;
   text-decoration: none;
 }
 
-.two-column-2rows a:hover {
+.two-column-extra-row a:hover {
   color: #00008B !important;
   text-decoration: underline;
 }
