@@ -41,19 +41,27 @@
     <h1 class="main-name">Héctor Hermida-Rivera</h1>
     {{ content }}
   </div>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.collapsible-link').forEach(link => {
-    link.addEventListener('click', () => {
-      const content = link.closest('.value').querySelector('.collapsible-content');
-      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-        content.style.maxHeight = '0';
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
+  </div> <!-- end of .content -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('.collapsible-link');
+
+      links.forEach(link => {
+        link.addEventListener('click', function() {
+          const content = this.closest('.two-column-2rows .value').querySelector('.collapsible-content');
+          if (!content) return;
+
+          if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+            content.style.maxHeight = '0';
+          } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+          }
+        });
+      });
     });
-  });
-});
-</script>
+  </script>
+</body>
+</html>
 </body>
 </html>
