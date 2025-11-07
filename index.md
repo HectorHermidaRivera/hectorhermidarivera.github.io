@@ -169,7 +169,7 @@ title: Home
 <div class="two-column-2rows-container">
 
   <div class="two-column-2rows">
-    <div class="label">4.</div>
+    <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
         <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b></span>
