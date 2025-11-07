@@ -90,7 +90,10 @@ title: Home
 
 ## Publications
 <a id="publications"></a>
-Under construction
+
+<div class="two-column">
+    <div class="label"></div>
+    <div class="value">Under construction</div>
 
 ## Job Market Paper
 <a id="jobmarketpaper"></a>
@@ -107,11 +110,17 @@ Under construction
 
 ## Manuscripts
 <a id="manuscripts"></a>
-Under construction
+
+<div class="two-column">
+    <div class="label"></div>
+    <div class="value">Under construction</div>
 
 ## Teaching
 <a id="teaching"></a>
-Under construction
+
+<div class="two-column">
+    <div class="label"></div>
+    <div class="value">Under construction</div>
 
 ## Awards
 <a id="awards"></a>
