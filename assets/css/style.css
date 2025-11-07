@@ -172,3 +172,14 @@ body {
   color: #00008B !important;
   text-decoration: underline;
 }
+
+.collapsible-content {
+  display: none;      /* hidden by default */
+  margin-top: 4px;
+}
+
+.collapsible-link {
+  color: #00008B;
+  text-decoration: underline;
+  cursor: pointer;
+}
