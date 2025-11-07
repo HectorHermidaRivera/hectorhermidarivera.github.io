@@ -133,14 +133,14 @@ title: Home
   <div class="label">2019-22</div>
   <div class="value">
     <div class="fill-line">
-      <span>&pound61,650 Full Doctoral Scholarship</span>
+      <span><p>&pound61,650</p> Full Doctoral Scholarship</span>
       <span>University of East Anglia</span>
     </div>
   </div>
   <div class="label">2014-15</div>
   <div class="value">
     <div class="fill-line">
-      <span>&euro1,500 Undergraduate Academic Internship</span>
+      <span><p>&euro1,500</p> Undergraduate Academic Internship</span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
@@ -148,7 +148,7 @@ title: Home
   <div class="label">2011-15</div>
   <div class="value">
     <div class="fill-line">
-      <span>&euro1,365 Undergraduate First Class Honors Scholarship</span>
+      <span><p>&euro1,365</p> Undergraduate First Class Honors Scholarship</span>
       <span>Pomepu Fabra University</span>
     </div>
   </div>
