@@ -264,27 +264,24 @@ is not rising the icon. try again
   text-decoration: none !important;
 }
 
-/* Container for all social/research icons in a row */
+/* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
-  gap: 10px; /* horizontal spacing between icons */
-  align-items: center;
-  flex-wrap: wrap; /* wrap if screen is narrow */
+  gap: 10px;                 /* spacing between icons */
+  align-items: center;        /* vertical alignment */
+  flex-wrap: wrap;            /* wrap on small screens */
+  margin-left: 136px;         /* match second column offset */
+  margin-top: 8px;            /* small vertical spacing */
 }
 
 /* All links in the icon row */
 .icon-row a {
-  text-decoration: none;       /* remove underline */
-  transition: transform 0.2s ease; /* smooth scaling on hover */
-  color: inherit;              /* keep original icon color */
+  text-decoration: none;      
+  transition: transform 0.2s ease; /* smooth hover effect */
+  color: inherit;             
 }
 
 /* Hover effect: slightly enlarge */
 .icon-row a:hover {
   transform: scale(1.2);
-}
-
-/* Specific Academicon color if needed */
-.ai-open-access::before {
-  color: #556B2F; /* OliveGreen */
 }
