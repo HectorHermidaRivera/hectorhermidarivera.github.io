@@ -116,7 +116,7 @@ title: Home
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium)<span class="bullet"></span><b>Mathematica</b> (medium)<span class="bullet"></span><b>STATA</b> (medium)<span class="bullet"></span><b>R</b> (low)</div>
+  <div class="value"><b>LaTeX</b> (high)<span class="bullet"></span><b>Excel</b> (medium)<span class="bullet"></span><b>Mathematica</b> (medium)<span class="bullet"></span><b>STATA</b> (medium)<span class="bullet"></span><b>R</b> (low)</div>
 
   <div class="label">Research</div>
   <div class="value"><b>Social Choice</b><span class="bullet"></span><b>Mechanism Design</b><span class="bullet"></span><b>Game Theory</b><span class="bullet"></span><b>Political Economy</b></div>
