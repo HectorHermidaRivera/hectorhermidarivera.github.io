@@ -23,7 +23,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: 136px;
+  padding-left: calc(150px + 36px); /* 150px = left margin, 36px = column offset */
 }
 
 .name-title {
@@ -42,7 +42,7 @@ body {
 .content h5, 
 .content h6 {
   margin-left: 0;
-  padding-left: 136px;
+  padding-left: calc(150px + 36px);
   margin-top: 1.5em;
   margin-bottom: 0em;
   text-transform: uppercase;
@@ -242,8 +242,6 @@ body {
   top: -2.50em;          /* like \raisebox{0pt}{...} */
 }
 
-is not rising the icon. try again
-
 /* Collapsible content */
 .collapsible-content {
   max-height: 0;
@@ -296,11 +294,11 @@ is not rising the icon. try again
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
-  gap: 10px;                 /* spacing between icons */
-  align-items: center;        /* vertical alignment */
-  flex-wrap: wrap;            /* wrap on small screens */
-  margin-left: 138px;         /* match second column offset */
-  margin-top: -10px;            /* small vertical spacing */
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: calc(150px + 38px);
+  margin-top: -10px;
 }
 
 /* Smooth hover enlargement */
@@ -330,6 +328,3 @@ a {
   word-break: break-word;
   hyphens: auto;
 }
-
-
-
