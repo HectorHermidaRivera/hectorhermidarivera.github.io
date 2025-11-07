@@ -4,60 +4,117 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
+  <!-- Fonts & icons -->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+  <!-- Main stylesheet (your project file) -->
   <link rel="stylesheet" href="/assets/css/style.css">
 
+  <!-- Small inline style that must load last to override other rules -->
   <style>
-    html {
-      scroll-behavior: smooth;
+    /* Strong, last-loaded topbar rules to ensure they apply */
+    .topbar {
+      width: 100%;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #333333 !important; /* dark gray */
+      padding: 0 12px !important;
+      box-sizing: border-box;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-end !important;
+      border-bottom: 1px solid #222 !important;
+      z-index: 10000 !important;
     }
+
+    /* nav anchor rules: no underline, uppercase, visible */
+    .topbar nav a {
+      margin-left: 14px !important;
+      color: #ffffff !important;
+      text-decoration: none !important;
+      font-weight: 600 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.4px !important;
+      display: inline-block !important;
+    }
+
+    .topbar nav a:hover {
+      color: #dddddd !important;
+      text-decoration: none !important;
+    }
+
+    /* Academicons uses ::before for glyph; ensure color class works */
+    .ai-open-access::before { color: #556B2F; }
+
+    /* Ensure bullet pseudo-element always renders */
+    .bullet { display:inline-block; vertical-align:middle; }
+    .bullet::before { content:"•"; margin: 0 0.4em; display:inline-block; color: inherit; }
+
+    /* Small PDF icon tweak (like your LaTeX macro) */
+    .fa-file-pdf { font-size: 0.8em; position: relative; top: 0; }
+
+    /* Collapsible defaults (keeps in one place if not defined in style.css) */
+    .collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; margin-top:4px; padding-left:10px; }
+    .collapsible-link { color: #00008B; text-decoration: underline; cursor: pointer; }
+  </style>
+
+  <style>
+    html { scroll-behavior: smooth; }
   </style>
 </head>
 <body>
-  <div class="sidebar">
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#employment">Employment</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#publications">Publications</a>
-    <a href="#jobmarketpaper">Job Market Paper</a>
-    <a href="#manuscripts">Manuscripts</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#awards">Awards</a>
-    <a href="#training">Training</a>
-    <a href="#presentations">Presentations</a>
-    <a href="#refereeing">Refereeing</a>
-    <a href="#references">References</a>
+  <!-- Topbar (replace previous sidebar) -->
+  <div class="topbar">
+    <nav>
+      <a href="#ABOUT">About</a>
+      <a href="#CONTACT">Contact</a>
+      <a href="#EMPLOYMENT">Employment</a>
+      <a href="#EDUCATION">Education</a>
+      <a href="#SKILLS">Skills</a>
+      <a href="#PUBLICATIONS">Publications</a>
+      <a href="#JOBMARKETPAPER">Job Market Paper</a>
+      <a href="#MANUSCRIPTS">Manuscripts</a>
+      <a href="#TEACHING">Teaching</a>
+      <a href="#AWARDS">Awards</a>
+      <a href="#TRAINING">Training</a>
+      <a href="#PRESENTATIONS">Presentations</a>
+      <a href="#REFEREEING">Refereeing</a>
+      <a href="#REFERENCES">References</a>
+    </nav>
   </div>
 
+  <!-- Main content -->
   <div class="content">
     <h1 class="main-name">Héctor Hermida-Rivera</h1>
     {{ content }}
   </div>
-  </div> <!-- end of .content -->
 
+  <!-- Collapsible JS: runs after DOM is ready and uses max-height for smooth animation -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const links = document.querySelectorAll('.collapsible-link');
-
-      links.forEach(link => {
-        link.addEventListener('click', function() {
-          const content = this.closest('.two-column-2rows .value').querySelector('.collapsible-content');
+      // Attach handlers to all collapsible links
+      document.querySelectorAll('.collapsible-link').forEach(link => {
+        link.addEventListener('click', function(event) {
+          // Prefer to find the nearest .value container (your structure)
+          const value = this.closest('.value');
+          if (!value) return;
+          const content = value.querySelector('.collapsible-content');
           if (!content) return;
 
+          // Toggle max-height for smooth expand/collapse
           if (content.style.maxHeight && content.style.maxHeight !== '0px') {
             content.style.maxHeight = '0';
           } else {
+            // set to scrollHeight to expand smoothly
             content.style.maxHeight = content.scrollHeight + 'px';
           }
         });
       });
     });
   </script>
-</body>
-</html>
 </body>
 </html>
