@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar a:hover {
-  color: #00008B; /* darker hover */
+  color: #00008B; /* slightly darker on hover */
   text-decoration: underline;
 }
 
@@ -38,18 +38,19 @@ body {
   padding: 20px;
 }
 
-/* Align headings with second column of the grid */
+/* Wrap headings to align with second column */
 .content h2, 
 .content h3, 
 .content h4, 
 .content h5, 
 .content h6 {
-  margin-left: 136px; /* left column width + gap */
+  margin-left: 0;       /* remove default left margin */
+  padding-left: 136px;  /* left column width (120px) + gap (16px) */
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* Links in main content, force LaTeX Blue */
+/* Links in main content, always LaTeX Blue */
 .content a {
   color: #0000CD !important;
   text-decoration: none;
@@ -92,7 +93,7 @@ body {
   text-decoration: underline;
 }
 
-/* Fill-line for \hfill-like spacing */
+/* Fill-line for \hfill effect */
 .fill-line {
   display: flex;
   justify-content: space-between;
