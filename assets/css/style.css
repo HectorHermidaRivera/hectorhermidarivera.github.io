@@ -43,8 +43,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: calc(150px + 36px); /* keep aligned with second column */
-  margin-top: 0;       /* no extra top margin */
+  padding-left: 136px; /* keep aligned with second column */
   margin-bottom: 8px;  /* same as row gap in two-column layouts */
   text-transform: uppercase;
 }
