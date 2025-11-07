@@ -166,5 +166,15 @@
       });
     });
   </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all links except those inside the sidebar
+  const links = document.querySelectorAll('a:not(.topbar a)');
+  links.forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+});
+</script>
 </body>
 </html>
