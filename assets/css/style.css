@@ -105,7 +105,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .two-column-2rows {
@@ -138,7 +138,7 @@ body {
 }
 
 .two-column-2rows .value .second-row {
-  margin-top: 2px;
+  margin-top: 0px;
   font-size: 1em;
   color: #333;
 }
@@ -148,7 +148,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;          /* same internal gap as .two-column-2rows-container */
-  margin-top: 40px;  /* same vertical distance after section titles */
+  margin-top: 0px;
 }
 
 /* grid for date + right content */
