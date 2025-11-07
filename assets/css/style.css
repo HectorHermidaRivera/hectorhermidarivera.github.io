@@ -211,8 +211,9 @@ body {
 /* REDEFINITION OF PDF ICON */
 .fa-file-pdf {
   font-size: 0.8em;
+  vertical-align: middle; /* or top */
   position: relative;
-  top: -5em;
+  top: -0.3em;  /* adjust this value */
 }
 
 /* Collapsible content */
