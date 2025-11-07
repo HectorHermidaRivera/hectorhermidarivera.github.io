@@ -88,23 +88,28 @@ I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a jo
 
 ## Publications
 <a id="publications"></a>
-hector.hermida.rivera@gtk.bme.hu
+Under construction
 
 ## Job Market Paper
 <a id="jobmarketpaper"></a>
-hector.hermida.rivera@gtk.bme.hu
+<div class="two-column">
+  <div class="label">Title</div>
+  <div class="value">Self-Equivalent Voting Rules</div>
+
+  <div class="label">Author</div>
+  <div class="value">Héctor Hermida-Rivera</div>
+
+  <div class="label">Abstract</div>
+  <div class="value">In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</div>
+</div>
 
 ## Manuscripts
 <a id="manuscripts"></a>
-My papers and projects.
-
-## Manuscripts
-<a id="manuscripts"></a>
-My papers and projects.
+Under construction
 
 ## Teaching
 <a id="teaching"></a>
-My papers and projects.
+Under construction
 
 ## Awards
 <a id="awards"></a>
