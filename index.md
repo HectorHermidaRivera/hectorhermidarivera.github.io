@@ -202,7 +202,7 @@ title: Home
         <span>in progress</span>
       </div>
       <div class="second-row">
-        Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>
+        Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a>
       </div>
       <div class="second-row collapsible-content">
         <p><i>
