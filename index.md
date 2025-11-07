@@ -157,7 +157,7 @@ title: Home
 <a id="jobmarketpaper"></a>
 <div class="two-column">
   <div class="label">Title</div>
-  <div class="value"><b>Self-Equivalent Voting Rules</b></div>
+  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view"> Self-Equivalent Voting Rules</a></b></div>
 
   <div class="label">Author</div>
   <div class="value">Héctor Hermida-Rivera</div>
