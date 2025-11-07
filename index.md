@@ -174,7 +174,10 @@ title: Home
     <div class="top-row">
       <span>
         <b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b>
-        <span><span style="margin: 0 4px;">•</span>Job Market Paper</span>
+        <span>
+          <span style="margin: 0 4px;">•</span>
+          <span style="font-size: 1em; font-weight: normal;">Job Market Paper</span>
+        </span>
       </span>
       <span>
         <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a>
