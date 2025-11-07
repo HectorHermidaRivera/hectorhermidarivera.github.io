@@ -80,13 +80,13 @@ title: Home
 
 <div class="two-column">
   <div class="label">Software</div>
-  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium) • <b>Mathematica</b> (medium) • <b>STATA</b> (medium) • <b>R</b> (low)</div>
+  <div class="value"><b>LaTeX</b> (high) <b>Excel</b> (medium)    •    <b>Mathematica</b> (medium)    •    <b>STATA</b> (medium)    •    <b>R</b> (low)</div>
 
   <div class="label">Research</div>
-  <div class="value"><b>Social Choice</b> • <b>Mechanism Design</b> • <b>Game Theory</b> • <b>Political Economy</b></div>
+  <div class="value"><b>Social Choice</b>    •    <b>Mechanism Design</b>    •    <b>Game Theory</b>    •    <b>Political Economy</b></div>
 
   <div class="label">Languages</div>
-  <div class="value"><b>English</b> (fluent) • <b>Spanish</b> (native) • <b>Catalan</b> (native)</div>
+  <div class="value"><b>English</b> (fluent)    •    <b>Spanish</b> (native)    •    <b>Catalan</b> (native)</div>
 </div>
 
 ## Publications
@@ -136,7 +136,7 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b> • Job Market Paper</span>
+        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b>    •    Job Market Paper</span>
         <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
@@ -283,11 +283,11 @@ title: Home
 
 <div class="two-column">
   <div class="label"><b>Conferences</b></div>
-  <div class="value">Coalition Theory Network Workshop (×3) • Conference on Economic Design (×3) • Conference on Mechanism & Institution Design (×3) • European Meeting on Game Theory (×4) • Game Theory & Applications International Conference (×1) • Lisbon Meetings in Game Theory & Applications (×1) • Political Economy of International Organisations Conference (×1) • Stony Brook International
-Conference on Game Theory (×1) • World Congress of the Game Theory Society (×1)</div>
+  <div class="value">Coalition Theory Network Workshop (×3)    •    Conference on Economic Design (×3)    •    Conference on Mechanism & Institution Design (×3)    •    European Meeting on Game Theory (×4)    •    Game Theory & Applications International Conference (×1)    •    Lisbon Meetings in Game Theory & Applications (×1)    •    Political Economy of International Organisations Conference (×1)    •    Stony Brook International
+Conference on Game Theory (×1)    •    World Congress of the Game Theory Society (×1)</div>
 
   <div class="label"><b>Seminars</b></div>
-  <div class="value">Budapest University of Technology & Economics (×2) • Centre for Economic & Regional Studies (×1) • Corvinus University of Budapest (×2) • University of Barcelona (×1) • University of East Anglia (×3) • University of Granada (×1) • University of Liverpool (×2) • University of Rovira i Virgili (×1) • University of Vienna (×1)</div>
+  <div class="value">Budapest University of Technology & Economics (×2)    •    Centre for Economic & Regional Studies (×1)    •    Corvinus University of Budapest (×2)    •    University of Barcelona (×1)    •    University of East Anglia (×3)    •    University of Granada (×1)    •    University of Liverpool (×2)    •    University of Rovira i Virgili (×1)    •    University of Vienna (×1)</div>
 </div>
 
 ## Refereeing
@@ -313,10 +313,10 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a></b></span>
-        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a> • <a href="tel:441603593895">+44 1603 593895</a></span>
+        <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a>    •    <a href="tel:441603593895">+44 1603 593895</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia • Doctoral thesis supervisor
+        University of East Anglia    •    Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -326,10 +326,10 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Professor <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a></b></span>
-        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a> • <a href="tel:441142223324">+44 1142 223324</a></span>
+        <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a>    •    <a href="tel:441142223324">+44 1142 223324</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia • Doctoral thesis supervisor
+        University of East Anglia    •    Doctoral thesis supervisor
       </div>
     </div>
   </div>
@@ -339,10 +339,10 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Associate Professor <a href="https://sites.google.com/site/robertsomogyi/">Róbert SOMOGYI</a></b></span>
-        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a> • <a href="tel:3614632342">+36 1 463 2342</a></span>
+        <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a>    •    <a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia • Colleague
+        University of East Anglia    •    Colleague
       </div>
     </div>
   </div>
@@ -352,10 +352,10 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Professor <a href="https://sites.google.com/view/antoniomiralles">Antonio MIRALLES ASENSIO</a></b></span>
-        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a> • <a href="tel:390906766179">+39 090 676 6179</a></span>
+        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a>    •    <a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
-        University of East Anglia • Master thesis supervisor
+        University of East Anglia    •    Master thesis supervisor
       </div>
     </div>
   </div>
@@ -365,10 +365,10 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="value">
       <div class="top-row">
         <span><b>Assistant Professor <a href="https://sites.google.com/view/ttkerman/">Toygar T. Kerman</a></b></span>
-        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a> • <a href="tel:3614825155">+36 1 482 5155</a></span>
+        <span><a href="mailto:toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a>    •    <a href="tel:3614825155">+36 1 482 5155</a></span>
       </div>
       <div class="second-row">
-        Corvinus University of Budapest • Coauthor
+        Corvinus University of Budapest    •    Coauthor
       </div>
     </div>
   </div>
