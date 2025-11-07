@@ -263,7 +263,7 @@ title: Home
   </div>
 
 <div class="two-column-3rows">
-  <div class="label">2024–26</div>
+  <div class="label">2024 - 26</div>
   <div class="value">
     <div class="top-row">
       <div class="course">
@@ -274,7 +274,7 @@ title: Home
     </div>
     <div class="second-row collapsible-content">
       <p><i>
-        This paper makes sense of non-cooperative games within the Nash (1953) program in which players make utility offers as implementing mechanisms. We construct an environment in which the feasible outcome set is the set of all feasible transfers among members of the same coalition. Since this outcome set is independent of the underlying characteristic function, we then rely on the well-known implementation theory results to check if the main cooperative solution concepts are implementable in Nash, virtual Nash, undominated, and subgame perfect equilibrium. The paper obtains mostly positive results, thus setting possibility frontiers for the implementability of cooperative solutions.
+        Slides<span class="bullet"></span>Papers<span class="bullet"></span>William Spaniel's Bargaining 101 (YouTube)
       </i></p>
     </div>
   </div>
@@ -287,25 +287,41 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-3rows">
-    <div class="label">2022 - 23</div>
-    <div class="value">
-      <div class="top-row">
-        <div class="course">Intermediate Microeconomics<span class="bullet"></span>Undergraduate<span class="bullet"></span>20h</div>
-        <div class="institution">University of East Anglia</div>
+<div class="two-column-3rows">
+  <div class="label">2022 - 23</div>
+  <div class="value">
+    <div class="top-row">
+      <div class="course">
+        <span class="collapsible-link">Intermediate Microeconomics</span>
+        <span class="bullet"></span>Undergraduate<span class="bullet"></span>20h
       </div>
+      <div class="institution">University of East Anglia</div>
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>
+        Not available
+      </i></p>
     </div>
   </div>
+</div>
 
-  <div class="two-column-3rows">
-    <div class="label">2017 - 18</div>
-    <div class="value">
-      <div class="top-row">
-        <div class="course">Game Theory<span class="bullet"></span>Graduate<span class="bullet"></span>15h</div>
-        <div class="institution">Autonomous University of Barcelona</div>
+<div class="two-column-3rows">
+  <div class="label">2017 - 18</div>
+  <div class="value">
+    <div class="top-row">
+      <div class="course">
+        <span class="collapsible-link">Game Theorys</span>
+        <span class="bullet"></span>Graduate<span class="bullet"></span>15h
       </div>
+      <div class="institution">Autonomous University of Barcelona</div>
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>
+        Not available
+      </i></p>
     </div>
   </div>
+</div>
 
 </div>
 
