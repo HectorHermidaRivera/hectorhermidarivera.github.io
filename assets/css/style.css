@@ -212,7 +212,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -3px;              /* small upward shift */
+  top: -5px;              /* small upward shift */
   vertical-align: middle;  /* align with text baseline */
 }
 
@@ -222,6 +222,8 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease;
   margin-top: 0px;
+  margin-bottom: 4px;
+  margin-left: 0px;
   padding-left: 0px;
 }
 
@@ -238,19 +240,6 @@ body {
   text-decoration: none; /* no underline */
   font-weight: normal;   /* normal font weight */
   cursor: pointer;       /* pointer to show it's clickable */
-}
-
-/* Collapsible content */
-.collapsible-content p {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Collapsible course title: blue and normal weight */
-.course > .collapsible-link {
-  color: #00008B !important;
-  font-weight: normal;
-  text-decoration: none;
 }
 
 /* Row of social/research icons aligned with second column */
