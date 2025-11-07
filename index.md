@@ -210,7 +210,7 @@ title: Home
   <div class="label">5.</div>
   <div class="value">
     <div class="fill-line">
-      <span><b>Assistant Professor <span style="font-variant: small-caps;">Ben McQuillin</span></b></span>
+      <span><b>Assistant Professor Ben McQUILLIN</b></span>
       <span><a href="mailto:b.mcquillin@uea.ac.uk">b.mcquillin@uea.ac.uk</a></span>
     </div>
     <div class="second-row">
@@ -222,7 +222,7 @@ title: Home
   <div class="value">
     <div class="fill-line">
       <span><b>Professor Mich TVEDE</b></span>
-      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a></span>
+      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a><a href="tel:></a></span>
     </div>
     <div class="second-row">
       University of East Anglia Doctoral thesis supervisor
@@ -233,7 +233,7 @@ title: Home
   <div class="value">
     <div class="fill-line">
       <span><b>Associate Professor Róbert SOMOGYI</b></span>
-      <span><a href="mailto:m.tvede@sheffield.ac.uk">m.tvede@sheffield.ac.uk</a></span>
+      <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a><a href="tel:></a></span>
     </div>
     <div class="second-row">
       University of East Anglia Doctoral thesis supervisor
@@ -244,7 +244,7 @@ title: Home
   <div class="value">
     <div class="fill-line">
       <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
-      <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a></span>
+      <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><a href="tel:></a></span>
     </div>
     <div class="second-row">
       University of East Anglia Doctoral thesis supervisor
@@ -254,8 +254,8 @@ title: Home
   <div class="label">1.</div>
   <div class="value">
     <div class="fill-line">
-      <span>Assistant Professor <span style="font-variant: small-caps;">Toygar T. Kerman</span></span>
-      <span><a href="toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a></span>
+      <span><b>Assistant Professor Toygar T. Kerman</b></span>
+      <span><a href="toygar.kerman@uni-corvinus.hu">toygar.kerman@uni-corvinus.hu</a><a href="tel:></a></span>
     </div>
     <div class="second-row">
       Corvinus University of Budapest Coauthor
