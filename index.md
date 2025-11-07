@@ -112,7 +112,31 @@ My papers and projects.
 
 ## Training
 <a id="training"></a>
-My papers and projects.
+
+<div class="two-column">
+  <div class="label">2022</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Course on Higher Education Teaching Skills</span>
+      <span>2024</span>
+    </div>
+  </div>
+  <div class="label">2017</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Summer School on Epistemic Game Theory</span>
+      <span>2024</span>
+    </div>
+  </div>
+
+  <div class="label">2016</div>
+  <div class="value">
+    <div class="fill-line">
+      <span>Summer School in Social Science Data Analysis</span>
+      <span>University of Essex</span>
+    </div>
+  </div>
+</div>
 
 ## Presentations
 <a id="presentations"></a>
