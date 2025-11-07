@@ -186,12 +186,23 @@ body {
 
 /* REDEFINITION OF BULLET SPACING */
 
+.bullet {
+  display: inline-block;       /* guarantee a rendering box */
+  vertical-align: baseline;    /* align with surrounding text baseline */
+  width: auto;                 /* ensure it doesn't collapse */
+  line-height: 1;              /* prevents extra internal leading */
+  pointer-events: none;        /* bullet is decorative, not interactive */
+}
+
+/* Render the glyph in the pseudo-element so CSS can control spacing */
 .bullet::before {
-  content: "•";
+  content: "\2022";            /* Unicode bullet (•) */
   display: inline-block;
-  margin: 0 10.5em; /* adds horizontal space before and after */
-  color: inherit;
-  vertical-align: middle;
+  margin: 0 0.5em;             /* horizontal space on both sides (adjust 0.5em as needed) */
+  color: inherit;              /* inherit parent color */
+  font-size: 1em;              /* same size as surrounding text */
+  line-height: 1;
+  vertical-align: baseline;
 }
 
 /* REDEFINITION OF PDF ICON */
