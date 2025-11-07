@@ -339,7 +339,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">3.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Associate Professor Róbert SOMOGYI</b></span>
+        <span><b>Associate Professor <a href"https://sites.google.com/site/robertsomogyi/">Róbert SOMOGYI</a></b></span>
         <span><a href="mailto:somogyi.robert@gtk.bme.hu">somogyi.robert@gtk.bme.hu</a> • <a href="tel:3614632342">+36 1 463 2342</a></span>
       </div>
       <div class="second-row">
@@ -352,7 +352,7 @@ Conference on Game Theory (×1) • World Congress of the Game Theory Society (�
     <div class="label">2.</div>
     <div class="value">
       <div class="top-row">
-        <span><b>Professor Antonio MIRALLES ASENSIO</b></span>
+        <span><b>Professor <a href="https://sites.google.com/view/antoniomiralles">Antonio MIRALLES ASENSIO</a></b></span>
         <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a> • <a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
