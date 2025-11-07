@@ -203,21 +203,6 @@ body {
   color: #333;
 }
 
-/* Keep normal spacing between entries except specific cases */
-.two-column-3rows-container {
-  gap: 8px; /* keep default spacing globally */
-}
-
-/* Reduce spacing only for consecutive courses you want closer */
-.two-column-3rows-container .two-column-3rows + .two-column-3rows {
-  gap: 4px; /* only reduces space between certain rows */
-}
-
-/* Or, more precise: target the specific Teaching Assistant/Intermediate Microeconomics combo */
-.two-column-3rows[data-group="closer"] {
-  gap: 4px; 
-}
-
 /* REDEFINITION OF OPEN ACCESS ICON COLOR */
 .ai-open-access::before {
   color: #556B2F;
