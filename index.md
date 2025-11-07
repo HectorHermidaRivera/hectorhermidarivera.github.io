@@ -249,12 +249,11 @@ title: Home
   </div>
 
 </div>
-
 ## Teaching
 <a id="teaching"></a>
 
+<!-- Lecturer Section -->
 <div class="two-column-3rows-container">
-
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
@@ -262,28 +261,32 @@ title: Home
     </div>
   </div>
 
-<div class="two-column-3rows">
-  <div class="label">2024 - 26</div>
-  <div class="value">
-    <div class="top-row">
-      <div class="course">
-        <span class="collapsible-link">Bargaining Theory</span>
-        <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
+  <div class="two-column-3rows">
+    <div class="label">2024 - 26</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">
+          <span class="collapsible-link">Bargaining Theory</span>
+          <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
+        </div>
+        <div class="institution">University of Technology & Economics</div>
       </div>
-      <div class="institution">University of Technology & Economics</div>
-    </div>
-    <div class="second-row collapsible-content">
-      <p><i>
-        <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a><span style="margin:10px;">•</span><a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a><span style="margin:10px;">•</span><a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
-      </i></p>
+      <div class="second-row collapsible-content">
+        <p><i>
+          <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a><span style="margin:10px;">•</span>
+          <a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a><span style="margin:10px;">•</span>
+          <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
+        </i></p>
+      </div>
     </div>
   </div>
 </div>
 
-</div>
+<!-- Spacer between roles -->
+<div style="height:12px;"></div>
 
+<!-- Teaching Assistant Section -->
 <div class="two-column-3rows-container">
-  
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
@@ -291,42 +294,40 @@ title: Home
     </div>
   </div>
 
-<div class="two-column-3rows">
-  <div class="label">2022 - 23</div>
-  <div class="value">
-    <div class="top-row">
-      <div class="course">
-        <span class="collapsible-link">Intermediate Microeconomics</span>
-        <span style="margin:10px;">•</span>Undergraduate<span style="margin:10px;">•</span>20h
+  <div class="two-column-3rows">
+    <div class="label">2022 - 23</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">
+          <span class="collapsible-link">Intermediate Microeconomics</span>
+          <span style="margin:10px;">•</span>Undergraduate<span style="margin:10px;">•</span>20h
+        </div>
+        <div class="institution">University of East Anglia</div>
       </div>
-      <div class="institution">University of East Anglia</div>
-    </div>
-    <div class="second-row collapsible-content">
-      <p><i>
-        Not available
-      </i></p>
+      <div class="second-row collapsible-content">
+        <p><i>Not available</i></p>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="two-column-3rows">
-  <div class="label">2017 - 18</div>
-  <div class="value">
-    <div class="top-row">
-      <div class="course">
-        <span class="collapsible-link">Game Theory</span>
-        <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>15h
+  <!-- tiny spacer between courses -->
+  <div style="height:4px;"></div>
+
+  <div class="two-column-3rows">
+    <div class="label">2017 - 18</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">
+          <span class="collapsible-link">Game Theory</span>
+          <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>15h
+        </div>
+        <div class="institution">Autonomous University of Barcelona</div>
       </div>
-      <div class="institution">Autonomous University of Barcelona</div>
-    </div>
-    <div class="second-row collapsible-content">
-      <p><i>
-        Not available
-      </i></p>
+      <div class="second-row collapsible-content">
+        <p><i>Not available</i></p>
+      </div>
     </div>
   </div>
-</div>
-
 </div>
 
 ## Awards
