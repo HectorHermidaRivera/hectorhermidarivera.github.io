@@ -10,11 +10,13 @@ I am a microeconomic theorist in the 2025/26 JOB MARKET, looking for a job that 
 ## Contact
 <a id="contact"></a>
 
+{% raw %}
 <div class="two-column">
   <div class="label">Email</div><div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu">hermida.rivera.hector@gtk.bme.hu</a></div>
   <div class="label">Website</div><div class="value"><a href="https://www.hectorhermidarivera.com">www.hectorhermidarivera.com</a></div>
   <div class="label">Office</div><div class="value">QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary</div>
 </div>
+{% endraw %}
 
 ## Employment
 <a id="employment"></a>
