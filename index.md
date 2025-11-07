@@ -258,23 +258,40 @@ title: Home
   <div class="two-column-3rows">
     <div class="label blank"></div>
     <div class="value">
-      <div class="role">Teaching Assistant</div>
+      <div class="role"><b></b>Lecturer</div></div>
     </div>
   </div>
   <div class="two-column-3rows">
-    <div class="label">2022–23</div>
+    <div class="label">2024 - 26</div>
     <div class="value">
       <div class="top-row">
-        <div class="course">Intermediate Microeconomics</div>
+        <div class="course">Bargaining Theory<span class="bullet"></span>Graduate<span class="bullet"></span>6h</div>
+        <div class="institution">University of Technology & Economics</div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="two-column-3rows">
+    <div class="label blank"></div>
+    <div class="value">
+      <div class="role"><b></b>Teaching Assistant</div></div>
+    </div>
+  </div>
+  <div class="two-column-3rows">
+    <div class="label">2022 - 23</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">Intermediate Microeconomics<span class="bullet"></span>Undergraduate<span class="bullet"></span>20h</div>
         <div class="institution">University of East Anglia</div>
       </div>
     </div>
   </div>
   <div class="two-column-3rows">
-    <div class="label">2017–18</div>
+    <div class="label">2017 - 18</div>
     <div class="value">
       <div class="top-row">
-        <div class="course">Game Theory</div>
+        <div class="course">Game Theory<span class="bullet"></span>Graduate<span class="bullet"></span>15h</div>
         <div class="institution">Autonomous University of Barcelona</div>
       </div>
     </div>
