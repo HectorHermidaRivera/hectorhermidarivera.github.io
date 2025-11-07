@@ -119,3 +119,42 @@ a:hover {
   color: #00008B !important;
   text-decoration: underline;
 }
+
+/* Two-column layout with two rows inside the right column */
+.two-column-2rows {
+  display: grid;
+  grid-template-columns: 40px auto; /* first column narrower for numbering */
+  gap: 4px 16px;
+  align-items: start;
+  margin-top: 8px;
+}
+
+/* First column (numbers) */
+.two-column-2rows .label {
+  font-weight: normal;
+  text-align: right;
+}
+
+/* Right column container */
+.two-column-2rows .value {
+  display: grid;
+  grid-template-rows: auto auto; /* two rows inside right column */
+}
+
+/* Top row of right column: left + right aligned items */
+.two-column-2rows .value .fill-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Second row of right column */
+.two-column-2rows .value .second-row {
+  margin-top: 2px;
+  font-size: 0.9em; /* optional smaller text */
+  color: #333;
+}
+
+/* Preserve nowrap for top row */
+.two-column-2rows .value .fill-line span {
+  white-space: nowrap;
+}
