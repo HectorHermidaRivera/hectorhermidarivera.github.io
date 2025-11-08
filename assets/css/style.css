@@ -338,16 +338,23 @@ a {
     line-height: 1.5;
   }
 
-/* Icon row spans full width */
-  .icon-row {
-    margin-left: 0;
-    justify-content: center;
+  /* Icon row spans full width and stays inside viewport */
+  #about-me .icon-row {
+    display: flex !important;
+    flex-wrap: wrap;             /* allow icons to wrap if necessary */
+    justify-content: center;     /* center icons */
+    gap: 10px;                   /* spacing between icons */
+    margin: 20px 0;              /* vertical spacing */
+    padding: 0 15px;             /* prevent touching screen edges */
+    box-sizing: border-box;      /* include padding in width */
+    width: 100%;                 /* do not exceed viewport */
+    overflow: hidden;            /* prevent horizontal scroll */
   }
 
+  /* Each icon adjusts to screen width */
   #about-me .icon-row a {
-    display: inline-block !important;
-    flex: 0 0 auto;             /* keep natural icon width */
-    margin-right: 10px;
+    flex: 0 1 auto;              /* allow shrinking to fit row */
     text-align: center;
+    font-size: 1.5em;            /* your existing size */
   }
 }
