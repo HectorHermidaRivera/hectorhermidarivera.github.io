@@ -8,7 +8,7 @@ body {
 /* Main content */
 .content {
   margin: 0 auto;
-  padding: 5% 10% 5% 5%;   /* changed: relative padding */
+  padding: 0% 15% 5% 5%;   /* changed: relative padding */
   max-width: 1300px;
   box-sizing: border-box;
   text-align: justify;
