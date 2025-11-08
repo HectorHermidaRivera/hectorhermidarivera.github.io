@@ -517,7 +517,7 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label">Q&A</div>
-  <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a> <a href="">Economics.SE</a> <a href="">Math.SE</a> <a href="">TeX.SE</a> <a href="">Academia.SE</a> <a href="">Politics.SE</a> <a href="">r/GAMETHEORY</a> <a href="">LaTeX.org</a></div>
+  <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a><span style="margin:10px;">•</span><a href="">Economics.SE</a><span style="margin:10px;">•</span><a href="">Math.SE</a><span style="margin:10px;">•</span><a href="">TeX.SE</a><span style="margin:10px;">•</span><a href="">Academia.SE</a><span style="margin:10px;">•</span><a href="">Politics.SE</a><span style="margin:10px;">•</span><a href="">r/GAMETHEORY</a><span style="margin:10px;">•</span><a href="">LaTeX.org</a></div>
 
   <div class="label">Jobs</div>
   <div class="value">Under construction</div>
