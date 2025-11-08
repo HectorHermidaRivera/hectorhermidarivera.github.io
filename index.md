@@ -538,7 +538,7 @@ title: Home
   <div class="value"><a href="">Association of Southern European Economic Theorists</a>, <a href="">Coalition Theory Network</a>, <a href="">Game Theory Society</a>, <a href="">Society for Economic Design</a>, <a href="">Society for Social Choice & Welfare</a>, <a href="">Society for the Promotion of Mechanism & Institution Design</a>, <a href="">Stony Brook Game Theory Centre</a>, <a href="">The Econometric Society</a></div>
 
   <div class="label">YouTube</div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="">Eric Maskin's "The Implementation of Society's Goals"</a>, <a href="">Amartya Sen's "Social Choice and Human Rights"</a>, <a href="">William Spaniel's Game Theory 101</a>, <a href="">Game Theory Online</a>, <a href="">Khan Academy</a>, <a href="">Selcuk Ozyurt's channel</a>, <a href="">Semih Koray's "Mathematics for Economists"</a>, <a href="">Sara Jensen's channel</a>, <a href="">Toby Handfield's channel</a></div>
 
   <div class="label">Conferences</div>
   <div class="value"><b>General</b>: ASSA Meetings, Econometric Society Meetings, European Economic Association Meetings, Royal Economic Society Conference<span style="margin:10px;">•</span><b>Field</b>: ASSET Meetings, European Meeting on Game Theory, European Workshop on Economic Theory, Coalition Theory Network Workshop, Conference on Economic Design, Conference on Mechanism & Institution Design, Game Theory & Applications International Conference, Lisbon Meetings in Game Theory & Applications, Meeting of the Society for Social Choice & Welfare, Stony Brook International Conference on Game Theory, World Congress of the Game Theory Society</div>
