@@ -1,3 +1,5 @@
+hey! help me make this html fully responsive for mobile:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,3 +38,158 @@
 
     .sidebar a {
       color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin: 8px 0;
+      width: 100%;
+      text-align: right; /* right-align text */
+      line-height: 1.6;
+    }
+
+    .sidebar a:hover { color: #dddddd; }
+
+    /* --- Main content --- */
+    .content {
+      margin-left: 260px;
+      padding: 20px 40px;
+      padding-bottom: 80px;
+      box-sizing: border-box;
+      font-size: 1.1em;
+    }
+
+    /* --- Title --- */
+    .main-name {
+      font-family: 'Merriweather', serif;
+      font-size: 3em;
+      font-weight: 400;
+      margin-bottom: 0.3em;
+      line-height: 1;
+    }
+
+    .main-name strong { font-weight: 800; }
+
+    b, strong { font-weight: 700; }
+
+    /* --- Bullet fix --- */
+    .bullet { display: inline-block; vertical-align: middle; }
+    .bullet::before { content: "•"; margin: 0 0.4em; display: inline-block; color: inherit; }
+
+    /* --- PDF icon tweak --- */
+    .fa-file-pdf { font-size: 0.8em; position: relative; top: 0; }
+
+    /* --- Collapsible elements --- */
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+      margin-top: 4px;
+      padding-left: 0px; /* remove indentation */
+    }
+
+    .collapsible-link {
+      color: #00008B;       /* blue for collapsibles */
+      text-decoration: none; 
+      cursor: pointer;
+      font-weight: normal;  
+    }
+
+    /* --- Responsive for mobile --- */
+    @media (max-width: 768px) {
+      /* Sidebar collapses to top bar */
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 15px;
+        border-right: none;
+      }
+
+      .sidebar a {
+        text-align: left;
+        margin: 5px 10px;
+        flex: 1 0 50%; /* wrap 2 links per row */
+      }
+
+      /* Content takes full width */
+      .content {
+        margin-left: 0;
+        padding: 15px 20px;
+        font-size: 1em;
+      }
+
+      .main-name { font-size: 2em; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <a href="#about-me">About me</a>
+    <a href="#contact">Contact</a>
+    <a href="#employment">Employment</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+    <a href="#job-market-paper">Job Market Paper</a>
+    <a href="#manuscripts">Manuscripts</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#awards">Awards</a>
+    <a href="#training">Training</a>
+    <a href="#presentations">Presentations</a>
+    <a href="#refereeing">Refereeing</a>
+    <a href="#references">References</a>
+  </div>
+
+  <div class="content">
+    <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
+    {{ content }}
+  </div>
+
+  <script>
+    // smooth scroll
+    document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // collapsible sections
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.collapsible-link').forEach(link => {
+        link.addEventListener('click', function() {
+          const value = this.closest('.value');
+          if (!value) return;
+          const content = value.querySelector('.collapsible-content');
+          if (!content) return;
+
+          if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+            content.style.maxHeight = '0';
+          } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+          }
+        });
+      });
+    });
+
+    // open links in new tab
+    document.addEventListener("DOMContentLoaded", function() {
+      const links = document.querySelectorAll('a:not(.topbar a)');
+      links.forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+    });
+  </script>
+</body>
+</html>
