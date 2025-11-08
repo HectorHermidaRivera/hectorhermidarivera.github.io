@@ -353,7 +353,7 @@ a {
   #about-me .icon-row a {
     flex: 0 1 auto;             /* maintain natural width */
     text-align: center;
-    font-size: 1.8em;           /* slightly larger than before */
+    font-size: 3em;           /* slightly larger than before */
     transition: none;           /* disable hover transform */
   }
 }
