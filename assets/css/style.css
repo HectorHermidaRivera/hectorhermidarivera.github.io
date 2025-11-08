@@ -288,37 +288,51 @@ a {
   hyphens: auto;
 }
 
-/* MOBILE */
-
+/* MOBILE FIXED */
 @media (max-width: 768px) {
-  /* Sidebar disappears */
+  /* Hide sidebar */
   .sidebar { display: none !important; }
 
   /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
+  /* Make mobile-only block span full width */
   .mobile-only {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
     box-sizing: border-box;
   }
 
+  /* Remove left/right margins/padding from content */
+  .content {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 1em;
+  }
+
+  /* Main title */
+  .main-name {
+    font-size: 2em !important;
+    padding-left: 0 !important;
+  }
+
+  /* About Me heading */
   #about-me h2 {
     font-weight: normal;
     text-transform: none;
-    padding: 0 0;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    padding: 0;
+    margin: 0.5em 0;
   }
 
+  /* About Me paragraph */
   #about-me .mobile-intro {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 0;         /* remove side padding */
-    margin: 0;          /* remove top/bottom margin */
+    padding: 0 15px;   /* small padding to avoid touching screen edges */
+    margin: 0;
     font-weight: normal;
     text-transform: none;
     line-height: 1.5;
@@ -327,27 +341,16 @@ a {
   /* Icon row must appear and span full width */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;          /* allow wrapping on very small screens */
     justify-content: flex-start;
-    margin: 0em 0;
-    padding: 0;
+    margin: 10px 0;
+    padding: 0 15px;          /* same padding as paragraph */
     width: 100%;
     box-sizing: border-box;
   }
   #about-me .icon-row a {
-    flex: 0 0 auto;      /* icons keep their natural width */
-    margin-right: 0px;
+    flex: 0 0 auto;           /* keep natural icon width */
+    margin-right: 10px;
     text-align: center;
-  }
-
-  .content {
-    margin-left: 0;
-    padding: 0px 0;      /* remove left/right padding */
-    font-size: 1em;
-  }
-
-  .main-name {
-    font-size: 2em;
-    padding-left: 0;
   }
 }
