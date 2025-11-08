@@ -5,15 +5,14 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Main content */
 .content {
-  margin: 0 auto;
-  padding: 0% 15% 5% 0%;   /* changed: relative padding */
-  max-width: 1300px;
+  margin-left: 200px;       /* space for the sidebar */
+  padding: 5% 10% 10% 5%;     /* relative padding */
+  max-width: 1300px;        /* optional */
   box-sizing: border-box;
+  font-size: 1.1em;
   text-align: justify;
   background-color: #f2f2f2;
-  padding-bottom: 500px;
 }
 
 /* Align main name with second column */
