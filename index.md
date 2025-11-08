@@ -267,18 +267,25 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-<span class="collapsible-link" 
-      style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
-      onmouseover="this.style.textDecoration='underline';" 
-      onmouseout="this.style.textDecoration='none';">Bargaining Theory</span>
-          <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
+          <span class="collapsible-link" 
+                style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
+                onmouseover="this.style.textDecoration='underline';" 
+                onmouseout="this.style.textDecoration='none';">
+            Bargaining Theory
+          </span>
+          <span style="margin:0 10px;">•</span>
+          <span>Graduate</span>
+          <span style="margin:0 10px;">•</span>
+          <span>6h</span>
         </div>
         <div class="institution">University of Technology & Economics</div>
       </div>
       <div class="second-row collapsible-content">
         <p><i>
-          <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a><span style="margin:10px;">•</span>
-          <a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a><span style="margin:10px;">•</span>
+          <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a>
+          <span style="margin:0 10px;">•</span>
+          <a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a>
+          <span style="margin:0 10px;">•</span>
           <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
         </i></p>
       </div>
@@ -300,45 +307,54 @@ title: Home
 
   <div style="height:4px;"></div>
 
-<div class="two-column-3rows">
-  <div class="label">2022 - 23</div>
-  <div class="value">
-    <div class="top-row">
-      <div class="course">
-        <span class="collapsible-link" 
-              style="color:#00008B; font-weight:normal; cursor:pointer;"
-              onmouseover="this.style.textDecoration='underline';" 
-              onmouseout="this.style.textDecoration='none';">Intermediate Microeconomics</span>
-        <span style="margin:10px;">•</span>Undergraduate
-        <span style="margin:10px;">•</span>20h
+  <div class="two-column-3rows">
+    <div class="label">2022 - 23</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">
+          <span class="collapsible-link" 
+                style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
+                onmouseover="this.style.textDecoration='underline';" 
+                onmouseout="this.style.textDecoration='none';">
+            Intermediate Microeconomics
+          </span>
+          <span style="margin:0 10px;">•</span>
+          <span>Undergraduate</span>
+          <span style="margin:0 10px;">•</span>
+          <span>20h</span>
+        </div>
+        <div class="institution">University of East Anglia</div>
       </div>
-      <div class="institution">University of East Anglia</div>
-    </div>
-    <div class="second-row collapsible-content">
-      <p><i>Unavailable</i></p>
+      <div class="second-row collapsible-content">
+        <p><i>Unavailable</i></p>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- tiny spacer between courses -->
-<div style="height:4px;"></div>
+  <!-- tiny spacer between courses -->
+  <div style="height:4px;"></div>
 
-<div class="two-column-3rows">
-  <div class="label">2017 - 18</div>
-  <div class="value">
-    <div class="top-row">
-      <div class="course">
-        <span class="collapsible-link" 
-              style="color:#00008B; font-weight:normal; cursor:pointer;"
-              onmouseover="this.style.textDecoration='underline';" 
-              onmouseout="this.style.textDecoration='none';">Game Theory</span>
-        <span style="margin:10px;">•</span>Graduate
-        <span style="margin:10px;">•</span>15h
+  <div class="two-column-3rows">
+    <div class="label">2017 - 18</div>
+    <div class="value">
+      <div class="top-row">
+        <div class="course">
+          <span class="collapsible-link" 
+                style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
+                onmouseover="this.style.textDecoration='underline';" 
+                onmouseout="this.style.textDecoration='none';">
+            Game Theory
+          </span>
+          <span style="margin:0 10px;">•</span>
+          <span>Graduate</span>
+          <span style="margin:0 10px;">•</span>
+          <span>15h</span>
+        </div>
+        <div class="institution">Autonomous University of Barcelona</div>
       </div>
-      <div class="institution">Autonomous University of Barcelona</div>
-    </div>
-    <div class="second-row collapsible-content">
-      <p><i>Unavailable</i></p>
+      <div class="second-row collapsible-content">
+        <p><i>Unavailable</i></p>
+      </div>
     </div>
   </div>
 </div>
