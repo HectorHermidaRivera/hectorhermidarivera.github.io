@@ -81,7 +81,7 @@ body {
 
 .two-column .value a:hover {
   color: #00008B !important;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Fill-line for left-right alignment */
