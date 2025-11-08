@@ -246,6 +246,9 @@ body {
   cursor: pointer;       /* pointer to show it's clickable */
 }
 
+.two-column-3rows .course.collapsible-link:hover {
+  text-decoration: underline; /* add underline on hover */
+
 /* Row of social/research icons aligned with second column */
 .icon-row {
   display: flex;
