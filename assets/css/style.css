@@ -331,30 +331,31 @@ a {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 0 15px;   /* small padding to avoid touching screen edges */
+    padding: 0 15px;
     margin: 0;
     font-weight: normal;
     text-transform: none;
     line-height: 1.5;
   }
 
-  /* Icon row spans full width and stays inside viewport */
+  /* Icon row spans full width and scales icons */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: wrap;             /* allow icons to wrap if necessary */
-    justify-content: center;     /* center icons */
-    gap: 10px;                   /* spacing between icons */
-    margin: 20px 0;              /* vertical spacing */
-    padding: 0 15px;             /* prevent touching screen edges */
-    box-sizing: border-box;      /* include padding in width */
-    width: 100%;                 /* do not exceed viewport */
-    overflow: hidden;            /* prevent horizontal scroll */
+    flex-wrap: wrap;
+    justify-content: space-between; /* evenly spread icons across row */
+    gap: 10px;                      /* minimal spacing, only if needed */
+    margin: 20px 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
   }
 
-  /* Each icon adjusts to screen width */
+  /* Each icon scales nicely */
   #about-me .icon-row a {
-    flex: 0 1 auto;              /* allow shrinking to fit row */
+    flex: 1 1 50px;       /* grow and shrink with minimum 50px */
+    max-width: 70px;      /* prevent excessive enlargement in landscape */
     text-align: center;
-    font-size: 1.5em;            /* your existing size */
+    font-size: 1.5em;     /* keep icon size consistent */
   }
 }
