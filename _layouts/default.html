@@ -189,5 +189,35 @@
       });
     });
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      function moveIconsForMobile() {
+        const icons = document.querySelector(".icon-row");
+        const aboutMe = document.getElementById("about-me");
+
+        if (!icons || !aboutMe) return;
+
+        if (window.innerWidth <= 768) {
+          // Move icons below About Me paragraph
+          const mobileIntro = aboutMe.querySelector(".mobile-intro");
+          if (mobileIntro && icons.parentNode !== aboutMe) {
+            aboutMe.appendChild(icons);
+          }
+        } else {
+          // Move back to original place if desktop
+          const content = document.querySelector(".content");
+          if (content && icons.parentNode !== content) {
+            content.insertBefore(icons, content.firstChild.nextSibling);
+          }
+        }
+      }
+
+      // Initial check
+      moveIconsForMobile();
+
+      // Update on resize
+      window.addEventListener("resize", moveIconsForMobile);
+    });
+  </script>
 </body>
 </html>
