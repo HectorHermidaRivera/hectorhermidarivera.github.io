@@ -125,7 +125,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 75%;
+  width: 100%;
   white-space: nowrap;
 }
 
@@ -175,7 +175,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 75%;
+  width: 100%;
 }
 
 /* left part: course name */
