@@ -8,7 +8,7 @@ body {
 /* Main content */
 .content {
   margin: 0 auto;
-  padding: 0% 15% 5% 5%;   /* relative padding */
+  padding: 0% 15% 5% 5%;   /* changed: relative padding */
   max-width: 1300px;
   box-sizing: border-box;
   text-align: justify;
@@ -21,7 +21,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: 136px;
+  padding-left: 125px;
 }
 
 .name-title {
@@ -41,7 +41,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 136px; 
+  padding-left: 125px; 
   margin-bottom: 0px;  
   margin-top: 40px;  
   text-transform: uppercase;
@@ -58,32 +58,26 @@ body {
   text-decoration: underline;
 }
 
-/* Two-column layout: first column auto-sized */
-.two-column,
-.two-column-2rows,
-.two-column-3rows {
+/* Two-column layout */
+.two-column {
   display: grid;
-  grid-template-columns: max-content 1fr; /* first column fits longest word */
+  grid-template-columns: 120px auto;
   gap: 8px 16px;
   align-items: start;
   margin-top: 0px;
 }
 
-.two-column .label,
-.two-column-2rows .label,
-.two-column-3rows .label {
+.two-column .label {
   font-weight: normal;
   text-align: right;
 }
 
-.two-column .value a,
-.two-column-2rows .value a {
+.two-column .value a {
   color: #00008B !important;
   text-decoration: none;
 }
 
-.two-column .value a:hover,
-.two-column-2rows .value a:hover {
+.two-column .value a:hover {
   color: #00008B !important;
   text-decoration: underline;
 }
@@ -104,12 +98,23 @@ body {
   font-weight: normal;
 }
 
-/* Two-column-2rows container */
+/* Two-column layout with two rows in second column */
 .two-column-2rows-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 0px;
+}
+
+.two-column-2rows {
+  display: grid;
+  grid-template-columns: 120px auto;
+  gap: 8px 16px;
+}
+
+.two-column-2rows .label {
+  text-align: right;
+  font-weight: normal;
 }
 
 .two-column-2rows .value {
@@ -136,15 +141,37 @@ body {
   color: #333;
 }
 
-/* Two-column-3rows container */
+/* Teaching entries: three-row layout */
 .two-column-3rows-container {
   gap: 4px !important;
 }
 
+/* grid for date + right content */
+.two-column-3rows {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px 16px;     
+  align-items: start;
+}
+
+/* left label: years */
+.two-column-3rows .label {
+  text-align: right;
+  font-weight: normal;
+  align-self: start;
+}
+
+/* hide empty label but keep grid alignment */
+.two-column-3rows .label.blank {
+  visibility: hidden;
+}
+
+/* right column with lines stacked */
 .two-column-3rows .value {
   gap: 2px !important;
 }
 
+/* top-row: course (left) and university (right) */
 .two-column-3rows .value .top-row {
   display: flex;
   justify-content: space-between;
@@ -152,18 +179,21 @@ body {
   width: 100%;
 }
 
+/* left part: course name */
 .two-column-3rows .value .top-row .course {
   flex-grow: 1;
   text-align: left;
 }
 
+/* right part: university name */
 .two-column-3rows .value .top-row .institution {
   text-align: right;
-  font-size: 0.8em;
+  font-size: 0.8em; 
   flex-shrink: 0;
   color: #333;
 }
 
+/* second and third rows */
 .two-column-3rows .value .second-row,
 .two-column-3rows .value .third-row {
   margin: 0;
@@ -180,8 +210,8 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -2.5px;
-  vertical-align: middle;
+  top: -2.5px;              
+  vertical-align: middle;  
 }
 
 /* Collapsible content */
@@ -194,21 +224,22 @@ body {
 }
 
 .collapsible-link {
-  color: #00008B;
-  text-decoration: none;
+  color: #00008B;       
+  text-decoration: none; 
   cursor: pointer;
-  font-weight: normal;
+  font-weight: normal;   
 }
 
+/* Collapsible course title: blue and normal weight */
 .two-column-3rows .course.collapsible-link {
-  color: #00008B;
-  text-decoration: none;
-  font-weight: normal;
-  cursor: pointer;
+  color: #00008B;       
+  text-decoration: none; 
+  font-weight: normal;   
+  cursor: pointer;       
 }
 
 .two-column-3rows .course.collapsible-link:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 
 /* Row of social/research icons aligned with second column */
@@ -217,10 +248,11 @@ body {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 138px;
+  margin-left: 127px;
   margin-top: -20px;
 }
 
+/* Smooth hover enlargement */
 .icon-row a {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
@@ -250,9 +282,13 @@ a {
 
 /* MOBILE FIXED + About Me + Icons */
 @media (max-width: 768px) {
+  /* Hide sidebar */
   .sidebar { display: none !important; }
+
+  /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
+  /* Make mobile-only block span full width */
   .mobile-only {
     display: block !important;
     width: 100% !important;
@@ -261,17 +297,20 @@ a {
     box-sizing: border-box;
   }
 
+  /* Remove left/right margins/padding from content */
   .content {
     margin: 0 !important;
     padding: 0 !important;
     font-size: 1em;
   }
 
+  /* Main title */
   .main-name {
     font-size: 2em !important;
     padding-left: 0 !important;
   }
 
+  /* About Me heading: bold and uppercase */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
@@ -279,6 +318,7 @@ a {
     margin: 0.5em 0;
   }
 
+  /* About Me paragraph */
   #about-me .mobile-intro {
     display: block;
     width: 100%;
@@ -290,10 +330,11 @@ a {
     line-height: 1.5;
   }
 
+  /* Icon row spans full width and never wraps */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;          
+    justify-content: space-between; 
     margin: 20px 0;
     padding: 0 15px;
     box-sizing: border-box;
@@ -301,12 +342,12 @@ a {
   }
 
   #about-me .icon-row a {
-    flex: 0 1 auto;
+    flex: 0 1 auto;             
     text-align: center;
-    transition: none;
+    transition: none;          
   }
 
   #about-me .icon-row a:hover {
-    transform: none !important;
+    transform: none !important; 
   }
 }
