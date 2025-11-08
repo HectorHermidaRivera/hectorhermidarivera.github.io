@@ -532,7 +532,7 @@ title: Home
   <div class="value"><a href="">Basic Math Cheatsheet</a>, <a href="">Coursera</a>, <a href="">Khan Academy</a>, <a href="">WolframAlpha</a></div>
 
   <div class="label"><b>Preprints</b></div>
-  <div class="value"><a href="">ArXiv</a>, <a href="">SSRN</a></div>
+  <div class="value"><a href="https://arxiv.org">ArXiv</a>, <a href="http://www.ssrn.com">SSRN</a></div>
 
   <div class="label"><b>Journals</b></div>
   <div class="value">Under construction</div>
