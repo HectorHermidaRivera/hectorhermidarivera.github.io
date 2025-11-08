@@ -346,13 +346,5 @@ a {
     margin: 20px 0;
     padding: 0 15px;
     box-sizing: border-box;
-    width: 100%;
+    width: 95%;
   }
-
-  /* Each icon scales to fit exactly */
-  #about-me .icon-row a {
-    flex: 0 0 calc((100% - 10 * 10px) / 11); /* 11 icons, 10 gaps of 10px */
-    text-align: center;
-    font-size: 1.5em;
-  }
-}
