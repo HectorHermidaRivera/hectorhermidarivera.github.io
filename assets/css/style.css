@@ -34,15 +34,14 @@ body {
   font-weight: 700;
 }
 
-/* Headings alignment with second column, all caps */
 .content h2,
 .content h3,
 .content h4,
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 125px; 
-  margin-bottom: 0px;  
+  padding-left: 0;  /* remove fixed padding */
+  margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
 }
