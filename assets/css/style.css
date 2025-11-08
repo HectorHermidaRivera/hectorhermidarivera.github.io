@@ -352,7 +352,6 @@ a {
  #about-me .icon-row a {
     flex: 0 1 auto;             
     text-align: center;
-    font-size: 1.25em;           /* make icons bigger */
     transition: none;          /* no animation needed */
   }
 
