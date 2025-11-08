@@ -291,37 +291,43 @@ a {
 /* MOBILE */
 
 @media (max-width: 768px) {
-  /* Hide the sidebar completely */
+
+  /* Hide the sidebar */
   .sidebar {
     display: none;
   }
 
-  /* Hide all content except About me section and icon-row */
+  /* Hide all main content except About me and icon-row */
   .content > * {
     display: none;
   }
 
-  /* Show About me section */
-  #about-me {
+  /* Show About me section and mobile-intro paragraph */
+  #about-me,
+  #about-me .mobile-intro {
     display: block;
-    margin: 10px 15px;
-  }
-
-  /* Show icon row */
-  .icon-row {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-
-  /* Remove desktop-specific padding from About me */
-  #about-me {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 15px;
     text-align: justify;
+    margin: 15px 0;
   }
 
-  /* Adjust main-name if included in About me */
+  /* Show icon-row below About me, spanning full width */
+  .icon-row {
+    display: flex !important;
+    flex-wrap: nowrap;       /* single row */
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  /* Optional: make all icons same size for mobile */
+  .icon-row a {
+    flex: 1 0 auto;
+    text-align: center;
+  }
+
+  /* Adjust main name in About me for mobile */
   #about-me .main-name {
     font-size: 2em;
     padding-left: 0;
