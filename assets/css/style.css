@@ -60,7 +60,7 @@ body {
 /* Two-column layout */
 .two-column {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 75px auto;
   gap: 8px 16px;
   align-items: start;
   margin-top: 0px;
@@ -107,7 +107,7 @@ body {
 
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 75px auto;
   gap: 8px 16px;
 }
 
@@ -125,7 +125,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 100%;
+  width: 75%;
   white-space: nowrap;
 }
 
@@ -148,7 +148,7 @@ body {
 /* grid for date + right content */
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 75px 1fr;
   gap: 8px 16px;     
   align-items: start;
 }
@@ -175,7 +175,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 100%;
+  width: 75%;
 }
 
 /* left part: course name */
@@ -290,7 +290,7 @@ a {
   /* Make mobile-only block span full width */
   .mobile-only {
     display: block !important;
-    width: 100% !important;
+    width: 75% !important;
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box;
@@ -320,7 +320,7 @@ a {
   /* About Me paragraph */
   #about-me .mobile-intro {
     display: block;
-    width: 100%;
+    width: 75%;
     box-sizing: border-box;
     padding: 0 15px;
     margin: 0;
@@ -337,7 +337,7 @@ a {
     margin: 20px 0;
     padding: 0 15px;
     box-sizing: border-box;
-    width: 100%;
+    width: 75%;
   }
 
   #about-me .icon-row a {
