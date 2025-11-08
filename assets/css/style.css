@@ -287,3 +287,55 @@ a {
   word-break: break-word;
   hyphens: auto;
 }
+
+/* --- Responsive for mobile --- */
+@media (max-width: 768px) {
+  /* Sidebar becomes top bar */
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+    border-right: none;
+  }
+
+  .sidebar a {
+    text-align: center;
+    margin: 5px;
+    flex: 1 0 25%; /* 4 links per row */
+    font-size: 0.9em;
+  }
+
+  /* Content takes full width */
+  .content {
+    margin: 0;        /* remove desktop margins */
+    padding: 10px 15px; /* full width with small padding for readability */
+    font-size: 1em;
+  }
+
+  /* Main name scales down */
+  .main-name { 
+    font-size: 2em; 
+    padding-left: 0; /* remove desktop-specific padding */
+  }
+
+  /* Headings also span full width */
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  /* Icon row spans full width */
+  .icon-row {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
