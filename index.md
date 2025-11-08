@@ -270,9 +270,7 @@ title: Home
 <span class="collapsible-link" 
       style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
       onmouseover="this.style.textDecoration='underline';" 
-      onmouseout="this.style.textDecoration='none';">
-  Bargaining Theory
-</span>
+      onmouseout="this.style.textDecoration='none';">Bargaining Theory</span>
           <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
         </div>
         <div class="institution">University of Technology & Economics</div>
@@ -302,38 +300,45 @@ title: Home
 
   <div style="height:4px;"></div>
 
-  <div class="two-column-3rows">
-    <div class="label">2022 - 23</div>
-    <div class="value">
-      <div class="top-row">
-        <div class="course">
-          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Intermediate Microeconomics</span>
-          <span style="margin:10px;">•</span>Undergraduate<span style="margin:10px;">•</span>20h
-        </div>
-        <div class="institution">University of East Anglia</div>
+<div class="two-column-3rows">
+  <div class="label">2022 - 23</div>
+  <div class="value">
+    <div class="top-row">
+      <div class="course">
+        <span class="collapsible-link" 
+              style="color:#00008B; font-weight:normal; cursor:pointer;"
+              onmouseover="this.style.textDecoration='underline';" 
+              onmouseout="this.style.textDecoration='none';">Intermediate Microeconomics</span>
+        <span style="margin:10px;">•</span>Undergraduate
+        <span style="margin:10px;">•</span>20h
       </div>
-      <div class="second-row collapsible-content">
-        <p><i>Unavailable</i></p>
-      </div>
+      <div class="institution">University of East Anglia</div>
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>Unavailable</i></p>
     </div>
   </div>
+</div>
 
-  <!-- tiny spacer between courses -->
-  <div style="height:4px;"></div>
+<!-- tiny spacer between courses -->
+<div style="height:4px;"></div>
 
-  <div class="two-column-3rows">
-    <div class="label">2017 - 18</div>
-    <div class="value">
-      <div class="top-row">
-        <div class="course">
-          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Game Theory</span>
-          <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>15h
-        </div>
-        <div class="institution">Autonomous University of Barcelona</div>
+<div class="two-column-3rows">
+  <div class="label">2017 - 18</div>
+  <div class="value">
+    <div class="top-row">
+      <div class="course">
+        <span class="collapsible-link" 
+              style="color:#00008B; font-weight:normal; cursor:pointer;"
+              onmouseover="this.style.textDecoration='underline';" 
+              onmouseout="this.style.textDecoration='none';">Game Theory</span>
+        <span style="margin:10px;">•</span>Graduate
+        <span style="margin:10px;">•</span>15h
       </div>
-      <div class="second-row collapsible-content">
-        <p><i>Unavailable</i></p>
-      </div>
+      <div class="institution">Autonomous University of Barcelona</div>
+    </div>
+    <div class="second-row collapsible-content">
+      <p><i>Unavailable</i></p>
     </div>
   </div>
 </div>
