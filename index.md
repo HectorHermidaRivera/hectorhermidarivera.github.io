@@ -277,7 +277,7 @@ title: Home
           <span style="margin:0 10px;">•</span>
           <span>6h</span>
         </div>
-        <div class="institution">University of Technology & Economics</div>
+        <div class="institution">Budapest University of Technology & Economics</div>
       </div>
       <div class="second-row collapsible-content">
         <p><i>
