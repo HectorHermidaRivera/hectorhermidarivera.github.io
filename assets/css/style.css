@@ -8,7 +8,7 @@ body {
 .content {
   margin-left: 200px;       /* space for the sidebar */
   /*padding: 5% 5% 5% 2.5%;    */
-  padding: clamp(5px, 5%, 50px) clamp(5px, 5%, 50px) clamp(5px, 5%, 50px) clamp(2.5px, 2.5%, 25px);
+  padding: clamp(15px, 7.5%, 100px); /* uniform padding on all sides */
   /*max-width: 1300px;        */
   box-sizing: border-box;
   font-size: 1.1em;
