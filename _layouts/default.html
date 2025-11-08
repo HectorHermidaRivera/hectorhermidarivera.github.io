@@ -28,10 +28,11 @@
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      align-items: flex-end; /* align text to the right */
-      justify-content: center; /* vertical centering */
+      align-items: flex-end;
+      justify-content: center;
       border-right: 1px solid #111;
       z-index: 10000;
+      transition: all 0.3s ease;
     }
 
     .sidebar a {
@@ -42,7 +43,7 @@
       letter-spacing: 0.4px;
       margin: 8px 0;
       width: 100%;
-      text-align: right; /* right-align text */
+      text-align: right;
       line-height: 1.6;
     }
 
@@ -55,6 +56,7 @@
       padding-bottom: 80px;
       box-sizing: border-box;
       font-size: 1.1em;
+      transition: margin-left 0.3s ease;
     }
 
     /* --- Title --- */
@@ -67,7 +69,6 @@
     }
 
     .main-name strong { font-weight: 800; }
-
     b, strong { font-weight: 700; }
 
     /* --- Bullet fix --- */
@@ -83,19 +84,19 @@
       overflow: hidden;
       transition: max-height 0.35s ease;
       margin-top: 4px;
-      padding-left: 0px; /* remove indentation */
+      padding-left: 0;
     }
 
     .collapsible-link {
-      color: #00008B;       /* blue for collapsibles */
-      text-decoration: none; 
+      color: #00008B;
+      text-decoration: none;
       cursor: pointer;
-      font-weight: normal;  
+      font-weight: normal;
     }
 
-    /* --- Responsive for mobile --- */
+    /* --- Mobile Responsive --- */
     @media (max-width: 768px) {
-      /* Sidebar collapses to top bar */
+      /* Sidebar becomes top bar */
       .sidebar {
         position: relative;
         width: 100%;
@@ -109,9 +110,10 @@
       }
 
       .sidebar a {
-        text-align: left;
-        margin: 5px 10px;
-        flex: 1 0 50%; /* wrap 2 links per row */
+        text-align: center;
+        margin: 5px;
+        flex: 1 0 25%; /* 4 links per row */
+        font-size: 0.9em;
       }
 
       /* Content takes full width */
@@ -123,11 +125,33 @@
 
       .main-name { font-size: 2em; }
     }
+
+    /* --- Optional Hamburger Menu --- */
+    .hamburger {
+      display: none;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: #fff;
+      padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+      .sidebar a {
+        display: none; /* hide links initially */
+      }
+      .sidebar.active a {
+        display: block; /* show links when active */
+        flex: 1 0 100%;
+      }
+    }
   </style>
 </head>
-
 <body>
   <div class="sidebar">
+    <span class="hamburger">&#9776;</span>
     <a href="#about-me">About me</a>
     <a href="#contact">Contact</a>
     <a href="#employment">Employment</a>
@@ -150,7 +174,7 @@
   </div>
 
   <script>
-    // smooth scroll
+    // Smooth scroll
     document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         const targetId = this.getAttribute('href').substring(1);
@@ -162,31 +186,28 @@
       });
     });
 
-    // collapsible sections
-    document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('.collapsible-link').forEach(link => {
-        link.addEventListener('click', function() {
-          const value = this.closest('.value');
-          if (!value) return;
-          const content = value.querySelector('.collapsible-content');
-          if (!content) return;
-
-          if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-            content.style.maxHeight = '0';
-          } else {
-            content.style.maxHeight = content.scrollHeight + 'px';
-          }
-        });
+    // Collapsible sections
+    document.querySelectorAll('.collapsible-link').forEach(link => {
+      link.addEventListener('click', function() {
+        const value = this.closest('.value');
+        if (!value) return;
+        const content = value.querySelector('.collapsible-content');
+        if (!content) return;
+        content.style.maxHeight = (content.style.maxHeight && content.style.maxHeight !== '0px') ? '0' : content.scrollHeight + 'px';
       });
     });
 
-    // open links in new tab
-    document.addEventListener("DOMContentLoaded", function() {
-      const links = document.querySelectorAll('a:not(.topbar a)');
-      links.forEach(link => {
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
-      });
+    // Open links in new tab
+    document.querySelectorAll('a:not(.topbar a)').forEach(link => {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+
+    // Hamburger toggle
+    const hamburger = document.querySelector('.hamburger');
+    const sidebar = document.querySelector('.sidebar');
+    hamburger.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
     });
   </script>
 </body>
