@@ -349,11 +349,15 @@ a {
     width: 100%;
   }
 
-  /* Icons slightly larger, no hover growth */
-  #about-me .icon-row a {
-    flex: 0 1 auto;             /* maintain natural width */
+ #about-me .icon-row a {
+    flex: 0 1 auto;             
     text-align: center;
-    font-size: 3em;           /* slightly larger than before */
-    transition: none;           /* disable hover transform */
+    font-size: 3em;           /* make icons bigger */
+    transition: none;          /* no animation needed */
   }
-}
+
+  /* Remove hover transform specifically for mobile */
+  #about-me .icon-row a:hover {
+    transform: none !important; 
+  }
+
