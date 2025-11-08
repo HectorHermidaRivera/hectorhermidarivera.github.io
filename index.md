@@ -526,7 +526,7 @@ title: Home
   <div class="value"><a href="https://academicjobsonline.org">AJO</a>, <a href="https://econjobmarket.org">EconJobMarket</a>, <a href="https://europeanjobmarketofeconomists.org">European Job Market</a>, <a href="https://www.aeaweb.org/joe/listings">AEA JOE</a>, <a href="https://inomics.com">Inomics</a>, <a href="https://www.interfolio.com">Interfolio</a>, <a href="https://www.jobs.ac.uk">Jobs.ac.uk</a>, <a href="https://www.linkedin.com">LinkedIn</a></div>
 
   <div class="label"><b>Databases</b></div>
-  <div class="value"><a href="">CrossRef</a>, <a href="">Google Scholar</a>, <a href="">IDEAS</a>, <a href="">ORCID</a>, <a href="">Resaearch Rabbit</a>, <a href="">RePEc</a>, <a href="">Scimago</a>, <a href="">SCOPUS</a>, <a href="">Web of Science</a></div>
+  <div class="value"><a href="https://www.crossref.org">CrossRef</a>, <a href="https://scholar.google.com">Google Scholar</a>, <a href="https://ideas.repec.org">IDEAS</a>, <a href="https://orcid.org">ORCID</a>, <a href="https://www.researchrabbit.ai">Resaearch Rabbit</a>, <a href="https://repec.org">RePEc</a>, <a href="https://www.scimagojr.com">Scimago</a>, <a href="https://www.scopus.com/home.uri">SCOPUS</a>, <a href="https://www.webofscience.com/wos/error/authorNotFound">Web of Science</a></div>
 
   <div class="label"><b>Math</b></div>
   <div class="value"><a href="">Basic Math Cheatsheet</a>, <a href="">Coursera</a>, <a href="">Khan Academy</a>, <a href="">WolframAlpha</a></div>
