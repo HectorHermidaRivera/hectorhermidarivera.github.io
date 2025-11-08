@@ -292,9 +292,9 @@ a {
 
 @media (max-width: 768px) {
 
-  /* Hide the sidebar */
+  /* Completely hide the sidebar */
   .sidebar {
-    display: none;
+    display: none !important; /* use !important to override any previous rules */
   }
 
   /* Hide all main content except About me and icon-row */
@@ -304,25 +304,29 @@ a {
 
   /* Show About me section and mobile-intro paragraph */
   #about-me,
-  #about-me .mobile-intro {
+  #about-me .mobile-intro,
+  #about-me .icon-row {
     display: block;
+  }
+
+  /* Mobile-specific padding and text alignment for About me */
+  #about-me {
     padding: 0 15px;
     text-align: justify;
     margin: 15px 0;
   }
 
-  /* Show icon-row below About me, spanning full width */
-  .icon-row {
+  /* Icon row full-width on mobile */
+  #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;       /* single row */
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin: 20px 0;
-    padding: 0 15px;
     width: 100%;
+    padding: 0 15px;
   }
 
-  /* Optional: make all icons same size for mobile */
-  .icon-row a {
+  #about-me .icon-row a {
     flex: 1 0 auto;
     text-align: center;
   }
