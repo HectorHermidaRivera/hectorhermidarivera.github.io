@@ -287,3 +287,44 @@ a {
   word-break: break-word;
   hyphens: auto;
 }
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  /* Hide the sidebar completely */
+  .sidebar {
+    display: none;
+  }
+
+  /* Hide all content except About me section and icon-row */
+  .content > * {
+    display: none;
+  }
+
+  /* Show About me section */
+  #about-me {
+    display: block;
+    margin: 10px 15px;
+  }
+
+  /* Show icon row */
+  .icon-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  /* Remove desktop-specific padding from About me */
+  #about-me {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+  }
+
+  /* Adjust main-name if included in About me */
+  #about-me .main-name {
+    font-size: 2em;
+    padding-left: 0;
+  }
+}
+
