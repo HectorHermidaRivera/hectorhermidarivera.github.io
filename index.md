@@ -529,7 +529,7 @@ title: Home
   <div class="value"><a href="https://www.crossref.org">CrossRef</a>, <a href="https://scholar.google.com">Google Scholar</a>, <a href="https://ideas.repec.org">IDEAS</a>, <a href="https://orcid.org">ORCID</a>, <a href="https://www.researchrabbit.ai">Resaearch Rabbit</a>, <a href="https://repec.org">RePEc</a>, <a href="https://www.scimagojr.com">Scimago</a>, <a href="https://www.scopus.com/home.uri">SCOPUS</a>, <a href="https://www.webofscience.com/wos/error/authorNotFound">Web of Science</a></div>
 
   <div class="label"><b>Math</b></div>
-  <div class="value"><a href="">Basic Math Cheatsheet</a>, <a href="">Coursera</a>, <a href="">Khan Academy</a>, <a href="">WolframAlpha</a></div>
+  <div class="value"><a href="https://drive.google.com/file/d/1Odd1O-l0xM5gxUizp3l1PJneyEI1cexf/view">Basic Math Cheatsheet</a>, <a href="https://www.coursera.org">Coursera</a>, <a href="https://www.khanacademy.org">Khan Academy</a>, <a href="https://www.wolframalpha.com">WolframAlpha</a></div>
 
   <div class="label"><b>Preprints</b></div>
   <div class="value"><a href="https://arxiv.org">ArXiv</a>, <a href="http://www.ssrn.com">SSRN</a></div>
@@ -538,7 +538,7 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label"><b>Societies</b></div>
-  <div class="value"><a href="">Association of Southern European Economic Theorists</a>, <a href="">Coalition Theory Network</a>, <a href="">Game Theory Society</a>, <a href="">Society for Economic Design</a>, <a href="">Society for Social Choice & Welfare</a>, <a href="">Society for the Promotion of Mechanism & Institution Design</a>, <a href="">Stony Brook Game Theory Centre</a>, <a href="">The Econometric Society</a></div>
+  <div class="value"><a href="https://www.assetassoc.com">Association of Southern European Economic Theorists</a>, <a href="https://www.coalitiontheory.net">Coalition Theory Network</a>, <a href="https://gametheorysociety.org">Game Theory Society</a>, <a href="https://sites.google.com/site/societyforeconomicdesign/">Society for Economic Design</a>, <a href="https://scwsociety.org">Society for Social Choice & Welfare</a>, <a href="https://www.mechanism-design.org/society.php">Society for the Promotion of Mechanism & Institution Design</a>, <a href="https://gtcenter.org">Stony Brook Game Theory Centre</a>, <a href="https://www.econometricsociety.org">The Econometric Society</a></div>
 
   <div class="label"><b>YouTube</b></div>
   <div class="value"><a href="">Eric Maskin's "The Implementation of Society's Goals"</a>, <a href="">Amartya Sen's "Social Choice and Human Rights"</a>, <a href="">William Spaniel's Game Theory 101</a>, <a href="">Game Theory Online</a>, <a href="">Khan Academy</a>, <a href="">Selcuk Ozyurt's channel</a>, <a href="">Semih Koray's "Mathematics for Economists"</a>, <a href="">Sara Jensen's channel</a>, <a href="">Toby Handfield's channel</a></div>
