@@ -520,7 +520,7 @@ title: Home
   <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a><span style="margin:10px;">•</span><a href="">Economics.SE</a><span style="margin:10px;">•</span><a href="">Math.SE</a><span style="margin:10px;">•</span><a href="">TeX.SE</a><span style="margin:10px;">•</span><a href="">Academia.SE</a><span style="margin:10px;">•</span><a href="">Politics.SE</a><span style="margin:10px;">•</span><a href="">r/GAMETHEORY</a><span style="margin:10px;">•</span><a href="">LaTeX.org</a></div>
 
   <div class="label">Jobs</div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="">AcademicJobsOnline</a><span style="margin:10px;">•</span><a href="">EconJobMarket</a><span style="margin:10px;">•</span><a href="">European Job Market</a><span style="margin:10px;">•</span><a href="">AEA Job Openings for Economists</a><span style="margin:10px;">•</span><a href="">Inomics</a><span style="margin:10px;">•</span><a href="">Interfolio</a><span style="margin:10px;">•</span><a href="">Jobs.ac.uk</a><span style="margin:10px;">•</span><a href="">LinkedIn</a></div>
 
   <div class="label">Databases</div>
   <div class="value">Under construction</div>
