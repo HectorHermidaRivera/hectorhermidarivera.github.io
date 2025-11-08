@@ -535,7 +535,7 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label">Societies</div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="">Association of Southern European Economic Theorists</a>, <a href="">Coalition Theory Network</a>, <a href="">Game Theory Society</a>, <a href="">Society for Economic Design</a>, <a href="">Society for Social Choice & Welfare</a>, <a href="">Society for the Promotion of Mechanism & Institution Design</a>, <a href="">Stony Brook Game Theory Centre</a>, <a href="">The Econometric Society</a></div>
 
   <div class="label">YouTube</div>
   <div class="value">Under construction</div>
