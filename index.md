@@ -267,7 +267,12 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link" style="color:#00008B; font-weight:normal;">Bargaining Theory</span>
+<span class="collapsible-link" 
+      style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
+      onmouseover="this.style.textDecoration='underline';" 
+      onmouseout="this.style.textDecoration='none';">
+  Bargaining Theory
+</span>
           <span style="margin:10px;">•</span>Graduate<span style="margin:10px;">•</span>6h
         </div>
         <div class="institution">University of Technology & Economics</div>
