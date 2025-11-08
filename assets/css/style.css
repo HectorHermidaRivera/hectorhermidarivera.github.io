@@ -290,7 +290,7 @@ a {
   /* Make mobile-only block span full width */
   .mobile-only {
     display: block !important;
-    width: 75% !important;
+    width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box;
@@ -320,7 +320,7 @@ a {
   /* About Me paragraph */
   #about-me .mobile-intro {
     display: block;
-    width: 75%;
+    width: 100%;
     box-sizing: border-box;
     padding: 0 15px;
     margin: 0;
@@ -332,21 +332,21 @@ a {
   /* Icon row spans full width and never wraps */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;          
+    flex-wrap: nowrap;          /* NO WRAP */
     justify-content: space-between; 
     margin: 20px 0;
     padding: 0 15px;
     box-sizing: border-box;
-    width: 75%;
+    width: 100%;
   }
 
-  #about-me .icon-row a {
+ #about-me .icon-row a {
     flex: 0 1 auto;             
     text-align: center;
-    transition: none;          
+    transition: none;          /* no animation needed */
   }
 
+  /* Remove hover transform specifically for mobile */
   #about-me .icon-row a:hover {
     transform: none !important; 
   }
-}
