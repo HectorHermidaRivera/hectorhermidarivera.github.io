@@ -290,6 +290,11 @@ a {
 
 /* MOBILE */
 
+/* Hide mobile-only content by default */
+.mobile-only {
+  display: none;
+}
+
 @media (max-width: 768px) {
 
   /* Hide sidebar/navigation */
@@ -300,33 +305,33 @@ a {
     display: none !important;
   }
 
-  /* Hide all main content except About me and icon-row */
-  .content > * {
+  /* Hide all content except mobile-only */
+  .content > *:not(.mobile-only) {
     display: none;
   }
 
-  /* Show About me section */
-  #about-me {
+  /* Show mobile-only content */
+  .mobile-only {
     display: block;
-    margin: 0;
-    padding: 0;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 
-  /* Ensure paragraph spans full width with proper padding */
+  /* About Me paragraph */
   #about-me .mobile-intro {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 15px;
-    margin: 1em 0 0 0;
     font-weight: normal;
     text-transform: none;
     text-align: justify;
     line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-top: 1em;
   }
 
-  /* Icon row below About me, full-width */
+  /* Icon row below About Me */
   #about-me .icon-row {
     display: flex !important;
     flex-wrap: nowrap;
@@ -334,6 +339,7 @@ a {
     margin: 20px 0;
     padding: 0 15px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   #about-me .icon-row a {
@@ -348,9 +354,12 @@ a {
     padding-right: 0;
   }
 
-  /* Adjust main name in About me for mobile */
-  #about-me .main-name {
-    font-size: 2em;
-    padding-left: 0;
+  /* About Me title formatting */
+  #about-me h2 {
+    font-weight: normal;
+    text-transform: none;
+    padding: 0 15px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 }
