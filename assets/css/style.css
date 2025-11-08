@@ -288,7 +288,7 @@ a {
   hyphens: auto;
 }
 
-/* MOBILE FIXED */
+/* MOBILE FIXED + About Me + Icons */
 @media (max-width: 768px) {
   /* Hide sidebar */
   .sidebar { display: none !important; }
@@ -318,10 +318,10 @@ a {
     padding-left: 0 !important;
   }
 
-  /* About Me heading */
+  /* About Me heading: bold and uppercase */
   #about-me h2 {
-    font-weight: normal;
-    text-transform: none;
+    font-weight: bold;
+    text-transform: uppercase;
     padding: 0;
     margin: 0.5em 0;
   }
@@ -338,18 +338,19 @@ a {
     line-height: 1.5;
   }
 
-  /* Icon row must appear and span full width */
+  /* Icon row: force it to appear and span full width */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: wrap;          /* allow wrapping on very small screens */
+    flex-wrap: wrap;            /* allow wrapping on very small screens */
     justify-content: flex-start;
     margin: 10px 0;
-    padding: 0 15px;          /* same padding as paragraph */
+    padding: 0 15px;            /* same padding as paragraph */
     width: 100%;
     box-sizing: border-box;
   }
   #about-me .icon-row a {
-    flex: 0 0 auto;           /* keep natural icon width */
+    display: inline-block !important;
+    flex: 0 0 auto;             /* keep natural icon width */
     margin-right: 10px;
     text-align: center;
   }
