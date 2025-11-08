@@ -291,25 +291,24 @@ a {
 /* MOBILE */
 
 @media (max-width: 768px) {
-
   /* Completely hide the sidebar */
   .sidebar {
-    display: none !important; /* use !important to override any previous rules */
+    display: none !important;
   }
 
-  /* Hide all main content except About me and icon-row */
+  /* Hide all content except About me and mobile-intro */
   .content > * {
     display: none;
   }
 
-  /* Show About me section and mobile-intro paragraph */
+  /* Show About me section, its paragraph, and icon-row */
   #about-me,
   #about-me .mobile-intro,
   #about-me .icon-row {
-    display: block;
+    display: block !important; /* <-- important to override previous display:none */
   }
 
-  /* Mobile-specific padding and text alignment for About me */
+  /* Mobile-specific padding for About me */
   #about-me {
     padding: 0 15px;
     text-align: justify;
@@ -319,7 +318,7 @@ a {
   /* Icon row full-width on mobile */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;       /* single row */
     justify-content: space-between;
     margin: 20px 0;
     width: 100%;
