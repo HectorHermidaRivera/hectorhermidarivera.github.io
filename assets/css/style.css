@@ -299,7 +299,7 @@ a {
 
   .mobile-only {
     display: block;
-    width: 150%;
+    width: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -309,7 +309,7 @@ a {
     font-weight: normal;
     text-transform: none;
     padding: 0 0;
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
 
@@ -321,7 +321,6 @@ a {
     margin: 0;          /* remove top/bottom margin */
     font-weight: normal;
     text-transform: none;
-    text-align: justify;
     line-height: 1.5;
   }
 
@@ -330,20 +329,20 @@ a {
     display: flex !important;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin: 1em 0;
+    margin: 0em 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
   }
   #about-me .icon-row a {
     flex: 0 0 auto;      /* icons keep their natural width */
-    margin-right: 10px;
+    margin-right: 0px;
     text-align: center;
   }
 
   .content {
     margin-left: 0;
-    padding: 15px 0;      /* remove left/right padding */
+    padding: 0px 0;      /* remove left/right padding */
     font-size: 1em;
   }
 
