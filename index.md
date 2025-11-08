@@ -507,3 +507,43 @@ title: Home
   </div>
 
 </div>
+
+## Resources
+<a id="RESOURCES"></a>
+
+<div class="two-column">
+  
+  <div class="label">Textooks</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Q&A</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Jobs</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Databases</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Math</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Preprints</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Journals</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Societies</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">YouTube</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Conferences</div>
+  <div class="value">Under construction</div>
+
+  <div class="label">Blogs</div>
+  <div class="value">Under construction</div>
+</div>
+
