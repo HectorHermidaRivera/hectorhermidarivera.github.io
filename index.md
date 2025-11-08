@@ -308,7 +308,7 @@ title: Home
         <div class="institution">University of East Anglia</div>
       </div>
       <div class="second-row collapsible-content">
-        <p><i>Not available</i></p>
+        <p><i>Unavailable</i></p>
       </div>
     </div>
   </div>
@@ -327,7 +327,7 @@ title: Home
         <div class="institution">Autonomous University of Barcelona</div>
       </div>
       <div class="second-row collapsible-content">
-        <p><i>Not available</i></p>
+        <p><i>Unavailable</i></p>
       </div>
     </div>
   </div>
