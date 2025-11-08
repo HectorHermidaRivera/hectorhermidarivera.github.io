@@ -304,32 +304,35 @@ a {
     display: none;
   }
 
-  /* Show About me section */
-  #about-me {
-    display: block;
-    text-align: justify;
-    margin: 15px 0;
-    padding: 0;
-  }
+#about-me {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0; /* mobile padding is handled by the pseudo-element */
+}
 
-  /* Normal, full-width text for the dynamic paragraph */
-  #about-me::after {
-    content: "I am a microeconomic theorist in the 2025/26 JOB MARKET, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the University of East Anglia (UEA) in 2024 under the supervision of Ben McQuillin & Mich Tvede. Prior to this, I obtained a Master's Degree in Economic Analysis from the Autonomous University of Barcelona (UAB), a Master's Degree in Political Economy from the University of Essex (UoE), and a Bachelor's Degree in Political & Administration Sciences from Pompeu Fabra University.";
-    display: block;
-    margin-top: 1em;
-    font-size: 1em;
-    line-height: 1.5;
-    font-weight: normal;
-    text-transform: none;
-    text-align: justify;
+/* full-width paragraph that stays inside viewport (no cutoff) */
+#about-me::after {
+  content: "I am a microeconomic theorist in the 2025/26 JOB MARKET, looking for a job that starts on (or after) June 1st, 2026. I specialise in social choice, mechanism design, game theory, and political economy. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the stability of constitutions and individual rights. Currently, I am a postdoctoral fellow in the Quantitative Social & Management Sciences Research Centre (QSMS) at the Budapest University of Technology & Economics (BME). I obtained my Doctorate in Economics from the University of East Anglia (UEA) in 2024 under the supervision of Ben McQuillin & Mich Tvede. Prior to this, I obtained a Master's Degree in Economic Analysis from the Autonomous University of Barcelona (UAB), a Master's Degree in Political Economy from the University of Essex (UoE), and a Bachelor's Degree in Political & Administration Sciences from Pompeu Fabra University.";
+  display: block;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+  text-transform: none;
+  text-align: justify;
 
-    /* Full-width fix without cutoff */
-    width: 100vw;
-    box-sizing: border-box;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0 15px;
+  /* layout that spans edge-to-edge but remains visible */
+  width: calc(100vw - 30px); /* viewport width minus total horizontal padding (2*15px) */
+  max-width: 100vw;
+  box-sizing: border-box;
+  margin: 1rem 15px 0 15px;   /* 15px left/right inner margin so text doesn't touch edges */
+
+  /* safety to ensure no accidental clipping */
+  position: relative;
+  left: 0;
+  transform: none;
+  overflow-wrap: break-word;
+  word-break: break-word;
   }
 
   /* Remove body/content side padding on mobile to ensure true full width */
