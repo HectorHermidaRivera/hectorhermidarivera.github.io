@@ -526,10 +526,10 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label">Math</div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="">Basic Math Cheatsheet</a><span style="margin:10px;">•</span><a href="">Coursera</a><span style="margin:10px;">•</span><a href="">Khan Academy</a><span style="margin:10px;">•</span><a href="">WolframAlpha</a></div>
 
   <div class="label">Preprints</div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="">ArXiv</a><span style="margin:10px;">•</span><a href="">SSRN</a></div>
 
   <div class="label">Journals</div>
   <div class="value">Under construction</div>
