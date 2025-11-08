@@ -212,7 +212,7 @@ body {
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
-  top: -2.5px;              /* small upward shift */
+  top: -1.75px;              /* small upward shift */
   vertical-align: middle;  /* align with text baseline */
 }
 
