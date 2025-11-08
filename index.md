@@ -541,7 +541,7 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label">Conferences</div>
-  <div class="value">ASSA Meetings Econometric Society Meetings European Economic Association Meetings Royal Economic Society Conference ASSET Meetings European Meeting on Game Theory European Workshop on Economic Theory Coalition Theory Network Workshop Conference on Economic Design Conference on Mechanism & Institution Design Game Theory & Applications International Conference Lisbon Meetings in Game Theory & Applications Meeting of the Society for Social Choice & Welfare Stony Brook International Conference on Game Theory World Congress of the Game Theory Society</div>
+  <div class="value"><b>General</b>: ASSA Meetings, Econometric Society Meetings, European Economic Association Meetings, Royal Economic Society Conference<span style="margin:10px;">•</span><b>Field</b>: ASSET Meetings, European Meeting on Game Theory, European Workshop on Economic Theory, Coalition Theory Network Workshop, Conference on Economic Design, Conference on Mechanism & Institution Design, Game Theory & Applications International Conference, Lisbon Meetings in Game Theory & Applications, Meeting of the Society for Social Choice & Welfare, Stony Brook International Conference on Game Theory, World Congress of the Game Theory Society</div>
 
   <div class="label">Blogs</div>
   <div class="value">Under construction</div>
