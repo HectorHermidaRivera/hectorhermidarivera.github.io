@@ -7,7 +7,7 @@ body {
 
 .content {
   margin-left: 200px;       /* space for the sidebar */
-  padding: 5% 10% 10% 5%;     /* relative padding */
+  padding: 5% 5% 5% 5%;     /* relative padding */
   max-width: 1300px;        /* optional */
   box-sizing: border-box;
   font-size: 1.1em;
