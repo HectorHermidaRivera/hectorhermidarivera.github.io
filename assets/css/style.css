@@ -338,16 +338,12 @@ a {
     line-height: 1.5;
   }
 
-  /* Icon row: force it to appear and span full width */
-  #about-me .icon-row {
-    display: flex !important;
-    flex-wrap: wrap;            /* allow wrapping on very small screens */
-    justify-content: flex-start;
-    margin: 10px 0;
-    padding: 0 15px;            /* same padding as paragraph */
-    width: 100%;
-    box-sizing: border-box;
+/* Icon row spans full width */
+  .icon-row {
+    margin-left: 0;
+    justify-content: center;
   }
+
   #about-me .icon-row a {
     display: inline-block !important;
     flex: 0 0 auto;             /* keep natural icon width */
