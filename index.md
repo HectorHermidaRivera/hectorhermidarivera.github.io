@@ -523,7 +523,7 @@ title: Home
   <div class="value"><a href="https://en.wikipedia.org/wiki/Sci-Hub">w/Sci-Hub</a>, <a href="https://en.wikipedia.org/wiki/Archive.today">w/archive.today</a></div>
 
   <div class="label"><b>Jobs</b></div>
-  <div class="value"><a href="https://academicjobsonline.org">AJO</a>, <a href="https://econjobmarket.org">EconJobMarket</a>, <a href="">European Job Market</a>, <a href="">AEA JOE</a>, <a href="">Inomics</a>, <a href="">Interfolio</a>, <a href="">Jobs.ac.uk</a>, <a href="">LinkedIn</a></div>
+  <div class="value"><a href="https://academicjobsonline.org">AJO</a>, <a href="https://econjobmarket.org">EconJobMarket</a>, <a href="https://europeanjobmarketofeconomists.org">European Job Market</a>, <a href="https://www.aeaweb.org/joe/listings">AEA JOE</a>, <a href="https://inomics.com">Inomics</a>, <a href="https://www.interfolio.com">Interfolio</a>, <a href="https://www.jobs.ac.uk">Jobs.ac.uk</a>, <a href="https://www.linkedin.com">LinkedIn</a></div>
 
   <div class="label"><b>Databases</b></div>
   <div class="value"><a href="">CrossRef</a>, <a href="">Google Scholar</a>, <a href="">IDEAS</a>, <a href="">ORCID</a>, <a href="">Resaearch Rabbit</a>, <a href="">RePEc</a>, <a href="">Scimago</a>, <a href="">SCOPUS</a>, <a href="">Web of Science</a></div>
