@@ -520,7 +520,7 @@ title: Home
   <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a>, <a href="">Economics.SE</a>, <a href="">Math.SE</a>, <a href="">TeX.SE</a>, <a href="">Academia.SE</a>, <a href="">Politics.SE</a>, <a href="">r/GAMETHEORY</a>, <a href="">LaTeX.org</a></div>
 
   <div class="label">Jobs</div>
-  <div class="value"><a href="">AcademicJobsOnline</a>, <a href="">EconJobMarket</a>, <a href="">European Job Market</a>, <a href="">AEA Job Openings for Economists</a>, <a href="">Inomics</a>, <a href="">Interfolio</a>, <a href="">Jobs.ac.uk</a>, <a href="">LinkedIn</a></div>
+  <div class="value"><a href="">AJO</a>, <a href="">EconJobMarket</a>, <a href="">European Job Market</a>, <a href="">AEA JOE</a>, <a href="">Inomics</a>, <a href="">Interfolio</a>, <a href="">Jobs.ac.uk</a>, <a href="">LinkedIn</a></div>
 
   <div class="label">Databases</div>
   <div class="value"><a href="">CrossRef</a>, <a href="">Google Scholar</a>, <a href="">IDEAS</a>, <a href="">ORCID</a>, <a href="">Resaearch Rabbit</a>, <a href="">RePEc</a>, <a href="">Scimago</a>, <a href="">SCOPUS</a>, <a href="">Web of Science</a></div>
