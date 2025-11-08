@@ -338,24 +338,21 @@ a {
     line-height: 1.5;
   }
 
-  /* Icon row spans full width and scales icons */
+  /* Icon row spans full width and never wraps */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between; /* evenly spread icons across row */
-    gap: 10px;                      /* minimal spacing, only if needed */
+    flex-wrap: nowrap;          /* NO WRAP */
+    justify-content: space-between; 
     margin: 20px 0;
     padding: 0 15px;
     box-sizing: border-box;
     width: 100%;
-    overflow: hidden;
   }
 
-  /* Each icon scales nicely */
+  /* Each icon scales to fit exactly */
   #about-me .icon-row a {
-    flex: 1 1 50px;       /* grow and shrink with minimum 50px */
-    max-width: 70px;      /* prevent excessive enlargement in landscape */
+    flex: 0 0 calc((100% - 10 * 10px) / 11); /* 11 icons, 10 gaps of 10px */
     text-align: center;
-    font-size: 1.5em;     /* keep icon size consistent */
+    font-size: 1.5em;
   }
 }
