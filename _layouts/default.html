@@ -97,31 +97,60 @@
     @media (max-width: 768px) {
       /* Sidebar collapses to top bar */
       .sidebar {
-        position: relative;
-        width: 100%;
-        height: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 10px 15px;
-        border-right: none;
+        display: none !important;
       }
 
-      .sidebar a {
-        text-align: left;
-        margin: 5px 10px;
-        flex: 1 0 50%; /* wrap 2 links per row */
-      }
-
-      /* Content takes full width */
       .content {
         margin-left: 0;
-        padding: 15px 20px;
+        padding: 0;
         font-size: 1em;
       }
 
-      .main-name { font-size: 2em; }
+      /* Show only About Me + icon row on mobile */
+      .content > * {
+        display: none;
+      }
+
+      #about-me {
+        display: block;
+        text-align: justify;
+        width: 100%;
+        margin: 15px 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+
+      #about-me .mobile-intro {
+        display: block;
+        font-weight: normal;
+        text-transform: none;
+        text-align: justify;
+        line-height: 1.5;
+      }
+
+      #about-me .icon-row {
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      #about-me .icon-row a {
+        flex: 1 0 auto;
+        text-align: center;
+      }
+
+      #about-me .main-name {
+        font-size: 2em;
+        padding-left: 0;
+      }
+
+      body,
+      .content {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
   </style>
 </head>
@@ -146,6 +175,20 @@
 
   <div class="content">
     <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
+
+    <!-- About Me section -->
+    <div id="about-me">
+      <h2>About Me</h2>
+
+      <p class="mobile-intro">
+        I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a>.
+      </p>
+
+      <div class="icon-row">
+        <!-- your social/research icons here -->
+      </div>
+    </div>
+
     {{ content }}
   </div>
 
@@ -188,8 +231,8 @@
         link.setAttribute('rel', 'noopener noreferrer');
       });
     });
-  </script>
-  <script>
+
+    // Move icons below About Me on mobile
     document.addEventListener("DOMContentLoaded", function() {
       function moveIconsForMobile() {
         const icons = document.querySelector(".icon-row");
@@ -198,13 +241,11 @@
         if (!icons || !aboutMe) return;
 
         if (window.innerWidth <= 768) {
-          // Move icons below About Me paragraph
           const mobileIntro = aboutMe.querySelector(".mobile-intro");
           if (mobileIntro && icons.parentNode !== aboutMe) {
             aboutMe.appendChild(icons);
           }
         } else {
-          // Move back to original place if desktop
           const content = document.querySelector(".content");
           if (content && icons.parentNode !== content) {
             content.insertBefore(icons, content.firstChild.nextSibling);
@@ -212,10 +253,7 @@
         }
       }
 
-      // Initial check
       moveIconsForMobile();
-
-      // Update on resize
       window.addEventListener("resize", moveIconsForMobile);
     });
   </script>
