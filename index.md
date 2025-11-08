@@ -517,13 +517,13 @@ title: Home
   <div class="value">Under construction</div>
 
   <div class="label"><b>Q&A</b></div>
-  <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a>, <a href="">Economics.SE</a>, <a href="">Math.SE</a>, <a href="">TeX.SE</a>, <a href="">Academia.SE</a>, <a href="">Politics.SE</a>, <a href="">r/GAMETHEORY</a>, <a href="">LaTeX.org</a></div>
+  <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a>, <a href="https://economics.stackexchange.com">Economics.SE</a>, <a href="https://math.stackexchange.com">Math.SE</a>, <a href="https://tex.stackexchange.com">TeX.SE</a>, <a href="https://academia.stackexchange.com">Academia.SE</a>, <a href="https://politics.stackexchange.com">Politics.SE</a>, <a href="https://www.reddit.com/r/GAMETHEORY/">r/GAMETHEORY</a>, <a href="https://latex.org/forum/">LaTeX.org</a></div>
 
   <div class="label"><b>Paywalls</b></div>
   <div class="value"><a href="https://en.wikipedia.org/wiki/Sci-Hub">w/Sci-Hub</a>, <a href="https://en.wikipedia.org/wiki/Archive.today">w/archive.today</a></div>
 
   <div class="label"><b>Jobs</b></div>
-  <div class="value"><a href="">AJO</a>, <a href="">EconJobMarket</a>, <a href="">European Job Market</a>, <a href="">AEA JOE</a>, <a href="">Inomics</a>, <a href="">Interfolio</a>, <a href="">Jobs.ac.uk</a>, <a href="">LinkedIn</a></div>
+  <div class="value"><a href="https://academicjobsonline.org">AJO</a>, <a href="https://econjobmarket.org">EconJobMarket</a>, <a href="">European Job Market</a>, <a href="">AEA JOE</a>, <a href="">Inomics</a>, <a href="">Interfolio</a>, <a href="">Jobs.ac.uk</a>, <a href="">LinkedIn</a></div>
 
   <div class="label"><b>Databases</b></div>
   <div class="value"><a href="">CrossRef</a>, <a href="">Google Scholar</a>, <a href="">IDEAS</a>, <a href="">ORCID</a>, <a href="">Resaearch Rabbit</a>, <a href="">RePEc</a>, <a href="">Scimago</a>, <a href="">SCOPUS</a>, <a href="">Web of Science</a></div>
