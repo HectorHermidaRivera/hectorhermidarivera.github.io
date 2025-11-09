@@ -458,8 +458,8 @@ body {
 .content {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding-left: 5px;
-    padding-right: 30px;      /* add a little breathing room on the right */
+    padding-left: 10px;
+    padding-right: 10px;      /* add a little breathing room on the right */
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
