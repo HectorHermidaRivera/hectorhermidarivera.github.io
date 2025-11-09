@@ -5,16 +5,24 @@ body {
   background-color: #f2f2f2;
 }
 
+/* Full width up to iPad 11" landscape (≈1194px) */
 .content {
-  margin-left: 200px;       /* space for the sidebar */
-  /*padding: 5% 5% 5% 2.5%;    */
-  /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
-  /*max-width: 1300px;        */
+  margin-left: 200px;       /* keep sidebar space */
   padding: 2.5vw 5vw 2.5vw 2.5vw;
   box-sizing: border-box;
   font-size: 1.1em;
   text-align: justify;
   background-color: #f2f2f2;
+  max-width: none;           /* no width limit by default */
+}
+
+/* For screens wider than iPad 11" landscape, fix text width */
+@media (min-width: 1195px) {
+  .content {
+    max-width: 1194px;       /* same as iPad 11" width */
+    margin: 0 auto;          /* center horizontally */
+    padding: 2.5vw;          /* balanced padding */
+  }
 }
 
 /* Align main name with second column */
