@@ -58,7 +58,7 @@ body {
 /* .content {
   margin-left: 200px;
   margin-right: auto;
-  max-width: min(1200px, calc(100vw - 220px));
+  max-width: min(1000px, calc(100vw - 220px));
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
@@ -68,7 +68,7 @@ body {
 .content {
   margin-left: 200px; 
   margin-right: 200px; 
-  max-width: 1200px;
+  max-width: 1000px;
   width: calc(100% - 225px); 
   text-align: justify;
   box-sizing: border-box;
@@ -79,7 +79,7 @@ body {
 /*.content {
   margin-left: calc(200px + (100vw - 1200px)); 
   margin-right: auto;  /* right margin grows automatically/
-  max-width: 1200px;   /* maximum content width 
+  max-width: 1000px;   /* maximum content width 
   width: calc(100% - 220px); 
   text-align: justify;
   box-sizing: border-box;
