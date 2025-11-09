@@ -287,7 +287,6 @@ a {
   /* Make content full-width with tiny horizontal margins */
   .content {
     margin: 0 8px !important;     /* tiny left & right margins */
-    padding: 10px !important;     
     width: auto !important;       /* do not force 100% */
     box-sizing: border-box;  
   }
