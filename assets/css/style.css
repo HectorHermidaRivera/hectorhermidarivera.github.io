@@ -66,8 +66,8 @@ body {
 } */
 
 .content {
-  margin-left: calc(200px + (100vw - 1024px)/2); /* sidebar + dynamic left space */
-  margin-right: 200px; 
+  margin-left: calc(200px + ((100vw - 200px - 1000px)/2));
+  margin-right: calc((100vw - 200px - 1000px)/2);
   max-width: 1000px;
   width: calc(100% - 225px); 
   text-align: justify;
