@@ -323,14 +323,17 @@ body {
 /* SMALL SCREENS */
 
 @media (max-width: 800px) {
-  /* Hide sidebar */
+  .fill-line span:last-child {
+    flex-basis: 100%;
+    display: block;
+    text-align: right;
+    margin-top: 4px;
+  }
   .sidebar {
     display: none !important;
-}
-
-  /* Make content start at left margin */
+  }
   .content {
-    margin-left: 0 !important; /* remove the sidebar offset */
-    padding-left: 1vw;         /* optional small padding */
+    margin-left: 0 !important;
+    padding-left: 1vw;
   }
 }
