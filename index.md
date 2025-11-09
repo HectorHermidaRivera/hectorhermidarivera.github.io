@@ -485,7 +485,7 @@ title: Home
     <div class="value">
       <div class="top-row">
         <span><b>Professor <a href="https://sites.google.com/view/antoniomiralles">Antonio MIRALLES ASENSIO</a></b></span>
-        <span><a href="mailto:antonio.mirallesasensio@unime.it">antonio.mirallesasensio@unime.it</a><span style="margin:10px;">•</span><a href="tel:390906766179">+39 090 676 6179</a></span>
+        <span><a href="mailto:amirallesasensio@unime.it">amirallesasensio@unime.it</a><span style="margin:10px;">•</span><a href="tel:390906766179">+39 090 676 6179</a></span>
       </div>
       <div class="second-row">
         University of Messina<span style="margin:10px;">•</span>Master thesis supervisor
