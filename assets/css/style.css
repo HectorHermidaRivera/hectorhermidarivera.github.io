@@ -66,8 +66,8 @@ body {
 } */
 
 .content {
-  margin-left: calc(396px + ((100vw - 200px - 1000px)/2));
-  margin-right: calc((100vw - 396px - 1000px)/2);
+  margin-left: calc(200px + ((100vw - 50px - 1000px)/2));
+  margin-right: calc((100vw - 50px - 1000px)/2);
   max-width: 1000px;
   width: calc(100% - 225px); 
   text-align: justify;
