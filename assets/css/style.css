@@ -65,22 +65,11 @@ body {
   background-color: #f2f2f2;
 } */
 
-/*.content {
+.content {
   margin-left: 200px; 
   margin-right: 200px; 
   max-width: 1000px;
   width: calc(100% - 225px); 
-  text-align: justify;
-  box-sizing: border-box;
-  font-size: 1em;
-  background-color: #f2f2f2;
-} */
-
-.content {
-  margin: 0 auto;                /* center content horizontally */
-  padding-left: 200px;           /* leave space for sidebar */
-  max-width: 1000px;             /* prevent content from being too wide */
-  width: 100%;                   /* take full width up to max-width */
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
@@ -439,5 +428,14 @@ body {
   .content {
     margin-left: 0 !important;
     padding-left: 1vw;
+  }
+.content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 1vw;
+    padding-right: 1vw;      /* add a little breathing room on the right */
+    max-width: 100% !important;
+    width: auto !important;
+    box-sizing: border-box;
   }
 }
