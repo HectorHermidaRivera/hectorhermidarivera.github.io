@@ -521,7 +521,7 @@ title: Home
   <div class="label"><b>Social Choice</b></div>
   <div class="value">Under construction</div>
 
-  <div class="label"><b>Microeconomic Theory</b></div>
+  <div class="label"><b>Microeconomics</b></div>
   <div class="value">Under construction</div>
 
   <div class="label"><b>Mathematics</b></div>
@@ -535,6 +535,30 @@ title: Home
 
   <div class="label"><b>Other</b></div>
   <div class="value">Under construction</div>
+
+</div>
+
+### Journals
+
+<div class="two-column">
+
+  <div class="label"><b>General</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Field</b></div>
+  <div class="value">Under construction</div>
+
+</div>
+
+### Conferences
+
+<div class="two-column">
+
+  <div class="label"><b>General</b></div>
+  <div class="value">ASSA Meetings, Econometric Society Meetings, European Economic Association Meetings, Royal Economic Society Conference</div>
+
+  <div class="label"><b>Field</b></div>
+  <div class="value">ASSET Meetings, European Meeting on Game Theory, European Workshop on Economic Theory, Coalition Theory Network Workshop, Conference on Economic Design, Conference on Mechanism & Institution Design, Game Theory & Applications International Conference, Lisbon Meetings in Game Theory & Applications, Meeting of the Society for Social Choice & Welfare, Stony Brook International Conference on Game Theory, World Congress of the Game Theory Society</div>
 
 </div>
 
@@ -560,17 +584,11 @@ title: Home
   <div class="label"><b>Preprints</b></div>
   <div class="value"><a href="https://arxiv.org">ArXiv</a>, <a href="http://www.ssrn.com">SSRN</a></div>
 
-  <div class="label"><b>Journals</b></div>
-  <div class="value">Under construction</div>
-
   <div class="label"><b>Societies</b></div>
   <div class="value"><a href="https://www.assetassoc.com">Association of Southern European Economic Theorists</a>, <a href="https://www.coalitiontheory.net">Coalition Theory Network</a>, <a href="https://gametheorysociety.org">Game Theory Society</a>, <a href="https://sites.google.com/site/societyforeconomicdesign/">Society for Economic Design</a>, <a href="https://scwsociety.org">Society for Social Choice & Welfare</a>, <a href="https://www.mechanism-design.org/society.php">Society for the Promotion of Mechanism & Institution Design</a>, <a href="https://gtcenter.org">Stony Brook Game Theory Centre</a>, <a href="https://www.econometricsociety.org">The Econometric Society</a></div>
 
   <div class="label"><b>YouTube</b></div>
   <div class="value"><a href="https://www.youtube.com/watch?v=mSWl3ZWGm-o">Eric Maskin's "The Implementation of Society's Goals"</a>, <a href="https://www.youtube.com/watch?v=DeUr3dO-zVs">Amartya Sen's "Social Choice and Human Rights"</a>, <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo">William Spaniel's Game Theory 101</a>, <a href="https://www.youtube.com/c/gametheoryonline/featured">Game Theory Online</a>, <a href="https://www.youtube.com/@khanacademy">Khan Academy</a>, <a href="https://www.youtube.com/@selcukozyurt/playlists">Selcuk Ozyurt's channel</a>, <a href="https://www.youtube.com/playlist?list=PL5B3KLQNAC5iy7YKlEdHKiAbo5SuiAHE1">Semih Koray's "Mathematics for Economists"</a>, <a href="https://www.youtube.com/@sarajensen3039">Sara Jensen's channel</a>, <a href="https://www.youtube.com/@TobyHandfield">Toby Handfield's channel</a></div>
-
-  <div class="label"><b>Conferences</b></div>
-  <div class="value"><b>General</b>: ASSA Meetings, Econometric Society Meetings, European Economic Association Meetings, Royal Economic Society Conference<span style="margin:10px;">•</span><b>Field</b>: ASSET Meetings, European Meeting on Game Theory, European Workshop on Economic Theory, Coalition Theory Network Workshop, Conference on Economic Design, Conference on Mechanism & Institution Design, Game Theory & Applications International Conference, Lisbon Meetings in Game Theory & Applications, Meeting of the Society for Social Choice & Welfare, Stony Brook International Conference on Game Theory, World Congress of the Game Theory Society</div>
 
   <div class="label"><b>Blogs</b></div>
   <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">Game Theory net</a></div>
