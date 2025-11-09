@@ -365,7 +365,7 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 799px) {
   .sidebar {
     display: none !important;
   }
