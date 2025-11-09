@@ -131,26 +131,19 @@ body {
 
 .fill-line {
   display: flex;
-  flex-wrap: wrap;       /* allow items to wrap */
+  flex-wrap: wrap;           /* allow wrapping */
   align-items: baseline;
-  gap: 16px;             /* optional spacing */
+  gap: 16px;                 /* optional spacing */
 }
 
 .fill-line span:first-child {
-  flex: 0 1 auto;        /* keep left span natural width */
-  white-space: nowrap;    /* don't break it */
+  flex: 0 1 auto;            /* natural width */
+  white-space: nowrap;        /* keep left part on one line */
 }
 
 .fill-line span:last-child {
-  flex: 1 1 auto;        /* allow to shrink/grow */
-  min-width: 0;          /* allow it to shrink below content width */
-  text-align: right;     /* right-aligned by default */
-}
-
-/* If the last span wraps to a new line, make it left-aligned */
-.fill-line span:last-child:only-child {
-  flex-basis: 100%;
-  text-align: left;
+  flex: 0 1 100%;            /* always jump to next line if needed */
+  text-align: left;          /* left-aligned when it jumps */
 }
 
 .fill-line span:last-child {
