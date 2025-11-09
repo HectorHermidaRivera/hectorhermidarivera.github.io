@@ -64,7 +64,7 @@ body {
   background-color: #f2f2f2;
 }
 
-/* PAGE TITLE */
+/* TITLE */
 
 .main-name {
   margin-bottom: 0px;
@@ -185,7 +185,7 @@ body {
   color: #333;
 }
 
-/* Teaching entries: three-row layout */
+/* THREE-ROW LAYOUT */
 
 .two-column-3rows-container {
   gap: 4px !important;
