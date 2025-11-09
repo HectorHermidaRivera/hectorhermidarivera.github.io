@@ -91,7 +91,7 @@ body {
 
 .main-name {
   margin-bottom: 0px;
-  padding-left: 196px; 
+  padding-left: 166px; 
   font-size: 3em;
   font-weight: 400;
   line-height: 1;
@@ -114,7 +114,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 196px; 
+  padding-left: 166px; 
   margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
@@ -136,7 +136,7 @@ body {
 
 .two-column {
   display: grid;
-  grid-template-columns: 180px 1fr; /* fixed first column, flexible second */
+  grid-template-columns: 150px 1fr; /* fixed first column, flexible second */
   gap: 8px 16px;
   align-items: start;
   margin-top: 0px;
@@ -183,7 +183,7 @@ body {
 
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 180px auto;
+  grid-template-columns: 150px auto;
   gap: 8px 16px;
 }
 
@@ -226,7 +226,7 @@ body {
 
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 150px 1fr;
   gap: 8px 16px;     
   align-items: start;
 }
@@ -333,7 +333,7 @@ body {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 198px;
+  margin-left: 168px;
   margin-top: 0px;
 }
 
