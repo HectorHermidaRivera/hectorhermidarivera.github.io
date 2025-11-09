@@ -290,8 +290,8 @@ a {
   /* Make content full-width and remove padding/margin */
   .content {
     margin: 0 !important;
-    padding: 0 !important;
-    width: 95% !important;      
+    padding: 5px !important;
+    width: 100% !important;      
     max-width: 100% !important;  
     box-sizing: border-box;  
   }
