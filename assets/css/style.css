@@ -18,13 +18,13 @@ body {
 
 @media (min-width: 1195px) {
   body {
-    display: flex;
-    justify-content: center;  /* centers all content */
+    display: block;  /* no flex centering — we’ll handle margins manually */
   }
 
   .content {
-    max-width: 1194px;        /* fix text width equal to iPad 11" */
-    margin-left: 200px;       /* reserve space for sidebar */
+    max-width: 1194px;        /* fixed text width = iPad 11" */
+    margin-left: calc(200px + (100vw - 1194px) / 3);  /* left margin grows slowly */
+    margin-right: calc((100vw - 1194px) * 2 / 3);     /* right margin grows 2× faster */
     padding: 2.5vw;
     box-sizing: border-box;
   }
