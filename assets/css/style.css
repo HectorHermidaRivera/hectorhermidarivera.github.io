@@ -56,8 +56,9 @@ body {
 /* CONTENT */
 
 .content {
-  margin-left: 250px;       /* space for the sidebar */
-  padding: 2.5vw 5vw 2.5vw 1vw;
+  margin-left: 200px;       /* space for the sidebar */
+  max-width: 1000px;
+  text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
   background-color: #f2f2f2;
