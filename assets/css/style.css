@@ -16,12 +16,13 @@ body {
   max-width: none;           /* no width limit by default */
 }
 
-/* For screens wider than iPad 11" landscape, fix text width */
+/* For screens wider than iPad 11" landscape, fix text width AND respect sidebar */
 @media (min-width: 1195px) {
   .content {
-    max-width: 1194px;       /* same as iPad 11" width */
-    margin: 0 auto;          /* center horizontally */
-    padding: 2.5vw;          /* balanced padding */
+    max-width: 1194px;              /* same as iPad 11" text width */
+    margin: 0 auto 0 200px;         /* center relative to screen while keeping sidebar */
+    padding: 2.5vw;                 /* balanced padding */
+    box-sizing: border-box;
   }
 }
 
