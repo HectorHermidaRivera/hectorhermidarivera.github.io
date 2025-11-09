@@ -311,15 +311,6 @@ body {
   transform: scale(1.2);
 }
 
-/* Mimic LaTeX microtype spacing */
-body {
-  font-family: 'Merriweather', serif;
-  font-stretch: 94%;
-  letter-spacing: -0.017em;
-  word-spacing: -0.07em;
-  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
-  text-rendering: optimizeLegibility;
-}
 
 /* Enable natural hyphenation and wrapping in hyperlinks */
 a {
