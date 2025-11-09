@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/css/academicons.min.css"
-        integrity="sha384-PLACEHOLDER"
         crossorigin="anonymous">
 
   <style>
@@ -84,13 +83,6 @@
     }
     .main-name strong { font-weight: 800; }
 
-    .name-title {
-      font-size: 4em;
-      font-family: 'Merriweather', serif;
-      font-weight: 400;
-    }
-    .name-title strong { font-weight: 700; }
-
     .content h2, .content h3, .content h4, .content h5, .content h6 {
       margin-left: 0;
       padding-left: 121px;
@@ -136,7 +128,7 @@
     .two-column-2rows .value .top-row span:last-child { font-size: 0.8em; font-weight: normal; }
     .two-column-2rows .value .second-row { margin-top: 0; font-size: 1em; color: #333; }
 
-    .two-column-3rows-container { gap: 4px !important; }
+    .two-column-3rows-container { display: flex; flex-direction: column; gap: 4px; }
     .two-column-3rows {
       display: grid;
       grid-template-columns: 105px 1fr;
@@ -165,9 +157,6 @@
       padding: 0;
     }
     .collapsible-link { color: #00008B; text-decoration: none; cursor: pointer; font-weight: normal; }
-    .two-column-3rows .course.collapsible-link {
-      color: #00008B; text-decoration: none; font-weight: normal; cursor: pointer;
-    }
     .two-column-3rows .course.collapsible-link:hover { text-decoration: underline; }
 
     /* ===== MOBILE ===== */
@@ -212,33 +201,29 @@
   <div class="content">
     <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
 
-    <!-- Placeholder content -->
-    <div class="two-column">
-      <div class="label">Email</div>
-      <div class="value"><a href="mailto:hermida.rivera.hector@gtk.bme.hu">hermida.rivera.hector@gtk.bme.hu</a></div>
-    </div>
-
+    <!-- MOBILE ONLY ABOUT ME -->
     <div id="about-me" class="mobile-only">
-      <h2><b>ABOUT ME</b></h2>
+      <h2>About me</h2>
       <p class="mobile-intro">
         I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job starting June 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>.
         You are seeing the mobile version; full site is best viewed on desktop.
       </p>
       <div class="icon-row">
-        <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing" target="_blank"><i class="ai ai-cv-square" style="font-size:1.50em;"></i></a>
+        <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing"><i class="ai ai-cv-square" style="font-size:1.50em;"></i></a>
         <a href="mailto:hermida.rivera.hector@gtk.bme.hu"><i class="fas fa-envelope-square" style="font-size:1.50em;"></i></a>
-        <a href="https://arxiv.org/search/?searchtype=author&query=Hermida-Rivera" target="_blank"><i class="ai ai-arxiv-square" style="font-size:1.50em;"></i></a>
-        <a href="https://scholar.google.com/citations?user=eoXi8yYAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i></a>
+        <a href="https://arxiv.org/search/?searchtype=author&query=Hermida-Rivera"><i class="ai ai-arxiv-square" style="font-size:1.50em;"></i></a>
+        <a href="https://scholar.google.com/citations?user=eoXi8yYAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i></a>
       </div>
     </div>
+
   </div>
 
   <!-- ===== JS ===== -->
   <script>
-    // Smooth scroll
+    // Smooth scroll for internal links
     document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
-        const targetId = this.getAttribute('href').substring(1);
+        const targetId = this.getAttribute('href').substring(1).toLowerCase();
         const target = document.getElementById(targetId);
         if (target) {
           e.preventDefault();
@@ -257,14 +242,6 @@
           if (!content) return;
           content.style.maxHeight = (content.style.maxHeight && content.style.maxHeight !== '0px') ? '0' : content.scrollHeight + 'px';
         });
-      });
-    });
-
-    // Open all links in new tab
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll('a:not(.sidebar a)').forEach(link => {
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
       });
     });
   </script>
