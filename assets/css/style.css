@@ -307,7 +307,7 @@ a {
 #about-me h2 {
   font-weight: bold;
   text-transform: uppercase;
-  margin: 1em 0 0.5em 8px;  /* remove default left/right margin, keep some bottom spacing */
+  margin: 1em 0 0.5em 16px;  /* remove default left/right margin, keep some bottom spacing */
   padding: 0;            /* remove padding */
 }
 
