@@ -330,15 +330,6 @@ body {
   .sidebar {
     display: none !important;
   }
-.main-name {
-  margin-bottom: 0px;
-  padding-left: 0px; 
-  font-size: 3em;
-  font-weight: 400;
-  line-height: 1;
-}
-.icon-row {
-  margin-left: 2px;
 .content h2,
 .content h3,
 .content h4,
