@@ -65,11 +65,22 @@ body {
   background-color: #f2f2f2;
 } */
 
-.content {
+/*.content {
   margin-left: 200px; 
   margin-right: 200px; 
   max-width: 1000px;
   width: calc(100% - 225px); 
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #f2f2f2;
+} */
+
+.content {
+  margin-left: calc(200px + (100vw - 1200px)/2); /* sidebar + dynamic left space */
+  margin-right: auto;  /* right margin grows automatically */
+  max-width: 1000px;   /* maximum content width */
+  width: calc(100% - 220px); /* ensure it doesn’t overflow sidebar space */
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
@@ -346,7 +357,7 @@ body {
 .content {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding-left: 1vw;
+    padding-left: 0vw;
     padding-right: 1vw;      /* add a little breathing room on the right */
     max-width: 100% !important;
     width: auto !important;
