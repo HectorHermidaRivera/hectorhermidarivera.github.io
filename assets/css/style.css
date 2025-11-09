@@ -316,3 +316,18 @@ body {
 .icon-row a:hover {
   transform: scale(1.2);
 }
+
+/* SMALL SCREENS */
+
+@media (max-width: 800px) {
+  /* Hide sidebar */
+  .sidebar {
+    display: none !important;
+  }
+
+  /* Make content start at left margin */
+  .content {
+    margin-left: 0 !important; /* remove the sidebar offset */
+    padding-left: 1vw;         /* optional small padding */
+  }
+}
