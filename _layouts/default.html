@@ -1,3 +1,5 @@
+This is my html:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/css/academicons.min.css"
-        integrity="sha384‑PLACEHOLDER"
-        crossorigin="anonymous">
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/css/academicons.min.css"
+      integrity="sha384‑PLACEHOLDER"
+      crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <style>
-    /* --- BODY --- */
     html { scroll-behavior: smooth; }
+    
     body {
       font-family: 'Merriweather', serif;
       margin: 0;
@@ -30,189 +32,9 @@
       text-rendering: optimizeLegibility;
     }
 
-    a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
-
-    /* --- SIDEBAR --- */
+    /* --- Sidebar --- */
     .sidebar {
       position: fixed;
       top: 0;
       left: 0;
       width: 200px;
-      height: 100%;
-      background: #000000;
-      padding: 25px 15px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      justify-content: center;
-      border-right: 1px solid #111;
-      z-index: 10000;
-    }
-    .sidebar a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-      margin: 8px 0;
-      width: 100%;
-      text-align: right;
-      line-height: 1.6;
-    }
-    .sidebar a:hover { color: #dddddd; }
-
-    /* --- CONTENT --- */
-    .content {
-      box-sizing: border-box;
-      padding: 2.5vw;
-      margin-left: 200px; /* reserve sidebar space */
-      margin-right: 0;
-      width: calc(100vw - 200px); /* full width excluding sidebar */
-    }
-
-    /* --- MAIN NAME --- */
-    .main-name {
-      font-family: 'Merriweather', serif;
-      font-size: 3em;
-      font-weight: 400;
-      margin-bottom: 0.3em;
-      line-height: 1;
-    }
-    .main-name strong { font-weight: 800; }
-    b, strong { font-weight: 700; }
-
-    /* --- MOBILE ONLY --- */
-    .mobile-only { display: none; }
-
-    /* --- TEXT JUSTIFIED --- */
-    .content,
-    .content p,
-    .content li,
-    .content h1, 
-    .content h2, 
-    .content h3, 
-    .content h4, 
-    .content h5, 
-    .content h6,
-    .content .two-column .value,
-    .content .two-column-2rows .value,
-    .content .two-column-3rows .value {
-      text-align: justify;
-    }
-
-    /* --- LARGE SCREENS (≥ iPad 11") --- */
-    @media (min-width: 1195px) {
-      body { display: flex; justify-content: flex-start; }
-      .content {
-        max-width: 1194px; /* fixed content width */
-        width: auto;
-        /* Extra space after sidebar */
-        margin-left: 200px + calc((100vw - 200px - 1194px)/3);
-        margin-left: calc(200px + ((100vw - 200px - 1194px)/3));
-        margin-right: calc((100vw - 200px - 1194px)/3 * 2);
-      }
-    }
-
-    /* --- MOBILE FIX --- */
-    @media (max-width: 768px) {
-      .sidebar { display: none !important; }
-      .content > *:not(.mobile-only) { display: none; }
-
-      .mobile-only {
-        display: block !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        box-sizing: border-box;
-      }
-
-      .content { margin: 0 !important; padding: 0 !important; font-size: 1em; }
-      .main-name { font-size: 2em !important; padding-left: 0 !important; }
-
-      #about-me .mobile-intro {
-        padding: 0 15px;
-        margin: 0;
-        text-align: justify;
-        line-height: 1.5;
-      }
-
-      #about-me .icon-row {
-        display: flex !important;
-        flex-wrap: nowrap;
-        justify-content: space-between; 
-        margin: 20px 0;
-        padding: 0 15px;
-        width: 100%;
-      }
-
-      #about-me .icon-row a { flex: 0 1 auto; text-align: center; transition: none; }
-      #about-me .icon-row a:hover { transform: none !important; }
-    }
-  </style>
-</head>
-
-<body>
-  <div class="sidebar">
-    <a href="#about-me">About me</a>
-    <a href="#contact">Contact</a>
-    <a href="#employment">Employment</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#publications">Publications</a>
-    <a href="#job-market-paper">Job Market Paper</a>
-    <a href="#manuscripts">Manuscripts</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#awards">Awards</a>
-    <a href="#training">Training</a>
-    <a href="#presentations">Presentations</a>
-    <a href="#refereeing">Refereeing</a>
-    <a href="#references">References</a>
-    <a href="#resources">Resources</a>
-  </div>
-
-  <div class="content">
-    <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
-
-    <!-- Desktop content injected -->
-    {{ content }}
-
-    <!-- MOBILE ONLY: About Me + icons -->
-    <div id="about-me" class="mobile-only">
-      <h2><b>ABOUT ME</b></h2>
-      <p class="mobile-intro">
-        I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a>.
-      </p>
-      <p>You are seeing a simplified mobile-version of this website; to see the full website, please access it from a desktop browser.</p>
-
-      <div class="icon-row">
-        <a href="#"><i class="ai ai-cv-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="fas fa-envelope-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-arxiv-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="fab fa-linkedin" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-orcid-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-ideas-repec-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-researchgate-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-scopus-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-ssrn-square" style="font-size:1.50em;"></i></a>
-        <a href="#"><i class="ai ai-clarivate-square" style="font-size:1.50em;"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // Smooth scroll
-    document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        const targetId = this.getAttribute('href').substring(1);
-        const target = document.getElementById(targetId);
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
-  </script>
-</body>
-</html>
