@@ -1,5 +1,3 @@
-html { scroll-behavior: smooth; }
-
 a {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -40,8 +38,7 @@ a {
 
 .sidebar a:hover { color: #dddddd; }
 
-.main-name strong { font-weight: 800; }
-b, strong { font-weight: 700; }
+html { scroll-behavior: smooth; }
 
 /* BODY */
 
