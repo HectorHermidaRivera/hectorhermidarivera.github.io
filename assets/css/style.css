@@ -118,7 +118,6 @@ body {
   margin-top: 0px;
   max-width: 100%;     /* prevent grid from exceeding container width */
   box-sizing: border-box;
-  text-align: justify;
   overflow-wrap: break-word; /* wrap long words in second column */
 }
 
@@ -321,6 +320,36 @@ body {
 @media (max-width: 1000px) {
   .sidebar {
     display: none !important;
+  }
+ .two-column,
+  .two-column-2rows,
+  .two-column-3rows {
+    display: grid;
+    grid-template-columns: 1fr; /* single column */
+    gap: 8px;                   /* spacing between items */
+  }
+
+  /* Make labels and values stack and right-aligned */
+  .two-column .label,
+  .two-column-2rows .label,
+  .two-column-3rows .label,
+  .two-column .value,
+  .two-column-2rows .value,
+  .two-column-3rows .value {
+    text-align: right;
+    width: 100%;
+  }
+
+  /* Ensure fill-line content stays stacked */
+  .fill-line {
+    flex-direction: column;
+    align-items: flex-end; /* right-align all items */
+  }
+
+  .fill-line span {
+    width: 100%;
+    text-align: right;
+    white-space: normal; /* allow wrapping */
   }
   .content {
     margin-left: 0 !important;
