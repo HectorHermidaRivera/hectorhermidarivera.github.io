@@ -367,6 +367,7 @@ body {
   .two-column-3rows .value {
     text-align: left;
     width: 100%;
+    margin-bottom: 0px; /* adjust as needed */
   }
 .two-column-2rows .top-row {
   flex-direction: column;       /* stack the course and university */
