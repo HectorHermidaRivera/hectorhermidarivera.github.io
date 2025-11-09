@@ -358,19 +358,18 @@ body {
     text-align: left;
     width: 100%;
   }
-.fill-line {
-    flex-direction: column;      /* stack spans vertically */
-    align-items: flex-start;     /* align everything to the left */
+ .fill-line {
+    flex-direction: column;
+    align-items: flex-start; /* right-align all items */
   }
 
   .fill-line span {
-    white-space: normal;         /* allow wrapping */
-    width: 100%;                 /* occupy full width */
-    text-align: left;            /* left-align text */
-    margin-top: 2px;             /* optional spacing between lines */
+    width: 100%;
+    text-align: left;
+    white-space: normal; /* allow wrapping */
   }
-
-  .fill-line span:first-child {
-    margin-top: 0;               /* remove top margin for first line */
+  .content {
+    margin-left: 0 !important;
+    padding-left: 1vw;
   }
 }
