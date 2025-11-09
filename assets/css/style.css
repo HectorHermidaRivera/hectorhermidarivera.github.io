@@ -81,7 +81,7 @@ body {
 .content {
   max-width: 1000px;                     /* max content width */
   width: calc(100% - 200px - 20px);      /* 100% minus sidebar and some minimal spacing */
-  margin-left: max(220px, auto);          /* at least sidebar width + spacing */
+  margin-left: autho        /* at least sidebar width + spacing */
   margin-right: auto;
   padding: 0 20px 30px 20px;             /* inner padding */
   box-sizing: border-box;
