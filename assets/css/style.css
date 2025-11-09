@@ -323,7 +323,11 @@ body {
   /* Hide sidebar */
   .sidebar {
     display: none !important;
+  .two-column {
+    grid-template-columns: 1fr; /* single column layout on small screens */
+    gap: 8px 0;
   }
+}
 
   /* Make content start at left margin */
   .content {
