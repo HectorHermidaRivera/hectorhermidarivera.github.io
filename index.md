@@ -511,10 +511,36 @@ title: Home
 ## Resources
 <a id="RESOURCES"></a>
 
+### Textbooks
+
 <div class="two-column">
   
-  <div class="label"><b>Textooks</b></div>
+  <div class="label"><b>Game Theory</b></div>
   <div class="value">Under construction</div>
+
+  <div class="label"><b>Social Choice</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Microeconomic Theory</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Mathematics</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Mechanism Design</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Politics</b></div>
+  <div class="value">Under construction</div>
+
+  <div class="label"><b>Other</b></div>
+  <div class="value">Under construction</div>
+
+</div>
+
+### Internet
+
+<div class="two-column">
 
   <div class="label"><b>Q&A</b></div>
   <div class="value"><a href="https://www.econjobrumors.com">EconJobRumors</a>, <a href="https://economics.stackexchange.com">Economics.SE</a>, <a href="https://math.stackexchange.com">Math.SE</a>, <a href="https://tex.stackexchange.com">TeX.SE</a>, <a href="https://academia.stackexchange.com">Academia.SE</a>, <a href="https://politics.stackexchange.com">Politics.SE</a>, <a href="https://www.reddit.com/r/GAMETHEORY/">r/GAMETHEORY</a>, <a href="https://latex.org/forum/">LaTeX.org</a></div>
@@ -548,5 +574,6 @@ title: Home
 
   <div class="label"><b>Blogs</b></div>
   <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">Game Theory net</a></div>
+  
 </div>
 
