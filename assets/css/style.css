@@ -343,7 +343,7 @@ body {
   /* Ensure fill-line content stays stacked */
   .fill-line {
     flex-direction: column;
-    align-items: flex-end; /* right-align all items */
+    align-items: flex-start; /* right-align all items */
   }
 
   .fill-line span {
