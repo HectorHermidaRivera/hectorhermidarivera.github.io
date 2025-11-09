@@ -10,7 +10,7 @@ body {
   /*padding: 5% 5% 5% 2.5%;    */
   /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
   /*max-width: 1300px;        */
-  padding: 2.5vw 5vw 2.5vw 1vw;
+  padding: 2.5vw 5vw 2.5vw 0vw;
   box-sizing: border-box;
   font-size: 1.1em;
   text-align: justify;
@@ -301,7 +301,6 @@ a {
     display: block !important;
     width: 100% !important;
     padding: 15px !important;       /* added padding for top, bottom, left, right */
-    margin: 0 !important;
     box-sizing: border-box;
   }
 
@@ -309,15 +308,13 @@ a {
   .main-name {
     font-size: 2em !important;
     padding-left: 0 !important;
-    margin: 0 !important;
   }
 
   /* About Me heading */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
-    padding: 0;
-    margin: 0.5em 0;
+    padding: 1em;
   }
 
   /* About Me paragraphs */
@@ -325,7 +322,7 @@ a {
   #about-me .mobile-only p {          /* ensures all paragraphs get same line-height */
     width: 100% !important;
     padding: 0 !important;
-    margin: 0 0 1em 0;               /* spacing between paragraphs */
+    margin: 1em 1em 1em 1em;               /* spacing between paragraphs */
     line-height: 1.5;                /* consistent line spacing */
   }
 
