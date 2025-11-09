@@ -315,7 +315,7 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     padding: 0;
-    margin: 0.5em 0;
+    margin: 0em 0;
   }
 
   /* About Me paragraph */
@@ -323,11 +323,11 @@ a {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 0 15px;
+    padding: 0 0px;
     margin: 0;
     font-weight: normal;
     text-transform: none;
-    line-height: 1.5;
+    line-height: 1;
   }
 
   /* Icon row spans full width and never wraps */
@@ -336,7 +336,7 @@ a {
     flex-wrap: nowrap;          /* NO WRAP */
     justify-content: space-between; 
     margin: 20px 0;
-    padding: 0 15px;
+    padding: 0 0px;
     box-sizing: border-box;
     width: 100%;
   }
