@@ -378,6 +378,11 @@ body {
   white-space: normal;          /* allow wrapping */
   text-align: left;             /* left-aligned when stacked */
 }
+.two-column-3rows .top-row span {
+  width: 100%;
+  white-space: normal;          /* allow wrapping */
+  text-align: left;             /* left-aligned when stacked */
+}
  .fill-line {
     flex-direction: column;
     align-items: flex-start; /* right-align all items */
