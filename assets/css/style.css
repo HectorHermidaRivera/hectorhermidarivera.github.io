@@ -372,17 +372,26 @@ body {
   flex-direction: column;       /* stack the course and university */
   align-items: flex-start;      /* left-align */
 }
-
 .two-column-2rows .top-row span {
   width: 100%;
   white-space: normal;          /* allow wrapping */
   text-align: left;             /* left-aligned when stacked */
 }
-.two-column-3rows .top-row span {
-  width: 100%;
-  white-space: normal;          /* allow wrapping */
-  text-align: left;             /* left-aligned when stacked */
-}
+ .two-column-3rows .top-row {
+    flex-direction: column;    /* stack course and university */
+    align-items: flex-start;   /* left-align everything */
+  }
+
+  .two-column-3rows .top-row .institution {
+    text-align: left !important;  /* ensure left-aligned */
+    margin-top: 4px;              /* optional spacing above university */
+    width: 100%;                  /* take full width */
+  }
+
+  .two-column-3rows .top-row .course {
+    width: 100%;                  /* take full width */
+  }
+
  .fill-line {
     flex-direction: column;
     align-items: flex-start; /* right-align all items */
