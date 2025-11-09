@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
 
-  // SMOOTH SCROLL FOR SIDEBAR LINKS
+// SMOOTH SCROLL FOR SIDEBAR LINKS
+  
   document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href').substring(1);
@@ -13,12 +14,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 // COLLAPSIBLES
+  
   document.querySelectorAll('.collapsible-link').forEach(link => {
-    link.addEventListener('click', function() {
-      const container = link.closest('.two-column-2rows, .two-column-3rows');
+    link.addEventListener('click', function(e) {
+      // Find the closest container
+      let container = link.closest('.two-column-2rows');
+      if (!container) container = link.closest('.two-column-3rows');
+      if (!container) return; // safety
+
       const content = container.querySelector('.collapsible-content');
       if (!content) return;
 
+      // Toggle max-height
       if (content.style.maxHeight && content.style.maxHeight !== '0px') {
         content.style.maxHeight = '0';
       } else {
@@ -27,8 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // EXTERNAL LINKS TO NEW TAB
+// OPEN EXTERNAL LINKS IN NEW TAB
+
   document.querySelectorAll('a').forEach(link => {
+    // Skip sidebar links and collapsible links
     if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
       link.setAttribute('target', '_blank');
     }
