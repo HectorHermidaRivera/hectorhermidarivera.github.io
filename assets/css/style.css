@@ -456,10 +456,10 @@ body {
     padding-left: 1vw;
   }
 .content {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 10px;
-    padding-right: 10px;      /* add a little breathing room on the right */
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding-left: 0px;
+    padding-right: 0px;      /* add a little breathing room on the right */
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
