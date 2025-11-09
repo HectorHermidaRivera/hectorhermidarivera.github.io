@@ -8,8 +8,7 @@ body {
 /* Default: up to iPad 11" landscape */
 .content {
   margin-left: 200px;   /* reserve space for sidebar */
-  margin-right: 0;      /* no right margin */
-  max-width: none;      /* full width */
+  margin-right: 0;      /* no extra right margin */
   padding: 2.5vw;
   box-sizing: border-box;
 }
@@ -17,13 +16,13 @@ body {
 /* Screens larger than iPad 11" */
 @media (min-width: 1195px) {
   .content {
-    max-width: 1194px;   /* text width same as iPad 11" */
+    width: 1194px;       /* text width same as iPad 11" */
     
-    /* Asymmetric margins: left grows slowly, right grows 2× faster */
+    /* Left margin grows slowly, right margin grows twice as fast */
     margin-left: calc(200px + (100vw - 1194px) / 3);
     margin-right: calc((100vw - 1194px) * 2 / 3);
 
-    padding: 2.5vw;
+    padding: 2.5vw;      /* keep internal padding */
     box-sizing: border-box;
   }
 }
