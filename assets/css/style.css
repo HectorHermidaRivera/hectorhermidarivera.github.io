@@ -368,6 +368,16 @@ body {
     text-align: left;
     width: 100%;
   }
+.two-column-2rows .top-row {
+  flex-direction: column;       /* stack the course and university */
+  align-items: flex-start;      /* left-align */
+}
+
+.two-column-2rows .top-row span {
+  width: 100%;
+  white-space: normal;          /* allow wrapping */
+  text-align: left;             /* left-aligned when stacked */
+}
  .fill-line {
     flex-direction: column;
     align-items: flex-start; /* right-align all items */
