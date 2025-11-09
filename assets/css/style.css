@@ -365,7 +365,7 @@ body {
   .two-column-3rows .label {
     text-align: left;
     width: 100%;
-    margin-top: 60px;   /* vertical space above */
+    margin-top: 12px;   /* vertical space above */
     margin-bottom: 2px; /* small space between label and value */
   }
 
