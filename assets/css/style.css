@@ -286,16 +286,16 @@ a {
   /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
-  /* Make content full-width with slight horizontal margin */
+  /* Make content full-width with small horizontal margins */
   .content {
-    margin: 0 !important;          
+    margin: 0 8px !important;          /* tiny left & right margin */
     padding: 10px !important;      
-    width: 100% !important;      
+    width: calc(100% - 16px) !important; /* adjust for horizontal margin */
     max-width: 100% !important;  
     box-sizing: border-box;  
   }
 
-  /* Mobile-only block spans full width with tiny left/right margin */
+  /* Mobile-only block spans full width with same horizontal margins */
   .mobile-only {
     display: block !important;
     width: calc(100% - 16px) !important;   /* leave 8px margin left & right */
@@ -315,8 +315,8 @@ a {
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 0.5em 0;   /* bottom spacing */
-    padding-left: 0 !important;  /* align left with text */
+    margin: 0 0 0.5em 0;  
+    padding-left: 0 !important;  
   }
 
   /* About Me paragraphs */
@@ -328,7 +328,7 @@ a {
     line-height: 1.5;      
   }
 
-  /* Icon row full width with container padding */
+  /* Icon row full width, aligned with text */
   #about-me .icon-row {
     width: 100% !important;
     display: flex !important;
