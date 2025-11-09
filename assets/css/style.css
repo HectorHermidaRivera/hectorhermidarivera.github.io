@@ -289,6 +289,21 @@ a {
   hyphens: auto;
 }
 
+/* Make all main content text justified */
+.content,
+.content p,
+.content h1, 
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6,
+.content .two-column .value,
+.content .two-column-2rows .value,
+.content .two-column-3rows .value {
+  text-align: justify;
+}
+
 /* MOBILE FIXED + About Me + Icons */
 @media (max-width: 768px) {
   /* Hide sidebar */
