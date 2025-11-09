@@ -133,17 +133,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: nowrap; /* normal wrapping */
+  flex-wrap: wrap; /* allow items to wrap to next line if they don't fit */
 }
 
 .fill-line span:first-child {
-  flex: 0 1 auto;   /* left part stays its natural width */
-  white-space: nowrap;
+  flex: 0 1 auto;   /* keep left part normal width */
+  white-space: nowrap; /* keep it on one line */
 }
 
 .fill-line span:last-child {
-  flex: 0 1 auto;   /* right part stays normal width */
-  text-align: right; 
+  flex: 1 1 100%;   /* allow right part to take full width if needed */
+  text-align: right; /* keep it visually right-aligned */
 }
 
 .fill-line span:last-child {
