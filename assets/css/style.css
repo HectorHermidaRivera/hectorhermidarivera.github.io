@@ -66,13 +66,14 @@ body {
 } */
 
 .content {
-  margin-left: calc(200px + ((100vw - 50px - 1000px)/2));
-  margin-right: calc((100vw - 50px - 1000px)/2);
+  margin-left: calc(200px + ((100vw - 150px - 1000px)/2));
+  margin-right: calc((100vw - 150px - 1000px)/2);
   max-width: 1000px;
   width: calc(100% - 225px); 
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
+  padding: 0px 50px 30px 10px;
   background-color: #f2f2f2;
 }
 
