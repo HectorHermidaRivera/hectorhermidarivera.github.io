@@ -356,7 +356,7 @@ body {
   .two-column-3rows {
     display: grid;
     grid-template-columns: 1fr; /* single column */
-    gap: 2px;                   /* spacing between items */
+    gap: 0px;                   /* spacing between items */
   }
 
   .two-column .label,
@@ -367,7 +367,8 @@ body {
   .two-column-3rows .value {
     text-align: left;
     width: 100%;
-    margin-bottom: 0px; /* adjust as needed */
+    margin-bottom: 0px;
+    margin-top: 4px;
   }
 .two-column-2rows .top-row {
   flex-direction: column;       /* stack the course and university */
