@@ -77,7 +77,7 @@ body {
 } */
 
 .content {
-  margin-left: calc(200px + (100vw - 1200px)/2); /* sidebar + dynamic left space */
+  margin-left: calc(200px + (100vw - 1200px)); /* sidebar + dynamic left space */
   margin-right: auto;  /* right margin grows automatically */
   max-width: 1200px;   /* maximum content width */
   width: calc(100% - 220px); /* ensure it doesn’t overflow sidebar space */
