@@ -277,6 +277,8 @@ a {
   hyphens: auto;
 }
 
+/* MOBILE */
+
 @media (max-width: 768px) {
   /* Hide sidebar */
   .sidebar { display: none !important; }
@@ -284,20 +286,21 @@ a {
   /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
-  /* Make content full-width and remove margin */
+  /* Make content full-width with padding inside */
   .content {
-    margin: 10px !important;
-    padding: 10px !important;
+    margin: 0 !important;          /* remove margin to avoid overflow */
+    padding: 10px !important;      /* padding inside content */
     width: 100% !important;      
     max-width: 100% !important;  
     box-sizing: border-box;  
   }
 
-  /* Mobile-only block spans full width with padding on all sides */
+  /* Mobile-only block spans full width with padding */
   .mobile-only {
     display: block !important;
     width: 100% !important;
-    padding: 15px !important;       /* added padding for top, bottom, left, right */
+    padding: 10px !important;     /* spacing inside container */
+    margin: 0 !important;         /* no margin to avoid overflow */
     box-sizing: border-box;
   }
 
@@ -305,31 +308,33 @@ a {
   .main-name {
     font-size: 2em !important;
     padding-left: 0 !important;
+    margin: 0 !important;
   }
 
   /* About Me heading */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0 0 0.5em 0;          /* optional spacing below heading */
   }
 
-  /* About Me paragraphs */
+  /* About Me paragraphs: use padding only inside container, no extra margin */
   #about-me .mobile-intro,
-  #about-me .mobile-only p {          /* ensures all paragraphs get same line-height */
+  #about-me .mobile-only p {
     width: 100% !important;
-    padding: 10px !important;
-    margin: 1em 1em 1em 1em;               /* spacing between paragraphs */
-    line-height: 1;                /* consistent line spacing */
+    padding: 0 !important;        /* let container padding handle spacing */
+    margin: 0 0 1em 0;            /* only vertical spacing between paragraphs */
+    line-height: 1.5;             /* consistent line spacing */
   }
 
-  /* Icon row full width with same padding as container */
+  /* Icon row full width with container padding */
   #about-me .icon-row {
     width: 100% !important;
     display: flex !important;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 20px 10px 10px 10px;              /* top margin for spacing from text */
-    padding: 10px !important;
+    margin: 1em 0 0 0;            /* spacing from text above */
+    padding: 0;                    /* padding handled by container */
     box-sizing: border-box;
   }
 
