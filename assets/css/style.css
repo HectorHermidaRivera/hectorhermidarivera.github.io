@@ -290,7 +290,7 @@ a {
   /* Make content full-width and remove margin */
   .content {
     margin: 10px !important;
-    padding: 0 !important;
+    padding: 10px !important;
     width: 100% !important;      
     max-width: 100% !important;  
     box-sizing: border-box;  
@@ -314,7 +314,6 @@ a {
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
-    padding: 1em;
   }
 
   /* About Me paragraphs */
@@ -323,7 +322,7 @@ a {
     width: 100% !important;
     padding: 0 !important;
     margin: 1em 1em 1em 1em;               /* spacing between paragraphs */
-    line-height: 1.5;                /* consistent line spacing */
+    line-height: 1;                /* consistent line spacing */
   }
 
   /* Icon row full width with same padding as container */
