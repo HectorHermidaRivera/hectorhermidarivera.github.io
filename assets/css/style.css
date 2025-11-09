@@ -291,9 +291,9 @@ a {
   .content {
     margin: 0 !important;
     padding: 0 !important;
-    width: 100% !important;      /* force full width */
-    max-width: 100% !important;  /* prevent desktop max-width from limiting */
-    box-sizing: border-box;      /* ensure padding doesn't expand width */
+    width: 95% !important;      
+    max-width: 100% !important;  
+    box-sizing: border-box;  
   }
 
   /* Mobile-only block spans full width */
@@ -325,7 +325,7 @@ a {
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    line-height: 1.5;
+    line-height: 1;
   }
 
   #about-me .mobile-intro p {
