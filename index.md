@@ -543,7 +543,7 @@ title: Home
 <div class="two-column">
 
   <div class="label"><b>General</b></div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="https://www.aeaweb.org/journals/aer">American Economic Review</a>, <a href="https://www.aeaweb.org/journals/aeri">American Economic Review: Insights</a>, <a href="https://onlinelibrary.wiley.com/journal/14680262?journalRedirectCheck=true">Econometrica</a>, <a href="https://onlinelibrary.wiley.com/journal/14680335">Economica</a>, <a href="https://www.sciencedirect.com/journal/economics-letters">Economics Letters</a>, <a href="https://economics.sas.upenn.edu/ier">International Economic Review</a>, <a href="https://www.journals.uchicago.edu/toc/jpe/current">Journal of Political Economy</a>, <a href="https://academic.oup.com/jeea">Journal of the European Economic Association</a>, <a href="https://academic.oup.com/ej">The Economic Journal</a>, <a href="https://academic.oup.com/qje">The Quarterly Journal of Economics</a>, <a href="https://academic.oup.com/restud?login=false">The Review of Economic Studies</a></div>
 
   <div class="label"><b>Field</b></div>
   <div class="value">Under construction</div>
