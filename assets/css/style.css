@@ -56,9 +56,9 @@ body {
 /* CONTENT */
 
 .content {
-  margin-left: 200px;
+  max-width: min(1000px, calc(100vw - 240px)) 
+  margin-left: calc(200px + (100vw - 1000px)/2); /* sidebar + half remaining space */
   margin-right: auto;
-  max-width: min(1000px, calc(100vw - 240px));
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
