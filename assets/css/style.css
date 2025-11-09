@@ -295,8 +295,6 @@ a {
   /* Mobile-only block spans full width inside content margins */
   .mobile-only {
     display: block !important;
-    margin: 0 !important;         /* already handled by parent .content */
-    padding: 10px !important;
     width: auto !important;       /* do not force 100% */
     box-sizing: border-box;
   }
@@ -304,24 +302,18 @@ a {
   /* Main title */
   .main-name {
     font-size: 2em !important;
-    padding-left: 0 !important;
-    margin: 0 !important;
   }
 
   /* About Me heading aligned with text */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 0.5em 0;  
-    padding-left: 0 !important;  
   }
 
   /* About Me paragraphs */
   #about-me .mobile-intro,
   #about-me .mobile-only p {
-    padding: 0 !important;
-    margin: 0 0 1em 0;      
-    line-height: 1.5;      
+    line-height: 1;      
   }
 
   /* Icon row full width, aligned with text */
