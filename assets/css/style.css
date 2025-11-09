@@ -358,7 +358,7 @@ body {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-left: 5px;
-    padding-right: 20px;      /* add a little breathing room on the right */
+    padding-right: 50px;      /* add a little breathing room on the right */
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
