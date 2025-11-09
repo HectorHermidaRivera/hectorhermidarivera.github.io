@@ -58,7 +58,7 @@ body {
 .content {
   margin-left: 200px;
   margin-right: auto;
-  max-width: min(1000px, calc(100vw - 220px));
+  max-width: min(1000px, calc(100vw - 240px));
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
