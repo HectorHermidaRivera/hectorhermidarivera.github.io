@@ -101,19 +101,6 @@
       text-align: justify;
     }
 
-    /* --- LARGE SCREENS (≥ iPad 11") --- */
-    @media (min-width: 1195px) {
-      body { display: flex; justify-content: flex-start; }
-      .content {
-        max-width: 1194px; /* fixed content width */
-        width: auto;
-        /* Extra space after sidebar */
-        margin-left: 200px + calc((100vw - 200px - 1194px)/3);
-        margin-left: calc(200px + ((100vw - 200px - 1194px)/3));
-        margin-right: calc((100vw - 200px - 1194px)/3 * 2);
-      }
-    }
-
     /* --- MOBILE FIX --- */
     @media (max-width: 768px) {
       .sidebar { display: none !important; }
@@ -134,7 +121,7 @@
         padding: 0 15px;
         margin: 0;
         text-align: justify;
-        line-height: 1.5;
+        line-height: 1;
       }
 
       #about-me .icon-row {
