@@ -131,19 +131,12 @@ body {
 
 .fill-line {
   display: flex;
-  flex-wrap: wrap;           /* allow wrapping */
+  justify-content: space-between;
   align-items: baseline;
-  gap: 16px;                 /* optional spacing */
 }
 
-.fill-line span:first-child {
-  flex: 0 1 auto;            /* natural width */
-  white-space: nowrap;        /* keep left part on one line */
-}
-
-.fill-line span:last-child {
-  flex: 0 1 100%;            /* always jump to next line if needed */
-  text-align: left;          /* left-aligned when it jumps */
+.fill-line span {
+  white-space: nowrap;
 }
 
 .fill-line span:last-child {
