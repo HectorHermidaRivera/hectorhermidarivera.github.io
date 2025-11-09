@@ -20,11 +20,13 @@ body {
   }
 
   .content {
-    max-width: 1194px;                       /* fixed text width */
-    margin-left: 200px;                      /* reserve sidebar space */
-    margin-right: calc((100vw - 1194px - 200px) * 2); /* right margin grows twice as fast */
+    max-width: 1194px;  /* fixed text width */
     padding: 2.5vw;
     box-sizing: border-box;
+
+    /* proportional margins */
+    margin-left: calc(200px + ((100vw - 200px - 1194px) / 3));
+    margin-right: calc(((100vw - 200px - 1194px) / 3) * 2);
   }
 }
 
