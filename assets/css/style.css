@@ -56,8 +56,9 @@ body {
 /* CONTENT */
 
 .content {
-  margin-left: 200px;       /* space for the sidebar */
-  max-width: 1000px;
+  margin-left: 200px;
+  margin-right: auto;
+  max-width: min(1000px, calc(100vw - 220px));
   text-align: justify;
   box-sizing: border-box;
   font-size: 1em;
