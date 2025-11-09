@@ -118,6 +118,7 @@ body {
   margin-top: 0px;
   max-width: 100%;     /* prevent grid from exceeding container width */
   box-sizing: border-box;
+  text-align: justify;
   overflow-wrap: break-word; /* wrap long words in second column */
 }
 
@@ -317,13 +318,7 @@ body {
 
 /* SMALL SCREENS */
 
-@media (max-width: 800px) {
-  .fill-line span:last-child {
-    flex-basis: 100%;
-    display: block;
-    text-align: right;
-    margin-top: 4px;
-  }
+@media (max-width: 1000px) {
   .sidebar {
     display: none !important;
   }
