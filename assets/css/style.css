@@ -286,21 +286,21 @@ a {
   /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
-  /* Make content full-width with padding inside */
+  /* Make content full-width with slight horizontal margin */
   .content {
-    margin: 0 !important;          /* remove margin to avoid overflow */
-    padding: 10px !important;      /* padding inside content */
+    margin: 0 !important;          
+    padding: 10px !important;      
     width: 100% !important;      
     max-width: 100% !important;  
     box-sizing: border-box;  
   }
 
-  /* Mobile-only block spans full width with padding */
+  /* Mobile-only block spans full width with tiny left/right margin */
   .mobile-only {
     display: block !important;
-    width: 100% !important;
-    padding: 10px !important;     /* spacing inside container */
-    margin: 0 !important;         /* no margin to avoid overflow */
+    width: calc(100% - 16px) !important;   /* leave 8px margin left & right */
+    margin: 0 8px !important;               /* tiny horizontal margin */
+    padding: 10px !important;     
     box-sizing: border-box;
   }
 
@@ -311,20 +311,21 @@ a {
     margin: 0 !important;
   }
 
-  /* About Me heading */
+  /* About Me heading aligned with text */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 0.5em 0;          /* optional spacing below heading */
+    margin: 0 0 0.5em 0;   /* bottom spacing */
+    padding-left: 0 !important;  /* align left with text */
   }
 
-  /* About Me paragraphs: use padding only inside container, no extra margin */
+  /* About Me paragraphs */
   #about-me .mobile-intro,
   #about-me .mobile-only p {
     width: 100% !important;
-    padding: 0 !important;        /* let container padding handle spacing */
-    margin: 0 0 1em 0;            /* only vertical spacing between paragraphs */
-    line-height: 1.5;             /* consistent line spacing */
+    padding: 0 !important;
+    margin: 0 0 1em 0;      
+    line-height: 1.5;      
   }
 
   /* Icon row full width with container padding */
@@ -333,8 +334,8 @@ a {
     display: flex !important;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 1em 0 0 0;            /* spacing from text above */
-    padding: 0;                    /* padding handled by container */
+    margin: 1em 0 0 0;     
+    padding: 0;            
     box-sizing: border-box;
   }
 
