@@ -331,7 +331,9 @@ body {
     display: none !important;
   }
 .main-name {
-  padding-left: 0px; 
+  padding-left: 0px;
+.icon-row {
+  margin-left: 2px;
 .content h2,
 .content h3,
 .content h4,
