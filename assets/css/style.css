@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-  margin-left: 200px;       /* space for the sidebar */
+  margin-left: 250px;       /* space for the sidebar */
   /*padding: 5% 5% 5% 2.5%;    */
   /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
   /*max-width: 1300px;        */
