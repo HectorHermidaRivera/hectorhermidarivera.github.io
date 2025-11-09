@@ -277,8 +277,6 @@ a {
   hyphens: auto;
 }
 
-/* MOBILE */
-
 @media (max-width: 768px) {
   /* Hide sidebar */
   .sidebar { display: none !important; }
@@ -288,18 +286,17 @@ a {
 
   /* Make content full-width with small horizontal margins */
   .content {
-    margin: 0 8px !important;          /* tiny left & right margin */
+    margin: 0 8px !important;        /* tiny left & right margin */
     padding: 10px !important;      
-    width: calc(100% - 16px) !important; /* adjust for horizontal margin */
-    max-width: 100% !important;  
+    width: 100% !important;          
     box-sizing: border-box;  
   }
 
   /* Mobile-only block spans full width with same horizontal margins */
   .mobile-only {
     display: block !important;
-    width: calc(100% - 16px) !important;   /* leave 8px margin left & right */
-    margin: 0 8px !important;               /* tiny horizontal margin */
+    width: 100% !important;          /* let margin handle spacing */
+    margin: 0 8px !important;        /* tiny horizontal margin */
     padding: 10px !important;     
     box-sizing: border-box;
   }
