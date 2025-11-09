@@ -330,6 +330,8 @@ body {
   .sidebar {
     display: none !important;
   }
+.main-name {
+  padding-left: 0px; 
 .content h2,
 .content h3,
 .content h4,
