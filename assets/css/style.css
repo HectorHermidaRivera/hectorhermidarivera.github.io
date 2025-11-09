@@ -16,15 +16,17 @@ body {
 @media (min-width: 1195px) {
   body {
     display: flex;
-    justify-content: center;  /* centers all content */
+    justify-content: flex-start;  /* align content to left + sidebar */
   }
 
   .content {
-    max-width: 1194px;        /* fix text width equal to iPad 11" */
-    margin-left: 200px;       /* reserve space for sidebar */
+    max-width: 1194px;                       /* fixed text width */
+    margin-left: 200px;                      /* reserve sidebar space */
+    margin-right: calc((100vw - 1194px - 200px) * 2); /* right margin grows twice as fast */
     padding: 2.5vw;
     box-sizing: border-box;
   }
+}
 
 /* Align main name with second column */
 .main-name {
