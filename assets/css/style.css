@@ -336,7 +336,7 @@ body {
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
-    text-align: right;
+    text-align: left;
     width: 100%;
   }
 
@@ -348,7 +348,7 @@ body {
 
   .fill-line span {
     width: 100%;
-    text-align: right;
+    text-align: left;
     white-space: normal; /* allow wrapping */
   }
   .content {
