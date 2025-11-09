@@ -22,7 +22,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: 121px;
+  padding-left: 186px;
 }
 
 .name-title {
@@ -41,7 +41,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 121px;  /* remove fixed padding */
+  padding-left: 186px;  /* remove fixed padding */
   margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
@@ -248,7 +248,7 @@ body {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 123px;
+  margin-left: 188px;
   margin-top: -30px;
 }
 
