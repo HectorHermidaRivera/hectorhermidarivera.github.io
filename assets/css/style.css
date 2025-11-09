@@ -13,19 +13,18 @@ body {
   box-sizing: border-box;
 }
 
-/* Screens larger than iPad 11" */
 @media (min-width: 1195px) {
-  .content {
-    width: 1194px;       /* text width same as iPad 11" */
-    
-    /* Left margin grows slowly, right margin grows twice as fast */
-    margin-left: calc(200px + (100vw - 1194px) / 3);
-    margin-right: calc((100vw - 1194px) * 2 / 3);
+  body {
+    display: flex;
+    justify-content: center;  /* centers all content */
+  }
 
-    padding: 2.5vw;      /* keep internal padding */
+  .content {
+    max-width: 1194px;        /* fix text width equal to iPad 11" */
+    margin-left: 200px;       /* reserve space for sidebar */
+    padding: 2.5vw;
     box-sizing: border-box;
   }
-}
 
 /* Align main name with second column */
 .main-name {
