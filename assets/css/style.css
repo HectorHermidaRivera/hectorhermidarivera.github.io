@@ -304,10 +304,12 @@ a {
   }
 
   /* About Me heading aligned with text */
-  #about-me h2 {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
+#about-me h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 0.5em 0;  /* remove default left/right margin, keep some bottom spacing */
+  padding: 0;            /* remove padding */
+}
 
   /* About Me paragraphs */
   #about-me .mobile-intro,
