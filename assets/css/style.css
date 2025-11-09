@@ -83,6 +83,8 @@ body {
   font-weight: 700;
 }
 
+/* HEADERS STYLE */
+
 .content h2,
 .content h3,
 .content h4,
@@ -95,7 +97,8 @@ body {
   text-transform: uppercase;
 }
 
-/* Links in main content */
+/* LINK BEHAVIOR */
+
 .content a {
   color: #00008B !important;
   text-decoration: none;
@@ -106,7 +109,8 @@ body {
   text-decoration: underline;
 }
 
-/* Two-column layout */
+/* TWO COLUMN LAYOUT */
+
 .two-column {
   display: grid;
   grid-template-columns: 180px auto;
@@ -120,17 +124,8 @@ body {
   text-align: right;
 }
 
-.two-column .value a {
-  color: #00008B !important;
-  text-decoration: none;
-}
-
-.two-column .value a:hover {
-  color: #00008B !important;
-  text-decoration: underline;
-}
-
 /* Fill-line for left-right alignment */
+
 .fill-line {
   display: flex;
   justify-content: space-between;
@@ -147,6 +142,7 @@ body {
 }
 
 /* Two-column layout with two rows in second column */
+
 .two-column-2rows-container {
   display: flex;
   flex-direction: column;
@@ -190,11 +186,13 @@ body {
 }
 
 /* Teaching entries: three-row layout */
+
 .two-column-3rows-container {
   gap: 4px !important;
 }
 
 /* grid for date + right content */
+
 .two-column-3rows {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -203,6 +201,7 @@ body {
 }
 
 /* left label: years */
+
 .two-column-3rows .label {
   text-align: right;
   font-weight: normal;
@@ -210,11 +209,13 @@ body {
 }
 
 /* hide empty label but keep grid alignment */
+
 .two-column-3rows .label.blank {
   visibility: hidden;
 }
 
 /* right column with lines stacked */
+
 .two-column-3rows .value {
   gap: 2px !important;
 }
@@ -249,12 +250,14 @@ body {
   color: #333;
 }
 
-/* REDEFINITION OF OPEN ACCESS ICON COLOR */
+/* REDEFINITION OF OA ICON COLOR */
+
 .ai-open-access::before {
   color: #556B2F;
 }
 
 /* REDEFINITION OF PDF ICON */
+
 .fa-file-pdf {
   font-size: 0.8em;
   position: relative;
@@ -262,7 +265,8 @@ body {
   vertical-align: middle;  
 }
 
-/* Collapsible content */
+/* COLLAPSIBLES */
+
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
@@ -279,6 +283,7 @@ body {
 }
 
 /* Collapsible course title: blue and normal weight */
+
 .two-column-3rows .course.collapsible-link {
   color: #00008B;       
   text-decoration: none; 
@@ -291,6 +296,7 @@ body {
 }
 
 /* Row of social/research icons aligned with second column */
+
 .icon-row {
   display: flex;
   gap: 10px;
@@ -301,6 +307,7 @@ body {
 }
 
 /* Smooth hover enlargement */
+
 .icon-row a {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
@@ -309,6 +316,36 @@ body {
 .icon-row a:hover {
   transform: scale(1.2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
 
 @media (max-width: 768px) {
   /* Hide sidebar */
