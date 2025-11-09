@@ -90,7 +90,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 196px;  /* remove fixed padding */
+  padding-left: 196px; 
   margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
@@ -330,7 +330,18 @@ body {
   .sidebar {
     display: none !important;
   }
- .two-column,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-left: 0;
+  padding-left: 0px;
+  margin-bottom: 0;  
+  margin-top: 40px;  
+  text-transform: uppercase;
+}
+  .two-column,
   .two-column-2rows,
   .two-column-3rows {
     display: grid;
