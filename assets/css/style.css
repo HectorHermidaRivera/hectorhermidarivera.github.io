@@ -55,50 +55,27 @@ body {
 
 /* CONTENT */
 
-/* .content {
-  margin-left: 200px;
-  margin-right: auto;
-  max-width: min(1000px, calc(100vw - 220px));
-  text-align: justify;
-  box-sizing: border-box;
-  font-size: 1em;
-  background-color: #f2f2f2;
-} */
-
-/* .content {
-  max-width: 1000px;         
-  width: 100%;               
-  margin-left: 200px;        
-  margin-right: 20px;       
-  text-align: justify;
-  box-sizing: border-box;
-  font-size: 1em;
-  padding: 0 20px 30px 20px; 
-  background-color: #f2f2f2;
-}
-*/
-
-.content {
-  max-width: 1000px;                     /* maximum content width */
-  width: 100%;                           /* take full available width */
-  margin-left: max(200px, (100vw - 1000px)/2); /* never smaller than sidebar, else center */
-  margin-right: (100vw - 1000px)/2;     /* automatically grows on big screens */
+/*.content {
+  max-width: 1000px;                    
+  width: 100%;                          
+  margin-left: max(200px, (100vw - 1000px)/2); 
+  margin-right: (100vw - 1000px)/2;     
   padding: 0 20px 30px 20px;
   box-sizing: border-box;
   text-align: justify;
   background-color: #f2f2f2;
-}
-
-/*.content {
-  margin-left: calc(200px + (100vw - 1200px)); 
-  margin-right: auto;  /* right margin grows automatically/
-  max-width: 1000px;   /* maximum content width 
-  width: calc(100% - 220px); 
-  text-align: justify;
-  box-sizing: border-box;
-  font-size: 1em;
-  background-color: #f2f2f2;
 }*/
+
+.content {
+  max-width: 1000px;                                
+  width: 100%;                                       
+  margin-left: max(200px, (100vw - 1000px)/2);       
+  margin-right: max(20px, (100vw - 1000px)/2);      
+  padding: 0 20px 30px 20px;                       
+  box-sizing: border-box;
+  text-align: justify;
+  background-color: #f2f2f2;
+}
 
 /* TITLE */
 
