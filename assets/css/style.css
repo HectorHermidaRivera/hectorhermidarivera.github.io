@@ -79,15 +79,16 @@ body {
 */
 
 .content {
-  max-width: 1000px;                     /* max content width */
-  width: calc(100% - 200px - 20px);      /* 100% minus sidebar and some minimal spacing */
-  margin-left: calc(200px + (100vw - 1000px)/2); /* 200px sidebar + half extra space */
-  margin-right: calc(200px + (100vw - 1000px)/2);        /* other half of extra space */
-  padding: 0 20px 30px 20px;             /* inner padding */
+  max-width: 1000px;                           /* maximum content width */
+  width: 100%;                                 /* take full available width */
+  margin-left: calc(200px + ((100vw - 1000px)/2));  /* sidebar + half extra space */
+  margin-right: calc((100vw - 1000px)/2);          /* other half of extra space */
+  padding: 0 20px 30px 20px;                   /* inner padding */
   box-sizing: border-box;
   text-align: justify;
   background-color: #f2f2f2;
 }
+
 
 /*.content {
   margin-left: calc(200px + (100vw - 1200px)); 
