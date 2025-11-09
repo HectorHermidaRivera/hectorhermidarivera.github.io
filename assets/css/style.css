@@ -133,10 +133,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: nowrap; /* normal wrapping */
 }
 
-.fill-line span {
+.fill-line span:first-child {
+  flex: 0 1 auto;   /* left part stays its natural width */
   white-space: nowrap;
+}
+
+.fill-line span:last-child {
+  flex: 0 1 auto;   /* right part stays normal width */
+  text-align: right; 
 }
 
 .fill-line span:last-child {
