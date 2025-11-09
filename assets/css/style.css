@@ -5,29 +5,16 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Default: up to iPad 11" landscape */
 .content {
-  margin-left: 200px;   /* reserve space for sidebar */
-  margin-right: 0;      /* no extra right margin */
-  padding: 2.5vw;
+  margin-left: 200px;       /* space for the sidebar */
+  /*padding: 5% 5% 5% 2.5%;    */
+  /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
+  /*max-width: 1300px;        */
+  padding: 2.5vw 5vw 2.5vw 2.5vw;
   box-sizing: border-box;
-}
-
-@media (min-width: 1195px) {
-  body {
-    display: flex;
-    justify-content: flex-start;  /* align content to left + sidebar */
-  }
-
-  .content {
-    max-width: 1194px;  /* fixed text width */
-    padding: 2.5vw;
-    box-sizing: border-box;
-
-    /* proportional margins */
-    margin-left: calc(200px + ((100vw - 200px - 1194px) / 3));
-    margin-right: calc(((100vw - 200px - 1194px) / 3) * 2);
-  }
+  font-size: 1.1em;
+  text-align: justify;
+  background-color: #f2f2f2;
 }
 
 /* Align main name with second column */
@@ -35,7 +22,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-left: 191px;
+  padding-left: 121px;
 }
 
 .name-title {
@@ -54,7 +41,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 191px;  /* remove fixed padding */
+  padding-left: 121px;  /* remove fixed padding */
   margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
@@ -74,7 +61,7 @@ body {
 /* Two-column layout */
 .two-column {
   display: grid;
-  grid-template-columns: 170px auto;
+  grid-template-columns: 105px auto;
   gap: 8px 16px;
   align-items: start;
   margin-top: 0px;
@@ -121,7 +108,7 @@ body {
 
 .two-column-2rows {
   display: grid;
-  grid-template-columns: 170px auto;
+  grid-template-columns: 105px auto;
   gap: 8px 16px;
 }
 
@@ -162,7 +149,7 @@ body {
 /* grid for date + right content */
 .two-column-3rows {
   display: grid;
-  grid-template-columns: 170px 1fr;
+  grid-template-columns: 105px 1fr;
   gap: 8px 16px;     
   align-items: start;
 }
@@ -261,8 +248,8 @@ body {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 193px;
-  margin-top: -10px;
+  margin-left: 123px;
+  margin-top: -30px;
 }
 
 /* Smooth hover enlargement */
@@ -291,21 +278,6 @@ a {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
-}
-
-/* Make all main content text justified */
-.content,
-.content p,
-.content h1, 
-.content h2, 
-.content h3, 
-.content h4, 
-.content h5, 
-.content h6,
-.content .two-column .value,
-.content .two-column-2rows .value,
-.content .two-column-3rows .value {
-  text-align: justify;
 }
 
 /* MOBILE FIXED + About Me + Icons */
