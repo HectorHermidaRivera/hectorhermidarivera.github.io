@@ -310,44 +310,52 @@ a {
     padding-left: 0 !important;
   }
 
-  /* About Me heading: bold and uppercase */
+  /* About Me heading */
   #about-me h2 {
     font-weight: bold;
     text-transform: uppercase;
     padding: 0;
-    margin: 0em 0;
+    margin: 0.5em 0;
   }
 
   /* About Me paragraph */
   #about-me .mobile-intro {
     display: block;
-    width: 100%;
+    width: 100% !important;
     box-sizing: border-box;
-    padding: 0 0px;
-    margin: 0;
+    padding: 0 !important;     /* remove side padding */
+    margin: 0 !important;      /* remove top/bottom margins */
     font-weight: normal;
     text-transform: none;
-    line-height: 1;
+    line-height: 1.5;
   }
 
-  /* Icon row spans full width and never wraps */
+  /* Force all paragraphs inside mobile-intro to be full-width too */
+  #about-me .mobile-intro p {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Icon row spans full width */
   #about-me .icon-row {
     display: flex !important;
-    flex-wrap: nowrap;          /* NO WRAP */
+    flex-wrap: nowrap;         
     justify-content: space-between; 
     margin: 20px 0;
-    padding: 0 0px;
+    padding: 0 !important;
     box-sizing: border-box;
-    width: 100%;
+    width: 100% !important;
   }
 
- #about-me .icon-row a {
+  #about-me .icon-row a {
     flex: 0 1 auto;             
     text-align: center;
-    transition: none;          /* no animation needed */
+    transition: none;          
   }
 
   /* Remove hover transform specifically for mobile */
   #about-me .icon-row a:hover {
     transform: none !important; 
   }
+}
