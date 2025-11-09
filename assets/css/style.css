@@ -1,1 +1,353 @@
+/* Body */
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
 
+.content {
+  margin-left: 200px;       /* space for the sidebar */
+  /*padding: 5% 5% 5% 2.5%;    */
+  /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
+  /*max-width: 1300px;        */
+  padding: 2.5vw 5vw 2.5vw 2.5vw;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  text-align: justify;
+  background-color: #f2f2f2;
+}
+
+/* Align main name with second column */
+.main-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-left: 121px;
+}
+
+.name-title {
+  font-size: 4.0em;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+.name-title strong {
+  font-weight: 700;
+}
+
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-left: 0;
+  padding-left: 121px;  /* remove fixed padding */
+  margin-bottom: 0;  
+  margin-top: 40px;  
+  text-transform: uppercase;
+}
+
+/* Links in main content */
+.content a {
+  color: #00008B !important;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #00008B !important;
+  text-decoration: underline;
+}
+
+/* Two-column layout */
+.two-column {
+  display: grid;
+  grid-template-columns: 105px auto;
+  gap: 8px 16px;
+  align-items: start;
+  margin-top: 0px;
+}
+
+.two-column .label {
+  font-weight: normal;
+  text-align: right;
+}
+
+.two-column .value a {
+  color: #00008B !important;
+  text-decoration: none;
+}
+
+.two-column .value a:hover {
+  color: #00008B !important;
+  text-decoration: underline;
+}
+
+/* Fill-line for left-right alignment */
+.fill-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.fill-line span {
+  white-space: nowrap;
+}
+
+.fill-line span:last-child {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+/* Two-column layout with two rows in second column */
+.two-column-2rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 0px;
+}
+
+.two-column-2rows {
+  display: grid;
+  grid-template-columns: 105px auto;
+  gap: 8px 16px;
+}
+
+.two-column-2rows .label {
+  text-align: right;
+  font-weight: normal;
+}
+
+.two-column-2rows .value {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-column-2rows .value .top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.two-column-2rows .value .top-row span:last-child {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.two-column-2rows .value .second-row {
+  margin-top: 0px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Teaching entries: three-row layout */
+.two-column-3rows-container {
+  gap: 4px !important;
+}
+
+/* grid for date + right content */
+.two-column-3rows {
+  display: grid;
+  grid-template-columns: 105px 1fr;
+  gap: 8px 16px;     
+  align-items: start;
+}
+
+/* left label: years */
+.two-column-3rows .label {
+  text-align: right;
+  font-weight: normal;
+  align-self: start;
+}
+
+/* hide empty label but keep grid alignment */
+.two-column-3rows .label.blank {
+  visibility: hidden;
+}
+
+/* right column with lines stacked */
+.two-column-3rows .value {
+  gap: 2px !important;
+}
+
+/* top-row: course (left) and university (right) */
+.two-column-3rows .value .top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+/* left part: course name */
+.two-column-3rows .value .top-row .course {
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* right part: university name */
+.two-column-3rows .value .top-row .institution {
+  text-align: right;
+  font-size: 0.8em; 
+  flex-shrink: 0;
+  color: #333;
+}
+
+/* second and third rows */
+.two-column-3rows .value .second-row,
+.two-column-3rows .value .third-row {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
+
+/* REDEFINITION OF OPEN ACCESS ICON COLOR */
+.ai-open-access::before {
+  color: #556B2F;
+}
+
+/* REDEFINITION OF PDF ICON */
+.fa-file-pdf {
+  font-size: 0.8em;
+  position: relative;
+  top: -1.75px;              
+  vertical-align: middle;  
+}
+
+/* Collapsible content */
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.collapsible-link {
+  color: #00008B;       
+  text-decoration: none; 
+  cursor: pointer;
+  font-weight: normal;   
+}
+
+/* Collapsible course title: blue and normal weight */
+.two-column-3rows .course.collapsible-link {
+  color: #00008B;       
+  text-decoration: none; 
+  font-weight: normal;   
+  cursor: pointer;       
+}
+
+.two-column-3rows .course.collapsible-link:hover {
+  text-decoration: underline; 
+}
+
+/* Row of social/research icons aligned with second column */
+.icon-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 123px;
+  margin-top: -30px;
+}
+
+/* Smooth hover enlargement */
+.icon-row a {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-row a:hover {
+  transform: scale(1.2);
+}
+
+/* Mimic LaTeX microtype spacing */
+body {
+  font-family: 'Merriweather', serif;
+  font-stretch: 94%;
+  letter-spacing: -0.017em;
+  word-spacing: -0.07em;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* Enable natural hyphenation and wrapping in hyperlinks */
+a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* MOBILE FIXED + About Me + Icons */
+@media (max-width: 768px) {
+  /* Hide sidebar */
+  .sidebar { display: none !important; }
+
+  /* Hide desktop content except mobile-only block */
+  .content > *:not(.mobile-only) { display: none; }
+
+  /* Make mobile-only block span full width */
+  .mobile-only {
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* Remove left/right margins/padding from content */
+  .content {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 1em;
+  }
+
+  /* Main title */
+  .main-name {
+    font-size: 2em !important;
+    padding-left: 0 !important;
+  }
+
+  /* About Me heading: bold and uppercase */
+  #about-me h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0.5em 0;
+  }
+
+  /* About Me paragraph */
+  #about-me .mobile-intro {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.5;
+  }
+
+  /* Icon row spans full width and never wraps */
+  #about-me .icon-row {
+    display: flex !important;
+    flex-wrap: nowrap;          /* NO WRAP */
+    justify-content: space-between; 
+    margin: 20px 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+ #about-me .icon-row a {
+    flex: 0 1 auto;             
+    text-align: center;
+    transition: none;          /* no animation needed */
+  }
+
+  /* Remove hover transform specifically for mobile */
+  #about-me .icon-row a:hover {
+    transform: none !important; 
+  }
