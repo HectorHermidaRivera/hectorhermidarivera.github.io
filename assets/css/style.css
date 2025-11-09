@@ -5,26 +5,24 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Full width up to iPad 11" landscape (≈1194px) */
+/* Default: up to iPad 11" landscape */
 .content {
-  margin-left: 200px;       /* keep sidebar space */
-  padding: 2.5vw 5vw 2.5vw 2.5vw;
+  margin-left: 200px;   /* reserve space for sidebar */
+  margin-right: 0;      /* no right margin */
+  max-width: none;      /* full width */
+  padding: 2.5vw;
   box-sizing: border-box;
-  font-size: 1.1em;
-  text-align: justify;
-  background-color: #f2f2f2;
-  max-width: none;           /* no width limit by default */
 }
 
+/* Screens larger than iPad 11" */
 @media (min-width: 1195px) {
-  body {
-    display: block;  /* no flex centering — we’ll handle margins manually */
-  }
-
   .content {
-    max-width: 1194px;        /* fixed text width = iPad 11" */
-    margin-left: calc(200px + (100vw - 1194px) / 3);  /* left margin grows slowly */
-    margin-right: calc((100vw - 1194px) * 2 / 3);     /* right margin grows 2× faster */
+    max-width: 1194px;   /* text width same as iPad 11" */
+    
+    /* Asymmetric margins: left grows slowly, right grows 2× faster */
+    margin-left: calc(200px + (100vw - 1194px) / 3);
+    margin-right: calc((100vw - 1194px) * 2 / 3);
+
     padding: 2.5vw;
     box-sizing: border-box;
   }
@@ -54,7 +52,7 @@ body {
 .content h5,
 .content h6 {
   margin-left: 0;
-  padding-left: 121px;  /* remove fixed padding */
+  padding-left: 191px;  /* remove fixed padding */
   margin-bottom: 0;  
   margin-top: 40px;  
   text-transform: uppercase;
