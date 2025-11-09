@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Héctor Hermida-Rivera</title>
+  <title>{{ page.title }}</title>
   <link rel="icon" href="/favicon.ico">
 
   <!-- Fonts & icons -->
@@ -12,10 +12,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/css/academicons.min.css"
+        integrity="sha384‑PLACEHOLDER"
         crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
   <style>
-    /* ===== GLOBAL ===== */
+    /* --- BODY --- */
     html { scroll-behavior: smooth; }
     body {
       font-family: 'Merriweather', serif;
@@ -27,21 +29,17 @@
       font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
       text-rendering: optimizeLegibility;
     }
-    a {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      word-break: break-word;
-      hyphens: auto;
-    }
 
-    /* ===== SIDEBAR ===== */
+    a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+
+    /* --- SIDEBAR --- */
     .sidebar {
       position: fixed;
       top: 0;
       left: 0;
       width: 200px;
       height: 100%;
-      background: #000;
+      background: #000000;
       padding: 25px 15px;
       box-sizing: border-box;
       display: flex;
@@ -62,114 +60,92 @@
       text-align: right;
       line-height: 1.6;
     }
-    .sidebar a:hover { color: #ddd; }
+    .sidebar a:hover { color: #dddddd; }
 
-    /* ===== MAIN CONTENT ===== */
+    /* --- CONTENT --- */
     .content {
-      margin-left: 200px;
-      padding: 2.5vw 5vw 2.5vw 2.5vw;
       box-sizing: border-box;
-      font-size: 1.1em;
-      text-align: justify;
-      background-color: #f2f2f2;
+      padding: 2.5vw;
+      margin-left: 200px; /* reserve sidebar space */
+      margin-right: 0;
+      width: calc(100vw - 200px); /* full width excluding sidebar */
     }
 
+    /* --- MAIN NAME --- */
     .main-name {
       font-family: 'Merriweather', serif;
-      font-size: 2em;
-      font-weight: bold;
-      margin-bottom: 0;
-      padding-left: 121px;
+      font-size: 3em;
+      font-weight: 400;
+      margin-bottom: 0.3em;
+      line-height: 1;
     }
     .main-name strong { font-weight: 800; }
+    b, strong { font-weight: 700; }
 
-    .content h2, .content h3, .content h4, .content h5, .content h6 {
-      margin-left: 0;
-      padding-left: 121px;
-      margin-bottom: 0;
-      margin-top: 40px;
-      text-transform: uppercase;
-    }
-
-    .content a { color: #00008B !important; text-decoration: none; }
-    .content a:hover { text-decoration: underline; }
-
-    /* ===== TWO COLUMN LAYOUT ===== */
-    .two-column {
-      display: grid;
-      grid-template-columns: 105px auto;
-      gap: 8px 16px;
-      align-items: start;
-      margin-top: 0;
-    }
-    .two-column .label { text-align: right; font-weight: normal; }
-    .two-column .value a { color: #00008B !important; text-decoration: none; }
-    .two-column .value a:hover { text-decoration: underline; }
-
-    .fill-line { display: flex; justify-content: space-between; align-items: baseline; }
-    .fill-line span { white-space: nowrap; }
-    .fill-line span:last-child { font-size: 0.8em; font-weight: normal; }
-
-    .two-column-2rows-container { display: flex; flex-direction: column; gap: 8px; margin-top: 0; }
-    .two-column-2rows {
-      display: grid;
-      grid-template-columns: 105px auto;
-      gap: 8px 16px;
-    }
-    .two-column-2rows .label { text-align: right; font-weight: normal; }
-    .two-column-2rows .value { display: flex; flex-direction: column; }
-    .two-column-2rows .value .top-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      width: 100%;
-      white-space: nowrap;
-    }
-    .two-column-2rows .value .top-row span:last-child { font-size: 0.8em; font-weight: normal; }
-    .two-column-2rows .value .second-row { margin-top: 0; font-size: 1em; color: #333; }
-
-    .two-column-3rows-container { display: flex; flex-direction: column; gap: 4px; }
-    .two-column-3rows {
-      display: grid;
-      grid-template-columns: 105px 1fr;
-      gap: 8px 16px;
-      align-items: start;
-    }
-    .two-column-3rows .label { text-align: right; font-weight: normal; align-self: start; }
-    .two-column-3rows .label.blank { visibility: hidden; }
-    .two-column-3rows .value { gap: 2px !important; }
-    .two-column-3rows .value .top-row { display: flex; justify-content: space-between; align-items: baseline; width: 100%; }
-    .two-column-3rows .value .top-row .course { flex-grow: 1; text-align: left; }
-    .two-column-3rows .value .top-row .institution { text-align: right; font-size: 0.8em; flex-shrink: 0; color: #333; }
-    .two-column-3rows .value .second-row, .two-column-3rows .value .third-row { margin: 0; font-size: 1em; color: #333; }
-
-    /* ===== ICONS ===== */
-    .icon-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-left: 123px; margin-top: -30px; }
-    .icon-row a { display: inline-block; transition: transform 0.3s ease-in-out; }
-    .icon-row a:hover { transform: scale(1.2); }
-
-    /* ===== COLLAPSIBLE ===== */
-    .collapsible-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease;
-      margin: 0;
-      padding: 0;
-    }
-    .collapsible-link { color: #00008B; text-decoration: none; cursor: pointer; font-weight: normal; }
-    .two-column-3rows .course.collapsible-link:hover { text-decoration: underline; }
-
-    /* ===== MOBILE ===== */
+    /* --- MOBILE ONLY --- */
     .mobile-only { display: none; }
+
+    /* --- TEXT JUSTIFIED --- */
+    .content,
+    .content p,
+    .content li,
+    .content h1, 
+    .content h2, 
+    .content h3, 
+    .content h4, 
+    .content h5, 
+    .content h6,
+    .content .two-column .value,
+    .content .two-column-2rows .value,
+    .content .two-column-3rows .value {
+      text-align: justify;
+    }
+
+    /* --- LARGE SCREENS (≥ iPad 11") --- */
+    @media (min-width: 1195px) {
+      body { display: flex; justify-content: flex-start; }
+      .content {
+        max-width: 1194px; /* fixed content width */
+        width: auto;
+        /* Extra space after sidebar */
+        margin-left: 200px + calc((100vw - 200px - 1194px)/3);
+        margin-left: calc(200px + ((100vw - 200px - 1194px)/3));
+        margin-right: calc((100vw - 200px - 1194px)/3 * 2);
+      }
+    }
+
+    /* --- MOBILE FIX --- */
     @media (max-width: 768px) {
       .sidebar { display: none !important; }
       .content > *:not(.mobile-only) { display: none; }
-      .mobile-only { display: block; width: 100%; padding: 0; margin: 0; box-sizing: border-box; }
+
+      .mobile-only {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+      }
+
       .content { margin: 0 !important; padding: 0 !important; font-size: 1em; }
       .main-name { font-size: 2em !important; padding-left: 0 !important; }
-      #about-me h2 { font-weight: bold; text-transform: uppercase; padding: 0; margin: 0.5em 0; }
-      #about-me .mobile-intro { display: block; width: 100%; padding: 0 15px; margin: 0; font-weight: normal; text-transform: none; line-height: 1.5; }
-      #about-me .icon-row { display: flex !important; flex-wrap: nowrap; justify-content: space-between; margin: 20px 0; padding: 0 15px; width: 100%; }
+
+      #about-me .mobile-intro {
+        padding: 0 15px;
+        margin: 0;
+        text-align: justify;
+        line-height: 1.5;
+      }
+
+      #about-me .icon-row {
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: space-between; 
+        margin: 20px 0;
+        padding: 0 15px;
+        width: 100%;
+      }
+
       #about-me .icon-row a { flex: 0 1 auto; text-align: center; transition: none; }
       #about-me .icon-row a:hover { transform: none !important; }
     }
@@ -177,8 +153,6 @@
 </head>
 
 <body>
-
-  <!-- ===== SIDEBAR ===== -->
   <div class="sidebar">
     <a href="#about-me">About me</a>
     <a href="#contact">Contact</a>
@@ -197,33 +171,41 @@
     <a href="#resources">Resources</a>
   </div>
 
-  <!-- ===== CONTENT ===== -->
   <div class="content">
     <h1 class="main-name">Héctor <strong>Hermida-Rivera</strong></h1>
 
-    <!-- MOBILE ONLY ABOUT ME -->
+    <!-- Desktop content injected -->
+    {{ content }}
+
+    <!-- MOBILE ONLY: About Me + icons -->
     <div id="about-me" class="mobile-only">
-      <h2>About me</h2>
+      <h2><b>ABOUT ME</b></h2>
       <p class="mobile-intro">
-        I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job starting June 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>.
-        You are seeing the mobile version; full site is best viewed on desktop.
+        I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a>.
       </p>
+      <p>You are seeing a simplified mobile-version of this website; to see the full website, please access it from a desktop browser.</p>
+
       <div class="icon-row">
-        <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing"><i class="ai ai-cv-square" style="font-size:1.50em;"></i></a>
-        <a href="mailto:hermida.rivera.hector@gtk.bme.hu"><i class="fas fa-envelope-square" style="font-size:1.50em;"></i></a>
-        <a href="https://arxiv.org/search/?searchtype=author&query=Hermida-Rivera"><i class="ai ai-arxiv-square" style="font-size:1.50em;"></i></a>
-        <a href="https://scholar.google.com/citations?user=eoXi8yYAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-cv-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="fas fa-envelope-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-arxiv-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="fab fa-linkedin" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-orcid-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-ideas-repec-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-researchgate-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-scopus-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-ssrn-square" style="font-size:1.50em;"></i></a>
+        <a href="#"><i class="ai ai-clarivate-square" style="font-size:1.50em;"></i></a>
       </div>
     </div>
-
   </div>
 
-  <!-- ===== JS ===== -->
   <script>
-    // Smooth scroll for internal links
+    // Smooth scroll
     document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
-        const targetId = this.getAttribute('href').substring(1).toLowerCase();
+        const targetId = this.getAttribute('href').substring(1);
         const target = document.getElementById(targetId);
         if (target) {
           e.preventDefault();
@@ -231,20 +213,6 @@
         }
       });
     });
-
-    // Collapsible sections
-    document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('.collapsible-link').forEach(link => {
-        link.addEventListener('click', function() {
-          const value = this.closest('.value');
-          if (!value) return;
-          const content = value.querySelector('.collapsible-content');
-          if (!content) return;
-          content.style.maxHeight = (content.style.maxHeight && content.style.maxHeight !== '0px') ? '0' : content.scrollHeight + 'px';
-        });
-      });
-    });
   </script>
-
 </body>
 </html>
