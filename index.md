@@ -521,10 +521,10 @@ title: Home
   <div class="label"><b>Social Choice</b></div>
   <div class="value">Under construction</div>
 
-  <div class="label"><b>Microeconomics</b></div>
+  <div class="label"><b>Micro</b></div>
   <div class="value">Under construction</div>
 
-  <div class="label"><b>Mathematics</b></div>
+  <div class="label"><b>Math</b></div>
   <div class="value">Under construction</div>
 
   <div class="label"><b>Mechanism Design</b></div>
@@ -546,7 +546,7 @@ title: Home
   <div class="value"><a href="https://www.aeaweb.org/journals/aer">American Economic Review</a>, <a href="https://www.aeaweb.org/journals/aeri">American Economic Review: Insights</a>, <a href="https://onlinelibrary.wiley.com/journal/14680262?journalRedirectCheck=true">Econometrica</a>, <a href="https://onlinelibrary.wiley.com/journal/14680335">Economica</a>, <a href="https://www.sciencedirect.com/journal/economics-letters">Economics Letters</a>, <a href="https://economics.sas.upenn.edu/ier">International Economic Review</a>, <a href="https://www.journals.uchicago.edu/toc/jpe/current">Journal of Political Economy</a>, <a href="https://academic.oup.com/jeea">Journal of the European Economic Association</a>, <a href="https://academic.oup.com/ej">The Economic Journal</a>, <a href="https://academic.oup.com/qje">The Quarterly Journal of Economics</a>, <a href="https://academic.oup.com/restud?login=false">The Review of Economic Studies</a></div>
 
   <div class="label"><b>Field</b></div>
-  <div class="value">Under construction</div>
+  <div class="value"><a href="https://www.aeaweb.org/journals/mic">AEJ: Microeconomics</a>, <a href="https://link.springer.com/journal/199">Economic Theory</a>, <a href="https://www.mdpi.com/journal/games">Games</a>, <a href="https://www.sciencedirect.com/journal/games-and-economic-behavior">Games and Economic Behavior</a>, <a href="https://www.worldscientific.com/worldscinet/igtr">International Game Theory Review</a>, <a href="https://link.springer.com/journal/182">International Journal of Game Theory</a>, <a href="https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization">Journal of Economic Behavior and Organization</a>, <a href="https://www.sciencedirect.com/journal/journal-of-economic-theory">Journal of Economic Theory</a>, <a href="https://www.mohrsiebeck.com/en/journal/journal-of-institutional-and-theoretical-economics-jite/current-issue/">Journal of Institutional and Theoretical Economics</a>, <a href="https://www.sciencedirect.com/journal/journal-of-mathematical-economics">Journal of Mathematical Economics</a>, <a href="https://www.sciencedirect.com/journal/journal-of-public-economics">Journal of Public Economics</a>, <a href="https://onlinelibrary.wiley.com/journal/14679779">Journal of Public Economic Theory</a>, <a href="https://www.sciencedirect.com/journal/mathematical-social-sciences">Mathematical Social Sciences</a>, <a href="https://link.springer.com/journal/11127">Public Choice</a>, <a href="https://link.springer.com/journal/10058">Review of Economic Design</a>, <a href="https://link.springer.com/journal/355">Social Choice & Welfare</a>, <a href="https://www.degruyterbrill.com/journal/key/bejte/html">The B.E. Journal of Theoretical Economics</a>, <a href="https://onlinelibrary.wiley.com/journal/15557561">Theoretical Economics</a>, <a href="https://link.springer.com/journal/11238">Theory and Decision</a></div>
 
 </div>
 
