@@ -326,9 +326,19 @@ body {
 
 /* SMALL SCREENS */
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .sidebar {
     display: none !important;
+  }
+.main-name,
+  .name-title {
+    padding-left: 0 !important;   /* remove extra left padding */
+    text-align: left;             /* ensure header text is left-aligned */
+  }
+  .icon-row {
+    margin-left: 0 !important;    /* align icons with left margin */
+    margin-top: 0;                /* optional: adjust spacing above */
+    justify-content: flex-start;  /* left-align icons */
   }
 .content h2,
 .content h3,
