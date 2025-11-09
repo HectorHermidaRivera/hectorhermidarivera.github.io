@@ -10,7 +10,7 @@ body {
   /*padding: 5% 5% 5% 2.5%;    */
   /*padding: clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 5%, 100px) clamp(10px, 2.5%, 50px);*/
   /*max-width: 1300px;        */
-  padding: 2.5vw 5vw 2.5vw 2.5vw;
+  padding: 2.5vw 5vw 2.5vw 1vw;
   box-sizing: border-box;
   font-size: 1.1em;
   text-align: justify;
