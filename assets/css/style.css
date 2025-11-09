@@ -312,7 +312,7 @@ a {
   /* About Me paragraphs */
   #about-me .mobile-intro,
   #about-me .mobile-only p {
-    line-height: 1;      
+    line-height: 1.5;      
   }
 
   /* Icon row full width, aligned with text */
