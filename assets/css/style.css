@@ -134,6 +134,15 @@ body {
   align-items: baseline;
 }
 
+.fill-line span {
+  white-space: nowrap;
+}
+
+.fill-line span:last-child {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
 .fill-line span:last-child {
   font-size: 0.8em;
   font-weight: normal;
