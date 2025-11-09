@@ -284,20 +284,20 @@ a {
   /* Hide desktop content except mobile-only block */
   .content > *:not(.mobile-only) { display: none; }
 
-  /* Make content full-width with small horizontal margins */
+  /* Make content full-width with tiny horizontal margins */
   .content {
-    margin: 0 8px !important;        /* tiny left & right margin */
-    padding: 10px !important;      
-    width: 100% !important;          
+    margin: 0 8px !important;     /* tiny left & right margins */
+    padding: 10px !important;     
+    width: auto !important;       /* do not force 100% */
     box-sizing: border-box;  
   }
 
-  /* Mobile-only block spans full width with same horizontal margins */
+  /* Mobile-only block spans full width inside content margins */
   .mobile-only {
     display: block !important;
-    width: 100% !important;          /* let margin handle spacing */
-    margin: 0 8px !important;        /* tiny horizontal margin */
-    padding: 10px !important;     
+    margin: 0 !important;         /* already handled by parent .content */
+    padding: 10px !important;
+    width: auto !important;       /* do not force 100% */
     box-sizing: border-box;
   }
 
@@ -319,7 +319,6 @@ a {
   /* About Me paragraphs */
   #about-me .mobile-intro,
   #about-me .mobile-only p {
-    width: 100% !important;
     padding: 0 !important;
     margin: 0 0 1em 0;      
     line-height: 1.5;      
