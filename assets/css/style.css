@@ -356,7 +356,7 @@ body {
   .two-column-3rows {
     display: grid;
     grid-template-columns: 1fr; /* single column */
-    gap: 8px;                   /* spacing between items */
+    gap: 2px;                   /* spacing between items */
   }
 
   .two-column .label,
