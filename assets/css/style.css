@@ -355,20 +355,28 @@ body {
   .two-column-2rows,
   .two-column-3rows {
     display: grid;
-    grid-template-columns: 1fr; /* single column */
-    gap: 0px;                   /* spacing between items */
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
+  /* Space before each entry */
   .two-column .label,
   .two-column-2rows .label,
-  .two-column-3rows .label,
+  .two-column-3rows .label {
+    text-align: left;
+    width: 100%;
+    margin-top: 6px;   /* vertical space above */
+    margin-bottom: 2px; /* small space between label and value */
+  }
+
+  /* Space after each entry */
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
     text-align: left;
     width: 100%;
-    margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0px; /* vertical space below */
   }
 .two-column-2rows .top-row {
   flex-direction: column;       /* stack the course and university */
