@@ -18,7 +18,7 @@ a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hy
   justify-content: center;
   border-right: 1px solid #111;
   z-index: 10000;
-    }
+}
 
 .sidebar a {
   color: #fff;
