@@ -113,11 +113,13 @@ body {
 
 .two-column {
   display: grid;
-  grid-template-columns: minmax(0, 180px) 1fr;
+  grid-template-columns: 180px 1fr; /* fixed first column, flexible second */
   gap: 8px 16px;
   align-items: start;
   margin-top: 0px;
-  word-break: break-word;
+  max-width: 100%;     /* prevent grid from exceeding container width */
+  box-sizing: border-box;
+  overflow-wrap: break-word; /* wrap long words in second column */
 }
 
 .two-column .label {
