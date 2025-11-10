@@ -440,12 +440,26 @@ body {
   .two-column-3rows .top-row .course {
     width: 100%;                  /* take full width */
   }
-  
- .two-column-3rows .value .top-row,
+
+  /* Stack top-row items without extra space */
+  .two-column-3rows .value .top-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px; /* use small gap instead of relying on margins */
+    margin: 0; /* reset any margin on the row itself */
+  }
+
+  /* Remove margins from children inside top-row */
+  .two-column-3rows .value .top-row > * {
+    margin: 0;
+    line-height: 1.2; /* optional: control spacing tightly */
+  }
+
+  /* Standardize spacing for second and third rows */
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     margin-top: 0;
-    margin-bottom: 2px; /* match .two-column-2rows .second-row */
+    margin-bottom: 2px; /* match .two-column-2rows */
   }
 
  .fill-line {
