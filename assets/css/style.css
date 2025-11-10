@@ -367,7 +367,7 @@ body {
   }
   .icon-row {
     margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 10px;                /* optional: adjust spacing above */
+    margin-top: 20px;                /* optional: adjust spacing above */
     justify-content: flex-start;  /* left-align icons */
   }
 .content h2,
