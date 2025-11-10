@@ -17,36 +17,34 @@
 .sidebar {
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 5px;
   width: 195px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically centers all links */
-  gap: 8px; /* spacing between links */
+  justify-content: center; /* vertical centering */
+  align-items: stretch;     /* links fill full width */
+  gap: 8px;                 /* spacing between links */
   background-color: #f2f2f2; 
-  padding-left: 10px; /* keep left padding */
+  padding: 0;               /* no extra top/bottom padding */
   border-radius: 12px;     
   box-sizing: border-box;
   z-index: 10000;
 }
 
-/* Sidebar links as rounded buttons */
 .sidebar a {
   display: block;
-  padding: 8px 12px;          
-  text-align: right;          
-  width: 100%;                
-  color: #000;                
+  padding: 8px 12px;        /* internal padding for the link itself */
+  text-align: right;
+  color: #000;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border: 1px solid #aaa;     
-  border-radius: 8px;         
-  transition: all 0.2s ease;  
-  background-color: #f2f2f2;  
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  background-color: #f2f2f2;
 }
 
 .sidebar a:hover {
