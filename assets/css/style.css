@@ -324,7 +324,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin-left: 168px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 /* Smooth hover enlargement */
@@ -367,7 +367,7 @@ body {
   }
   .icon-row {
     margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 2px;                /* optional: adjust spacing above */
+    margin-top: 10px;                /* optional: adjust spacing above */
     justify-content: flex-start;  /* left-align icons */
   }
 .content h2,
