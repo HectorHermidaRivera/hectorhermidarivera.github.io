@@ -41,20 +41,27 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // SCROLL-SPY / HIGHLIGHT SIDEBAR LINKS BASED ON SCROLL
-  const sections = document.querySelectorAll('.content [id]'); // all sections with id
+  const sections = document.querySelectorAll('.content [id]');
   const sidebarLinks = document.querySelectorAll('.sidebar a');
 
-  function activateSidebarLink() {
+  function updateActiveLink() {
     const scrollPosition = window.scrollY || window.pageYOffset;
 
+    let currentSectionId = null;
+
+    // find the section currently in view
     sections.forEach(section => {
-      const top = section.offsetTop - 100; // adjust if you have fixed header
-      const bottom = top + section.offsetHeight;
+      const sectionTop = section.offsetTop - 80; // adjust for fixed header
+      const sectionBottom = sectionTop + section.offsetHeight;
 
-      const id = section.getAttribute('id');
-      const link = document.querySelector(`.sidebar a[href="#${id}"]`);
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        currentSectionId = section.getAttribute('id');
+      }
+    });
 
-      if (scrollPosition >= top && scrollPosition < bottom) {
+    // update sidebar links
+    sidebarLinks.forEach(link => {
+      if (link.getAttribute('href') === `#${currentSectionId}`) {
         link.classList.add('active');
       } else {
         link.classList.remove('active');
@@ -62,6 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  window.addEventListener('scroll', activateSidebarLink);
-  activateSidebarLink(); // activate on page load
+  window.addEventListener('scroll', updateActiveLink);
+  updateActiveLink(); // initialize on page load
 });
