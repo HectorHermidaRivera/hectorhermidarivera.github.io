@@ -10,9 +10,9 @@ a {
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 10px;                  /* start at top of viewport */
+  top: 30px;                  /* start at top of viewport */
   left: 5px;               /* optional inset */
-  width: 200px;             /* shrink to fit links */
+  width: 195px;             /* shrink to fit links */
   height: 100vh;           /* full viewport height */
   display: flex;
   flex-direction: column;
