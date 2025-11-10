@@ -86,7 +86,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019 – 24</div>
+  <div class="label">2016 – 18</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Master's Degree in Economic Analysis</b></span>
@@ -94,7 +94,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019 – 24</div>
+  <div class="label">2015 – 16</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Master's Degree in Political Economy</b></span>
@@ -102,7 +102,7 @@ title: Home
     </div>
   </div>
 
-  <div class="label">2019 – 24</div>
+  <div class="label">2011 – 15</div>
   <div class="value">
     <div class="fill-line">
       <span><b>Bachelor's Degree in Political &amp; Administration Sciences</b></span>
