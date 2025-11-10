@@ -494,7 +494,7 @@ title: Home
 
 </div>
 
-<span class="hide-on-small">
+<div class="hide-on-small">
   
 ## Resources {#resources}
 
@@ -582,4 +582,4 @@ title: Home
 
 </div>
 
-</span>
+</div>
