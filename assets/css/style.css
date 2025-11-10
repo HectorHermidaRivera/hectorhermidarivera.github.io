@@ -359,14 +359,14 @@ body {
     margin-right: 0 !important;
     margin-bottom: 30px !important;
     padding-left: 5px;
-    padding-right: 70px;      /* add a little breathing room on the right */
+    padding-right: 10px;      /* add a little breathing room on the right */
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
   }
 }
 
-@media (max-width: 849px) {
+@media (max-width: 799px) {
 .main-name,
   .name-title {
     padding-left: 0 !important;   /* remove extra left padding */
@@ -377,7 +377,7 @@ body {
     margin-top: 20px;                /* optional: adjust spacing above */
     justify-content: flex-start;  /* left-align icons */
   }
-  #resources {
+.hide-on-small {
     display: none;
   }
 .content h2,
