@@ -39,14 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
       link.setAttribute('target', '_blank');
     }
   });
-
-// TOGGLE MOBILE MENU
-const menuButton = document.querySelector('.menu-toggle');
-const sidebarLinks = document.querySelector('.sidebar-links');
-
-if (menuButton && sidebarLinks) {
-  menuButton.addEventListener('click', () => {
-    sidebarLinks.classList.toggle('active');
-  });
-}
 });
