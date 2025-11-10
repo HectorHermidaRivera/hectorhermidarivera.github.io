@@ -10,7 +10,7 @@ a {
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 50px;                /* optional: leave some space from top */
+  top: 50%;                /* optional: leave some space from top */
   left: 20px;               /* optional: inset from left */
   width: auto;              /* shrink to fit links */
   background-color: #f2f2f2; /* same as page background */
