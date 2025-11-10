@@ -507,7 +507,7 @@ title: Home
 
 </div>
 
-## Resources
+## Resources {#resources}
 <a id="RESOURCES"></a>
 
 ### Textbooks
