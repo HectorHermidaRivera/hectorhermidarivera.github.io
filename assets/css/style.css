@@ -1,5 +1,3 @@
-This is my html:
-
 /* HYPENATION */
 
 * {
@@ -358,7 +356,8 @@ body {
   .sidebar {
     display: none !important;
   }
-.content {
+
+  .content {
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin-bottom: 30px !important;
@@ -371,117 +370,91 @@ body {
 }
 
 @media (max-width: 799px) {
-.main-name,
+  /* Headers */
+  .main-name,
   .name-title {
     padding-left: 0 !important;   /* remove extra left padding */
-    text-align: left;             /* ensure header text is left-aligned */
+    text-align: left;             /* left-align headers */
   }
+
+  /* Icons row */
   .icon-row {
     margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 20px;                /* optional: adjust spacing above */
+    margin-top: 20px;             /* spacing above */
     justify-content: flex-start;  /* left-align icons */
   }
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin-left: 0;
-  padding-left: 0px;
-  margin-bottom: 0px;  
-}
+
+  /* Content headers */
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    margin-left: 0;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* Two-column layouts stacked in small screens */
   .two-column,
   .two-column-2rows,
   .two-column-3rows {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0;
+    row-gap: 12px; /* consistent vertical spacing between all rows */
   }
 
-  /* Space before each entry */
+  /* Remove all top/bottom margins from children */
   .two-column .label,
-  .two-column-2rows .label,
-  .two-column-3rows .label {
-    text-align: left;
-    width: 100%;
-    margin-top: 12px;   /* vertical space above */
-    margin-bottom: 2px; /* small space between label and value */
-  }
-
-  /* Space after each entry */
   .two-column .value,
+  .two-column-2rows .label,
   .two-column-2rows .value,
+  .two-column-3rows .label,
   .two-column-3rows .value {
-    text-align: left;
+    margin: 0;
+  }
+
+  /* Stack rows inside top-row for 2-rows layout */
+  .two-column-2rows .top-row {
+    flex-direction: column;
+    align-items: flex-start;  
+  }
+  .two-column-2rows .top-row span {
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 0px; /* vertical space below */
-  }
-.two-column-2rows .top-row {
-  flex-direction: column;       /* stack the course and university */
-  align-items: flex-start;      /* left-align */
-}
-.two-column-2rows .top-row span {
-  width: 100%;
-  white-space: normal;          /* allow wrapping */
-  text-align: left;             /* left-aligned when stacked */
-}
- .two-column-3rows .top-row {
-    flex-direction: column;    /* stack course and university */
-    align-items: flex-start;   /* left-align everything */
+    white-space: normal; 
+    text-align: left;     
   }
 
+  /* Stack rows inside top-row for 3-rows layout */
+  .two-column-3rows .top-row {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+  .two-column-3rows .top-row .course,
   .two-column-3rows .top-row .institution {
-    text-align: left !important;  /* ensure left-aligned */
-    margin-top: 4px;              /* optional spacing above university */
-    width: 100%;                  /* take full width */
+    width: 100%;
+    text-align: left !important;
+    margin: 0;
   }
 
-  .two-column-3rows .top-row .course {
-    width: 100%;                  /* take full width */
-  }
-
-  /* Stack top-row items without extra space */
-  .two-column-3rows .value .top-row {
+  /* Fill line adjustments */
+  .fill-line {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2px; /* use small gap instead of relying on margins */
-    margin: 0; /* reset any margin on the row itself */
   }
-
-  /* Remove margins from children inside top-row */
-  .two-column-3rows .value .top-row > * {
-    margin: 0;
-    line-height: 1.2; /* optional: control spacing tightly */
-  }
-
-  /* Standardize spacing for second and third rows */
-  .two-column-3rows .value .second-row,
-  .two-column-3rows .value .third-row {
-    margin-top: 0;
-    margin-bottom: 2px; /* match .two-column-2rows */
-  }
-
- .fill-line {
-    flex-direction: column;
-    align-items: flex-start; /* right-align all items */
-  }
-
   .fill-line span {
     width: 100%;
     text-align: left;
-    white-space: normal; /* allow wrapping */
+    white-space: normal;
   }
+
+  /* Content margins */
   .content {
-    margin-left: 0 !important;
-    padding-left: 1vw;
-  }
-.content {
     margin-left: 10px !important;
     margin-right: 10px !important;
     margin-bottom: 30px !important;
     padding-left: 0px;
-    padding-right: 0px;      /* add a little breathing room on the right */
+    padding-right: 0px;      
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
