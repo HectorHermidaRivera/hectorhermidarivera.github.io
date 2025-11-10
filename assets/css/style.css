@@ -16,7 +16,7 @@ a {
   height: 100vh;           /* full viewport height */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center links vertically */
+  justify-content: flex-start;; /* center links vertically */
   gap: 8px;                /* spacing between links */
   background-color: #f2f2f2; 
   padding: 10px;           
