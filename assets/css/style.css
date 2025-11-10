@@ -295,7 +295,7 @@ body {
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease;
+  transition: max-height 0.1s ease;
   margin: 0;
   padding: 0;
 }
