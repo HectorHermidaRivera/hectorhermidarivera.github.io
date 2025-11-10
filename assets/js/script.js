@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // SMOOTH SCROLL FOR SIDEBAR LINKS
+// SMOOTH SCROLL FOR SIDEBAR LINKS
   document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href').substring(1);
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // COLLAPSIBLES
+// COLLAPSIBLES
   document.querySelectorAll('.collapsible-link').forEach(link => {
     link.addEventListener('click', function(e) {
       // Find the closest container
@@ -32,11 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // OPEN EXTERNAL LINKS IN NEW TAB
+// OPEN EXTERNAL LINKS IN NEW TAB
   document.querySelectorAll('a').forEach(link => {
     // Skip sidebar links and collapsible links
     if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
       link.setAttribute('target', '_blank');
     }
   });
+
+// TOGGLE MOBILE MENU
+const menuButton = document.querySelector('.menu-toggle');
+const sidebarLinks = document.querySelector('.sidebar-links');
+
+if (menuButton && sidebarLinks) {
+  menuButton.addEventListener('click', () => {
+    sidebarLinks.classList.toggle('active');
+  });
+}
 });
