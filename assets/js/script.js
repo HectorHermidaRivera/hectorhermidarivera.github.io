@@ -1,5 +1,3 @@
-This is my sc file:
-
 document.addEventListener('DOMContentLoaded', () => {
 
 // SMOOTH SCROLL FOR SIDEBAR LINKS
@@ -41,15 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
       link.setAttribute('target', '_blank');
     }
   });
-
-// SMOOTH SCROLL ON PAGE LOAD IF URL HAS HASH
-  if (window.location.hash) {
-    const element = document.querySelector(window.location.hash);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }
-  
 });
-
-Give it to in full, corrected
