@@ -17,14 +17,15 @@
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 30px;                  /* start at top of viewport */
-  left: 5px;               /* optional inset */
-  width: 195px;             /* shrink to fit links */
-  height: 100vh;           /* full viewport height */
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+  width: 195px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;; /* center links vertically */
-  gap: 8px;                /* spacing between links */
+  justify-content: center;
+  gap: 8px;
   background-color: #f2f2f2; 
   padding: 10px;           
   border-radius: 12px;     
