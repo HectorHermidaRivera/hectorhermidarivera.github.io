@@ -107,8 +107,7 @@ title: Home
   </div>
 </div>
 
-## Skills
-<a id="SKILLS"></a>
+## Skills {#skills}
 
 <div class="two-column">
   <div class="label">Software</div>
@@ -121,8 +120,7 @@ title: Home
   <div class="value"><b>English</b> (fluent)<span style="margin:10px;">•</span><b>Spanish</b> (native)<span style="margin:10px;">•</span><b>Catalan</b> (native)</div>
 </div>
 
-## Publications
-<a id="PUBLICATIONS"></a>
+## Publications {#publications}
 
 <div class="two-column">
   <div class="label">4.</div>
@@ -146,8 +144,8 @@ title: Home
 </a></div>
 </div>
 
-## Job Market Paper
-<a id="jobmarketpaper"></a>
+## Job Market Paper {#job market paper}
+
 <div class="two-column">
   <div class="label">Title</div>
   <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b><span style="margin:10px;">•</span><a href="https://drive.google.com/file/d/1hKOv9RvaCknSuoOqd6QBiJCijjgsD0pX/view?usp=share_link">Slides</a></div>
@@ -159,8 +157,7 @@ title: Home
   <div class="value"><i>In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</i></div>
 </div>
 
-## Manuscripts
-<a id="manuscripts"></a>
+## Manuscripts {#manuscripts}
 
 <div class="two-column-2rows-container">
 
@@ -246,8 +243,7 @@ title: Home
 
 </div>
 
-## Teaching
-<a id="teaching"></a>
+## Teaching {#teaching}
 
 <!-- Lecturer Section -->
 <div class="two-column-3rows-container">
@@ -351,8 +347,7 @@ title: Home
   </div>
 </div>
 
-## Awards
-<a id="awards"></a>
+## Awards {#awards}
 
 <div class="two-column">
   <div class="label">2019 - 22</div>
@@ -379,8 +374,7 @@ title: Home
   </div>
 </div>
 
-## Training
-<a id="training"></a>
+## Training {#training}
 
 <div class="two-column">
   <div class="label">2022</div>
@@ -407,8 +401,7 @@ title: Home
   </div>
 </div>
 
-## Presentations
-<a id="presentations"></a>
+## Presentations {#presentations}
 
 <div class="two-column">
   <div class="label"><b>Conferences</b></div>
@@ -418,8 +411,7 @@ title: Home
   <div class="value">Budapest University of Technology & Economics (<b>×2</b>)<span style="margin:10px;">•</span>Centre for Economic & Regional Studies (<b>×1</b>)<span style="margin:10px;">•</span>Corvinus University of Budapest (<b>×2</b>)<span style="margin:10px;">•</span>University of Barcelona (<b>×1</b>)<span style="margin:10px;">•</span>University of East Anglia (<b>×3</b>)<span style="margin:10px;">•</span>University of Granada (<b>×1</b>)<span style="margin:10px;">•</span>University of Liverpool (<b>×2</b>)<span style="margin:10px;">•</span>University of Rovira i Virgili (<b>×1</b>)<span style="margin:10px;">•</span>University of Vienna (<b>×1</b>)</div>
 </div>
 
-## Refereeing
-<a id="refereeing"></a>
+## Refereeing {#refereeing}
 
 <div class="two-column">
   <div class="label">1.</div>
@@ -431,8 +423,7 @@ title: Home
   </div>
 </div>
 
-## References
-<a id="references"></a>
+## References {#references}
 
 <div class="two-column-2rows-container">
 
