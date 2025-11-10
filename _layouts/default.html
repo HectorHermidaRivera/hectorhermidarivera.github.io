@@ -40,8 +40,10 @@
 <!-- Structure -->
 
 <body>
-<div class="sidebar">
-    <button class="menu-toggle">☰ Menu</button>
+  <div class="sidebar">
+    <button class="menu-toggle" onclick="document.querySelector('.sidebar-links').classList.toggle('active')">
+      ☰ Menu
+    </button>
     <div class="sidebar-links">
       <a href="#about-me">About me</a>
       <a href="#contact">Contact</a>
