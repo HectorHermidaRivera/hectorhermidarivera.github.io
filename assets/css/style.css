@@ -23,10 +23,10 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* start at top */
-  gap: 8px;
+  justify-content: center; /* vertically centers all links */
+  gap: 8px; /* spacing between links */
   background-color: #f2f2f2; 
-  padding: 0px 0px 0px 10px; /* 10px top and bottom */
+  padding-left: 10px; /* keep left padding */
   border-radius: 12px;     
   box-sizing: border-box;
   z-index: 10000;
