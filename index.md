@@ -39,7 +39,7 @@ title: Home
   </a>
 </div>
 
-## About me {#about me}
+## About me {#about-me}
 
 <div class="two-column">
     <div class="label"></div>
@@ -144,7 +144,7 @@ title: Home
 </a></div>
 </div>
 
-## Job Market Paper {#job market paper}
+## Job Market Paper {#job-market-paper}
 
 <div class="two-column">
   <div class="label">Title</div>
