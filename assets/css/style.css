@@ -351,17 +351,16 @@ body {
 }
 
 /* SMALL SCREENS */
-
 @media (max-width: 1023px) {
   .sidebar {
     display: none !important;
   }
-.content {
+  .content {
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin-bottom: 30px !important;
     padding-left: 5px;
-    padding-right: 10px;      /* add a little breathing room on the right */
+    padding-right: 10px;
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
@@ -369,27 +368,26 @@ body {
 }
 
 @media (max-width: 799px) {
-.main-name,
+  .main-name,
   .name-title {
-    padding-left: 0 !important;   /* remove extra left padding */
-    text-align: left;             /* ensure header text is left-aligned */
+    padding-left: 0 !important;  
+    text-align: left;             
   }
   .icon-row {
-    margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 20px;                /* optional: adjust spacing above */
-    justify-content: flex-start;  /* left-align icons */
+    margin-left: 0 !important;
+    margin-top: 20px;
+    justify-content: flex-start;  
   }
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin-left: 0;
-  padding-left: 0px;
-  margin-bottom: 0;  
-  margin-top: 40px;  
-  text-transform: uppercase;
-}
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /* 1-column layout for all grids */
   .two-column,
   .two-column-2rows,
   .two-column-3rows {
@@ -398,69 +396,70 @@ body {
     gap: 0;
   }
 
-  /* Space before each entry */
+  /* Left label adjustments */
   .two-column .label,
   .two-column-2rows .label,
   .two-column-3rows .label {
     text-align: left;
     width: 100%;
-    margin-top: 12px;   /* vertical space above */
-    margin-bottom: 2px; /* small space between label and value */
+    margin-top: 12px;
+    margin-bottom: 2px;
   }
 
-  /* Space after each entry */
+  /* Right value adjustments */
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
     text-align: left;
     width: 100%;
     margin-top: 0;
-    margin-bottom: 0px; /* vertical space below */
-  }
-.two-column-2rows .top-row {
-  flex-direction: column;       /* stack the course and university */
-  align-items: flex-start;      /* left-align */
-}
-.two-column-2rows .top-row span {
-  width: 100%;
-  white-space: normal;          /* allow wrapping */
-  text-align: left;             /* left-aligned when stacked */
-}
- .two-column-3rows .top-row {
-    flex-direction: column;    /* stack course and university */
-    align-items: flex-start;   /* left-align everything */
+    margin-bottom: 0;
   }
 
+  /* Stack top rows in 2-row and 3-row layouts */
+  .two-column-2rows .top-row,
+  .two-column-3rows .top-row {
+    flex-direction: column;  
+    align-items: flex-start; 
+  }
+
+  /* Ensure top-row children wrap and align */
+  .two-column-2rows .top-row span,
+  .two-column-3rows .top-row .course,
   .two-column-3rows .top-row .institution {
-    text-align: left !important;  /* ensure left-aligned */
-    margin-top: 4px;              /* optional spacing above university */
-    width: 100%;                  /* take full width */
+    width: 100%;
+    white-space: normal;
+    text-align: left;
+    margin-top: 0; /* remove extra spacing */
   }
 
-  .two-column-3rows .top-row .course {
-    width: 100%;                  /* take full width */
+  /* Second and third rows: consistent spacing */
+  .two-column-2rows .second-row,
+  .two-column-3rows .second-row,
+  .two-column-3rows .third-row {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
- .fill-line {
+  /* Fill-line adjustments */
+  .fill-line {
     flex-direction: column;
-    align-items: flex-start; /* right-align all items */
+    align-items: flex-start;
   }
 
   .fill-line span {
     width: 100%;
     text-align: left;
-    white-space: normal; /* allow wrapping */
+    white-space: normal;
   }
+
+  /* Content padding */
   .content {
-    margin-left: 0 !important;
-    padding-left: 1vw;
-  }
-.content {
     margin-left: 10px !important;
     margin-right: 10px !important;
     margin-bottom: 30px !important;
     padding-left: 0px;
-    padding-right: 0px;      /* add a little breathing room on the right */
+    padding-right: 0px;
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
