@@ -344,54 +344,8 @@ body {
 /* SMALL SCREENS */
 
 @media (max-width: 1023px) {
-.sidebar {
-    position: relative;
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    border-radius: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    font-family: "Merriweather", serif;
-  }
-  .menu-toggle {
-    display: block;
-    width: 100%;
-    background-color: #f2f2f2;
-    border: none;
-    text-align: left;
-    font-weight: 700;
-    padding: 15px;
-    font-size: 18px;
-    font-family: "Merriweather", serif;
-    color: black;
-    cursor: pointer;
-  }
-  .sidebar-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .sidebar-links.active {
-    display: flex;
-  }
-  .sidebar a {
-    display: block;
-    border-top: 1px solid #ccc;
-    padding: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #fff;
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
-  }
-
-  .sidebar a:hover,
-  .sidebar a.active {
-    background-color: #e0e0e0;
+  .sidebar {
+    display: none !important;
   }
 .content {
     margin-left: 0 !important;
@@ -406,9 +360,6 @@ body {
 }
 
 @media (max-width: 849px) {
-  .sidebar {
-    display: none !important;
-  }
 .main-name,
   .name-title {
     padding-left: 0 !important;   /* remove extra left padding */
