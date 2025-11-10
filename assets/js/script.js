@@ -41,10 +41,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 // SMOOTH SCROLL ON PAGE LOAD IF URL HAS HASH
+window.addEventListener('load', () => {
   if (window.location.hash) {
-    const element = document.querySelector(window.location.hash);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    const target = document.querySelector(window.location.hash);
+    if (target) {
+      // Open collapsible parents if they exist
+      let container = target.closest('.two-column-2rows, .two-column-3rows');
+      if (container) {
+        const content = container.querySelector('.collapsible-content');
+        if (content) {
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      }
+
+      // Small timeout to ensure layout stabilizes
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'auto', block: 'start' });
+      }, 50); // 50ms is usually enough
     }
   }
   
