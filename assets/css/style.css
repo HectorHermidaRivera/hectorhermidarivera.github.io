@@ -386,8 +386,7 @@ body {
 .content h6 {
   margin-left: 0;
   padding-left: 0px;
-  margin-top: inherit;
-  margin-bottom: inherit;
+  margin-bottom: 0px;
 }
   .two-column,
   .two-column-2rows,
