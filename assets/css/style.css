@@ -295,7 +295,7 @@ body {
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.1s ease;
+  transition: max-height 0.2s ease;
   margin: 0;
   padding: 0;
 }
@@ -335,7 +335,7 @@ body {
 
 .icon-row a {
   display: inline-block;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .icon-row a:hover {
