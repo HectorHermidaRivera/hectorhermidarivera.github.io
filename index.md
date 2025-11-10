@@ -165,7 +165,7 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b><span style="margin:10px;">•</span>Job Market Paper</span>
+        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b></span>
         <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
