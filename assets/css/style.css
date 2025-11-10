@@ -440,6 +440,13 @@ body {
   .two-column-3rows .top-row .course {
     width: 100%;                  /* take full width */
   }
+  
+ .two-column-3rows .value .top-row,
+  .two-column-3rows .value .second-row,
+  .two-column-3rows .value .third-row {
+    margin-top: 0;
+    margin-bottom: 2px; /* match .two-column-2rows .second-row */
+  }
 
  .fill-line {
     flex-direction: column;
@@ -466,5 +473,3 @@ body {
     box-sizing: border-box;
   }
 }
-
-The vertical spacing of two-column-3-row in small screens is inconsistent with the vertical spacing of the other classes. Could that be? Any fix? 
