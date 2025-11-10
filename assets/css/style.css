@@ -7,36 +7,46 @@ a {
 
 /* SIDEBAR */
 
+/* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background: #000000;
-  padding: 25px 15px;
+  top: 50px;                /* optional: leave some space from top */
+  left: 20px;               /* optional: inset from left */
+  width: auto;              /* shrink to fit links */
+  background-color: #f2f2f2; /* same as page background */
+  padding: 10px;            /* small padding around links */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  border-right: 1px solid #111;
+  gap: 8px;                 /* spacing between links */
+  border-radius: 12px;      /* rounded corners for the container */
   z-index: 10000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional subtle shadow */
 }
 
+/* Sidebar links as rounded buttons */
 .sidebar a {
-  color: #fff;
+  display: block;
+  padding: 8px 12px;           /* inner spacing */
+  text-align: right;            /* keep your right alignment */
+  width: 100%;                  /* fill container width */
+  color: #000;                  /* text color */
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  margin: 8px 0;
-  width: 100%;
-  text-align: right;
-  line-height: 1.6;
+  border: 1px solid #aaa;       /* gray border */
+  border-radius: 8px;           /* rounded corners for buttons */
+  transition: all 0.2s ease;    /* smooth hover effect */
+  background-color: #f2f2f2;    /* match container */
 }
 
-.sidebar a:hover { color: #dddddd; }
+/* Hover effect for sidebar links */
+.sidebar a:hover {
+  background-color: #e0e0e0;    /* light gray on hover */
+  border-color: #888;           /* slightly darker border on hover */
+  color: #000;                  /* ensure text stays visible */
+}
 
 html {
   scroll-behavior: smooth;
