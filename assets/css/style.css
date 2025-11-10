@@ -49,9 +49,9 @@ a {
 }
 
 .sidebar a.active {
-  background-color: #e0e0e0;  /* match your hover gray */
-  border-color: #888;          /* match your hover border */
-  color: #000;
+  background-color: #e0e0e0; /* gray box when section is active */
+  border-color: #888;
+  color: #000; /* text color stays visible */
 }
 
 html {
