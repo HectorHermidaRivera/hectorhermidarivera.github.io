@@ -7,7 +7,8 @@
   hyphens: auto;
 }
 
-.main-name {
+.main-name, 
+.main-name * {
   hyphens: none;
 }
 
