@@ -494,12 +494,6 @@ title: Home
 
 </div>
 
-
-
-<div class="hide-on-small">
-
-
-
 ## Resources {#resources}
 
 ### Textbooks
@@ -583,10 +577,6 @@ title: Home
 
   <div class="label"><b>Blogs</b></div>
   <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">Game Theory net</a></div>
-
-</div>
-
-
 
 </div>
 
