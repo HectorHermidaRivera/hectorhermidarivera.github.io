@@ -21,7 +21,6 @@ a {
   gap: 8px;                 /* spacing between links */
   border-radius: 12px;      /* rounded corners for the container */
   z-index: 10000;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional subtle shadow */
 }
 
 /* Sidebar links as rounded buttons */
