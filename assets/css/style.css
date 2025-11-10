@@ -10,8 +10,8 @@ a {
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 50%;                /* optional: leave some space from top */
-  left: 20px;               /* optional: inset from left */
+  justify-content: center;  /* center links vertically within sidebar */
+  left: 5px;               /* optional: inset from left */
   width: auto;              /* shrink to fit links */
   background-color: #f2f2f2; /* same as page background */
   padding: 10px;            /* small padding around links */
