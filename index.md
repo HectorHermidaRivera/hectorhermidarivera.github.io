@@ -39,16 +39,14 @@ title: Home
   </a>
 </div>
 
-## About me
-<a id="ABOUT ME"></a>
+## About me {#about me}
 
 <div class="two-column">
     <div class="label"></div>
     <div class="value">I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).</div>
 </div>
 
-## Contact
-<a id="CONTACT"></a>
+## Contact {#contact}
 
 <div class="two-column">
   <div class="label">Email</div>
@@ -61,8 +59,7 @@ title: Home
   <div class="value"><b>QA327, Budapest University of Technology & Economics, 1117, Budapest, Hungary</b></div>
 </div>
 
-## Employment
-<a id="employment"></a>
+## Employment {#employment}
 
 <div class="two-column">
   <div class="label">2023 – 26</div>
@@ -74,8 +71,7 @@ title: Home
   </div>
 </div>
 
-## Education
-<a id="EDUCATION"></a>
+## Education {#education}
 
 <div class="two-column">
   <div class="label">2019 – 24</div>
@@ -508,7 +504,6 @@ title: Home
 </div>
 
 ## Resources {#resources}
-<a id="RESOURCES"></a>
 
 ### Textbooks
 
