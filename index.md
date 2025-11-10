@@ -370,7 +370,7 @@ title: Home
   <div class="value">
     <div class="fill-line">
       <span><b>&euro;1,500 Undergraduate Academic Internship</b></span>
-      <span>Pomepu Fabra University</span>
+      <span>Pompeu Fabra University</span>
     </div>
   </div>
 
@@ -378,7 +378,7 @@ title: Home
   <div class="value">
     <div class="fill-line">
       <span><b>&euro;1,365 Undergraduate First Class Honors Scholarship</b></span>
-      <span>Pomepu Fabra University</span>
+      <span>Pompeu Fabra University</span>
     </div>
   </div>
 </div>
