@@ -39,36 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
       link.setAttribute('target', '_blank');
     }
   });
-
-  // SCROLL-SPY / HIGHLIGHT SIDEBAR LINKS BASED ON SCROLL
-  const sections = document.querySelectorAll('.content [id]');
-  const sidebarLinks = document.querySelectorAll('.sidebar a');
-
-  function updateActiveLink() {
-    const scrollPosition = window.scrollY || window.pageYOffset;
-
-    let currentSectionId = null;
-
-    // find the section currently in view
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 80; // adjust for fixed header
-      const sectionBottom = sectionTop + section.offsetHeight;
-
-      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-        currentSectionId = section.getAttribute('id');
-      }
-    });
-
-    // update sidebar links
-    sidebarLinks.forEach(link => {
-      if (link.getAttribute('href') === `#${currentSectionId}`) {
-        link.classList.add('active');
-      } else {
-        link.classList.remove('active');
-      }
-    });
-  }
-
-  window.addEventListener('scroll', updateActiveLink);
-  updateActiveLink(); // initialize on page load
 });
