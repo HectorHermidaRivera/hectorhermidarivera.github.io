@@ -10,9 +10,9 @@ a {
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  top: 0;                  /* start at top of viewport */
+  top: 10px;                  /* start at top of viewport */
   left: 5px;               /* optional inset */
-  width: auto;             /* shrink to fit links */
+  width: 200px;             /* shrink to fit links */
   height: 100vh;           /* full viewport height */
   display: flex;
   flex-direction: column;
@@ -68,17 +68,6 @@ body {
 }
 
 /* CONTENT */
-
-/*.content {
-  max-width: 1000px;                    
-  width: 100%;                          
-  margin-left: max(200px, (100vw - 1000px)/2); 
-  margin-right: (100vw - 1000px)/2;     
-  padding: 0 20px 30px 20px;
-  box-sizing: border-box;
-  text-align: justify;
-  background-color: #f2f2f2;
-}*/
 
 .content {
   max-width: 1000px;                                
