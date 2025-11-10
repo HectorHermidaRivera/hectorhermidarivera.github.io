@@ -377,9 +377,6 @@ body {
     margin-top: 20px;                /* optional: adjust spacing above */
     justify-content: flex-start;  /* left-align icons */
   }
-.hide-on-small {
-    display: none;
-  }
 .content h2,
 .content h3,
 .content h4,
