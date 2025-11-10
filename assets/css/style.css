@@ -10,41 +10,42 @@ a {
 /* New Sidebar Style */
 .sidebar {
   position: fixed;
-  justify-content: center;  /* center links vertically within sidebar */
-  left: 5px;               /* optional: inset from left */
-  width: auto;              /* shrink to fit links */
-  background-color: #f2f2f2; /* same as page background */
-  padding: 10px;            /* small padding around links */
-  box-sizing: border-box;
+  top: 0;                  /* start at top of viewport */
+  left: 5px;               /* optional inset */
+  width: auto;             /* shrink to fit links */
+  height: 100vh;           /* full viewport height */
   display: flex;
   flex-direction: column;
-  gap: 8px;                 /* spacing between links */
-  border-radius: 12px;      /* rounded corners for the container */
+  justify-content: center; /* center links vertically */
+  gap: 8px;                /* spacing between links */
+  background-color: #f2f2f2; 
+  padding: 10px;           
+  border-radius: 12px;     
+  box-sizing: border-box;
   z-index: 10000;
 }
 
 /* Sidebar links as rounded buttons */
 .sidebar a {
   display: block;
-  padding: 8px 12px;           /* inner spacing */
-  text-align: right;            /* keep your right alignment */
-  width: 100%;                  /* fill container width */
-  color: #000;                  /* text color */
+  padding: 8px 12px;          
+  text-align: right;          
+  width: 100%;                
+  color: #000;                
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border: 1px solid #aaa;       /* gray border */
-  border-radius: 8px;           /* rounded corners for buttons */
-  transition: all 0.2s ease;    /* smooth hover effect */
-  background-color: #f2f2f2;    /* match container */
+  border: 1px solid #aaa;     
+  border-radius: 8px;         
+  transition: all 0.2s ease;  
+  background-color: #f2f2f2;  
 }
 
-/* Hover effect for sidebar links */
 .sidebar a:hover {
-  background-color: #e0e0e0;    /* light gray on hover */
-  border-color: #888;           /* slightly darker border on hover */
-  color: #000;                  /* ensure text stays visible */
+  background-color: #e0e0e0;  
+  border-color: #888;         
+  color: #000;                
 }
 
 html {
