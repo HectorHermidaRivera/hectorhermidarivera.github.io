@@ -295,13 +295,6 @@ body {
   font-weight: normal;   
 }
 
-.two-column-3rows .course.collapsible-link {
-  color: #00008B;       
-  text-decoration: none; 
-  font-weight: normal;   
-  cursor: pointer;       
-}
-
 .two-column-3rows .course.collapsible-link:hover {
   text-decoration: underline; 
 }
