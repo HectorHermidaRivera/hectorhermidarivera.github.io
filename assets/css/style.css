@@ -292,7 +292,9 @@ body {
   color: #00008B;       
   text-decoration: none; 
   cursor: pointer;
-  font-weight: normal;   
+  font-weight: normal;
+  white-space: pre;          /* preserves exact spaces */
+  word-spacing: normal;
 }
 
 .two-column-2rows .value .top-row,
