@@ -467,57 +467,44 @@ body {
 /* DARK MODE */
   
 @media (prefers-color-scheme: dark) {
-  
-  /* Base body and content */
-  body, .content, .sidebar {
-    background-color: #0d0d0d !important; /* dark background */
-    color: #f2f2f2 !important;           /* default light text */
+
+  /* Backgrounds and base text */
+  body {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
   }
 
-  /* Sidebar links */
-  .sidebar a {
-    color: #66ccff !important;
+  .content {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
   }
 
-  /* Content links */
-  .content a {
-    color: #66ccff !important;
+  .sidebar {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
   }
 
-  /* Hover state for content links */
-  .content a:hover {
-    color: #66ccff !important;
+  /* Links */
+  a, .sidebar a, .content a, .collapsible-link, .icon-row a {
+    color: #66ccff;
+  }
+
+  a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
     text-decoration: underline;
   }
 
-  /* Collapsible links */
-  .collapsible-link {
-    color: #66ccff !important;
-  }
-
-  /* Borders for boxes, tables, rows */
+  /* Borders */
   .sidebar a,
   .content .two-column .value,
   .content .two-column-2rows .value,
   .content .two-column-3rows .value {
-    border-color: #333 !important;
+    border-color: #333;
   }
 
-  /* Marked highlights from search */
+  /* Search highlights */
   mark {
-    background-color: #555 !important;
-    color: #f2f2f2 !important;
-  }
-
-  /* Optional: icons */
-  .icon-row a {
-    color: #66ccff !important;
-  }
-
-  /* Make sure child elements inside links inherit link color */
-  .content a *, 
-  .sidebar a * {
-    color: inherit !important;
+    background-color: #555;
+    color: #f2f2f2;
   }
 
 }
