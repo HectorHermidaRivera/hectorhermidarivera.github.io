@@ -465,29 +465,32 @@ body {
   }
 
 /* DARK MODE */
-
+  
 @media (prefers-color-scheme: dark) {
   
-  /* Base body and content */
-  body, .content, .content *:not(a), .sidebar, .sidebar *:not(a) {
-    background-color: #0d0d0d !important; /* dark background */
-    color: #f2f2f2 !important;           /* light text */
+  /* Base background and default text */
+  body {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
   }
 
-  /* Sidebar */
+  .content {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+  }
+
   .sidebar {
-    background-color: #0d0d0d !important;
-    color: #f2f2f2 !important;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
   }
 
-  /* Sidebar links */
-  .sidebar a {
-    color: #66ccff !important;
+  /* Links */
+  a, .sidebar a, .content a, .collapsible-link, .icon-row a {
+    color: #66ccff;
   }
 
-  /* Content links */
-  .content a {
-    color: #66ccff !important;
+  a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
+    text-decoration: underline;
   }
 
   /* Borders for boxes, tables, rows */
@@ -495,22 +498,13 @@ body {
   .content .two-column .value,
   .content .two-column-2rows .value,
   .content .two-column-3rows .value {
-    border-color: #333 !important;
+    border-color: #333;
   }
 
-  /* Collapsible links (if used) */
-  .collapsible-link {
-    color: #66ccff !important;
-  }
-
-  /* Marked highlights from search */
+  /* Search highlights */
   mark {
-    background-color: #555 !important;
-    color: #f2f2f2 !important;
+    background-color: #555;
+    color: #f2f2f2;
   }
 
-  /* Optional: icons */
-  .icon-row a {
-    color: #66ccff !important;
-  }
 }
