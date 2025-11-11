@@ -387,73 +387,69 @@ body {
   .two-column-3rows .label {
     text-align: left;
     width: 100%;
-    margin-top: 12px;   /* vertical space above */
-    margin-bottom: 0px; /* small space between label and value */
+    margin-top: 12px;
+    margin-bottom: 0px;
   }
 
-  /* Space after each entry */
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
     text-align: left;
     width: 100%;
     margin-top: 0;
-    margin-bottom: 0px; /* vertical space below */
+    margin-bottom: 0px;
   }
 .two-column-2rows .top-row {
-  flex-direction: column;       /* stack the course and university */
-  align-items: flex-start;      /* left-align */
+  flex-direction: column;
+  align-items: flex-start;
 }
 .two-column-2rows .top-row span {
   width: 100%;
-  white-space: normal;          /* allow wrapping */
-  text-align: left;             /* left-aligned when stacked */
+  white-space: normal;
+  text-align: left;
 }
  .two-column-3rows .top-row {
-    flex-direction: column;    /* stack course and university */
-    align-items: flex-start;   /* left-align everything */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .two-column-3rows .top-row .institution {
-    text-align: left !important;  /* ensure left-aligned */
-    margin-top: 4px;              /* optional spacing above university */
-    width: 100%;                  /* take full width */
+    text-align: left !important;
+    margin-top: 4px;
+    width: 100%;
   }
 
   .two-column-3rows .top-row .course {
-    width: 100%;                  /* take full width */
+    width: 100%;
   }
 
-  /* Stack top-row items without extra space */
   .two-column-3rows .value .top-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2px; /* use small gap instead of relying on margins */
-    margin: 0; /* reset any margin on the row itself */
+    gap: 2px;
+    margin: 0;
   }
 
-  /* Remove margins from children inside top-row */
   .two-column-3rows .value .top-row > * {
     margin: 0;
-    line-height: 1.2; /* optional: control spacing tightly */
+    line-height: 1.2;
   }
 
-  /* Standardize spacing for second and third rows */
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     margin-top: 0;
-    margin-bottom: 2px; /* match .two-column-2rows */
+    margin-bottom: 2px;
   }
 
  .fill-line {
     flex-direction: column;
-    align-items: flex-start; /* right-align all items */
+    align-items: flex-start;
   }
 
   .fill-line span {
     width: 100%;
     text-align: left;
-    white-space: normal; /* allow wrapping */
+    white-space: normal;
   }
   .content {
     margin-left: 0 !important;
@@ -464,14 +460,14 @@ body {
     margin-right: 10px !important;
     margin-bottom: 30px !important;
     padding-left: 0px;
-    padding-right: 0px;      /* add a little breathing room on the right */
+    padding-right: 0px;
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
   }
 }
 
-/* HIDE SIDEBAR FOR SMALL SCREEN HEIGHT */
+/* SMALL SCREEN HEIGHT */
 
 @media (max-height: 750px) and (min-width: 1024px) {
   .sidebar {
