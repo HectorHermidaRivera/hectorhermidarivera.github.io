@@ -294,20 +294,18 @@ body {
   font-weight: normal;   
 }
 
-/* COLLAPSIBLE LINKS: allow hover underline in flex containers without breaking spaces */
+/* COLLAPSIBLE LINKS: allow hover underline */
 .two-column-2rows .value .top-row .collapsible-link,
 .two-column-3rows .value .top-row .collapsible-link {
-  color: #00008B;       /* your blue */
+  color: #00008B;   /* blue */
   cursor: pointer;
   text-decoration: none;
-  /* no display change needed */
+  display: inline;   /* KEEP IT INLINE */
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
 .two-column-3rows .value .top-row .collapsible-link:hover {
   text-decoration: underline;
-  /* force underline even in flex */
-  text-decoration-thickness: from-font;
 }
 
 /* ROW OF ICONS */
