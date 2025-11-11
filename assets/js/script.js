@@ -40,19 +40,49 @@ window.addEventListener('hashchange', scrollToHashInstantly);
 
 // SEARCH BAR
 
-// Function to highlight text nodes
 function highlightText(node, query) {
   if (node.nodeType === Node.TEXT_NODE) {
     const text = node.textContent;
+
     if (!query) {
-      node.parentNode.innerHTML = text; // remove previous highlights
+      // Remove only <mark> tags, leave other HTML intact
+      const parent = node.parentNode;
+      if (parent && parent.tagName === 'MARK') {
+        parent.replaceWith(document.createTextNode(parent.textContent));
+      }
       return;
     }
+
     const regex = new RegExp(`(${query})`, 'gi');
-    const span = document.createElement('span');
-    span.innerHTML = text.replace(regex, '<mark>$1</mark>');
-    node.replaceWith(...span.childNodes);
-  } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+    const fragment = document.createDocumentFragment();
+    let lastIndex = 0;
+
+    text.replace(regex, (match, p1, offset) => {
+      // Add text before the match
+      if (offset > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex, offset)));
+      }
+      // Add highlighted match
+      const mark = document.createElement('mark');
+      mark.textContent = match;
+      fragment.appendChild(mark);
+      lastIndex = offset + match.length;
+    });
+
+    // Add remaining text
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+
+    if (fragment.childNodes.length) {
+      node.replaceWith(fragment);
+    }
+  } else if (
+    node.nodeType === Node.ELEMENT_NODE &&
+    node.tagName !== 'SCRIPT' &&
+    node.tagName !== 'STYLE' &&
+    node.tagName !== 'MARK'
+  ) {
     Array.from(node.childNodes).forEach(child => highlightText(child, query));
   }
 }
@@ -60,7 +90,15 @@ function highlightText(node, query) {
 const searchInput = document.getElementById('globalSearch');
 const content = document.querySelector('.content');
 
-searchInput.addEventListener('input', function() {
+searchInput.addEventListener('input', function () {
   const query = this.value.trim();
-  highlightText(content, query);
+
+  // Remove all previous highlights before applying new ones
+  content.querySelectorAll('mark').forEach(mark => {
+    mark.replaceWith(document.createTextNode(mark.textContent));
+  });
+
+  if (query.length > 0) {
+    highlightText(content, query);
+  }
 });
