@@ -469,13 +469,11 @@ body {
 
 @media (prefers-color-scheme: dark) {
 
-  /* Base backgrounds and text */
   body, .content, .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
   }
 
-  /* Links */
   a, .sidebar a, .content a, .collapsible-link, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
@@ -486,19 +484,16 @@ body {
     color: #66ccff !important;
   }
 
-  /* Make sure children inside links inherit the link color */
   a *, .content a *, .sidebar a *, .collapsible-link * {
     color: inherit !important;
   }
 
-  /* Override second-row and third-row text color */
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     color: #f2f2f2 !important;
   }
 
-  /* Borders */
   .sidebar a,
   .content .two-column .value,
   .content .two-column-2rows .value,
@@ -506,9 +501,20 @@ body {
     border-color: #333 !important;
   }
 
-  /* Search highlights */
   mark {
     background-color: #555 !important;
     color: #f2f2f2 !important;
   }
+
+ .two-column-2rows .value .top-row *,
+  .two-column-3rows .value .top-row *,
+  .two-column-3rows .value .top-row .institution {
+    color: #f2f2f2 !important;
+  }
+
+  /* Override courses inside top-row */
+  .two-column-3rows .value .top-row .course * {
+    color: #f2f2f2 !important;
+  }
+
 }
