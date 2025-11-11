@@ -17,7 +17,7 @@
   top: 0;
   padding-left: 5px;
   padding-right: 5px;
-  width: 195px;
+  width: 200px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ body {
 .content {
   max-width: 1000px;                                
   width: 100%;                                       
-  margin-left: max(205px, (100vw - 1000px)/2);       
+  margin-left: max(210px, (100vw - 1000px)/2);       
   margin-right: max(20px, (100vw - 1000px)/2);      
   padding: 0 20px 30px 20px;                       
   box-sizing: border-box;
