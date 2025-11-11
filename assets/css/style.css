@@ -465,18 +465,34 @@ body {
   }
 }
 
-/* DARK VS. CLEAR MODE */
+/* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    color: #f2f2f2;
+    background-color: #121212;  /* main background */
+    color: #f2f2f2;             /* default text color */
   }
+
+  .content {
+    background-color: #1a1a1a;  /* dark background for content block */
+    color: #f2f2f2;             /* light text inside content */
+  }
+
   .sidebar {
-    background-color: #1e1e1e;
+    background-color: #1e1e1e;  /* dark sidebar */
     color: #f2f2f2;
   }
-  a {
-    color: #66aaff;
+
+  .sidebar a {
+    color: #66aaff;             /* links in sidebar */
+  }
+
+  .content a {
+    color: #80bfff;             /* links inside content */
+  }
+
+  /* Optional: borders, boxes, etc. */
+  .sidebar a, .content .two-column .value, .content .two-column-2rows .value, .content .two-column-3rows .value {
+    border-color: #333;         /* softer borders for dark mode */
   }
 }
