@@ -49,6 +49,14 @@
   border-color: #888;
 }
 
+/* SCROLLING AND CONSTANT FONT SIZE */
+
+html {
+  scroll-behavior: auto;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 /* BODY */
 
 body {
