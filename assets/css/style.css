@@ -488,7 +488,7 @@ body {
 
 /* HIDE SIDEBAR FOR SMALL SCREEN HEIGHT */
 
-@media (max-height: 550px) {
+@media (max-height: 750px) {
   .sidebar {
     display: none !important;
   }
