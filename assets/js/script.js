@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
 
 // COLLAPSIBLES
   document.querySelectorAll('.collapsible-link').forEach(link => {
@@ -28,4 +28,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-});
+//});
