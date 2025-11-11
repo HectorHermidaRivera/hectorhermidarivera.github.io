@@ -490,6 +490,11 @@ body {
     color: #66ccff !important;
   }
 
+.content a:hover {
+  color: #66ccff !important;
+  text-decoration: underline;
+}
+  
   /* Borders for boxes, tables, rows */
   .sidebar a,
   .content .two-column .value,
