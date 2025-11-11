@@ -499,20 +499,20 @@ body {
     border-color: #333 !important;
   }
 
-  /* Optional: headings, special spans, etc. */
-  .content h1,
-  .content h2,
-  .content h3,
-  .content h4,
-  .content h5,
-  .content h6,
-  .content b,
-  .content strong,
-  .content span,
-  .content p,
-  .content div {
+/* Optional: headings, special spans, etc., but exclude links */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content b,
+.content strong,
+.content span:not(a),
+.content p,
+.content div:not(a) {
     color: #f2f2f2 !important;
-  }
+}
 
   /* Collapsible links (if used) */
   .collapsible-link {
