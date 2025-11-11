@@ -445,10 +445,6 @@ body {
     white-space: normal;
   }
   .content {
-    margin-left: 0 !important;
-    padding-left: 1vw;
-  }
-.content {
     margin-left: 10px !important;
     margin-right: 10px !important;
     margin-bottom: 30px !important;
