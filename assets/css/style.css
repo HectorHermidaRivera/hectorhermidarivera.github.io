@@ -468,7 +468,7 @@ body {
 /* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
-
+  
   body, .content, .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
@@ -477,6 +477,13 @@ body {
   a, .sidebar a, .content a, .collapsible-link, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
+  }
+
+ .two-column-3rows .value .top-row .collapsible-link {
+    color: #66ccff !important;
+  }
+  .two-column-2rows .value .top-row .collapsible-link {
+    color: #66ccff !important;
   }
 
   a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
