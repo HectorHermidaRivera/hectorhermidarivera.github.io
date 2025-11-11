@@ -26,26 +26,17 @@
     }
   });
 
-// HAS LINKS
-
-// Smooth scroll to hash with delay for Safari hard reloads
 window.addEventListener('load', () => {
   if (window.location.hash) {
-    setTimeout(() => {
-      const el = document.querySelector(window.location.hash);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    }, 300); // 300ms delay handles Safari hard reload
+    const el = document.querySelector(window.location.hash);
+    if (!el) return;
+
+    // Scroll instantly first to avoid the browser jump
+    window.scrollTo(0, 0);
+
+    // Then smoothly scroll to the element
+    requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'smooth' });
+    });
   }
 });
-
-// Also handle hash changes after the page has loaded
-window.addEventListener('hashchange', () => {
-  const el = document.querySelector(window.location.hash);
-  if (el) el.scrollIntoView({ behavior: 'smooth' });
-});
-
-// Run on page load
-window.addEventListener('load', smoothScrollToHash);
-
-// Also handle hash changes after the page has loaded
-window.addEventListener('hashchange', smoothScrollToHash);
