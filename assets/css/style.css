@@ -493,6 +493,11 @@ body {
     color: #66ccff !important;
   }
 
+.content a:hover {
+  color: #66ccff !important;
+  text-decoration: underline;
+}
+  
   /* Collapsible links */
   .collapsible-link {
     color: #66ccff !important;
