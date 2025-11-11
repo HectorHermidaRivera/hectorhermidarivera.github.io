@@ -477,7 +477,7 @@ body {
     background-color: #0d0d0d;  /* dark background for content block */
     color: #f2f2f2;             /* light text inside content */
   }
-
+  
   .sidebar {
     background-color: #0d0d0d;  /* dark sidebar */
     color: #f2f2f2;
@@ -488,10 +488,9 @@ body {
   }
 
   .content a {
-    color: #66ccff;             /* links inside content */
+    color: #66ccff !important;             /* links inside content */
   }
 
-  /* Optional: borders, boxes, etc. */
   .sidebar a, .content .two-column .value, .content .two-column-2rows .value, .content .two-column-3rows .value {
     border-color: #333;         /* softer borders for dark mode */
   }
