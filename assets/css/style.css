@@ -53,6 +53,8 @@
   color: #000;                
 }
 
+/* SCROLLING & CONSTANT FONT SIZE */
+
 html {
   scroll-behavior: auto;
   -webkit-text-size-adjust: 100%;
@@ -152,7 +154,7 @@ body {
   text-align: right;
 }
 
-/* Fill-line for left-right alignment */
+/* FILL LINE */
 
 .fill-line {
   display: flex;
@@ -174,7 +176,7 @@ body {
   font-weight: normal;
 }
 
-/* Two-column layout with two rows in second column */
+/* TWO-COLUMN TWO-ROW */
 
 .two-column-2rows-container {
   display: flex;
@@ -218,22 +220,18 @@ body {
   color: #333;
 }
 
-/* THREE-ROW LAYOUT */
+/* TWO-COLUMN THREE-ROW */
 
 .two-column-3rows-container {
   gap: 4px !important;
 }
-
-/* grid for date + right content */
 
 .two-column-3rows {
   display: grid;
   grid-template-columns: 150px 1fr;
   gap: 8px 16px;     
   align-items: start;
-}
 
-/* left label: years */
 
 .two-column-3rows .label {
   text-align: right;
@@ -241,19 +239,14 @@ body {
   align-self: start;
 }
 
-/* hide empty label but keep grid alignment */
-
 .two-column-3rows .label.blank {
   visibility: hidden;
 }
-
-/* right column with lines stacked */
 
 .two-column-3rows .value {
   gap: 2px !important;
 }
 
-/* top-row: course (left) and university (right) */
 .two-column-3rows .value .top-row {
   display: flex;
   justify-content: space-between;
@@ -261,13 +254,11 @@ body {
   width: 100%;
 }
 
-/* left part: course name */
 .two-column-3rows .value .top-row .course {
   flex-grow: 1;
   text-align: left;
 }
 
-/* right part: university name */
 .two-column-3rows .value .top-row .institution {
   text-align: right;
   font-size: 0.8em; 
@@ -275,7 +266,6 @@ body {
   color: #333;
 }
 
-/* second and third rows */
 .two-column-3rows .value .second-row,
 .two-column-3rows .value .third-row {
   margin: 0;
@@ -283,13 +273,13 @@ body {
   color: #333;
 }
 
-/* REDEFINITION OF OA ICON COLOR */
+/* OA ICON */
 
 .ai-open-access::before {
   color: #556B2F;
 }
 
-/* REDEFINITION OF PDF ICON */
+/*  PDF ICON */
 
 .fa-file-pdf {
   font-size: 0.8em;
@@ -315,8 +305,6 @@ body {
   font-weight: normal;   
 }
 
-/* Collapsible course title: blue and normal weight */
-
 .two-column-3rows .course.collapsible-link {
   color: #00008B;       
   text-decoration: none; 
@@ -328,7 +316,7 @@ body {
   text-decoration: underline; 
 }
 
-/* Row of social/research icons aligned with second column */
+/* ICON-ROW */
 
 .icon-row {
   display: flex;
@@ -338,8 +326,6 @@ body {
   margin-left: 168px;
   margin-top: 10px;
 }
-
-/* Smooth hover enlargement */
 
 .icon-row a {
   display: inline-block;
@@ -353,32 +339,37 @@ body {
 /* SMALL SCREENS */
 
 @media (max-width: 1023px) {
-  .sidebar {
-    display: none !important;
+.sidebar {
+  display: none !important;
   }
 .content {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    margin-bottom: 30px !important;
-    padding-left: 5px;
-    padding-right: 10px;      /* add a little breathing room on the right */
-    max-width: 100% !important;
-    width: auto !important;
-    box-sizing: border-box;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 30px !important;
+  padding-left: 5px;
+  padding-right: 10px;
+  max-width: 100% !important;
+  width: auto !important;
+  box-sizing: border-box;
   }
 }
 
+/* VERY SMALL SCREENS */ 
+
 @media (max-width: 799px) {
+  
 .main-name,
-  .name-title {
-    padding-left: 0 !important;   /* remove extra left padding */
-    text-align: left;             /* ensure header text is left-aligned */
+.name-title {
+  padding-left: 0 !important;
+  text-align: left;
   }
-  .icon-row {
-    margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 10px;                /* optional: adjust spacing above */
-    justify-content: flex-start;  /* left-align icons */
+  
+.icon-row {
+    margin-left: 0 !important;
+    margin-top: 10px;
+    justify-content: flex-start;
   }
+  
 .content h2,
 .content h3,
 .content h4,
@@ -388,117 +379,119 @@ body {
   padding-left: 0px;
   margin-bottom: 0px;
 }
-  .two-column,
-  .two-column-2rows,
-  .two-column-3rows {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
+  
+.two-column,
+.two-column-2rows,
+.two-column-3rows {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
   }
 
-  /* Space before each entry */
-  .two-column .label,
-  .two-column-2rows .label,
-  .two-column-3rows .label {
-    text-align: left;
-    width: 100%;
-    margin-top: 12px;   /* vertical space above */
-    margin-bottom: 0px; /* small space between label and value */
+.two-column .label,
+.two-column-2rows .label,
+.two-column-3rows .label {
+  text-align: left;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 0px;
   }
 
-  /* Space after each entry */
-  .two-column .value,
-  .two-column-2rows .value,
-  .two-column-3rows .value {
-    text-align: left;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0px; /* vertical space below */
+.two-column .value,
+.two-column-2rows .value,
+.two-column-3rows .value {
+  text-align: left;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0px;
   }
+  
 .two-column-2rows .top-row {
-  flex-direction: column;       /* stack the course and university */
-  align-items: flex-start;      /* left-align */
+  flex-direction: column;
+  align-items: flex-start;
 }
+  
 .two-column-2rows .top-row span {
   width: 100%;
-  white-space: normal;          /* allow wrapping */
-  text-align: left;             /* left-aligned when stacked */
+  white-space: normal;
+  text-align: left;
 }
- .two-column-3rows .top-row {
-    flex-direction: column;    /* stack course and university */
-    align-items: flex-start;   /* left-align everything */
+  
+.two-column-3rows .top-row {
+  flex-direction: column;
+  align-items: flex-start;
   }
 
-  .two-column-3rows .top-row .institution {
-    text-align: left !important;  /* ensure left-aligned */
-    margin-top: 4px;              /* optional spacing above university */
-    width: 100%;                  /* take full width */
+.two-column-3rows .top-row .institution {
+  text-align: left !important;
+  margin-top: 4px;
+  width: 100%;
   }
 
-  .two-column-3rows .top-row .course {
-    width: 100%;                  /* take full width */
+.two-column-3rows .top-row .course {
+  width: 100%;
   }
 
-  /* Stack top-row items without extra space */
-  .two-column-3rows .value .top-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px; /* use small gap instead of relying on margins */
-    margin: 0; /* reset any margin on the row itself */
+.two-column-3rows .value .top-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin: 0;
   }
 
-  /* Remove margins from children inside top-row */
-  .two-column-3rows .value .top-row > * {
-    margin: 0;
-    line-height: 1.2; /* optional: control spacing tightly */
+.two-column-3rows .value .top-row > * {
+  margin: 0;
+  line-height: 1.2;
   }
 
-  /* Standardize spacing for second and third rows */
-  .two-column-3rows .value .second-row,
-  .two-column-3rows .value .third-row {
-    margin-top: 0;
-    margin-bottom: 2px; /* match .two-column-2rows */
+.two-column-3rows .value .second-row,
+.two-column-3rows .value .third-row {
+  margin-top: 0;
+  margin-bottom: 2px;
   }
 
- .fill-line {
-    flex-direction: column;
-    align-items: flex-start; /* right-align all items */
+.fill-line {
+  flex-direction: column;
+  align-items: flex-start;
   }
 
-  .fill-line span {
-    width: 100%;
-    text-align: left;
-    white-space: normal; /* allow wrapping */
+.fill-line span {
+  width: 100%;
+  text-align: left;
+  white-space: normal;
   }
-  .content {
-    margin-left: 0 !important;
-    padding-left: 1vw;
-  }
+  
 .content {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    margin-bottom: 30px !important;
-    padding-left: 0px;
-    padding-right: 0px;      /* add a little breathing room on the right */
-    max-width: 100% !important;
-    width: auto !important;
-    box-sizing: border-box;
+  margin-left: 0 !important;
+  padding-left: 1vw;
+  }
+  
+.content {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 30px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 100% !important;
+  width: auto !important;
+  box-sizing: border-box;
   }
 }
 
-/* HIDE SIDEBAR FOR SMALL SCREEN HEIGHT */
+/* SMALL SCREEN HEIGHT */
 
 @media (max-height: 750px) and (min-width: 1024px) {
-  .sidebar {
-    display: none !important;
+.sidebar {
+  display: none !important;
   }
-  .content {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 30px !important;
-    padding-left: 0px;
-    padding-right: 0px;    
-    max-width: 1000px;
-    box-sizing: border-box;
+  
+.content {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 30px !important;
+  padding-left: 0px;
+  padding-right: 0px;    
+  max-width: 1000px;
+  box-sizing: border-box;
   }
 }
