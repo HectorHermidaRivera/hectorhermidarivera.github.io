@@ -482,9 +482,6 @@ body {
  .two-column-3rows .value .top-row .collapsible-link {
     color: #66ccff !important;
   }
-  .two-column-2rows .value .top-row .collapsible-link {
-    color: #66ccff !important;
-  }
 
   a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
     text-decoration: underline !important;
