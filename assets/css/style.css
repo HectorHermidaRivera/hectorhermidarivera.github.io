@@ -469,12 +469,13 @@ body {
 
 @media (prefers-color-scheme: dark) {
 
+  /* BODY & CONTENT */
   body, .content, .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
   }
 
-  /* generic links */
+  /* GENERIC LINKS */
   a, .content a, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
@@ -485,37 +486,44 @@ body {
     text-decoration: underline !important;
   }
 
-  /* sidebar links */
+  /* SIDEBAR LINKS */
   .sidebar a:hover {
     background-color: #000000;
     border-color: #888;
   }
 
-  /* rows with regular text */
+  /* SECOND & THIRD ROWS */
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
-  .two-column-3rows .value .third-row,
-  .two-column-3rows .value .top-row .institution {
+  .two-column-3rows .value .third-row {
     color: #f2f2f2 !important;
   }
 
+  /* MARK */
   mark {
     background-color: #555 !important;
     color: #f2f2f2 !important;
   }
 
-  /* top-row elements: everything except links and collapsible links */
-  .two-column-2rows .value .top-row *:not(a) {
+  /* TOP-ROW ELEMENTS: non-link text only */
+  .two-column-2rows .value .top-row > *:not(a) {
     color: #f2f2f2 !important;
   }
 
-  .two-column-3rows .value .top-row *:not(a):not(.collapsible-link) {
+  .two-column-3rows .value .top-row > *:not(a):not(.collapsible-link) {
     color: #f2f2f2 !important;
   }
 
-  /* COLLAPSIBLE LINKS: force light blue */
+  /* INSTITUTION NAMES */
+  .two-column-3rows .value .top-row .institution {
+    color: #f2f2f2 !important;
+  }
+
+  /* COLLAPSIBLE LINKS: force light blue, including nested tags like <b> */
   .two-column-2rows .value .top-row .collapsible-link,
-  .two-column-3rows .value .top-row .collapsible-link {
+  .two-column-2rows .value .top-row .collapsible-link *,
+  .two-column-3rows .value .top-row .collapsible-link,
+  .two-column-3rows .value .top-row .collapsible-link * {
     color: #66ccff !important;
   }
 
