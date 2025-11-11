@@ -169,11 +169,6 @@ body {
   font-weight: normal;
 }
 
-.fill-line span:last-child {
-  font-size: 0.8em;
-  font-weight: normal;
-}
-
 /* TWO-COLUMN TWO-ROW */
 
 .two-column-2rows-container {
