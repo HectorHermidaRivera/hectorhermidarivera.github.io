@@ -469,17 +469,17 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;  /* main background */
+    background-color: #000000;  /* main background */
     color: #f2f2f2;             /* default text color */
   }
 
   .content {
-    background-color: #121212;  /* dark background for content block */
+    background-color: #000000;  /* dark background for content block */
     color: #f2f2f2;             /* light text inside content */
   }
 
   .sidebar {
-    background-color: #121212;  /* dark sidebar */
+    background-color: #000000;  /* dark sidebar */
     color: #f2f2f2;
   }
 
