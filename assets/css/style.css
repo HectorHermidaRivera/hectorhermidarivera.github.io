@@ -479,7 +479,7 @@ body {
     text-decoration: none !important;
   }
 
-  a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
+  a:hover, .content a:hover, .collapsible-link:hover {
     text-decoration: underline !important;
     color: #66ccff !important;
   }
