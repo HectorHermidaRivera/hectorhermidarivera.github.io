@@ -484,9 +484,9 @@ body {
     color: #66ccff !important;
   }
 
-  a *, .content a *, .sidebar a *, .collapsible-link * {
+/*  a *, .content a *, .sidebar a *, .collapsible-link * {
     color: inherit !important;
-  }
+  } */
 
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
@@ -506,7 +506,6 @@ body {
     color: #f2f2f2 !important;
   }
 }
-
 
  .two-column-2rows .value .top-row *,
   .two-column-3rows .value .top-row *,
