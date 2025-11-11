@@ -468,7 +468,7 @@ body {
 /* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
-  
+
   body, .content, .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
@@ -477,10 +477,6 @@ body {
   a, .content a, .collapsible-link, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
-  }
-
- .two-column-3rows .value .top-row .collapsible-link {
-    color: #66ccff !important;
   }
 
   a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
@@ -499,21 +495,28 @@ body {
     color: #f2f2f2 !important;
   }
 
-  .two-column-2rows .value .top-row *:not(a):not(a *),
+  /* Corrected */
+  .two-column-2rows .value .top-row *:not(a):not(a *) {
+    color: #f2f2f2 !important;
+  }
+
   .two-column-3rows .value .top-row *:not(a):not(.collapsible-link) {
+    color: #f2f2f2 !important;
+  }
+
   .two-column-3rows .value .top-row .institution {
-    color: #f2f2f2;
+    color: #f2f2f2 !important;   /* now correctly applied */
   }
 
   .two-column-3rows .value .top-row .course * {
     color: #f2f2f2 !important;
   }
 
-.two-column-2rows .value .top-row a,
-.two-column-3rows .value .top-row a {
-  color: #66ccff !important;
-}
-  
+  .two-column-2rows .value .top-row a,
+  .two-column-3rows .value .top-row a {
+    color: #66ccff !important;
+  }
+
 }
 
 
