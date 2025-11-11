@@ -1,17 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-// SMOOTH SCROLL FOR SIDEBAR LINKS
-  document.querySelectorAll('.sidebar a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href').substring(1);
-      const target = document.getElementById(targetId);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
-
 // COLLAPSIBLES
   document.querySelectorAll('.collapsible-link').forEach(link => {
     link.addEventListener('click', function(e) {
@@ -46,15 +34,5 @@ if (window.location.hash) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 }
-
-// HASH LINKS WORKING FINE
-  
-window.addEventListener("load", () => {
-  const hash = window.location.hash;
-  if (hash) {
-    const el = document.querySelector(hash);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  }
-});
 
 });
