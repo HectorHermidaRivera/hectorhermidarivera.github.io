@@ -37,3 +37,15 @@ function scrollToHashInstantly() {
 
 window.addEventListener('load', scrollToHashInstantly);
 window.addEventListener('hashchange', scrollToHashInstantly);
+
+// SEARCH BAR
+
+const searchInput = document.getElementById('globalSearch');
+const links = document.querySelectorAll('.sidebar a');
+
+searchInput.addEventListener('input', function() {
+  const query = this.value.toLowerCase();
+  links.forEach(link => {
+    link.style.display = link.textContent.toLowerCase().includes(query) ? 'block' : 'none';
+  });
+});
