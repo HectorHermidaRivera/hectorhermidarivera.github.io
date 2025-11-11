@@ -26,17 +26,17 @@
     }
   });
 
-window.addEventListener('load', () => {
-  if (window.location.hash) {
-    const el = document.querySelector(window.location.hash);
-    if (!el) return;
+// HASH JUMPS
 
-    // Scroll instantly first to avoid the browser jump
-    window.scrollTo(0, 0);
+function smoothScrollToHash() {
+  if (!window.location.hash) return;
+  const el = document.querySelector(window.location.hash);
+  if (!el) return;
 
-    // Then smoothly scroll to the element
-    requestAnimationFrame(() => {
-      el.scrollIntoView({ behavior: 'smooth' });
-    });
-  }
-});
+  setTimeout(() => {
+    el.scrollIntoView({ behavior: 'smooth' });
+  }, 50);
+}
+
+window.addEventListener('load', smoothScrollToHash);
+window.addEventListener('hashchange', smoothScrollToHash);
