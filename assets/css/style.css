@@ -488,18 +488,17 @@ body {
 
 /* HIDE SIDEBAR FOR SMALL SCREEN HEIGHT */
 
-@media (max-height: 450px) {
+@media (max-height: 550px) {
   .sidebar {
     display: none !important;
   }
   .content {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-bottom: 30px !important;
     padding-left: 0px;
-    padding-right: 0px;      /* add a little breathing room on the right */
-    max-width: 100% !important;
-    width: auto !important;
+    padding-right: 0px;    
+    max-width: 1000px;
     box-sizing: border-box;
   }
 }
