@@ -474,47 +474,30 @@ body {
     color: #f2f2f2 !important;
   }
 
-  a, .content a, .collapsible-link, .icon-row a {
+  /* generic links */
+  a, .content a, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
   }
 
-  a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
+  a:hover, .content a:hover, .icon-row a:hover {
+    color: #66ccff !important;
     text-decoration: underline !important;
+  }
+
+  /* collapsible links specifically */
+  .collapsible-link {
     color: #66ccff !important;
   }
 
-  .two-column-2rows .value .second-row,
-  .two-column-3rows .value .second-row,
-  .two-column-3rows .value .third-row {
-    color: #f2f2f2 !important;
-  }
-
-  mark {
-    background-color: #555 !important;
-    color: #f2f2f2 !important;
-  }
-
-  /* Corrected */
-  .two-column-2rows .value .top-row *:not(a):not(a *) {
-    color: #f2f2f2 !important;
-  }
-
+  /* top-row contents */
+  .two-column-2rows .value .top-row *:not(a):not(.collapsible-link),
   .two-column-3rows .value .top-row *:not(a):not(.collapsible-link) {
     color: #f2f2f2 !important;
   }
 
   .two-column-3rows .value .top-row .institution {
-    color: #f2f2f2 !important;   /* now correctly applied */
-  }
-
-  .two-column-3rows .value .top-row .course * {
     color: #f2f2f2 !important;
-  }
-
-  .two-column-2rows .value .top-row a,
-  .two-column-3rows .value .top-row a {
-    color: #66ccff !important;
   }
 
 }
