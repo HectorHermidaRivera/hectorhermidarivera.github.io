@@ -505,7 +505,7 @@ body {
  .two-column-2rows .value .top-row *:not(a):not(a *),
   .two-column-3rows .value .top-row *:not(a):not(a *),
   .two-column-3rows .value .top-row .institution {
-    color: #f2f2f2 !important;
+    color: #f2f2f2;
   }
 
   .two-column-3rows .value .top-row .course * {
