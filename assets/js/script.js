@@ -28,11 +28,15 @@
 
 // HAS LINKS
 
-window.addEventListener('load', () => {
+// Prevent browser from jumping immediately
+window.addEventListener('DOMContentLoaded', () => {
   if (window.location.hash) {
-    setTimeout(() => {
-      const el = document.querySelector(window.location.hash);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    }, 250);
+    // Scroll to top immediately
+    window.scrollTo(0, 0);
+    // Then smoothly scroll to the target element
+    const el = document.querySelector(window.location.hash);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 });
