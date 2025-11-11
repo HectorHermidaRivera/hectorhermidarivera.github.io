@@ -479,6 +479,11 @@ body {
     text-decoration: none !important;
   }
 
+.sidebar a{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+  
 .sidebar a:hover {
   background-color: #000000;  
   border-color: #888;
