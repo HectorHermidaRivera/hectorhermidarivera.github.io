@@ -497,13 +497,6 @@ body {
     color: #f2f2f2 !important;
   }
 
-  .sidebar a,
-  .content .two-column .value,
-  .content .two-column-2rows .value,
-  .content .two-column-3rows .value {
-    border-color: #333 !important;
-  }
-
   mark {
     background-color: #555 !important;
     color: #f2f2f2 !important;
