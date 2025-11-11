@@ -28,15 +28,24 @@
 
 // HAS LINKS
 
-// Prevent browser from jumping immediately
-window.addEventListener('DOMContentLoaded', () => {
-  if (window.location.hash) {
-    // Scroll to top immediately
-    window.scrollTo(0, 0);
-    // Then smoothly scroll to the target element
-    const el = document.querySelector(window.location.hash);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-});
+// Smooth scroll to hash without jumping
+function smoothScrollToHash() {
+  if (!window.location.hash) return;
+
+  const el = document.querySelector(window.location.hash);
+  if (!el) return;
+
+  // Temporarily reset scroll to top
+  window.scrollTo(0, 0);
+
+  // Use requestAnimationFrame to wait until browser has applied its default layout
+  requestAnimationFrame(() => {
+    el.scrollIntoView({ behavior: 'smooth' });
+  });
+}
+
+// Run on page load
+window.addEventListener('load', smoothScrollToHash);
+
+// Also handle hash changes after the page has loaded
+window.addEventListener('hashchange', smoothScrollToHash);
