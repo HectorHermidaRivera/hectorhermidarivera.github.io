@@ -293,8 +293,6 @@ body {
   text-decoration: none; 
   cursor: pointer;
   font-weight: normal;
-  white-space: pre;          /* preserves exact spaces */
-  word-spacing: normal;
 }
 
 .two-column-2rows .value .top-row .collapsible-link,
