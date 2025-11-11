@@ -469,15 +469,9 @@ body {
 @media (prefers-color-scheme: dark) {
   
   /* Base body and content */
-  body, .content, .content *:not(a), .sidebar, .sidebar *:not(a) {
+  body, .content, .sidebar {
     background-color: #0d0d0d !important; /* dark background */
-    color: #f2f2f2 !important;           /* light text */
-  }
-
-  /* Sidebar */
-  .sidebar {
-    background-color: #0d0d0d !important;
-    color: #f2f2f2 !important;
+    color: #f2f2f2 !important;           /* default light text */
   }
 
   /* Sidebar links */
@@ -490,22 +484,23 @@ body {
     color: #66ccff !important;
   }
 
-.content a:hover {
-  color: #66ccff !important;
-  text-decoration: underline;
-}
-  
+  /* Hover state for content links */
+  .content a:hover {
+    color: #66ccff !important;
+    text-decoration: underline;
+  }
+
+  /* Collapsible links */
+  .collapsible-link {
+    color: #66ccff !important;
+  }
+
   /* Borders for boxes, tables, rows */
   .sidebar a,
   .content .two-column .value,
   .content .two-column-2rows .value,
   .content .two-column-3rows .value {
     border-color: #333 !important;
-  }
-
-  /* Collapsible links (if used) */
-  .collapsible-link {
-    color: #66ccff !important;
   }
 
   /* Marked highlights from search */
@@ -518,5 +513,12 @@ body {
   .icon-row a {
     color: #66ccff !important;
   }
+
+  /* Make sure child elements inside links inherit link color */
+  .content a *, 
+  .sidebar a * {
+    color: inherit !important;
+  }
+
 }
 
