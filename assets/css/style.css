@@ -16,6 +16,7 @@
   position: fixed;
   top: 0;
   left: 5px;
+  right: 5px;
   width: 200px;
   height: 100%;
   display: flex;
