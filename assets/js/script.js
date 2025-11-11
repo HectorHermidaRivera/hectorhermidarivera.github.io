@@ -1,5 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-
 // COLLAPSIBLES
   document.querySelectorAll('.collapsible-link').forEach(link => {
     link.addEventListener('click', function(e) {
@@ -28,4 +26,11 @@
     }
   });
 
-//});
+// HAS LINKS
+
+window.addEventListener('load', () => {
+  if (window.location.hash) {
+    const el = document.querySelector(window.location.hash);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }
+});
