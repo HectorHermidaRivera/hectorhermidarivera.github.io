@@ -509,8 +509,8 @@ body {
     color: #f2f2f2 !important;
   }
 
- .two-column-2rows .value .top-row *:not(a):not(a *),
-  .two-column-3rows .value .top-row *:not(a):not(a *),
+  .two-column-2rows .value .top-row *:not(a):not(a *),
+  .two-column-3rows .value .top-row *:not(a):not(.collapsible-link) {
   .two-column-3rows .value .top-row .institution {
     color: #f2f2f2;
   }
