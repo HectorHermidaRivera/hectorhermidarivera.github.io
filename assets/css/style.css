@@ -297,20 +297,12 @@ body {
   word-spacing: normal;
 }
 
-.two-column-2rows .value .top-row,
-.two-column-3rows .value .top-row {
-  display: flex;
-  justify-content: flex-start; /* instead of space-between if needed */
-  align-items: baseline;
-  gap: 0.3em; /* preserves space between spans instead of relying on text spaces */
-}
-
 .two-column-2rows .value .top-row .collapsible-link,
 .two-column-3rows .value .top-row .collapsible-link {
-  color: #00008B;
+  color: #00008B; /* keep your blue */
   cursor: pointer;
   text-decoration: none;
-  display: inline; /* keep inline so spaces remain */
+  display: inline-block; /* THIS fixes the hover underline */
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
