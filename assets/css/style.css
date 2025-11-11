@@ -501,7 +501,6 @@ body {
     background-color: #555 !important;
     color: #f2f2f2 !important;
   }
-}
 
  .two-column-2rows .value .top-row *,
   .two-column-3rows .value .top-row *,
@@ -516,7 +515,8 @@ body {
 .two-column-2rows .value .top-row a,
 .two-column-3rows .value .top-row a {
   color: #66ccff !important;
-
+}
+  
 }
 
 
