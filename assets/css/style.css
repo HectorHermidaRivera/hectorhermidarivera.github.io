@@ -301,6 +301,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   display: inline-block; /* THIS fixes the hover underline */
+  white-space: normal;    /* preserves spaces between words */
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
