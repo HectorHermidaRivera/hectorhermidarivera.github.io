@@ -53,8 +53,10 @@
   color: #000;                
 }
 
+/* SCROLLING AND CONSTANT FONT SIZE */
+
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -104,7 +106,7 @@ body {
   font-weight: 700;
 }
 
-/* HEADERS STYLE */
+/* HEADERS */
 
 .content h2 {
   margin-left: 0;
@@ -134,7 +136,7 @@ body {
   text-decoration: underline;
 }
 
-/* TWO COLUMN LAYOUT */
+/* TWO-COLUMN ONE-ROW */
 
 .two-column {
   display: grid;
@@ -151,8 +153,6 @@ body {
   font-weight: normal;
   text-align: right;
 }
-
-/* Fill-line for left-right alignment */
 
 .fill-line {
   display: flex;
@@ -174,7 +174,7 @@ body {
   font-weight: normal;
 }
 
-/* Two-column layout with two rows in second column */
+/* TWO-COLUMN TWO-ROW */
 
 .two-column-2rows-container {
   display: flex;
@@ -218,13 +218,11 @@ body {
   color: #333;
 }
 
-/* THREE-ROW LAYOUT */
+/* TWO-COLUMN THREE-ROW */
 
 .two-column-3rows-container {
   gap: 4px !important;
 }
-
-/* grid for date + right content */
 
 .two-column-3rows {
   display: grid;
@@ -233,27 +231,20 @@ body {
   align-items: start;
 }
 
-/* left label: years */
-
 .two-column-3rows .label {
   text-align: right;
   font-weight: normal;
   align-self: start;
 }
 
-/* hide empty label but keep grid alignment */
-
 .two-column-3rows .label.blank {
   visibility: hidden;
 }
-
-/* right column with lines stacked */
 
 .two-column-3rows .value {
   gap: 2px !important;
 }
 
-/* top-row: course (left) and university (right) */
 .two-column-3rows .value .top-row {
   display: flex;
   justify-content: space-between;
@@ -261,13 +252,11 @@ body {
   width: 100%;
 }
 
-/* left part: course name */
 .two-column-3rows .value .top-row .course {
   flex-grow: 1;
   text-align: left;
 }
 
-/* right part: university name */
 .two-column-3rows .value .top-row .institution {
   text-align: right;
   font-size: 0.8em; 
@@ -275,7 +264,6 @@ body {
   color: #333;
 }
 
-/* second and third rows */
 .two-column-3rows .value .second-row,
 .two-column-3rows .value .third-row {
   margin: 0;
@@ -283,13 +271,13 @@ body {
   color: #333;
 }
 
-/* REDEFINITION OF OA ICON COLOR */
+/* OA ICON COLOR */
 
 .ai-open-access::before {
   color: #556B2F;
 }
 
-/* REDEFINITION OF PDF ICON */
+/* PDF ICON ALIGNMENT */
 
 .fa-file-pdf {
   font-size: 0.8em;
@@ -315,8 +303,6 @@ body {
   font-weight: normal;   
 }
 
-/* Collapsible course title: blue and normal weight */
-
 .two-column-3rows .course.collapsible-link {
   color: #00008B;       
   text-decoration: none; 
@@ -328,7 +314,7 @@ body {
   text-decoration: underline; 
 }
 
-/* Row of social/research icons aligned with second column */
+/* ROW OF ICONS */
 
 .icon-row {
   display: flex;
@@ -338,8 +324,6 @@ body {
   margin-left: 168px;
   margin-top: 10px;
 }
-
-/* Smooth hover enlargement */
 
 .icon-row a {
   display: inline-block;
@@ -361,23 +345,25 @@ body {
     margin-right: 0 !important;
     margin-bottom: 30px !important;
     padding-left: 5px;
-    padding-right: 10px;      /* add a little breathing room on the right */
+    padding-right: 10px;
     max-width: 100% !important;
     width: auto !important;
     box-sizing: border-box;
   }
 }
 
+/* VERY SMALL SCREENS */
+
 @media (max-width: 799px) {
 .main-name,
   .name-title {
-    padding-left: 0 !important;   /* remove extra left padding */
-    text-align: left;             /* ensure header text is left-aligned */
+    padding-left: 0 !important;
+    text-align: left;
   }
   .icon-row {
-    margin-left: 0 !important;    /* align icons with left margin */
-    margin-top: 10px;                /* optional: adjust spacing above */
-    justify-content: flex-start;  /* left-align icons */
+    margin-left: 0 !important;
+    margin-top: 10px;
+    justify-content: flex-start;
   }
 .content h2,
 .content h3,
@@ -396,7 +382,6 @@ body {
     gap: 0;
   }
 
-  /* Space before each entry */
   .two-column .label,
   .two-column-2rows .label,
   .two-column-3rows .label {
