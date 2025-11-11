@@ -40,13 +40,27 @@ window.addEventListener('hashchange', scrollToHashInstantly);
 
 // SEARCH BAR
 
-searchInput.addEventListener('input', function() {
-  const query = this.value.toLowerCase();
-  content.querySelectorAll('*').forEach(el => {
-    if(el.tagName !== 'SCRIPT' && el.textContent.trim()) {
-      const text = el.textContent;
-      const regex = new RegExp(`(${query})`, 'gi');
-      el.innerHTML = query ? text.replace(regex, '<mark>$1</mark>') : text;
+// Function to highlight text nodes
+function highlightText(node, query) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    const text = node.textContent;
+    if (!query) {
+      node.parentNode.innerHTML = text; // remove previous highlights
+      return;
     }
-  });
+    const regex = new RegExp(`(${query})`, 'gi');
+    const span = document.createElement('span');
+    span.innerHTML = text.replace(regex, '<mark>$1</mark>');
+    node.replaceWith(...span.childNodes);
+  } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+    Array.from(node.childNodes).forEach(child => highlightText(child, query));
+  }
+}
+
+const searchInput = document.getElementById('globalSearch');
+const content = document.querySelector('.content');
+
+searchInput.addEventListener('input', function() {
+  const query = this.value.trim();
+  highlightText(content, query);
 });
