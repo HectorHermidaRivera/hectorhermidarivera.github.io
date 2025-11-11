@@ -479,7 +479,7 @@ body {
     text-decoration: none !important;
   }
 
-  a:hover, .content a:hover, .collapsible-link:hover {
+  a:hover, .sidebar a:hover, .content a:hover, .collapsible-link:hover {
     text-decoration: underline !important;
     color: #66ccff !important;
   }
@@ -505,6 +505,8 @@ body {
     background-color: #555 !important;
     color: #f2f2f2 !important;
   }
+}
+
 
  .two-column-2rows .value .top-row *,
   .two-column-3rows .value .top-row *,
@@ -512,7 +514,6 @@ body {
     color: #f2f2f2 !important;
   }
 
-  /* Override courses inside top-row */
   .two-column-3rows .value .top-row .course * {
     color: #f2f2f2 !important;
   }
