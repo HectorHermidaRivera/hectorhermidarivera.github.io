@@ -464,3 +464,19 @@ body {
     box-sizing: border-box;
   }
 }
+
+/* DARK VS. CLEAR MODE */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #f2f2f2;
+  }
+  .sidebar {
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+  }
+  a {
+    color: #66aaff;
+  }
+}
