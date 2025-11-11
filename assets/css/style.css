@@ -295,18 +295,20 @@ body {
   font-weight: normal;   
 }
 
+/* COLLAPSIBLE LINKS: allow hover underline in flex containers without breaking spaces */
 .two-column-2rows .value .top-row .collapsible-link,
 .two-column-3rows .value .top-row .collapsible-link {
-  color: #00008B; /* keep your blue */
+  color: #00008B;       /* your blue */
   cursor: pointer;
   text-decoration: none;
-  display: inline-block; /* THIS fixes the hover underline */
-  white-space: normal;    /* preserves spaces between words */
+  /* no display change needed */
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
 .two-column-3rows .value .top-row .collapsible-link:hover {
   text-decoration: underline;
+  /* force underline even in flex */
+  text-decoration-thickness: from-font;
 }
 
 /* ROW OF ICONS */
