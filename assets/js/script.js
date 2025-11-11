@@ -46,5 +46,15 @@ if (window.location.hash) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 }
+
+// HASH LINKS WORKING FINE
   
+window.addEventListener("load", () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const el = document.querySelector(hash);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }
+});
+
 });
