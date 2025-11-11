@@ -463,21 +463,18 @@ body {
     max-width: 1000px;
     box-sizing: border-box;
   }
-  
-/* ===== DARK MODE ===== */
-@media (prefers-color-scheme: dark) {
 
-  /* ----- Base body and content ----- */
-  body,
-  .content,
-  .content *:not(a):not(a *),   /* all elements except links and their children */
-  .sidebar,
-  .sidebar *:not(a):not(a *) {
+/* DARK MODE */
+  
+@media (prefers-color-scheme: dark) {
+  
+  /* Base body and content */
+  body, .content, .content *:not(a), .sidebar, .sidebar *:not(a) {
     background-color: #0d0d0d !important; /* dark background */
     color: #f2f2f2 !important;           /* light text */
   }
 
-  /* ----- Sidebar ----- */
+  /* Sidebar */
   .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
@@ -488,59 +485,33 @@ body {
     color: #66ccff !important;
   }
 
-  /* ----- Content links ----- */
+  /* Content links */
   .content a {
     color: #66ccff !important;
   }
 
-.content a:hover {
-  color: #66ccff !important;
-  text-decoration: underline;
-}
-  
-  /* Collapsible links */
+  /* Borders for boxes, tables, rows */
+  .sidebar a,
+  .content .two-column .value,
+  .content .two-column-2rows .value,
+  .content .two-column-3rows .value {
+    border-color: #333 !important;
+  }
+
+  /* Collapsible links (if used) */
   .collapsible-link {
     color: #66ccff !important;
+  }
+
+  /* Marked highlights from search */
+  mark {
+    background-color: #555 !important;
+    color: #f2f2f2 !important;
   }
 
   /* Optional: icons */
   .icon-row a {
     color: #66ccff !important;
   }
-
-  /* ----- Borders for boxes, tables, rows ----- */
-  .sidebar a,
-  .content .two-column .value,
-  .content .two-column-2rows .value,
-  .content .two-column-3rows .value {
-    border-color: #333 !important;  /* softer borders for dark mode */
-  }
-
-  /* ----- Headings, bold text, spans, paragraphs, divs ----- */
-  .content h1,
-  .content h2,
-  .content h3,
-  .content h4,
-  .content h5,
-  .content h6,
-  .content b,
-  .content strong,
-  .content span,
-  .content p,
-  .content div {
-    color: #f2f2f2 !important;
-  }
-
-  /* ----- Marked highlights from search ----- */
-  mark {
-    background-color: #555 !important;
-    color: #f2f2f2 !important;
-  }
-
-  /* ----- Optional: override font color in nested tags inside links ----- */
-  .content a *,
-  .sidebar a * {
-    color: inherit !important; /* ensure child elements inherit link color */
-  }
-
 }
+
