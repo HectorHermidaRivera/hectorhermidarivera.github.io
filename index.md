@@ -259,10 +259,8 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <a class="collapsible-link" style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
-                onmouseover="this.style.textDecoration='underline';" 
-                onmouseout="this.style.textDecoration='none';">
-            Bargaining Theory</a>
+          <span class="collapsible-link">
+            Bargaining Theory</span>
           <span style="margin:0 10px;">•</span>
           <span>Graduate</span>
           <span style="margin:0 10px;">•</span>
@@ -302,10 +300,7 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link" 
-                style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
-                onmouseover="this.style.textDecoration='underline';" 
-                onmouseout="this.style.textDecoration='none';">
+          <span class="collapsible-link">
             Intermediate Microeconomics</span>
           <span style="margin:0 10px;">•</span>
           <span>Undergraduate</span>
@@ -328,10 +323,7 @@ title: Home
     <div class="value">
       <div class="top-row">
         <div class="course">
-          <span class="collapsible-link" 
-                style="color:#00008B; font-weight:normal; cursor:pointer; text-decoration:none;"
-                onmouseover="this.style.textDecoration='underline';" 
-                onmouseout="this.style.textDecoration='none';">
+          <span class="collapsible-link">
             Game Theory</span>
           <span style="margin:0 10px;">•</span>
           <span>Graduate</span>
