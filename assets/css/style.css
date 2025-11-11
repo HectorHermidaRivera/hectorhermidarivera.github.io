@@ -465,11 +465,8 @@ body {
   }
 }
 
-This code
-
 /* DARK MODE */
 
-/* ===== DARK MODE ===== */
 @media (prefers-color-scheme: dark) {
 
   /* Base backgrounds and text */
