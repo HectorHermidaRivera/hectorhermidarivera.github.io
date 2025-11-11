@@ -295,13 +295,20 @@ body {
   font-weight: normal;   
 }
 
-/* COLLAPSIBLE LINKS: allow hover underline */
+.two-column-2rows .value .top-row,
+.two-column-3rows .value .top-row {
+  display: flex;
+  justify-content: flex-start; /* instead of space-between if needed */
+  align-items: baseline;
+  gap: 0.3em; /* preserves space between spans instead of relying on text spaces */
+}
+
 .two-column-2rows .value .top-row .collapsible-link,
 .two-column-3rows .value .top-row .collapsible-link {
-  color: #00008B;   /* blue */
+  color: #00008B;
   cursor: pointer;
   text-decoration: none;
-  display: inline;   /* KEEP IT INLINE */
+  display: inline; /* keep inline so spaces remain */
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
