@@ -14,14 +14,17 @@
 
 .global-search {
   position: fixed;
-  top: 10px;
-  right: 20px;
+  bottom: 20px;          /* distance from bottom */
+  left: 50%;             /* center horizontally */
+  transform: translateX(-50%);  /* adjust for width */
   width: 250px;
   padding: 6px 10px;
   font-size: 1em;
   border-radius: 8px;
   border: 1px solid #aaa;
-  z-index: 10001;
+  z-index: 10001;        /* above most elements */
+  background-color: #fff; /* optional, for visibility */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* optional, for floating look */
 }
 
 .global-search:focus {
