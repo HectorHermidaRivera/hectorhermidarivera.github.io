@@ -65,7 +65,7 @@ body {
   background-color: #f2f2f2;
   font-stretch: 94%;
   letter-spacing: -0.015em;
-  word-spacing: -0.015em;
+  word-spacing: -0.01em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   text-rendering: optimizeLegibility;
 }
