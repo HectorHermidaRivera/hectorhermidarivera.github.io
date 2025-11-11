@@ -483,16 +483,22 @@ body {
     color: #f2f2f2;
   }
 
-  .sidebar a {
-    color: #66aaff;             /* links in sidebar */
+  /* ALL links the same dark red */
+  a, .sidebar a, .content a {
+    color: #8b0000;   /* dark red */
+    text-decoration: none; /* optional */
   }
 
-  .content a {
-    color: #80bfff;             /* links inside content */
+  a:hover, .sidebar a:hover, .content a:hover {
+    color: #ff4d4d;   /* lighter red on hover */
+    text-decoration: underline; /* optional */
   }
 
   /* Optional: borders, boxes, etc. */
-  .sidebar a, .content .two-column .value, .content .two-column-2rows .value, .content .two-column-3rows .value {
-    border-color: #333;         /* softer borders for dark mode */
+  .sidebar a, 
+  .content .two-column .value, 
+  .content .two-column-2rows .value, 
+  .content .two-column-3rows .value {
+    border-color: #333;         
   }
 }
