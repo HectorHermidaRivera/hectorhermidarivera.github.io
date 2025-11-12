@@ -37,3 +37,41 @@ function scrollToHashInstantly() {
 
 window.addEventListener('load', scrollToHashInstantly);
 window.addEventListener('hashchange', scrollToHashInstantly);
+
+// Make all <h2> headings collapsible
+document.addEventListener('DOMContentLoaded', () => {
+  const content = document.querySelector('.content');
+  const headings = content.querySelectorAll('h2');
+
+  headings.forEach(h2 => {
+    // Wrap content until next h2 in a collapsible container
+    const wrapper = document.createElement('div');
+    wrapper.classList.add('collapsible-content');
+
+    let sibling = h2.nextElementSibling;
+    while (sibling && sibling.tagName !== 'H2') {
+      const next = sibling.nextElementSibling;
+      wrapper.appendChild(sibling);
+      sibling = next;
+    }
+
+    h2.insertAdjacentElement('afterend', wrapper);
+
+    // Make h2 clickable
+    h2.classList.add('collapsible-link');
+    h2.addEventListener('click', () => {
+      if (wrapper.style.maxHeight && wrapper.style.maxHeight !== '0px') {
+        wrapper.style.maxHeight = '0px';
+      } else {
+        wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+      }
+    });
+
+    // Optional: start collapsed on small screens
+    if (window.innerWidth <= 1339) {
+      wrapper.style.maxHeight = '0px';
+    } else {
+      wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+    }
+  });
+});
