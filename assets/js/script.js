@@ -40,11 +40,13 @@ window.addEventListener('hashchange', scrollToHashInstantly);
 
 // COLLAPSIBLE HEADINGS
 
+// Make all <h2> headings collapsible
 document.addEventListener('DOMContentLoaded', () => {
   const content = document.querySelector('.content');
   const headings = content.querySelectorAll('h2');
 
   headings.forEach(h2 => {
+    // Wrap content until next h2 in a collapsible container
     const wrapper = document.createElement('div');
     wrapper.classList.add('collapsible-content');
 
@@ -67,7 +69,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Start collapsed
-    wrapper.style.maxHeight = '0px';
+    // Optional: start collapsed on small screens
+    if (window.innerWidth <= 1339) {
+      wrapper.style.maxHeight = '0px';
+    } else {
+      wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+    }
   });
 });
