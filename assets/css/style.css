@@ -335,8 +335,8 @@ body {
     display: none !important;
   }
   .content {
-    margin-left: auto !important;       
-    margin-right: auto !important;   
+    margin-left: (100vw - 1000px)/2 !important;       
+    margin-right: (100vw - 1000px)/2 !important;    
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
