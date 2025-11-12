@@ -330,25 +330,7 @@ body {
 
 /* SMALL SCREENS */
 
-@media (max-width: 1023px) {
-  .sidebar {
-    display: none !important;
-  }
-.content {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    margin-bottom: 30px !important;
-    padding-left: 5px;
-    padding-right: 10px;
-    max-width: 100% !important;
-    width: auto !important;
-    box-sizing: border-box;
-  }
-}
-
-/* VERY SMALL SCREENS */
-
-@media (max-width: 799px) {
+@media (max-width: 1339px) {
 .main-name,
   .name-title {
     padding-left: 0 !important;
