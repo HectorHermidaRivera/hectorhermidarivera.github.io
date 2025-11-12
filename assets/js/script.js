@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Optional: start collapsed on small screens
-    if (window.innerWidth <= 500) {
+    if (window.innerWidth <= 1023) {
       wrapper.style.maxHeight = '0px';
     } else {
       wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
