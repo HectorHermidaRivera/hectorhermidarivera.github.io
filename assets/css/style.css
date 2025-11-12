@@ -333,6 +333,7 @@ body {
 @media (max-width: 1339px) {
   .sidebar {
     display: none !important;
+  }
   .content {
     margin-left: auto !important;
     margin-right: auto !important;
