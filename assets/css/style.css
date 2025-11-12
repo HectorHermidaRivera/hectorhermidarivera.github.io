@@ -308,6 +308,11 @@ body {
   text-decoration: underline;
 }
 
+h2.collapsible-link {
+  color: black;       /* light mode */
+  cursor: pointer;
+}
+
 /* ROW OF ICONS */
 
 .icon-row {
@@ -485,6 +490,11 @@ body {
   body, .content, .sidebar {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
+  }
+
+ /* COLLAPSIBLE CONTENT */ 
+ h2.collapsible-link {
+    color: white;
   }
 
   /* GENERIC LINKS */
