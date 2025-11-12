@@ -331,6 +331,9 @@ body {
 /* SMALL SCREENS */
 
 @media (max-width: 1339px) {
+  .sidebar {
+    display: none !important;
+  }
 .main-name,
   .name-title {
     padding-left: 0 !important;
