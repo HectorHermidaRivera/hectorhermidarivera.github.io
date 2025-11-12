@@ -1,92 +1,40 @@
-// ===================== COLLAPSIBLES =====================
-document.querySelectorAll('.collapsible-link').forEach(link => {
-  link.addEventListener('click', function () {
-    let container = link.closest('.two-column-2rows');
-    if (!container) container = link.closest('.two-column-3rows');
-    if (!container) return;
+// COLLAPSIBLES
 
-    const content = container.querySelector('.collapsible-content');
-    if (!content) return;
+  document.querySelectorAll('.collapsible-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      let container = link.closest('.two-column-2rows');
+      if (!container) container = link.closest('.two-column-3rows');
+      if (!container) return;
+      const content = container.querySelector('.collapsible-content');
+      if (!content) return;
+      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+        content.style.maxHeight = '0';
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+  });
 
-    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-      content.style.maxHeight = '0';
-    } else {
-      content.style.maxHeight = content.scrollHeight + 'px';
-      content.addEventListener('transitionend', function removeMaxHeight() {
-        content.style.maxHeight = 'none'; // allow resizing / zoom
-        content.removeEventListener('transitionend', removeMaxHeight);
-      });
+// OPEN EXTERNAL LINKS IN NEW TAB
+
+  document.querySelectorAll('a').forEach(link => {
+    if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
+      link.setAttribute('target', '_blank');
     }
   });
-});
 
-// ===================== OPEN EXTERNAL LINKS IN NEW TAB =====================
-document.querySelectorAll('a').forEach(link => {
-  if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
-    link.setAttribute('target', '_blank');
-  }
-});
+// HASH JUMPS
 
-// ===================== HASH JUMPS =====================
 function scrollToHashInstantly() {
   if (!window.location.hash) return;
   const el = document.querySelector(window.location.hash);
   if (!el) return;
 
-  // Expand parent collapsible if collapsed
-  const collapsible = el.closest('.collapsible-content');
-  if (collapsible && collapsible.style.maxHeight === '0px') {
-    collapsible.style.maxHeight = collapsible.scrollHeight + 'px';
-    collapsible.addEventListener('transitionend', () => {
-      el.scrollIntoView({ behavior: 'instant', block: 'start' });
-    }, { once: true });
-  } else {
-    el.scrollIntoView({ behavior: 'instant', block: 'start' });
-  }
+  setTimeout(() => {
+    el.scrollIntoView(); 
+  }, 50);
 }
 
 window.addEventListener('load', scrollToHashInstantly);
 window.addEventListener('hashchange', scrollToHashInstantly);
 
-// ===================== COLLAPSIBLE HEADINGS =====================
-document.addEventListener('DOMContentLoaded', () => {
-  const content = document.querySelector('.content');
-  if (!content) return;
-
-  const headings = content.querySelectorAll('h2');
-
-  headings.forEach(h2 => {
-    // Wrap content until next h2 in a collapsible container
-    const wrapper = document.createElement('div');
-    wrapper.classList.add('collapsible-content');
-    wrapper.style.overflow = 'hidden';
-    wrapper.style.transition = 'max-height 0.3s ease';
-
-    let sibling = h2.nextElementSibling;
-    while (sibling && sibling.tagName !== 'H2') {
-      const next = sibling.nextElementSibling;
-      wrapper.appendChild(sibling);
-      sibling = next;
-    }
-
-    h2.insertAdjacentElement('afterend', wrapper);
-
-    // Make h2 clickable
-    h2.classList.add('collapsible-link');
-    h2.addEventListener('click', () => {
-      if (wrapper.style.maxHeight && wrapper.style.maxHeight !== '0px') {
-        wrapper.style.maxHeight = '0px';
-      } else {
-        // Always recalc scrollHeight to avoid clipping
-        wrapper.style.maxHeight = wrapper.scrollHeight + 10 + 'px'; // +10px padding to prevent last line cutoff
-      }
-    })
-
-    // Optional: start collapsed on small screens
-    if (window.innerWidth <= 1023  && window.innerHeight <= 1023) {
-      wrapper.style.maxHeight = '0px';
-    } else {
-      wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
-    }
-  });
-});
