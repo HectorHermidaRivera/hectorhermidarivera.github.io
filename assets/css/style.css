@@ -335,8 +335,8 @@ body {
     display: none !important;
   }
   .content {
-    margin-left: calc((100vw - 1000px)/2 - 166/2) !important;       
-    margin-right: calc((100vw - 1000px)/2 + 166/2) !important;    
+    margin-left: calc((100vw - 1000px)/2 - 166px/2) !important;       
+    margin-right: calc((100vw - 1000px)/2 + 166px/2) !important;    
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
