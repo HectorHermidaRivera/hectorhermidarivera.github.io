@@ -339,9 +339,9 @@ body {
     margin-right: auto !important;
     margin-bottom: 30px !important;
     padding-left: 10px;
-    padding-right: 176px;
+    padding-right: 10px;
     max-width: 1000px !important;
-    width: 100% !important;
+    width: 1000px !important;
     box-sizing: border-box;
   }
 }
