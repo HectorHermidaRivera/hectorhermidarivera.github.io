@@ -431,13 +431,13 @@ body {
     white-space: normal;
   }
   .content {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-bottom: 30px !important;
-    padding-left: 0px;
-    padding-right: 0px;
-    max-width: 100% !important;
-    width: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px !important;
+    width: 100% !important;
     box-sizing: border-box;
   }
 }
