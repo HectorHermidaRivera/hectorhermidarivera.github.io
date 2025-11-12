@@ -333,6 +333,21 @@ body {
 @media (max-width: 1339px) {
   .sidebar {
     display: none !important;
+  .content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1023px) {
+  .sidebar {
+    display: none !important;
   }
 .main-name,
   .name-title {
@@ -436,7 +451,7 @@ body {
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 1000px !important;
+    max-width: 834px !important;
     width: 100% !important;
     box-sizing: border-box;
   }
@@ -454,7 +469,7 @@ body {
     margin-bottom: 30px !important;
     padding-left: 0px;
     padding-right: 0px;    
-    max-width: 834px;
+    max-width: 1000px;
     box-sizing: border-box;
   }
 }
