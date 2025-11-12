@@ -335,8 +335,8 @@ body {
     display: none !important;
   }
   .content {
-    margin-left: max(10px, (100vw - 834px)/2);       
-    margin-right: max(10px, (100vw - 834px)/2);   
+    margin-left: auto !important;       
+    margin-right: auto !important;   
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
