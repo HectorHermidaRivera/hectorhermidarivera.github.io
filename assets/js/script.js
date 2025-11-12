@@ -83,7 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Start collapsed
-    wrapper.style.maxHeight = '0px';
+    // Optional: start collapsed on small screens
+    if (window.innerWidth <= 1023  && window.innerHeight <= 1023) {
+      wrapper.style.maxHeight = '0px';
+    } else {
+      wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+    }
   });
 });
