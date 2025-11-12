@@ -59,6 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Wrap content until next h2 in a collapsible container
     const wrapper = document.createElement('div');
     wrapper.classList.add('collapsible-content');
+    wrapper.style.overflow = 'hidden';
+    wrapper.style.transition = 'max-height 0.3s ease';
 
     let sibling = h2.nextElementSibling;
     while (sibling && sibling.tagName !== 'H2') {
@@ -75,13 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (wrapper.style.maxHeight && wrapper.style.maxHeight !== '0px') {
         wrapper.style.maxHeight = '0px';
       } else {
-        wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
-        wrapper.addEventListener('transitionend', function removeMaxHeight() {
-          wrapper.style.maxHeight = 'none';
-          wrapper.removeEventListener('transitionend', removeMaxHeight);
-        });
+        // Always recalc scrollHeight to avoid clipping
+        wrapper.style.maxHeight = wrapper.scrollHeight + 10 + 'px'; // +10px padding to prevent last line cutoff
       }
-    });
+    })
 
     // Optional: start collapsed on small screens
     if (window.innerWidth <= 1023  && window.innerHeight <= 1023) {
