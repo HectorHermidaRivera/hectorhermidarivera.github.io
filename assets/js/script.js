@@ -1,48 +1,58 @@
-// COLLAPSIBLES
+// ===================== COLLAPSIBLES =====================
+document.querySelectorAll('.collapsible-link').forEach(link => {
+  link.addEventListener('click', function () {
+    let container = link.closest('.two-column-2rows');
+    if (!container) container = link.closest('.two-column-3rows');
+    if (!container) return;
 
-  document.querySelectorAll('.collapsible-link').forEach(link => {
-    link.addEventListener('click', function(e) {
-      let container = link.closest('.two-column-2rows');
-      if (!container) container = link.closest('.two-column-3rows');
-      if (!container) return;
-      const content = container.querySelector('.collapsible-content');
-      if (!content) return;
-      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-        content.style.maxHeight = '0';
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
-  });
+    const content = container.querySelector('.collapsible-content');
+    if (!content) return;
 
-// OPEN EXTERNAL LINKS IN NEW TAB
-
-  document.querySelectorAll('a').forEach(link => {
-    if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
-      link.setAttribute('target', '_blank');
+    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+      content.style.maxHeight = '0';
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      content.addEventListener('transitionend', function removeMaxHeight() {
+        content.style.maxHeight = 'none'; // allow resizing / zoom
+        content.removeEventListener('transitionend', removeMaxHeight);
+      });
     }
   });
+});
 
-// HASH JUMPS
+// ===================== OPEN EXTERNAL LINKS IN NEW TAB =====================
+document.querySelectorAll('a').forEach(link => {
+  if (!link.classList.contains('collapsible-link') && !link.closest('.sidebar')) {
+    link.setAttribute('target', '_blank');
+  }
+});
 
+// ===================== HASH JUMPS =====================
 function scrollToHashInstantly() {
   if (!window.location.hash) return;
   const el = document.querySelector(window.location.hash);
   if (!el) return;
 
-  setTimeout(() => {
-    el.scrollIntoView(); 
-  }, 50);
+  // Expand parent collapsible if collapsed
+  const collapsible = el.closest('.collapsible-content');
+  if (collapsible && collapsible.style.maxHeight === '0px') {
+    collapsible.style.maxHeight = collapsible.scrollHeight + 'px';
+    collapsible.addEventListener('transitionend', () => {
+      el.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }, { once: true });
+  } else {
+    el.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
 }
 
 window.addEventListener('load', scrollToHashInstantly);
 window.addEventListener('hashchange', scrollToHashInstantly);
 
-// COLLAPSIBLE HEADINGS
-
-// Make all <h2> headings collapsible
+// ===================== COLLAPSIBLE HEADINGS =====================
 document.addEventListener('DOMContentLoaded', () => {
   const content = document.querySelector('.content');
+  if (!content) return;
+
   const headings = content.querySelectorAll('h2');
 
   headings.forEach(h2 => {
@@ -66,14 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
         wrapper.style.maxHeight = '0px';
       } else {
         wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+        wrapper.addEventListener('transitionend', function removeMaxHeight() {
+          wrapper.style.maxHeight = 'none';
+          wrapper.removeEventListener('transitionend', removeMaxHeight);
+        });
       }
     });
 
-    // Optional: start collapsed on small screens
-    if (window.innerWidth <= 1023  && window.innerHeight <= 1023) {
-      wrapper.style.maxHeight = '0px';
-    } else {
-      wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
-    }
+    // Start collapsed
+    wrapper.style.maxHeight = '0px';
   });
 });
