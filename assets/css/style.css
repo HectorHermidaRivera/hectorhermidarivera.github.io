@@ -335,8 +335,10 @@ body {
     display: none !important;
   }
   .content {
-    margin-left: max(10px, calc((100vw - 1000px)/2 - 166px/2)) !important;       
-    margin-right: max(10px, calc((100vw - 1000px)/2 + 166px/2)) !important;    
+    /* margin-left: max(10px, calc((100vw - 1000px)/2 - 166px/2)) !important; */  
+    /* margin-right: max(10px, calc((100vw - 1000px)/2 + 166px/2)) !important;  */
+    margin-left: auto !important;       
+    margin-right: auto !important;  
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
