@@ -166,14 +166,14 @@ body {
   font-weight: normal;
 }
 
-/* Make publications spacing match manuscripts */
+/*
 #publications .two-column-2rows .value .entry-text {
-  margin-bottom: 4px; /* same as gap between top-row and second-row in manuscripts */
+  margin-bottom: 4px; 
 }
 
 #publications .two-column-2rows .value .collapsible-content {
-  margin-top: 4px;    /* same as second-row collapsible-content in manuscripts */
-}
+  margin-top: 4px;    
+}*/
 
 /* TWO-COLUMN TWO-ROW */
 
