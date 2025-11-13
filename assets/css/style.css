@@ -570,6 +570,9 @@ h2.collapsible-link {
     text-decoration: underline !important;
   }
 
+.ai-open-access::before {
+  color: #99dd77;
+}
 }
 
 
