@@ -146,15 +146,17 @@ title: Home
 <div class="two-column-2rows">
   <div class="label">3.</div>
   <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
-    <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
-    <i>
-      <a href="#" class="collapsible-link">Binary Self-Selective Voting Rules</a>
-    </i>. 
-    <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
-    <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
+    <div class="entry-text">
+      <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
+      <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
+      <i>
+        <a href="#" class="collapsible-link">Binary Self-Selective Voting Rules</a>
+      </i>. 
+      <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
+      <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view">
+        <i class="far fa-file-pdf"></i>
+      </a>
+    </div>
     <div class="collapsible-content" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; margin-top: 5px;">
       <p>
         This paper introduces a novel binary stability property for voting rules—called binary self‐selectivity—by which a society considering whether to replace its voting rule using itself in pairwise elections will choose not to do so. In Theorem 1, we show that a neutral voting rule is binary self‐selective if and only if it is universally self‐selective. We then use this equivalence to show, in Corollary 1, that under the unrestricted strict preference domain, a unanimous and neutral voting rule is binary self‐selective if and only if it is dictatorial. In Theorem 2 and Corollary 2, we show that whenever there is a strong Condorcet winner; a unanimous, neutral, and anonymous voting rule is binary self‐selective (or universally self‐selective) if and only if it is the Condorcet voting rule.
