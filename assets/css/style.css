@@ -566,6 +566,13 @@ h2.collapsible-link {
 }
 }
 
+/* TOUCH DEVICES */
 
-
+@media (hover: none) {
+  a:focus,
+  a:active {
+    outline: none !important;
+    text-decoration: none !important;
+  }
+}
 
