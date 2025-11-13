@@ -123,68 +123,25 @@ title: Home
 ## Publications {#publications}
 
 <div class="two-column">
-
   <div class="label">4.</div>
-  <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
-    <i><a class="collapsible-link">Minimal Stable Voting Rules</a></i>. 
-    <b>Games and Economic Behavior</b> 153, pp. 541-553. 
-    <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
-    <div class="collapsible-content" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease; margin-top:5px;">
-      <p><i>
-        In this paper, I characterize minimal stable voting rules and minimal self-stable constitutions (i.e., pairs of voting rules) for societies in which only power matters. To do so, I first let players’ preference profiles over voting rules satisfy four natural axioms commonly used in the analysis of power: non-dominance, anonymity, null player, and swing player. I then provide simple notions of minimal stability and minimal self-stability, and show that the families of minimal stable voting rules and minimal self-stable constitutions are fairly small. Finally, I conclude that political parties have evolved to ensure the minimal self-stability of otherwise not minimal self-stable constitutions.
-      </i></p>
-    </div>
-  </div>
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1016/j.geb.2025.07.006">Minimal Stable Voting Rules</a></i>. <b>Games and Economic Behavior</b> 153, pp. 541-553. <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
 
   <div class="label">3.</div>
-  <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
-    <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
-    <i><a class="collapsible-link">Binary Self-Selective Voting Rules</a></i>. 
-    <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
-    <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
-    <div class="collapsible-content" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease; margin-top:5px;">
-      <p><i>
-        This paper introduces a novel binary stability property for voting rules—called binary self‐selectivity—by which a society considering whether to replace its voting rule using itself in pairwise elections will choose not to do so. In Theorem 1, we show that a neutral voting rule is binary self‐selective if and only if it is universally self‐selective. We then use this equivalence to show that under the unrestricted strict preference domain, a unanimous and neutral voting rule is binary self‐selective if and only if it is dictatorial. In Theorem 2 and Corollary 2, we show that whenever there is a strong Condorcet winner; a unanimous, neutral, and anonymous voting rule is binary self‐selective (or universally self‐selective) if and only if it is the Condorcet voting rule.
-      </i></p>
-    </div>
-  </div>
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a> </div>
 
   <div class="label">2.</div>
-  <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
-    <i><a class="collapsible-link">The Implementability of Liberalism</a></i>. 
-    <b>Public Choice</b> 203, pp. 493-501. 
-    <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
-    <div class="collapsible-content" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease; margin-top:5px;">
-      <p><i>
-        This note shows that under the unrestricted domain, there exists a choice liberal and Nash implementable social choice rule if and only if there are at least three players and the outcome set is at least twice as large as the player set. A social choice rule is choice liberal if and only if for every player, there exists at least one pair of outcomes such that if this player strictly prefers one over the other, the one he prefers is socially desirable and the other one is not. A social choice rule is Nash implementable if and only if there exists a mechanism such that at every preference profile, the set of Nash equilibrium outcomes coincides with the set of socially desirable ones. The proof constructs an intuitive Nash implementing mechanism.
-      </i></p>
-    </div>
-  </div>
-
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1007/s11127-024-01213-w">The Implementability of Liberalism</a></i>. <b>Public Choice</b> 203, pp. 493-501. <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
+  
   <div class="label">1.</div>
-  <div class="value">
-    <i class="ai ai-open-access"></i> <a href="https://www.federica-genovese.com">Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). 
-    <i><a class="collapsible-link">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. 
-    <b>International Interactions</b> 48.5, pp. 897-935. 
-    <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
-    <div class="collapsible-content" style="max-height:0; overflow:hidden; transition:max-height 0.3s ease; margin-top:5px;">
-      <p><i>
-        The political economy literature on international bailouts has repeatedly shown that the domestic politics of rescued countries influence international bailout compliance. However, we know less about the domestic politics of bailout negotiations, and especially the type of conditions negotiated by governments of more developed countries with strong ties to international lenders. This paper puts forward an argument about the role of a government’s partisanship in shaping the conditions stipulated between international lenders and developed countries when crises confront the latter. Consistent with political cover theories, we argue that governments of crisis countries seek to scapegoat international institutions in order to push domestically unpleasant reforms. However, when crises affect countries significantly close to international lenders, international institutions may tolerate the scapegoating attitude and accept to emphasize governments’ reforms in the direction of their core ideological constituencies. Focusing on bailout negotiations during the Eurocrisis (2008–2016), we maintain that while important and painful reforms were discussed at the negotiation tables, the involved international lenders also accommodated the policy preferences of both left and right governments of crisis-ridden countries, everything else constant. So, conditionality came with duress, but governments were also able to emphasize reforms on the opponents’ policy issues, hence systematically obtaining fewer measures on their voters’ main policy areas. Regression analyses of an original country-quarter dataset of EU bailout conditionality measures provide support to our hypothesis. The findings are relevant to the analysis of partisan politics in economic negotiations and of democratic deficits in international organizations. Furthermore, this study contributes to understanding the political accessibility and ideological dynamics of international lending beyond the Eurocrisis.
-      </i></p>
-    </div>
-  </div>
-
+  <div class="value"><i class="ai ai-open-access"></i> <a href="https://www.federica-genovese.com"> Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897-935. <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
 </div>
 
 ## Job Market Paper {#job-market-paper}
