@@ -196,9 +196,9 @@ title: Home
       </a>
     </div>
     <div class="collapsible-content" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; margin-top: 5px;">
-      <p>
+      <p><i>
         The political economy literature on international bailouts has repeatedly shown that the domestic politics of rescued countries influence international bailout compliance. However, we know less about the domestic politics of bailout negotiations, and especially the type of conditions negotiated by governments of more developed countries with strong ties to international lenders. This paper puts forward an argument about the role of a government’s partisanship in shaping the conditions stipulated between international lenders and developed countries when crises confront the latter. Consistent with political cover theories, we argue that governments of crisis countries seek to scapegoat international institutions in order to push domestically unpleasant reforms. However, when crises affect countries significantly close to international lenders, international institutions may tolerate the scapegoating attitude and accept to emphasize governments’ reforms in the direction of their core ideological constituencies. Focusing on bailout negotiations during the Eurocrisis (2008–2016), we maintain that while important and painful reforms were discussed at the negotiation tables, the involved international lenders also accommodated the policy preferences of both left and right governments of crisis-ridden countries, everything else constant. So, conditionality came with duress, but governments were also able to emphasize reforms on the opponents’ policy issues, hence systematically obtaining fewer measures on their voters’ main policy areas. Regression analyses of an original country-quarter dataset of EU bailout conditionality measures provide support to our hypothesis. The findings are relevant to the analysis of partisan politics in economic negotiations and of democratic deficits in international organizations. Furthermore, this study contributes to understanding the political accessibility and ideological dynamics of international lending beyond the Eurocrisis.
-      </p>
+      </i></p>
     </div>
   </div>
 </div>
