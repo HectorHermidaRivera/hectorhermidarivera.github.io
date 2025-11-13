@@ -568,10 +568,13 @@ h2.collapsible-link {
 
 /* TOUCH DEVICES */
 
-@media (hover: none) {
-  a:focus,
-  a:active {
-    outline: none !important;
+/* Prevent links from staying underlined after tapping on touch devices */
+@media (hover: none), (pointer: coarse) {
+  a:hover,
+  .content a:hover,
+  .sidebar a:hover,
+  .icon-row a:hover,
+  .collapsible-link:hover {
     text-decoration: none !important;
   }
 }
