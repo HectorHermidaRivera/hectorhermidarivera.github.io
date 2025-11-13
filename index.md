@@ -122,11 +122,24 @@ title: Home
 
 ## Publications {#publications}
 
-<div class="two-column">
+<div class="two-column-2rows">
   <div class="label">4.</div>
-  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1016/j.geb.2025.07.006">Minimal Stable Voting Rules</a></i>. <b>Games and Economic Behavior</b> 153, pp. 541-553. <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view" target="_blank">
-  <i class="far fa-file-pdf"></i>
-</a></div>
+  <div class="value">
+    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
+    <i>
+      <a href="#" class="collapsible-link">Minimal Stable Voting Rules</a>
+    </i>. 
+    <b>Games and Economic Behavior</b> 153, pp. 541-553. 
+    <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view">
+      <i class="far fa-file-pdf"></i>
+    </a>
+    <div class="collapsible-content" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; margin-top: 5px;">
+      <p>
+        In this paper, I characterize minimal stable voting rules and minimal self-stable constitutions (i.e., pairs of voting rules) for societies in which only power matters. To do so, I first let players’ preference profiles over voting rules satisfy four natural axioms commonly used in the analysis of power: non-dominance, anonymity, null player, and swing player. I then provide simple notions of minimal stability and minimal self-stability, and show that the families of minimal stable voting rules and minimal self-stable constitutions are fairly small. Finally, I conclude that political parties have evolved to ensure the minimal self-stability of otherwise not minimal self-stable constitutions.
+      </p>
+    </div>
+  </div>
+</div>
 
   <div class="label">3.</div>
   <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
