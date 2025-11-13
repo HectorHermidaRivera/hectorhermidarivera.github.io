@@ -165,11 +165,16 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a href="https://arxiv.org/abs/2506.15310">Self-Equivalent Voting Rules</a></b></span>
+        <span><b><a href="collapsible-link">Self-Equivalent Voting Rules</a></b></span>
         <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
         Héctor HERMIDA-RIVERA
+      </div>
+      <div class="second-row collapsible-content">
+      <p><i>
+      In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself
+        </i></p>
       </div>
     </div>
   </div>
@@ -178,11 +183,16 @@ title: Home
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a href="https://arxiv.org/abs/2509.19823">A Simple Characterization of Qualified Majority Voting Rules</a></b></span>
+        <span><b><a class="collapsible-link">A Simple Characterization of Qualified Majority Voting Rules</a></b></span>
         <span><a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view">available preprint</a></span>
       </div>
       <div class="second-row">
         Héctor HERMIDA-RIVERA
+      </div>
+      <div class="second-row collapsible-content">
+      <p><i>
+      This paper characterizes every qualified majority voting rule with a quota qstrictly greater than half of the voter set in environments with just two alternatives through anonymity, responsiveness, and q-neutrality. Crucially, the latter imposes independence of the labels of the alternatives only for all preference profiles in which some alternative is strictly top-ranked by at least qvoters. Thus, this paper generalizes May’s (1952, Theorem, p. 682) characterization of the simple majority voting rule to qualified majority voting rules with a quota qstrictly greater than half of the voter set. In doing so, it shows that these qualified majority voting rules are distinguished by their degree of neutrality.
+        </i></p>
       </div>
     </div>
   </div>
@@ -269,13 +279,13 @@ title: Home
         <div class="institution">Budapest University of Technology & Economics</div>
       </div>
       <div class="second-row collapsible-content">
-        <p><i>
+        <p>
           <a href="https://drive.google.com/file/d/1cobWryYw-Hw-FH9RiuhB-P1m_ak_A1dK/view">Slides</a>
           <span style="margin:0 10px;">•</span>
           <a href="https://drive.google.com/drive/folders/1qq_IIqb80qZ2FRNngyTv79FOQFDJDFXU">Papers</a>
           <span style="margin:0 10px;">•</span>
           <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQq44yiYz_5eNByopc_D_U-G">William Spaniel's Bargaining 101 (YouTube)</a>
-        </i></p>
+        </p>
       </div>
     </div>
   </div>
@@ -310,7 +320,7 @@ title: Home
         <div class="institution">University of East Anglia</div>
       </div>
       <div class="second-row collapsible-content">
-        <p><i>Unavailable</i></p>
+        <p>Unavailable</p>
       </div>
     </div>
   </div>
@@ -333,7 +343,7 @@ title: Home
         <div class="institution">Autonomous University of Barcelona</div>
       </div>
       <div class="second-row collapsible-content">
-        <p><i>Unavailable</i></p>
+        <p>Unavailable</p>
       </div>
     </div>
   </div>
