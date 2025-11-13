@@ -128,7 +128,7 @@ title: Home
     <div class="entry-text">
       <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
       <i>
-        <a href="#" class="collapsible-link">Minimal Stable Voting Rules</a>
+        <a class="collapsible-link">Minimal Stable Voting Rules</a>
       </i>. 
       <b>Games and Economic Behavior</b> 153, pp. 541-553. 
       <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view">
@@ -150,7 +150,7 @@ title: Home
       <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
       <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
       <i>
-        <a href="#" class="collapsible-link">Binary Self-Selective Voting Rules</a>
+        <a class="collapsible-link">Binary Self-Selective Voting Rules</a>
       </i>. 
       <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
       <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view">
