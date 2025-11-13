@@ -125,14 +125,16 @@ title: Home
 <div class="two-column-2rows">
   <div class="label">4.</div>
   <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
-    <i>
-      <a href="#" class="collapsible-link">Minimal Stable Voting Rules</a>
-    </i>. 
-    <b>Games and Economic Behavior</b> 153, pp. 541-553. 
-    <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view">
-      <i class="far fa-file-pdf"></i>
-    </a>
+    <div class="entry-text">
+      <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
+      <i>
+        <a href="#" class="collapsible-link">Minimal Stable Voting Rules</a>
+      </i>. 
+      <b>Games and Economic Behavior</b> 153, pp. 541-553. 
+      <a href="https://drive.google.com/file/d/1ZdgyX6upxc1hcXbvaHvrLFtbI1VR5rno/view">
+        <i class="far fa-file-pdf"></i>
+      </a>
+    </div>
     <div class="collapsible-content" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; margin-top: 5px;">
       <p>
         In this paper, I characterize minimal stable voting rules and minimal self-stable constitutions (i.e., pairs of voting rules) for societies in which only power matters. To do so, I first let players’ preference profiles over voting rules satisfy four natural axioms commonly used in the analysis of power: non-dominance, anonymity, null player, and swing player. I then provide simple notions of minimal stability and minimal self-stability, and show that the families of minimal stable voting rules and minimal self-stable constitutions are fairly small. Finally, I conclude that political parties have evolved to ensure the minimal self-stability of otherwise not minimal self-stable constitutions.
@@ -141,10 +143,25 @@ title: Home
   </div>
 </div>
 
+<div class="two-column-2rows">
   <div class="label">3.</div>
-  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
-  <i class="far fa-file-pdf"></i>
-</a> </div>
+  <div class="value">
+    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
+    <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
+    <i>
+      <a href="#" class="collapsible-link">Binary Self-Selective Voting Rules</a>
+    </i>. 
+    <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
+    <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view">
+      <i class="far fa-file-pdf"></i>
+    </a>
+    <div class="collapsible-content" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; margin-top: 5px;">
+      <p>
+        This paper introduces a novel binary stability property for voting rules—called binary self‐selectivity—by which a society considering whether to replace its voting rule using itself in pairwise elections will choose not to do so. In Theorem 1, we show that a neutral voting rule is binary self‐selective if and only if it is universally self‐selective. We then use this equivalence to show, in Corollary 1, that under the unrestricted strict preference domain, a unanimous and neutral voting rule is binary self‐selective if and only if it is dictatorial. In Theorem 2 and Corollary 2, we show that whenever there is a strong Condorcet winner; a unanimous, neutral, and anonymous voting rule is binary self‐selective (or universally self‐selective) if and only if it is the Condorcet voting rule.
+      </p>
+    </div>
+  </div>
+</div>
 
   <div class="label">2.</div>
   <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1007/s11127-024-01213-w">The Implementability of Liberalism</a></i>. <b>Public Choice</b> 203, pp. 493-501. <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view" target="_blank">
