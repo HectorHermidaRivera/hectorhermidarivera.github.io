@@ -140,9 +140,7 @@ title: Home
       </i></p>
     </div>
   </div>
-</div>
 
-<div class="two-column-2rows">
   <div class="label">3.</div>
   <div class="value">
     <div class="entry-text">
@@ -161,9 +159,7 @@ title: Home
       </i></p>
     </div>
   </div>
-</div>
 
-<div class="two-column-2rows">
   <div class="label">2.</div>
   <div class="value">
     <div class="entry-text">
@@ -181,9 +177,7 @@ title: Home
       </i></p>
     </div>
   </div>
-</div>
-  
-<div class="two-column-2rows">
+
   <div class="label">1.</div>
   <div class="value">
     <div class="entry-text">
