@@ -165,7 +165,7 @@ title: Home
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a class="collapsible-link">Self-Equivalent Voting Rules</a></b></span>
+        <span><a class="collapsible-link"><b>Self-Equivalent Voting Rules</b></a></span>
         <span><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">available preprint</a></span>
       </div>
       <div class="second-row">
@@ -183,7 +183,7 @@ title: Home
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
-        <span><b><a class="collapsible-link">A Simple Characterization of Qualified Majority Voting Rules</a></b></span>
+        <span><a class="collapsible-link"><b>A Simple Characterization of Qualified Majority Voting Rules</b></a></span>
         <span><a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view">available preprint</a></span>
       </div>
       <div class="second-row">
