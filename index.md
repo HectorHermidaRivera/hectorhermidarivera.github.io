@@ -161,7 +161,7 @@ title: Home
 
 <div class="two-column-2rows-container">
 
-  <div class="two-column-2rows">
+  <div class="two-column-2rows" id="self-equivalent-voting-rules">
     <div class="label">5.</div>
     <div class="value">
       <div class="top-row">
@@ -179,7 +179,7 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
+  <div class="two-column-2rows" id="a-note-on-qualified-majority-voting-rules">
     <div class="label">4.</div>
     <div class="value">
       <div class="top-row">
@@ -197,7 +197,7 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
+  <div class="two-column-2rows"  id="farsighted-stable-voting-rules">
     <div class="label">3.</div>
     <div class="value">
       <div class="top-row">
@@ -215,7 +215,7 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
+  <div class="two-column-2rows" id="liberalism-fairness-equilibrium">
     <div class="label">2.</div>
     <div class="value">
       <div class="top-row">
@@ -233,7 +233,7 @@ title: Home
     </div>
   </div>
 
-  <div class="two-column-2rows">
+  <div class="two-column-2rows" id="the-residual-claimant">
     <div class="label">1.</div>
     <div class="value">
       <div class="top-row">
