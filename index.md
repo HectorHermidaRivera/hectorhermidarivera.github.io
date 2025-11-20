@@ -139,8 +139,8 @@ title: Home
 
   <div class="label">3.</div>
   <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & 
-    <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
+    <i class="ai ai-open-access"></i>
+    Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). 
     <span class="collapsible-link"><i>Binary Self-Selective Voting Rules</i></span>. 
     <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. 
     <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
@@ -153,7 +153,8 @@ title: Home
 
   <div class="label">2.</div>
   <div class="value">
-    <i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). 
+    <i class="ai ai-open-access"></i>
+    Héctor HERMIDA-RIVERA (2025). 
     <span class="collapsible-link"><i>The Implementability of Liberalism</i></span>. 
     <b>Public Choice</b> 203, pp. 493-501. 
     <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view" target="_blank">
@@ -162,7 +163,7 @@ title: Home
     <div class="second-row collapsible-content">
       <p><i>This note shows that under the unrestricted domain, there exists a choice liberal and Nash implementable social choice rule if and only if there are at least three players and the outcome set is at least twice as large as the player set. A social choice rule is choice liberal if and only if for every player, there exists at least one pair of outcomes such that if this player strictly prefers one over the other, the one he prefers is socially desirable and the other one is not. A social choice rule is Nash implementable if and only if there exists a mechanism such that at every preference profile, the set of Nash equilibrium outcomes coincides with the set of socially desirable ones. The proof constructs an intuitive Nash implementing mechanism.</i></p>
     </div>
-  </div> <
+  </div>
 
   <div class="label">1.</div>
   <div class="value">
