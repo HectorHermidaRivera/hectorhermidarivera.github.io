@@ -288,7 +288,9 @@ body {
   padding: 0;
 }
 
-.collapsible-link {
+.collapsible-link,
+.collapsible-link i,
+.collapsible-link b {
   color: #00008B;       
   text-decoration: none; 
   cursor: pointer;
