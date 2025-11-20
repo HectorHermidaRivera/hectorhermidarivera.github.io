@@ -57,6 +57,8 @@ title: Home
   </div>
 </div>
 
+<div class="two-column" style="margin-top: 2em;">
+
 <div class="two-column">
 <div class="label"></div>
 <div class="value">
