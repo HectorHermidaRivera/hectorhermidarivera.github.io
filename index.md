@@ -63,5 +63,3 @@ title: Héctor Hermida-Rivera
   </div>
 </div>
 
-</div>
-
