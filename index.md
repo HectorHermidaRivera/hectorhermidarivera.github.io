@@ -161,9 +161,9 @@ title: Home
 
 <div class="two-column">
   <div class="label">5.</div>
-  <div>
+  <div class="value">
     Héctor HERMIDA-RIVERA (2025). 
-    <i><b><a href="https://doi.org/10.48550/arXiv.2506.15310" target="_blank">Self-Equivalent Voting Rules</a></b></i>. 
+    <span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
     arXiv, pp. 1-13. 
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
       <i class="far fa-file-pdf"></i>
@@ -171,9 +171,9 @@ title: Home
   </div>
 
   <div class="label">4.</div>
-  <div>
+  <div class="value">
     Héctor HERMIDA-RIVERA (2025). 
-    <i><b><a href="https://doi.org/10.48550/arXiv.2509.19823" target="_blank">A Note on Qualified Majority Voting Rules</a></b></i>. 
+    <span class="collapsible-link"><i><b>A Note on Qualified Majority Voting Rules</b></i></span>. 
     arXiv, pp. 1-5. 
     <a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view?usp=share_link" target="_blank">
       <i class="far fa-file-pdf"></i>
@@ -183,17 +183,19 @@ title: Home
   <div class="label">3.</div>
   <div>
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
-    <i><b><a href="" target="_blank">Farsighted Stable Voting Rules</a></b></i>. 
-    <a href="" target="_blank">
-    </a>
+    <span class="collapsible-link"><i><b>Farsighted Stable Voting Rules</b></i></span>. 
+    <div class="second-row collapsible-content">
+      <i>ABSTRACT 1</i>
+    </div>
   </div>
 
   <div class="label">2.</div>
-  <div>
+  <div class="value">
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> (in progress). 
-    <i><b><a href="" target="_blank">Liberalism, Fairness, & Equilibrium</a></b></i>. 
-    <a href="" target="_blank">
-    </a>
+    <span class="collapsible-link"><i><b>Liberalism, Fairness, & Equilibrium</b></i></span>. 
+    <div class="second-row collapsible-content">
+      <i>ABSTRACT 2</i>
+    </div>
   </div>
 
   <div class="label">1.</div>
@@ -201,9 +203,9 @@ title: Home
     Héctor HERMIDA-RIVERA, 
     <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & 
     <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
-    <span class="collapsible-link"><i><b>The Residual Claimant</b></i></span>
+    <span class="collapsible-link"><i><b>The Residual Claimant</b></i></span>.
     <div class="second-row collapsible-content">
-      <p>ABSTRACT 1</p>
+      <i>ABSTRACT 1</i>
     </div>
   </div>
       
