@@ -9,7 +9,7 @@ title: Héctor Hermida-Rivera
 </h1>
 
   <!-- ICONS ROW: LEFT-ALIGNED -->
-  <div class="icon-row" style="margin-bottom:1.5em;">
+  <div class="icon-row" style="margin-bottom:1.5em, padding-left:-166px;">
     <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing">
       <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
     </a>
