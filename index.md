@@ -3,19 +3,21 @@ layout: default
 title: Héctor Hermida-Rivera
 ---
 
-<!-- FULL-PAGE VERTICAL CENTERING -->
 <div style="
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* vertical centering */
-  align-items: flex-start;  /* left-aligned content */
-  min-height: 100vh;        /* fill viewport */
-  padding: 2em;
-  box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;      /* vertical centering */
+  align-items:flex-start;      /* left-align icons and text */
+  min-height:100vh;            /* full viewport height */
+  padding:2em;
+  box-sizing:border-box;
 ">
 
-  <!-- ICONS: LEFT-ALIGNED -->
-  <div class="icon-row" style="margin-bottom:1.5em; text-align:left;">
+  <!-- PAGE TITLE -->
+  <h1 style="margin-bottom:1em;">Héctor <strong>Hermida-Rivera</strong></h1>
+
+  <!-- ICONS ROW: LEFT-ALIGNED -->
+  <div class="icon-row" style="margin-bottom:1.5em;">
     <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing">
       <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
     </a>
@@ -59,11 +61,11 @@ title: Héctor Hermida-Rivera
     </div>
   </div>
 
-  <!-- CV AND RESOURCES LINKS -->
-  <div class="two-column" style="margin-top: 2em; width:100%;">
+  <!-- CV / RESOURCES LINKS -->
+  <div class="two-column" style="width:100%;">
     <div class="label"></div>
     <div class="value" style="width:100%;">
-      <div style="display: flex; justify-content: space-between; width:100%;">
+      <div style="display:flex; justify-content:space-between; width:100%;">
         <a href="/cv/"><b>CURRICULUM VITAE</b></a>
         <a href="/resources/"><b>RESOURCES</b></a>
       </div>
