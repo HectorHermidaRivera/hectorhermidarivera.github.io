@@ -280,48 +280,36 @@ body {
 
 /* COLLAPSIBLES */
 
-/* Collapsible content: consistent spacing & smooth expand/collapse */
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease;
-  
-  margin: 0.25em 0;            /* vertical spacing above/below */
-  padding: 0.25em 0 0.25em 1.5em; /* left indent and vertical padding */
+  margin: 0;
+  padding: 0;
 }
 
-/* General collapsible links */
 .collapsible-link {
-  color: #00008B;       /* standard blue */
+  color: #00008B;       
+  text-decoration: none; 
   cursor: pointer;
-  text-decoration: none;
   font-weight: normal;
-  display: inline-block; /* ensures hover underline behaves */
 }
 
-/* Hover effect for all collapsible links */
-.collapsible-link:hover {
-  text-decoration: underline;
-}
-
-/* Target collapsible links inside specific container structures for consistency */
 .two-column-2rows .value .top-row .collapsible-link, 
 .two-column-3rows .value .top-row .collapsible-link, 
 .two-column .value .collapsible-link {
   color: #00008B; /* keep your blue */
   cursor: pointer;
   text-decoration: none;
-  display: inline-block; /* fixes hover underline */
+  display: inline-block; /* THIS fixes the hover underline */
 }
 
-/* Hover underline for those specific containers */
 .two-column-2rows .value .top-row .collapsible-link:hover, 
 .two-column-3rows .value .top-row .collapsible-link:hover, 
 .two-column .value .collapsible-link:hover {
   text-decoration: underline;
 }
 
-/* Special styling for h2 collapsible links, if any */
 h2.collapsible-link {
   color: black;       /* light mode */
   cursor: pointer;
