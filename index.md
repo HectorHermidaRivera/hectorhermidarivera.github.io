@@ -57,14 +57,12 @@ title: Home
   </div>
 </div>
 
-<div class="two-column" style="margin-top: 2em;">
-
-<div class="two-column">
+<div class="two-column" style="margin-top: 2em;>
 <div class="label"></div>
 <div class="value">
 <div style="display: flex; justify-content: space-between;">
-  <a href="/cv/">CURRICULUM VITAE</a>
-  <a href="/resources/">RESOURCES</a>
+  <a href="/cv/"><b>CURRICULUM VITAE</b></a>
+  <a href="/resources/"><b>RESOURCES</b></a>
 </div>
 </div>
 </div>
