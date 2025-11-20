@@ -2,20 +2,16 @@
 
 document.querySelectorAll('.collapsible-link').forEach(link => {
   link.addEventListener('click', function(e) {
-    // 1. Find the closest container for this link
-    let container =
-      link.closest('.two-column-item') ||
-      link.closest('.two-column-2rows') ||
-      link.closest('.two-column-3rows') ||
-      link.closest('.two-column');
+    let content = link.nextElementSibling;
 
-    if (!container) return;
+    // Skip any intervening elements until the next collapsible-content
+    while (content && !content.classList.contains('collapsible-content')) {
+      content = content.nextElementSibling;
+    }
 
-    // 2. Find the first collapsible-content inside this container
-    const content = container.querySelector('.collapsible-content');
     if (!content) return;
 
-    // 3. Toggle maxHeight
+    // Toggle maxHeight
     if (content.style.maxHeight && content.style.maxHeight !== '0px') {
       content.style.maxHeight = '0';
     } else {
@@ -23,7 +19,6 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
     }
   });
 });
-
 
 // OPEN EXTERNAL LINKS IN NEW TAB
 
