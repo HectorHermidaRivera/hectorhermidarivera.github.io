@@ -61,7 +61,7 @@ title: Home
   <div class="label"></div>
   <div class="value">
   <div style="display: flex; justify-content: space-between;">
-    <span href="/cv/" style="text-align:left;">CURRICULUM VITAE</span><span href="/resources/" style="text-align:right;">RESOURCES</span>
+    <span href="/cv/">CURRICULUM VITAE</span><span href="/resources/">RESOURCES</span>
   </div>
   </div>
 </div>
