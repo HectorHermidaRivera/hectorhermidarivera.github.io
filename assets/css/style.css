@@ -368,7 +368,7 @@ h2.collapsible-link {
   }
   .two-column-3rows .top-row .institution {
     text-align: left !important;
-    margin-top: 4px;
+    margin-top: 2px;
     width: 100%;
   }
   .two-column-3rows .top-row .course {
@@ -382,7 +382,6 @@ h2.collapsible-link {
   }
   .two-column-3rows .value .top-row > * {
     margin: 0;
-    line-height: 1.2;
   }
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
@@ -393,7 +392,6 @@ h2.collapsible-link {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .fill-line span {
     width: 100%;
     text-align: left !important;
@@ -405,7 +403,7 @@ h2.collapsible-link {
     margin-bottom: 30px !important;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 834px !important;
+    max-width: 1003px !important;
     width: 100% !important;
     box-sizing: border-box;
   }
