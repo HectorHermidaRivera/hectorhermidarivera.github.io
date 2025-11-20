@@ -1,20 +1,18 @@
 ---
 layout: default
-title: Home
+title: Héctor Hermida-Rivera
 ---
 
 <!-- FULL-PAGE VERTICAL CENTERING -->
 <div style="
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* keep left-aligned content */
-  min-height: 100vh; /* full viewport height */
-  padding: 2em; /* optional, add some space around */
+  justify-content: center;  /* vertical centering */
+  align-items: flex-start;  /* left-aligned content */
+  min-height: 100vh;        /* fill viewport */
+  padding: 2em;
+  box-sizing: border-box;
 ">
-
-  <!-- TITLE -->
-  <h1 class="main-name" style="margin-bottom: 1em;">Héctor <strong>Hermida-Rivera</strong></h1>
 
   <!-- ICONS: LEFT-ALIGNED -->
   <div class="icon-row" style="margin-bottom:1.5em; text-align:left;">
