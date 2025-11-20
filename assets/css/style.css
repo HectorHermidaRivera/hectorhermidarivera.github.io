@@ -44,6 +44,11 @@ body {
   z-index: 1;
 }
 
+body.home-page .content {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 /* TITLE */
 
 .main-name {
