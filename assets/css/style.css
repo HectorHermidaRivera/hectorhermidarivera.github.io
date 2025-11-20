@@ -431,74 +431,42 @@ h2.collapsible-link {
   }
 }
 
-/* SMALL SCREEN HEIGHT */
-
-@media (max-height: 750px) and (min-width: 1024px) {
-  .content {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 30px !important;
-    padding-left: 0px;
-    padding-right: 0px;    
-    max-width: 1000px;
-    box-sizing: border-box;
-  }
-}
-
 /* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
-
-  /* BODY & CONTENT */
   body, .content {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
   }
-
- /* COLLAPSIBLE HEADINGS */ 
  h2.collapsible-link {
     color: white;
   }
-
-  /* GENERIC LINKS */
   a, .content a, .icon-row a {
     color: #66ccff !important;
     text-decoration: none !important;
   }
-
   a:hover, .content a:hover, .icon-row a:hover {
     color: #66ccff !important;
     text-decoration: underline !important;
   }
-
-  /* SECOND & THIRD ROWS */
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     color: #f2f2f2 !important;
   }
-
-  /* MARK */
   mark {
     background-color: #555 !important;
     color: #f2f2f2 !important;
   }
-
-  /* TOP-ROW ELEMENTS: non-link text only */
   .two-column-2rows .value .top-row > *:not(a) {
     color: #f2f2f2 !important;
   }
-
   .two-column-3rows .value .top-row > *:not(a):not(.collapsible-link) {
     color: #f2f2f2 !important;
   }
-
-  /* INSTITUTION NAMES */
   .two-column-3rows .value .top-row .institution {
     color: #f2f2f2 !important;
   }
-
-  /* COLLAPSIBLE LINKS: force light blue, including nested tags like <b> */
   .two-column-2rows .value .top-row .collapsible-link,
   .two-column-2rows .value .top-row .collapsible-link *,
   .two-column-3rows .value .top-row .collapsible-link,
@@ -506,14 +474,12 @@ h2.collapsible-link {
   .two-column .value .collapsible-link {
     color: #66ccff !important;
   }
-
   .two-column-2rows .value .top-row .collapsible-link:hover,
   .two-column-3rows .value .top-row .collapsible-link:hover, 
   .two-column .value .collapsible-link:hoover {
     text-decoration: underline !important;
   }
-
 .ai-open-access::before {
   color: #99dd77;
-}
+  }
 }
