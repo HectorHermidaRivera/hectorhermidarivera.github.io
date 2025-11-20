@@ -159,6 +159,34 @@ title: Home
 
 ## Manuscripts {#manuscripts}
 
+<div class="two-column">
+  <div class="label">5.</div>
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b></i>. arXiv 153, pp. 1-13. <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
+
+  <div class="label">4.</div>
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a> </div>
+
+  <div class="label">3.</div>
+  <div class="value"><i class="ai ai-open-access"></i> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1007/s11127-024-01213-w">The Implementability of Liberalism</a></i>. <b>Public Choice</b> 203, pp. 493-501. <a href="https://drive.google.com/file/d/16c2JincM7nK7CvwlShX1t2lwOqJQjmWp/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
+  
+  <div class="label">2.</div>
+  <div class="value"><i class="ai ai-open-access"></i> <a href="https://www.federica-genovese.com"> Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897-935. <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
+</div>
+
+  <div class="label">1.</div>
+  <div class="value"><i class="ai ai-open-access"></i> <a href="https://www.federica-genovese.com"> Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). <i><a href="https://doi.org/10.1080/03050629.2022.2090936">Government Ideology and Bailout Conditionality in the European Financial Crisis</a></i>. <b>International Interactions</b> 48.5, pp.  897-935. <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
+  <i class="far fa-file-pdf"></i>
+</a></div>
+</div>
+
 <div class="two-column-2rows-container">
 
   <div class="two-column-2rows" id="self-equivalent-voting-rules">
