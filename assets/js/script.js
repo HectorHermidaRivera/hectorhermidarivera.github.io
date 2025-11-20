@@ -2,18 +2,20 @@
 
 document.querySelectorAll('.collapsible-link').forEach(link => {
   link.addEventListener('click', function(e) {
-    let next = link.nextElementSibling;
+    // 1. Find the closest container for this link
+    let container =
+      link.closest('.two-column-item') ||
+      link.closest('.two-column-2rows') ||
+      link.closest('.two-column-3rows') ||
+      link.closest('.two-column');
 
-    // Find the nearest .collapsible-content after the clicked link
-    while (next && !next.classList.contains('collapsible-content')) {
-      next = next.nextElementSibling;
-    }
+    if (!container) return;
 
-    if (!next) return;
+    // 2. Find the first collapsible-content inside this container
+    const content = container.querySelector('.collapsible-content');
+    if (!content) return;
 
-    const content = next;
-
-    // Toggle maxHeight
+    // 3. Toggle maxHeight
     if (content.style.maxHeight && content.style.maxHeight !== '0px') {
       content.style.maxHeight = '0';
     } else {
