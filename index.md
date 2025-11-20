@@ -7,7 +7,7 @@ title: Héctor Hermida-Rivera
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90dvh;
+  min-height: 85dvh;
 ">
 
   <!-- PAGE TITLE -->
