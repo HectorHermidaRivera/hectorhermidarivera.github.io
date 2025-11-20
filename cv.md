@@ -185,8 +185,8 @@ permalink: /cv/
   
   <div class="label">5.</div>
   <div class="value">
-    Héctor HERMIDA-RIVERA (2025). 
-    [<b><u>JMP</u></b>]<span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
+    [<b><u>JMP</u></b>] Héctor HERMIDA-RIVERA (2025). 
+    <span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
     arXiv, pp. 1-13. 
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
       <i class="far fa-file-pdf"></i></a>
