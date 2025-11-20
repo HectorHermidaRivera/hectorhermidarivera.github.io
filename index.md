@@ -169,7 +169,7 @@ title: Home
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
       <i class="far fa-file-pdf"></i></a>
       <div class="second-row collapsible-content">
-      <i>ABSTRACT 5</i>
+      <i>This note characterizes every qualified majority voting rule in environments with just two alternatives through anonymity, responsiveness, and q-neutrality. Crucially, the latter imposes independence of the labels of the alternatives if and only if some alternative is strictly top-ranked by at least q voters. Thus, this note generalizes May's (1952, Theorem, p. 682) characterization of the simple majority voting rule to qualified majority voting rules. In doing so, it shows that qualified majority voting rules are distinguished by their degree of neutrality.</i>
     </div>
   </div>
 
@@ -181,7 +181,7 @@ title: Home
     <a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view?usp=share_link" target="_blank">
       <i class="far fa-file-pdf"></i></a>
       <div class="second-row collapsible-content">
-      <i>ABSTRACT 4</i>
+      <i>In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</i>
     </div>
   </div>
 
