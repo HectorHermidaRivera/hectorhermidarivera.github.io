@@ -58,8 +58,8 @@ title: Héctor Hermida-Rivera
 
 <div style="width:100%; margin-top:2em;">
   <div style="display:flex; justify-content:space-between; width:100%;">
-    <a href="/cv/"><b>CURRICULUM VITAE</b></a>
-    <a href="/resources/"><b>RESOURCES</b></a>
+    <a href="/cv/" class="same-tab"><b>CURRICULUM VITAE</b></a>
+    <a href="/resources/" class="same-tab"><b>RESOURCES</b></a>
   </div>
 </div>
 
