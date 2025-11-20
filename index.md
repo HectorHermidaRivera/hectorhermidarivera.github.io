@@ -8,6 +8,8 @@ title: Héctor Hermida-Rivera
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
 ">
 
   <!-- PAGE TITLE -->
