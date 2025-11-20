@@ -171,6 +171,18 @@ title: Home
   </div>
 </div>
 
+<div class="two-column">
+  <div class="label">4.</div>
+  <div>
+    Héctor HERMIDA-RIVERA (2025). 
+    <i><b><a href="https://doi.org/10.48550/arXiv.2509.19823" target="_blank">A Note on Qualified Majority Voting Rules</a></b></i>. 
+    arXiv, pp. 1-13. 
+    <a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view?usp=share_link" target="_blank">
+      <i class="far fa-file-pdf"></i>
+    </a>
+  </div>
+</div>
+
   <div> class="label">4.</div>
   <div> Héctor HERMIDA-RIVERA (2025). <i><a href="https://doi.org/10.1111/jpet.70039">Binary Self-Selective Voting Rules</a></i>. <b>Journal of Public Economic Theory</b> 27.3, pp. 1-7. <a href="https://drive.google.com/file/d/1BaxSgZnhW-PGNtOxGLsRnAIU76UBQQoY/view" target="_blank">
   <i class="far fa-file-pdf"></i>
