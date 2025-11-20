@@ -295,8 +295,8 @@ body {
   font-weight: normal;
 }
 
-.two-column-2rows .value .top-row .collapsible-link,
-.two-column-3rows .value .top-row .collapsible-link 
+.two-column-2rows .value .top-row .collapsible-link, 
+.two-column-3rows .value .top-row .collapsible-link, 
 .two-column .value .collapsible-link {
   color: #00008B; /* keep your blue */
   cursor: pointer;
@@ -304,8 +304,8 @@ body {
   display: inline-block; /* THIS fixes the hover underline */
 }
 
-.two-column-2rows .value .top-row .collapsible-link:hover,
-.two-column-3rows .value .top-row .collapsible-link:hover 
+.two-column-2rows .value .top-row .collapsible-link:hover, 
+.two-column-3rows .value .top-row .collapsible-link:hover, 
 .two-column .value .collapsible-link:hover {
   text-decoration: underline;
 }
