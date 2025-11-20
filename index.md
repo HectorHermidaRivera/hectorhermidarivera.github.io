@@ -58,8 +58,11 @@ title: Home
 </div>
 
 <div class="two-column">
+<div class="label"></div>
+<div class="value">
 <div style="display: flex; justify-content: space-between;">
   <a href="/cv/">CURRICULUM VITAE</a>
   <a href="/resources/">RESOURCES</a>
+</div>
 </div>
 </div>
