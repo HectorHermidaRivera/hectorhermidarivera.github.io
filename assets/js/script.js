@@ -24,8 +24,8 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
 
 document.querySelectorAll('a').forEach(link => {
   if (
-    !link.classList.contains('collapsible-link') &&
-    !link.closest('.sidebar')
+    !link.classList.contains('collapsible-link') &&   // exclude collapsible links
+    !link.classList.contains('same-tab') &&           // exclude same-tab links
   ) {
     link.setAttribute('target', '_blank');
   }
