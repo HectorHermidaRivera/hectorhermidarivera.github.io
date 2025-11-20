@@ -70,7 +70,7 @@ body {
   margin-left: 0;
   padding-left: 166px; 
   margin-bottom: 5px;  
-  margin-top: 25px;  
+  margin-top: 40px;  
   text-transform: uppercase;
 }
 
@@ -339,7 +339,8 @@ h2.collapsible-link {
 .content h6 {
   margin-left: 0;
   padding-left: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+  margin-top: 40px;  
 }
   .two-column,
   .two-column-2rows,
