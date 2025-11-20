@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-<h1 style="margin-bottom:0em; font-size:3em;">
+<h1 style="margin-bottom:0em; font-size:3em; padding-left=166">
   Héctor <strong>Hermida-Rivera</strong>
 </h1>
 
