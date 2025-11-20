@@ -1,19 +1,26 @@
 // COLLAPSIBLES
 
-  document.querySelectorAll('.collapsible-link').forEach(link => {
-    link.addEventListener('click', function(e) {
-      let container = link.closest('.two-column-2rows');
-      if (!container) container = link.closest('.two-column-3rows');
-      if (!container) return;
-      const content = container.querySelector('.collapsible-content');
-      if (!content) return;
-      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-        content.style.maxHeight = '0';
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
+document.querySelectorAll('.collapsible-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+
+    let container =
+      link.closest('.two-column-2rows') ||
+      link.closest('.two-column-3rows') ||
+      link.closest('.two-column');
+
+    if (!container) return;
+
+    const content = container.querySelector('.collapsible-content');
+    if (!content) return;
+
+    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+      content.style.maxHeight = '0';
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
+
   });
+});
 
 
 // OPEN EXTERNAL LINKS IN NEW TAB
