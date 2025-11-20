@@ -4,6 +4,46 @@ title: Resources
 permalink: /resources/
 ---
 
+<h1 style="margin-bottom:0em; font-size:3em;">
+  Héctor <strong>Hermida-Rivera</strong>
+</h1>
+
+<div class="icon-row">
+  <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing" target="_blank">
+    <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="mailto:hermida.rivera.hector@gtk.bme.hu">
+    <i class="fas fa-envelope-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://arxiv.org/search/?searchtype=author&query=Hermida-Rivera" target="_blank">
+    <i class="ai ai-arxiv-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?user=eoXi8yYAAAAJ&hl=en&oi=ao" target="_blank">
+    <i class="ai ai-google-scholar-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/hectorhermidarivera/" target="_blank">
+    <i class="fab fa-linkedin" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://orcid.org/0000-0003-4835-2884" target="_blank">
+    <i class="ai ai-orcid-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://authors.repec.org/pro/phe805/" target="_blank">
+    <i class="ai ai-ideas-repec-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://www.researchgate.net/profile/Hector-Hermida-Rivera" target="_blank">
+    <i class="ai ai-researchgate-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57789485800" target="_blank">
+    <i class="ai ai-scopus-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6678348" target="_blank">
+    <i class="ai ai-ssrn-square" style="font-size:1.50em;"></i>
+  </a>
+  <a href="https://www.webofscience.com/wos/author/record/JED-5896-2023" target="_blank">
+    <i class="ai ai-clarivate-square" style="font-size:1.50em;"></i>
+  </a>
+</div>
+
 ## Textbooks {#textbooks}
 
 <div class="two-column">
