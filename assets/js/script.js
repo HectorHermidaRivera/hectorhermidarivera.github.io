@@ -1,15 +1,23 @@
 // COLLAPSIBLES
+
 document.querySelectorAll('.collapsible-link').forEach(link => {
   link.addEventListener('click', function(e) {
-    // Toggle the content immediately after this link
-    const content = link.nextElementSibling;
-    if (!content || !content.classList.contains('collapsible-content')) return;
 
+    // Try to find the container for this collapsible
+    let container =
+      link.closest('.two-column-2rows') ||
+      link.closest('.two-column-3rows') ||
+@@ -13,27 +14,28 @@
+    const content = container.querySelector('.collapsible-content');
+    if (!content) return;
+
+    // Toggle maxHeight to expand/collapse
     if (content.style.maxHeight && content.style.maxHeight !== '0px') {
       content.style.maxHeight = '0';
     } else {
       content.style.maxHeight = content.scrollHeight + 'px';
     }
+
   });
 });
 
