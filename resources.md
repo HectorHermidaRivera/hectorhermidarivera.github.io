@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-<h1 class="main-name>
+<h1 class="main-name">
   Héctor <strong>Hermida-Rivera</strong>
 </h1>
 
