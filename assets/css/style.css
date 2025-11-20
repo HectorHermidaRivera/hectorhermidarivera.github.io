@@ -296,7 +296,8 @@ body {
 }
 
 .two-column-2rows .value .top-row .collapsible-link,
-.two-column-3rows .value .top-row .collapsible-link {
+.two-column-3rows .value .top-row .collapsible-link 
+.two-column .value .collapsible-link {
   color: #00008B; /* keep your blue */
   cursor: pointer;
   text-decoration: none;
@@ -304,7 +305,8 @@ body {
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover,
-.two-column-3rows .value .top-row .collapsible-link:hover {
+.two-column-3rows .value .top-row .collapsible-link:hover 
+.two-column .value .collapsible-link:hover {
   text-decoration: underline;
 }
 
