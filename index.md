@@ -181,7 +181,7 @@ title: Home
     <a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view?usp=share_link" target="_blank">
       <i class="far fa-file-pdf"></i></a>
       <div class="second-row collapsible-content">
-      <i>This note characterizes every qualified majority voting rule in environments with just two alternatives through anonymity, responsiveness, and q-neutrality. Crucially, the latter imposes independence of the labels of the alternatives if and only if some alternative is strictly top-ranked by at least q voters. Thus, this note generalizes May's (1952, Theorem, p. 682) characterization of the simple majority voting rule to qualified majority voting rules. In doing so, it shows that qualified majority voting rules are distinguished by their degree of neutrality.</i>
+      <p><i>This note characterizes every qualified majority voting rule in environments with just two alternatives through anonymity, responsiveness, and q-neutrality. Crucially, the latter imposes independence of the labels of the alternatives if and only if some alternative is strictly top-ranked by at least q voters. Thus, this note generalizes May's (1952, Theorem, p. 682) characterization of the simple majority voting rule to qualified majority voting rules. In doing so, it shows that qualified majority voting rules are distinguished by their degree of neutrality.</i></p>
     </div>
   </div>
 
@@ -190,7 +190,7 @@ title: Home
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
     <span class="collapsible-link"><i><b>Farsighted Stable Voting Rules</b></i></span>. 
     <div class="second-row collapsible-content">
-      <i>In this paper, we introduce considerations of farsightedness into Hermida-Rivera's (2024) setup. Crucially, we assume that voters only care about the voting rules and constitutions that will not be subject to further changes (i.e., they only care about the long run). Moreover, we add a natural monotonicity axiom to the non-dominance, anonymity, null voter, and swing voter axioms used by Hermida-Rivera (2024) to characterise voters' preferences over voting rules. We then identify farsighted stable voting rules and constitutions, where a constitution is a pair of voting rules: one for ordinary issues, and one for amendments. The key conclusion is that considerations of farsightedness do not enlarge the families of minimal stable voting rules and minimal self-stable constitutions.</i>
+      <p><i>In this paper, we introduce considerations of farsightedness into Hermida-Rivera's (2024) setup. Crucially, we assume that voters only care about the voting rules and constitutions that will not be subject to further changes (i.e., they only care about the long run). Moreover, we add a natural monotonicity axiom to the non-dominance, anonymity, null voter, and swing voter axioms used by Hermida-Rivera (2024) to characterise voters' preferences over voting rules. We then identify farsighted stable voting rules and constitutions, where a constitution is a pair of voting rules: one for ordinary issues, and one for amendments. The key conclusion is that considerations of farsightedness do not enlarge the families of minimal stable voting rules and minimal self-stable constitutions.</i></p>
     </div>
   </div>
 
@@ -199,7 +199,7 @@ title: Home
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> (in progress). 
     <span class="collapsible-link"><i><b>Liberalism, Fairness, & Equilibrium</b></i></span>. 
     <div class="second-row collapsible-content">
-      <i>Can a rational society be liberal and fair? This paper answers this question by investigating under which conditions there exists a liberal, fair, and Nash implementable social choice rule. A social choice rule is liberal if and only if for every player, there exists an issue such that when this player unconditionally prefers one of its features, the optimal outcome set is a subset of those outcomes with that feature. A social choice rule is fair if and only if when it is no worse to be anyone in one outcome than to be someone else in some other outcome, then the latter is not socially optimal. A social choice rule is Nash implementable if and only if there exists a mechanism whose set of Nash equilibrium outcomes coincides with the set of socially desirable ones for every preference profile.</i>
+      <p><i>Can a rational society be liberal and fair? This paper answers this question by investigating under which conditions there exists a liberal, fair, and Nash implementable social choice rule. A social choice rule is liberal if and only if for every player, there exists an issue such that when this player unconditionally prefers one of its features, the optimal outcome set is a subset of those outcomes with that feature. A social choice rule is fair if and only if when it is no worse to be anyone in one outcome than to be someone else in some other outcome, then the latter is not socially optimal. A social choice rule is Nash implementable if and only if there exists a mechanism whose set of Nash equilibrium outcomes coincides with the set of socially desirable ones for every preference profile.</i></p>
     </div>
   </div>
 
@@ -210,7 +210,7 @@ title: Home
     <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
     <span class="collapsible-link"><i><b>The Residual Claimant</b></i></span>.
     <div class="second-row collapsible-content">
-      <i>This paper makes sense of non-cooperative games within the Nash (1953) program in which players make utility offers as implementing mechanisms. We construct an environment in which the feasible outcome set is the set of all feasible transfers among members of the same coalition. Since this outcome set is independent of the underlying characteristic function, we then rely on the well-known implementation theory results to check if the main cooperative solution concepts are implementable in Nash, virtual Nash, undominated, and subgame perfect equilibrium. The paper obtains mostly positive results, thus setting possibility frontiers for the implementability of cooperative solutions.</i>
+      <p><i>This paper makes sense of non-cooperative games within the Nash (1953) program in which players make utility offers as implementing mechanisms. We construct an environment in which the feasible outcome set is the set of all feasible transfers among members of the same coalition. Since this outcome set is independent of the underlying characteristic function, we then rely on the well-known implementation theory results to check if the main cooperative solution concepts are implementable in Nash, virtual Nash, undominated, and subgame perfect equilibrium. The paper obtains mostly positive results, thus setting possibility frontiers for the implementability of cooperative solutions.</i></p>
     </div>
   </div>
       
