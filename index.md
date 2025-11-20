@@ -204,7 +204,7 @@ title: Home
     <i><b><span class="collapsible-link">The Residual Claimant</span></b></i>.
   </div>
 
-  <div class="collapsible-content">
+  <div class="second-row collapsible-content">
     <p>ABSTRACT 1</p>
   </div>
       
