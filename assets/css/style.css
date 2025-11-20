@@ -554,12 +554,14 @@ h2.collapsible-link {
   .two-column-2rows .value .top-row .collapsible-link,
   .two-column-2rows .value .top-row .collapsible-link *,
   .two-column-3rows .value .top-row .collapsible-link,
-  .two-column-3rows .value .top-row .collapsible-link * {
+  .two-column-3rows .value .top-row .collapsible-link *, 
+  .two-column .value .collapsible-link {
     color: #66ccff !important;
   }
 
   .two-column-2rows .value .top-row .collapsible-link:hover,
-  .two-column-3rows .value .top-row .collapsible-link:hover {
+  .two-column-3rows .value .top-row .collapsible-link:hover, 
+  .two-column .value .collapsible-link {
     text-decoration: underline !important;
   }
 
