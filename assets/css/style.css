@@ -306,7 +306,6 @@ body {
   color: #00008B;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;       /* for hover underline */
   white-space: normal;         /* allow wrapping */
   overflow-wrap: anywhere;     
   word-break: break-word;
