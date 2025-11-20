@@ -306,24 +306,8 @@ h2.collapsible-link {
 
 /* SMALL SCREENS */
 
-@media (max-width: 1339px) {
-  .content {
-    /* margin-left: max(10px, calc((100vw - 1000px)/2 - 166px/2)) !important; */  
-    /* margin-right: max(10px, calc((100vw - 1000px)/2 + 166px/2)) !important;  */
-    margin-left: auto !important;       
-    margin-right: auto !important;  
-    margin-bottom: 30px !important;
-    padding-left: 10px;
-    padding-right: 60px;
-    max-width: 1000px !important;
-    width: 1000px !important;
-    box-sizing: border-box;
-  }
-}
-
 @media (max-width: 1023px) {
-.main-name,
-  .name-title {
+  .main-name, .name-title {
     padding-left: 0 !important;
     text-align: left !important;
   }
@@ -332,16 +316,16 @@ h2.collapsible-link {
     margin-top: 10px;
     justify-content: flex-start;
   }
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-  margin-left: 0;
-  padding-left: 0px;
-  margin-bottom: 5px;
-  margin-top: 40px;  
-}
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    margin-left: 0;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;  
+  }
   .two-column,
   .two-column-2rows,
   .two-column-3rows {
@@ -349,7 +333,6 @@ h2.collapsible-link {
     grid-template-columns: 1fr;
     gap: 0;
   }
-
   .two-column .label,
   .two-column-2rows .label,
   .two-column-3rows .label {
@@ -358,7 +341,6 @@ h2.collapsible-link {
     margin-top: 12px;
     margin-bottom: 0px;
   }
-
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
@@ -367,48 +349,42 @@ h2.collapsible-link {
     margin-top: 0;
     margin-bottom: 0px;
   }
-.two-column-2rows .top-row {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.two-column-2rows .top-row span {
-  width: 100%;
-  white-space: normal;
-  text-align: left !important;
-}
- .two-column-3rows .top-row {
+  .two-column-2rows .top-row {
     flex-direction: column;
     align-items: flex-start;
   }
-
+  .two-column-2rows .top-row span {
+    width: 100%;
+    white-space: normal;
+    text-align: left !important;
+  }
+  .two-column-3rows .top-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .two-column-3rows .top-row .institution {
     text-align: left !important;
     margin-top: 4px;
     width: 100%;
   }
-
   .two-column-3rows .top-row .course {
     width: 100%;
   }
-
   .two-column-3rows .value .top-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
     margin: 0;
   }
-
   .two-column-3rows .value .top-row > * {
     margin: 0;
     line-height: 1.2;
   }
-
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     margin-top: 0;
     margin-bottom: 2px;
   }
-
  .fill-line {
     flex-direction: column;
     align-items: flex-start;
