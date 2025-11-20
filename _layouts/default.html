@@ -99,23 +99,29 @@
   
 <!-- Structure -->
 
-  <div class="sidebar">
-    <a href="#about-me">About me</a>
-    <a href="#contact">Contact</a>
-    <a href="#employment">Employment</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#publications">Publications</a>
-    <a href="#job-market-paper">Job Market Paper</a>
-    <a href="#manuscripts">Manuscripts</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#awards">Awards</a>
-    <a href="#training">Training</a>
-    <a href="#presentations">Presentations</a>
-    <a href="#refereeing">Refereeing</a>
-    <a href="#references">References</a>
-    <a href="#resources">Resources</a>
-  </div>
+{% if page.page_type == "cv" %}
+<div class="sidebar">
+  <a href="/cv/#employment">Employment</a>
+  <a href="/cv/#education">Education</a>
+  <a href="/cv/#skills">Skills</a>
+  <a href="/cv/#publications">Publications</a>
+  <a href="/cv/#job-market-paper">Job Market Paper</a>
+  <a href="/cv/#manuscripts">Manuscripts</a>
+  <a href="/cv/#teaching">Teaching</a>
+  <a href="/cv/#awards">Awards</a>
+  <a href="/cv/#training">Training</a>
+  <a href="/cv/#presentations">Presentations</a>
+  <a href="/cv/#refereeing">Refereeing</a>
+  <a href="/cv/#references">References</a>
+</div>
+{% elsif page.page_type == "resources" %}
+<div class="sidebar">
+  <a href="/resources/#textbooks">Textbooks</a>
+  <a href="/resources/#journals">Journals</a>
+  <a href="/resources/#conferences">Conferences</a>
+  <a href="/resources/#internet">Internet</a>
+</div>
+{% endif %}
 
 <!-- Header -->
   
