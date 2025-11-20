@@ -561,7 +561,7 @@ h2.collapsible-link {
 
   .two-column-2rows .value .top-row .collapsible-link:hover,
   .two-column-3rows .value .top-row .collapsible-link:hover, 
-  .two-column .value .collapsible-link {
+  .two-column .value .collapsible-link:hoover {
     text-decoration: underline !important;
   }
 
