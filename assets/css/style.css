@@ -331,7 +331,7 @@ h2.collapsible-link {
 .main-name,
   .name-title {
     padding-left: 0 !important;
-    text-align: left;
+    text-align: left !important;
   }
   .icon-row {
     margin-left: 0 !important;
@@ -358,7 +358,7 @@ h2.collapsible-link {
   .two-column .label,
   .two-column-2rows .label,
   .two-column-3rows .label {
-    text-align: left;
+    text-align: left !important;
     width: 100%;
     margin-top: 12px;
     margin-bottom: 0px;
@@ -367,7 +367,7 @@ h2.collapsible-link {
   .two-column .value,
   .two-column-2rows .value,
   .two-column-3rows .value {
-    text-align: left;
+    text-align: left !important;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0px;
@@ -379,7 +379,7 @@ h2.collapsible-link {
 .two-column-2rows .top-row span {
   width: 100%;
   white-space: normal;
-  text-align: left;
+  text-align: left !important;
 }
  .two-column-3rows .top-row {
     flex-direction: column;
@@ -421,7 +421,7 @@ h2.collapsible-link {
 
   .fill-line span {
     width: 100%;
-    text-align: left;
+    text-align: left !important;
     white-space: normal;
   }
   .content {
