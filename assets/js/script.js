@@ -1,7 +1,6 @@
 // COLLAPSIBLES
-
 document.querySelectorAll('.collapsible-link').forEach(link => {
-  link.addEventListener('click', function(e) {
+  link.addEventListener('click', function (e) {
     // 1. Find the closest container .value
     const container = link.closest('.value');
     if (!container) return;
@@ -19,21 +18,18 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
   });
 });
 
-
 // OPEN EXTERNAL LINKS IN NEW TAB
-
 document.querySelectorAll('a').forEach(link => {
   if (
-    !link.classList.contains('collapsible-link') &&   // exclude collapsible links
-    !link.classList.contains('same-tab') &&           // exclude same-tab links
+    !link.classList.contains('collapsible-link') && // exclude collapsible links
+    !link.classList.contains('same-tab') &&         // exclude same-tab links
+    !link.closest('.sidebar')                       // exclude sidebar links
   ) {
     link.setAttribute('target', '_blank');
   }
 });
 
-
 // HASH JUMPS
-
 function scrollToHashInstantly() {
   if (!window.location.hash) return;
   const el = document.querySelector(window.location.hash);
