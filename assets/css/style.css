@@ -335,14 +335,14 @@ h2.collapsible-link {
   .two-column-3rows {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 0px;
   }
   .two-column .label,
   .two-column-2rows .label,
   .two-column-3rows .label {
     text-align: left !important;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 8px;
     margin-bottom: 0px;
   }
   .two-column .value,
@@ -377,7 +377,7 @@ h2.collapsible-link {
   .two-column-3rows .value .top-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 0px;
     margin: 0;
   }
   .two-column-3rows .value .top-row > * {
