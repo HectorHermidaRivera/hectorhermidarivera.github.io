@@ -60,6 +60,8 @@ title: Home
 <div class="two-column">
   <div class="label"></div>
   <div class="value">
-    <a href="/cv/" style="text-align:left;">CURRICULUM VITAE</a><a href="/resources/" style="text-align:right;">RESOURCES</a>.
+  <div style="display: flex; justify-content: space-between;">
+    <span href="/cv/" style="text-align:left;">CURRICULUM VITAE</span><span href="/resources/" style="text-align:right;">RESOURCES</span>
+  </div>
   </div>
 </div>
