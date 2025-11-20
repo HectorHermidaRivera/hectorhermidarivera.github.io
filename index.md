@@ -3,16 +3,21 @@ layout: default
 title: Home
 ---
 
-<!-- ICONS: LEFT-ALIGNED -->
+<!-- FULL-PAGE VERTICAL CENTERING -->
 <div style="
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  margin-bottom:1.5em;
-  text-align:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* keep left-aligned content */
+  min-height: 100vh; /* full viewport height */
+  padding: 2em; /* optional, add some space around */
 ">
 
-  <div class="icon-row" style="text-align:left;">
+  <!-- TITLE -->
+  <h1 class="main-name" style="margin-bottom: 1em;">Héctor <strong>Hermida-Rivera</strong></h1>
+
+  <!-- ICONS: LEFT-ALIGNED -->
+  <div class="icon-row" style="margin-bottom:1.5em; text-align:left;">
     <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing">
       <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
     </a>
@@ -48,21 +53,23 @@ title: Home
     </a>
   </div>
 
-</div>
-
-<div class="two-column">
-  <div class="label"></div>
-  <div class="value">
-    I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).
+  <!-- DESCRIPTION TEXT -->
+  <div class="two-column" style="margin-bottom:2em;">
+    <div class="label"></div>
+    <div class="value">
+      I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).
+    </div>
   </div>
-</div>
 
-<div class="two-column" style="margin-top: 2em;">
-<div class="label"></div>
-<div class="value">
-<div style="display: flex; justify-content: space-between;">
-  <a href="/cv/"><b>CURRICULUM VITAE</b></a>
-  <a href="/resources/"><b>RESOURCES</b></a>
-</div>
-</div>
+  <!-- CV AND RESOURCES LINKS -->
+  <div class="two-column" style="margin-top: 2em; width:100%;">
+    <div class="label"></div>
+    <div class="value" style="width:100%;">
+      <div style="display: flex; justify-content: space-between; width:100%;">
+        <a href="/cv/"><b>CURRICULUM VITAE</b></a>
+        <a href="/resources/"><b>RESOURCES</b></a>
+      </div>
+    </div>
+  </div>
+
 </div>
