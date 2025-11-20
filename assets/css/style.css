@@ -293,6 +293,9 @@ body {
   text-decoration: none; 
   cursor: pointer;
   font-weight: normal;
+  display: inline;          /* keep inline text behavior */
+  overflow-wrap: break-word; /* allow breaking */
+  hyphens: auto;            /* allow hyphenation */
 }
 
 .two-column-2rows .value .top-row .collapsible-link, 
