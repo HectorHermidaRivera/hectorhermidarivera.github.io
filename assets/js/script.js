@@ -2,22 +2,23 @@
 
 document.querySelectorAll('.collapsible-link').forEach(link => {
   link.addEventListener('click', function(e) {
+    let next = link.nextElementSibling;
 
-    // Try to find the container for this collapsible
-    let container =
-      link.closest('.two-column-2rows') ||
-      link.closest('.two-column-3rows') ||
-@@ -13,27 +14,28 @@
-    const content = container.querySelector('.collapsible-content');
-    if (!content) return;
+    // Find the nearest .collapsible-content after the clicked link
+    while (next && !next.classList.contains('collapsible-content')) {
+      next = next.nextElementSibling;
+    }
 
-    // Toggle maxHeight to expand/collapse
+    if (!next) return;
+
+    const content = next;
+
+    // Toggle maxHeight
     if (content.style.maxHeight && content.style.maxHeight !== '0px') {
       content.style.maxHeight = '0';
     } else {
       content.style.maxHeight = content.scrollHeight + 'px';
     }
-
   });
 });
 
