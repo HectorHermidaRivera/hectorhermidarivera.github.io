@@ -50,32 +50,16 @@ title: Home
 
 </div>
 
-
-<!-- CV LEFT, RESOURCES RIGHT -->
-<div style="
-  display:flex;
-  justify-content:space-between;   /* LEFT + RIGHT */
-  width:100%;
-  margin-bottom:2em;
-  margin-top:0.5em;
-">
-
-  <a href="/cv/" style="text-align:left;">CV</a>
-  <a href="/resources/" style="text-align:right;">Resources</a>
-
-</div>
-
-
-<!-- TITLE MOVED HERE (RIGHT ABOVE THE BIO TEXT) -->
-<h1 style="margin-top:1em; margin-bottom:1em;">
-  Héctor Hermida-Rivera
-</h1>
-
-
-<!-- BIO TEXT (UNCHANGED) -->
 <div class="two-column">
   <div class="label"></div>
   <div class="value">
     I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).
+  </div>
+</div>
+
+<div class="two-column">
+  <div class="label"></div>
+  <div class="value">
+    <a href="/cv/" style="text-align:left;">CURRICULUM VITAE</a><a href="/resources/" style="text-align:right;">RESOURCES</a>.
   </div>
 </div>
