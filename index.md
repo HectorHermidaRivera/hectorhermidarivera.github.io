@@ -176,7 +176,7 @@ title: Home
   <div class="label">4.</div>
   <div class="value">
     Héctor HERMIDA-RIVERA (2025). 
-    <span class="collapsible-link"><i><b>A Note on Qualified Majority Voting Rules</b></i></span>. 
+    <span class="collapsible-link"><i><b>A Note on Qualified Majority Voting Rules</b></i></span>. arXiv, pp. 1-5. 
       <div class="second-row collapsible-content">
       <i>ABSTRACT 4</i>
     </div>
