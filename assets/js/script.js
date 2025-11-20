@@ -3,6 +3,7 @@
 document.querySelectorAll('.collapsible-link').forEach(link => {
   link.addEventListener('click', function(e) {
 
+    // Try to find the container for this collapsible
     let container =
       link.closest('.two-column-2rows') ||
       link.closest('.two-column-3rows') ||
@@ -13,6 +14,7 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
     const content = container.querySelector('.collapsible-content');
     if (!content) return;
 
+    // Toggle maxHeight to expand/collapse
     if (content.style.maxHeight && content.style.maxHeight !== '0px') {
       content.style.maxHeight = '0';
     } else {
