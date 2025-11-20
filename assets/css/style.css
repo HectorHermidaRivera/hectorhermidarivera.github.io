@@ -70,7 +70,7 @@ body {
   margin-left: 0;
   padding-left: 166px; 
   margin-bottom: 5px;  
-  margin-top: 25px;  
+  margin-top: 40px;  
   text-transform: uppercase;
 }
 
@@ -307,9 +307,6 @@ h2.collapsible-link {
 /* SMALL SCREENS */
 
 @media (max-width: 1339px) {
-  .sidebar {
-    display: none !important;
-  }
   .content {
     /* margin-left: max(10px, calc((100vw - 1000px)/2 - 166px/2)) !important; */  
     /* margin-right: max(10px, calc((100vw - 1000px)/2 + 166px/2)) !important;  */
@@ -325,9 +322,6 @@ h2.collapsible-link {
 }
 
 @media (max-width: 1023px) {
-  .sidebar {
-    display: none !important;
-  }
 .main-name,
   .name-title {
     padding-left: 0 !important;
@@ -439,13 +433,11 @@ h2.collapsible-link {
 /* SMALL SCREEN HEIGHT */
 
 @media (max-height: 750px) and (min-width: 1024px) {
-  .sidebar {
-    display: none !important;
-  }
   .content {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 30px !important;
+    text-align: left !important;
     padding-left: 0px;
     padding-right: 0px;    
     max-width: 1000px;
@@ -477,20 +469,7 @@ h2.collapsible-link {
   a:hover, .content a:hover, .icon-row a:hover {
     color: #66ccff !important;
     text-decoration: underline !important;
-  }
-
-  /* SIDEBAR LINKS: FIXED */
-  .sidebar a {
-    color: #f2f2f2 !important;           /* white */
-    text-decoration: none !important;    /* no underline */
-  }
-
-  .sidebar a:hover {
-    color: #f2f2f2 !important;           /* white on hover */
-    text-decoration: none !important;    /* no underline on hover */
-    background-color: #333333 !important;/* optional: keep dark hover background */
-    border-color: #888 !important;
-  }
+  
 
   /* SECOND & THIRD ROWS */
   .two-column-2rows .value .second-row,
