@@ -327,7 +327,7 @@ h2.collapsible-link {
   .content h6 {
     margin-left: 0;
     padding-left: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
     margin-top: 30px;  
   }
   .two-column,
@@ -335,7 +335,7 @@ h2.collapsible-link {
   .two-column-3rows {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 8px;
   }
   .two-column .label,
   .two-column-2rows .label,
@@ -368,7 +368,7 @@ h2.collapsible-link {
   }
   .two-column-3rows .top-row .institution {
     text-align: left !important;
-    margin-top: 2px;
+    margin-top: 0px;
     width: 100%;
   }
   .two-column-3rows .top-row .course {
@@ -377,7 +377,7 @@ h2.collapsible-link {
   .two-column-3rows .value .top-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2px;
+    gap: 8px;
     margin: 0;
   }
   .two-column-3rows .value .top-row > * {
@@ -386,7 +386,7 @@ h2.collapsible-link {
   .two-column-3rows .value .second-row,
   .two-column-3rows .value .third-row {
     margin-top: 0;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
  .fill-line {
     flex-direction: column;
