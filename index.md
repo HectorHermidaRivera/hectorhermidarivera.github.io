@@ -14,7 +14,9 @@ title: Héctor Hermida-Rivera
 ">
 
   <!-- PAGE TITLE -->
-  <h1 style="margin-bottom:1em;">Héctor <strong>Hermida-Rivera</strong></h1>
+<h1 style="margin-bottom:0em; font-size:3em; padding-left:166px;">
+  Héctor <strong>Hermida-Rivera</strong>
+</h1>
 
   <!-- ICONS ROW: LEFT-ALIGNED -->
   <div class="icon-row" style="margin-bottom:1.5em;">
