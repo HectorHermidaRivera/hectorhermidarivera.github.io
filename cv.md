@@ -4,6 +4,10 @@ title: CV
 permalink: /cv/
 ---
 
+<h1 style="margin-bottom:0em; font-size:3em;">
+  Héctor <strong>Hermida-Rivera</strong>
+</h1>
+
 <div class="icon-row">
   <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing" target="_blank">
     <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
