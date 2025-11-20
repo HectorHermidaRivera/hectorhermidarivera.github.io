@@ -184,9 +184,9 @@ title: Home
 </div>
 
 <div class="two-column">
-  <div class="label">4.</div>
+  <div class="label">3.</div>
   <div>
-    Héctor HERMIDA-RIVERA & Toygar T. KERMAN (in progress). 
+    Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
     <i><b><a href="" target="_blank">Farsighted Stable Voting Rules</a></b></i>. 
     <a href="" target="_blank">
     </a>
@@ -194,9 +194,9 @@ title: Home
 </div>
 
 <div class="two-column">
-  <div class="label">4.</div>
+  <div class="label">2.</div>
   <div>
-    Héctor HERMIDA-RIVERA & Fatma ASLAN (in progress). 
+    Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> (in progress). 
     <i><b><a href="" target="_blank">Liberalism, Fairness, & Equilibrium</a></b></i>. 
     <a href="" target="_blank">
     </a>
@@ -204,9 +204,9 @@ title: Home
 </div>
 
 <div class="two-column">
-  <div class="label">4.</div>
+  <div class="label">1.</div>
   <div>
-    Héctor HERMIDA-RIVERA, Ben McQUILLIN, & Mich TVEDE (in progress). 
+    Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
     <i><b><a href="" target="_blank">The Residual Claimant</a></b></i>. 
     <a href="" target="_blank">
     </a>
