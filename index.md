@@ -135,7 +135,7 @@ title: Home
     <div class="second-row collapsible-content">
       <p><i>ABSTRACT 4</i></p>
     </div>
-  </div> <!-- end value -->
+  </div>
 
   <div class="label">3.</div>
   <div class="value">
@@ -149,7 +149,7 @@ title: Home
     <div class="second-row collapsible-content">
       <p><i>ABSTRACT 3</i></p>
     </div>
-  </div> <!-- end value -->
+  </div>
 
   <div class="label">2.</div>
   <div class="value">
@@ -162,13 +162,13 @@ title: Home
     <div class="second-row collapsible-content">
       <p><i>ABSTRACT 2</i></p>
     </div>
-  </div> <!-- end value -->
+  </div> <
 
   <div class="label">1.</div>
   <div class="value">
     <i class="ai ai-open-access"></i> 
     <a href="https://www.federica-genovese.com">Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). 
-    <i class="collapsible-link">Government Ideology and Bailout Conditionality in the European Financial Crisis</i>. 
+    <span class="collapsible-link"><i>Government Ideology and Bailout Conditionality in the European Financial Crisis</i></span>. 
     <b>International Interactions</b> 48.5, pp. 897-935. 
     <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
       <i class="far fa-file-pdf"></i>
@@ -176,9 +176,9 @@ title: Home
     <div class="second-row collapsible-content">
       <p><i>ABSTRACT 1</i></p>
     </div>
-  </div> <!-- end value -->
+  </div>
 
-</div> <!-- end two-column -->
+</div>
 
 ## Job Market Paper {#job-market-paper}
 
