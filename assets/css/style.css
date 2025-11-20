@@ -380,7 +380,7 @@ h2.collapsible-link {
     gap: 0px;
     margin: 0;
   }
-  .two-column-3rows .value .top-row > * {
+  .two-column-3rows .value .top-row .role > * {
     margin: 0;
   }
   .two-column-3rows .value .second-row,
