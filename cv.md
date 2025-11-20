@@ -179,19 +179,6 @@ permalink: /cv/
 
 </div>
 
-## Job Market Paper {#job-market-paper}
-
-<div class="two-column">
-  <div class="label">Title</div>
-  <div class="value"><b><a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">Self-Equivalent Voting Rules</a></b><span style="margin:10px;">•</span><a href="https://drive.google.com/file/d/1hKOv9RvaCknSuoOqd6QBiJCijjgsD0pX/view?usp=share_link">Slides</a></div>
-
-  <div class="label">Author</div>
-  <div class="value">Héctor Hermida-Rivera</div>
-
-  <div class="label">Abstract</div>
-  <div class="value"><i>In this paper, I introduce a novel stability axiom for stochastic voting rules, called self-equivalence, by which a society considering whether to replace its voting rule using itself will choose not to do so. I then show that under the unrestricted strict preference domain, a voting rule satisfying the democratic principles of anonymity, optimality, monotonicity, and neutrality is self-equivalent if and only if it assigns to every voter equal probability of being a dictator (i.e., uniform random dictatorship). Thus, any society that desires stability and adheres to the aforementioned democratic principles is bound to either employ the uniform random dictatorship or decide whether to change its voting rule using a voting rule other than itself.</i></div>
-</div>
-
 ## Manuscripts {#manuscripts}
 
 <div class="two-column">
@@ -199,7 +186,7 @@ permalink: /cv/
   <div class="label">5.</div>
   <div class="value">
     Héctor HERMIDA-RIVERA (2025). 
-    <span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
+    [<b><u>JMP</u></b>]<span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
     arXiv, pp. 1-13. 
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
       <i class="far fa-file-pdf"></i></a>
