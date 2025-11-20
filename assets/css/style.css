@@ -293,18 +293,25 @@ body {
   text-decoration: none; 
   cursor: pointer;
   font-weight: normal;
-  display: inline;          /* keep inline text behavior */
-  overflow-wrap: break-word; /* allow breaking */
-  hyphens: auto;            /* allow hyphenation */
+
+  display: inline-block;       /* keep inline-block for underline hover */
+  white-space: normal;         /* allow wrapping */
+  overflow-wrap: anywhere;     /* break long words anywhere if needed */
+  word-break: break-word;      /* fallback */
+  hyphens: auto;               /* allow hyphenation */
 }
 
 .two-column-2rows .value .top-row .collapsible-link, 
 .two-column-3rows .value .top-row .collapsible-link, 
 .two-column .value .collapsible-link {
-  color: #00008B; /* keep your blue */
+  color: #00008B;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block; /* THIS fixes the hover underline */
+  display: inline-block;       /* for hover underline */
+  white-space: normal;         /* allow wrapping */
+  overflow-wrap: anywhere;     
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .two-column-2rows .value .top-row .collapsible-link:hover, 
@@ -314,7 +321,7 @@ body {
 }
 
 h2.collapsible-link {
-  color: black;       /* light mode */
+  color: black; 
   cursor: pointer;
 }
 
