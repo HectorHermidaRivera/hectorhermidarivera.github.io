@@ -201,7 +201,7 @@ title: Home
     Héctor HERMIDA-RIVERA, 
     <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & 
     <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
-    <i><b><span class="collapsible-link">The Residual Claimant</span></b></i>.
+    <span class="collapsible-link"><i><b>The Residual Claimant</b></i></span>.
     <div class="second-row collapsible-content">
     <p>ABSTRACT 1</p>
   </div>
