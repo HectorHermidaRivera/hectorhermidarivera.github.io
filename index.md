@@ -57,7 +57,7 @@ title: Home
   </div>
 </div>
 
-<div class="two-column" style="margin-top: 2em;>
+<div class="two-column" style="margin-top: 2em;">
 <div class="label"></div>
 <div class="value">
 <div style="display: flex; justify-content: space-between;">
