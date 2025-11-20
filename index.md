@@ -169,9 +169,7 @@ title: Home
       <i class="far fa-file-pdf"></i>
     </a>
   </div>
-</div>
 
-<div class="two-column">
   <div class="label">4.</div>
   <div>
     Héctor HERMIDA-RIVERA (2025). 
@@ -181,9 +179,7 @@ title: Home
       <i class="far fa-file-pdf"></i>
     </a>
   </div>
-</div>
 
-<div class="two-column">
   <div class="label">3.</div>
   <div>
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
@@ -191,9 +187,7 @@ title: Home
     <a href="" target="_blank">
     </a>
   </div>
-</div>
 
-<div class="two-column">
   <div class="label">2.</div>
   <div>
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/fatmaaslan/home">Fatma ASLAN</a> (in progress). 
@@ -201,9 +195,7 @@ title: Home
     <a href="" target="_blank">
     </a>
   </div>
-</div>
 
-<div class="two-column">
   <div class="label">1.</div>
   <div>
     Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
