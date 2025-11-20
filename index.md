@@ -168,7 +168,7 @@ title: Home
   <div class="value">
     <i class="ai ai-open-access"></i> 
     <a href="https://www.federica-genovese.com">Federica GENOVESE</a> & Héctor HERMIDA-RIVERA (2022). 
-    <span class="collapsible-link"><i>Government Ideology and Bailout Conditionality in the European Financial Crisis</i></span>. 
+    <i><span class="collapsible-link">Government Ideology and Bailout Conditionality in the European Financial Crisis</span></i>. 
     <b>International Interactions</b> 48.5, pp. 897-935. 
     <a href="https://drive.google.com/file/d/1F-yTp46fepHJ1URzaSyLTUw13pWCoNoR/view" target="_blank">
       <i class="far fa-file-pdf"></i>
