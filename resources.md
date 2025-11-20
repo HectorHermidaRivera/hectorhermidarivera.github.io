@@ -4,9 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-## Resources {#resources}
-
-### Textbooks
+## Textbooks {#textbooks}
 
 <div class="two-column">
   
@@ -33,7 +31,7 @@ permalink: /resources/
 
 </div>
 
-### Journals
+## Journals {#journals}
 
 <div class="two-column">
 
@@ -45,7 +43,7 @@ permalink: /resources/
 
 </div>
 
-### Conferences
+## Conferences {#conferences}
 
 <div class="two-column">
 
@@ -57,7 +55,7 @@ permalink: /resources/
 
 </div>
 
-### Internet
+## Internet {#internet}
 
 <div class="two-column">
 
