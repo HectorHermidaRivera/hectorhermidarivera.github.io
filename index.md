@@ -11,7 +11,7 @@ title: Héctor Hermida-Rivera
 ">
 
   <!-- PAGE TITLE -->
-<h1 class="main-name>
+<h1 class="main-name">
   Héctor <strong>Hermida-Rivera</strong>
 </h1>
 
