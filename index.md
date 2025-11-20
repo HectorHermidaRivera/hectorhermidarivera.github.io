@@ -160,6 +160,7 @@ title: Home
 ## Manuscripts {#manuscripts}
 
 <div class="two-column">
+  
   <div class="label">5.</div>
   <div class="value">
     Héctor HERMIDA-RIVERA (2025). 
@@ -185,7 +186,7 @@ title: Home
   </div>
 
   <div class="label">3.</div>
-  <div>
+  <div class="value">
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
     <span class="collapsible-link"><i><b>Farsighted Stable Voting Rules</b></i></span>. 
     <div class="second-row collapsible-content">
