@@ -288,12 +288,12 @@ body {
   padding: 0;
 }
 
-.collapsible-link {
+.collapsible-link, 
+.collapsible-link.i {
   color: #00008B;       
   text-decoration: none; 
   cursor: pointer;
   font-weight: normal;
-
   display: inline-block;       /* keep inline-block for underline hover */
   white-space: normal;         /* allow wrapping */
   overflow-wrap: anywhere;     /* break long words anywhere if needed */
