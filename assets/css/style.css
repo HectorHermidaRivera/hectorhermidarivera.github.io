@@ -75,8 +75,8 @@ body {
 .content {
   max-width: 1000px;                                
   width: 100%;                                       
-  margin-left: max(220px, (100vw - 1000px)/2);       
-  margin-right: max(20px, (100vw - 1000px)/2);      
+  margin-left: calc((100vw - 1000px)/2-166px);       
+  margin-right: calc((100vw - 1000px)/2+166px);      
   padding: 0 20px 30px 20px;                       
   box-sizing: border-box;
   text-align: justify;
