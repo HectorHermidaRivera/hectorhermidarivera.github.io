@@ -73,7 +73,7 @@ body.home-page .content {
 .content h2 {
   margin-left: 0;
   padding-left: 166px; 
-  margin-bottom: 5px;  
+  margin-bottom: 0px;  
   margin-top: 40px;  
   text-transform: uppercase;
 }
@@ -81,8 +81,8 @@ body.home-page .content {
 .content h3 {
   margin-left: 0;
   padding-left: 166px; 
-  margin-bottom: 2.5px;  
-  margin-top: 12.5px;  
+  margin-bottom: 0px;  
+  margin-top: 20px;  
   text-transform: uppercase;
 }
 
