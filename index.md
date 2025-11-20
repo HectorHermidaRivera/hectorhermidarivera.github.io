@@ -3,17 +3,19 @@ layout: default
 title: Home
 ---
 
-<!-- TOP BLOCK (this is the part that gets vertically centered) -->
+<!-- LEFT-ALIGNED TOP BLOCK -->
 <div style="
   display:flex;
   flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  min-height:40vh;   /* LOWER HEIGHT → NO VERTICAL SCROLL */
-  text-align:center;
+  align-items:flex-start;   /* LEFT ALIGN EVERYTHING */
+  justify-content:flex-start;
+  min-height:20vh;          /* NO VERTICAL SCROLLING */
+  text-align:left;
+  margin-bottom:2em;
 ">
 
-  <div class="icon-row">
+  <!-- ICONS LEFT-ALIGNED -->
+  <div class="icon-row" style="text-align:left;">
     <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing">
       <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
     </a>
@@ -49,7 +51,13 @@ title: Home
     </a>
   </div>
 
-  <div style="display:flex; gap:2em; margin-top:2em;">
+  <!-- CV / RESOURCES LEFT-ALIGNED -->
+  <div style="
+    display:flex;
+    gap:2em;
+    margin-top:1.5em;
+    text-align:left;
+  ">
     <a href="/cv/">CV</a>
     <a href="/resources/">Resources</a>
   </div>
@@ -57,8 +65,8 @@ title: Home
 </div>
 
 
-<!-- BIO TEXT (NOT CENTERED — prevents vertical overflow) -->
-<div class="two-column" style="margin-top:3em;">
+<!-- BIO TEXT (LEAVE IT AS YOUR ORIGINAL TWO-COLUMN LAYOUT) -->
+<div class="two-column" style="margin-top:2em;">
   <div class="label"></div>
   <div class="value">
     I am a microeconomic theorist in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. I specialise in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the <b>stability of constitutions</b> and <b>individual rights</b>. Currently, I am a <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my <b>Doctorate in Economics</b> from the <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQuillin</a> & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich Tvede</a>. Prior to this, I obtained a <b>Master's Degree in Economic Analysis</b> from the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html">Autonomous University of Barcelona</a> (UAB), a <b>Master's Degree in Political Economy</b> from the <a href="https://www.upf.edu">University of Essex</a> (UoE), and a <b>Bachelor's Degree in Political & Administration Sciences</b> from <a href="https://www.upf.edu">Pompeu Fabra University</a> (UPF).
