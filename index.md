@@ -166,8 +166,10 @@ title: Home
     <span class="collapsible-link"><i><b>Self-Equivalent Voting Rules</b></i></span>. 
     arXiv, pp. 1-13. 
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
-      <i class="far fa-file-pdf"></i>
-    </a>
+      <i class="far fa-file-pdf"></i></a>
+      <div class="second-row collapsible-content">
+      <i>ABSTRACT 5</i>
+    </div>
   </div>
 
   <div class="label">4.</div>
@@ -176,8 +178,10 @@ title: Home
     <span class="collapsible-link"><i><b>A Note on Qualified Majority Voting Rules</b></i></span>. 
     arXiv, pp. 1-5. 
     <a href="https://drive.google.com/file/d/1APJXUjZp2MAki84SF_XIIxDa6u23tPqE/view?usp=share_link" target="_blank">
-      <i class="far fa-file-pdf"></i>
-    </a>
+      <i class="far fa-file-pdf"></i></a>
+      <div class="second-row collapsible-content">
+      <i>ABSTRACT 4</i>
+    </div>
   </div>
 
   <div class="label">3.</div>
@@ -185,7 +189,7 @@ title: Home
     Héctor HERMIDA-RIVERA & <a href="https://sites.google.com/view/ttkerman/">Toygar T. KERMAN</a> (in progress). 
     <span class="collapsible-link"><i><b>Farsighted Stable Voting Rules</b></i></span>. 
     <div class="second-row collapsible-content">
-      <i>ABSTRACT 1</i>
+      <i>ABSTRACT 3</i>
     </div>
   </div>
 
