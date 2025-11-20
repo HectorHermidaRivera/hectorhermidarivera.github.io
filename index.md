@@ -196,17 +196,16 @@ title: Home
     </a>
   </div>
 
-  <div class="label">1.</div>
-  <div>
-    Héctor HERMIDA-RIVERA, <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
-    <i><b><span class="collapsible-link">The Residual Claimant</a></b></i>. 
-    <a href="" target="_blank">
-    </a>
-  </div>
+<div class="label">1.</div>
+<div>
+  Héctor HERMIDA-RIVERA, 
+  <a href="https://research-portal.uea.ac.uk/en/persons/ben-mcquillin/">Ben McQUILLIN</a>, & 
+  <a href="https://sheffield.ac.uk/economics/staff/academic/mich-tvede">Mich TVEDE</a> (in progress). 
+  <i><b><span class="collapsible-link">The Residual Claimant</span></b></i>.
+</div>
+
 <div class="content" style="display: none; margin-top: 5px;">
-  <p>
-    ABSTRACT 1
-  </p>
+  <p>ABSTRACT 1</p>
 </div>
       
 </div>
