@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Héctor Hermida-Rivera
+body_class: home-page
 ---
 
 <div style="
