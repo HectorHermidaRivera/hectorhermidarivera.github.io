@@ -31,7 +31,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* CONTENT */
+/* CV & RESOURCES CONTENT */
 
 .content {
   max-width: 1025px;                                
@@ -48,9 +48,22 @@ body {
   min-height: 85dvh;
 }
 
+/* FIRST PAGE CONTENT */
+
 body.home-page .content {
   margin-left: auto !important;       
   margin-right: auto !important;  
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+body.home-page .main-name {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+body.home-page .icon-row {
+  margin-left: 0 !important;
   padding-left: 5px !important;
   padding-right: 5px !important;
 }
