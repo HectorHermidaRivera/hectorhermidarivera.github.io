@@ -46,7 +46,8 @@ body {
 }
 
 .top-nav a:hover {
-  text-decoration: underline !important;
+  text-decoration: none !important;
+  color: #000055;
 }
 
 /* BODY */
@@ -148,7 +149,8 @@ body.home-page .icon-row {
 
 .content a:hover {
   color: #00008B !important;
-  text-decoration: underline;
+  text-decoration: none;
+  color: #000055;
 }
 
 /* TWO-COLUMN ONE-ROW */
@@ -333,7 +335,8 @@ body.home-page .icon-row {
 .two-column-2rows .value .top-row .collapsible-link:hover, 
 .two-column-3rows .value .top-row .collapsible-link:hover, 
 .two-column .value .collapsible-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #000055;
 }
 
 h2.collapsible-link {
@@ -486,7 +489,8 @@ h2.collapsible-link {
   }
   a:hover, .content a:hover, .icon-row a:hover {
     color: #66ccff !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+    color: #99ddff !important;
   }
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
@@ -516,7 +520,8 @@ h2.collapsible-link {
   .two-column-2rows .value .top-row .collapsible-link:hover,
   .two-column-3rows .value .top-row .collapsible-link:hover, 
   .two-column .value .collapsible-link:hoover {
-    text-decoration: underline !important;
+    text-decoration: none !important;
+    color: #99ddff;
   }
 .ai-open-access::before {
   color: #99dd77;
