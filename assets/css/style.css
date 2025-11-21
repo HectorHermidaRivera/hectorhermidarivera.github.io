@@ -378,11 +378,6 @@ h2.collapsible-link {
 /* SMALL SCREENS */
 
 @media (max-width: 1023px) {
-  .top-nav {
-    gap: 40px;
-    padding: 12px 0 12px 5px;
-    justify-content: flex-start;
-  }
   .main-name, .name-title {
     padding-left: 0 !important;
     text-align: left !important;
