@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  border-bottom: none;
+  border-bottom: #000000;
 }
 
 .top-nav a {
