@@ -34,7 +34,6 @@ body {
 .top-nav {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -51,8 +50,6 @@ body {
   border-radius: 25px;
   background-color: #e0e0e0;
   align-items: center;
-  box-sizing: border-box; /* ensures padding is included in width */
-  margin: auto;          /* center the pill exactly */
 }
 
 .top-nav .link-group a {
