@@ -89,4 +89,8 @@ body_class: home-page
     Given my background in political science, I can also teach courses on <b>political science</b> and related disciplines at the undergraduate level. 
     Finally, I can also teach <b>LaTeX</b> at any level. You can find my <b>teaching statement <a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
   </p>
+
+  <p>
+    Thank you very much for your visit---I hope you enjoy the site!
+  </p>
 </div>
