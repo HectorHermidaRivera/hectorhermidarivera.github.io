@@ -36,19 +36,19 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  padding: 10px;
-  background-color: transparent;
-  border-bottom: none;
+  justify-content: center;  /* centers the pill horizontally */
+  padding: 0;               /* remove padding outside the pill */
+  background-color: transparent; /* make top bar itself invisible */
+  border-bottom: none;      /* remove the line */
   z-index: 999;
 }
 
 .top-nav .link-group {
   display: flex;
-  gap: 20px;          
-  padding: 6px 20px;
-  border-radius: 25px;
-  background-color: #e0e0e0;
+  gap: 20px;                   /* spacing between links */
+  padding: 6px 20px;           /* inside the pill */
+  border-radius: 25px;         /* rounded pill shape */
+  background-color: #e0e0e0;   /* pill background */
   align-items: center;
 }
 
@@ -56,7 +56,7 @@ body {
   color: #00008B;
   text-decoration: none;
   font-weight: 700;
-  padding: 4px 8px;
+  padding: 4px 8px;            /* optional, for extra click area */
 }
 
 .top-nav .link-group a:hover {
@@ -74,7 +74,16 @@ body {
   word-spacing: -0.01em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   text-rendering: optimizeLegibility;
+}
 
+.top-nav .link-group {
+  display: flex;
+  gap: 12px;                  /* space between links */
+  padding: 6px 12px;          /* inside the pill */
+  border-radius: 25px;        /* rounded pill shape */
+  background-color: #e0e0e0;  /* pill color */
+  align-items: center;
+}
 
 /* PARAGRAPH SPACING */
 
@@ -486,14 +495,16 @@ h2.collapsible-link {
 /* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
-  .top-nav .link-group {
-    background-color: #222222
+  .top-nav {
+    background-color: #0d0d0d;
+    border-bottom: 1px solid #333;
   }
-  .top-nav .link-group a {
-    color: #66ccff;
+  .top-nav a {
+    color: #66ccff !important;
   }
-  .top-nav .link-group a:hover {
-    color: #cceeff;
+  .top-nav a:hover {
+    text-decoration: none !important;
+    color: #cceeff !important;
   }
   body, .content {
     background-color: #0d0d0d !important;
