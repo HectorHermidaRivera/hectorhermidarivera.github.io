@@ -60,7 +60,6 @@ body.home-page .content {
 body.home-page .main-name {
   padding-left: 5px !important;
   padding-right: 5px !important;
-  margin-bottom: 0.5em !important;
 }
 
 body.home-page .icon-row {
@@ -68,6 +67,7 @@ body.home-page .icon-row {
   margin-top: 10px !important;
   padding-left: 5px !important;
   padding-right: 5px !important;
+  margin-bottom: 2em !important;
 }
 
 /* TITLE */
