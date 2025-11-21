@@ -55,7 +55,6 @@ body.home-page .content {
   margin-right: auto !important;  
   padding: 5px !important;
   box-sizing: border-box;
-  max-width: calc(100% - 10px);
 }
 
 body.home-page .main-name {
