@@ -380,6 +380,7 @@ h2.collapsible-link {
 @media (max-width: 1023px) {
   .top-nav {
     gap: 40px;
+    padding: 12px 0 12px 5px;
     justify-content: flex-start;
   }
   .main-name, .name-title {
