@@ -48,7 +48,11 @@ body_class: home-page
   <p>Welcome to my webpage!</p>
 
   <p>
-    I am in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026. Currently, I am a 
+    I am in the <b>2025/26 JOB MARKET</b>, looking for a job that starts on (or after) June 1st, 2026.
+  </p>
+    
+  <p>
+    Currently, I am a 
     <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the 
     <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the 
     <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my 
@@ -73,8 +77,8 @@ body_class: home-page
 
   <p>
     In my solo-authored job market paper, 
-    <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank" style="margin-right: 5px;">
-      <i>Self-Equivalent Voting Rules</i>
+    <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
+      <i><b>Self-Equivalent Voting Rules</b></i>
     </a>, I introduce a <b>new stability axiom for stochastic voting rules</b> by which a society considering whether to replace its voting rule using itself will choose not to do so. 
     I then leverage this axiom to obtain a <b>novel characterization of the uniform random dictatorship</b> alongside the democratic principles of anonymity, neutrality, optimality, and monotonicity. 
     The paper will soon be ready for submission.
@@ -84,6 +88,6 @@ body_class: home-page
     Throughout my career, I have taught <b>game theory</b>, <b>intermediate microeconomics</b>, and <b>bargaining theory</b>. 
     As a microeconomic theorist, I can teach courses at any level on <b>game theory</b>, <b>social choice</b>, <b>mechanism design</b>, <b>microeconomics</b>, and <b>mathematics</b>. 
     Given my background in political science, I can also teach courses on <b>political science</b> and related disciplines at the undergraduate level. 
-    Finally, I can also teach <b>\(\LaTeX\)</b> at any level.
+    Finally, I can also teach <b>LaTeX</b> at any level.
   </p>
 </div>
