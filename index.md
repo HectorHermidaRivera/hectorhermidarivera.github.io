@@ -53,8 +53,7 @@ body_class: home-page
     
   <p>
     Currently, I am a 
-    <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> in the 
-    <a href="https://qsms.bme.hu">Quantitative Social & Management Sciences Research Centre</a> (QSMS) at the 
+    <a href="https://qsms.bme.hu/index.php/hector-hermida-rivera/">postdoctoral fellow</a> at the 
     <a href="https://www.bme.hu/?language=en">Budapest University of Technology & Economics</a> (BME). I obtained my 
     <b>Doctorate in Economics</b> from the 
     <a href="https://www.uea.ac.uk">University of East Anglia</a> (UEA) in 2024 under the supervision of 
@@ -72,7 +71,7 @@ body_class: home-page
     I am a microeconomic theorist specialising in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. 
     More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the 
     <b>stability of constitutions</b> and <b>individual rights</b>. As of today, my research has been published in 
-    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>. You can find my <b>research statement <a href="">here</a></b>.
+    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>. You can find my <b>research statement <a href="https://drive.google.com/file/d/1MzI_XH-l469BI5YXob1DR1AR7Gf-YOBF/view?usp=share_link">here</a></b>.
   </p>
 
   <p>
