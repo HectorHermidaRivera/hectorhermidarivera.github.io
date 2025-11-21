@@ -115,7 +115,7 @@ permalink: /resources/
   <div class="value"><a href="https://drive.google.com/file/d/1Odd1O-l0xM5gxUizp3l1PJneyEI1cexf/view">Basic Math Cheatsheet</a>, <a href="https://www.coursera.org">Coursera</a>, <a href="https://www.khanacademy.org">Khan Academy</a>, <a href="https://www.wolframalpha.com">WolframAlpha</a></div>
 
   <div class="label"><b>Preprints</b></div>
-  <div class="value"><a href="https://arxiv.org">ArXiv</a>, <a href="http://www.ssrn.com">SSRN</a></div>
+  <div class="value"><a href="https://arxiv.org">arXiv</a>, <a href="http://www.ssrn.com">SSRN</a></div>
 
   <div class="label"><b>Societies</b></div>
   <div class="value"><a href="https://www.assetassoc.com">Association of Southern European Economic Theorists</a>, <a href="https://www.coalitiontheory.net">Coalition Theory Network</a>, <a href="https://gametheorysociety.org">Game Theory Society</a>, <a href="https://sites.google.com/site/societyforeconomicdesign/">Society for Economic Design</a>, <a href="https://scwsociety.org">Society for Social Choice & Welfare</a>, <a href="https://www.mechanism-design.org/society.php">Society for the Promotion of Mechanism & Institution Design</a>, <a href="https://gtcenter.org">Stony Brook Game Theory Centre</a>, <a href="https://www.econometricsociety.org">The Econometric Society</a></div>
@@ -124,6 +124,6 @@ permalink: /resources/
   <div class="value"><a href="https://www.youtube.com/watch?v=mSWl3ZWGm-o">Eric Maskin's "The Implementation of Society's Goals"</a>, <a href="https://www.youtube.com/watch?v=DeUr3dO-zVs">Amartya Sen's "Social Choice and Human Rights"</a>, <a href="https://www.youtube.com/playlist?list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo">William Spaniel's Game Theory 101</a>, <a href="https://www.youtube.com/c/gametheoryonline/featured">Game Theory Online</a>, <a href="https://www.youtube.com/@khanacademy">Khan Academy</a>, <a href="https://www.youtube.com/@selcukozyurt/playlists">Selcuk Ozyurt's channel</a>, <a href="https://www.youtube.com/playlist?list=PL5B3KLQNAC5iy7YKlEdHKiAbo5SuiAHE1">Semih Koray's "Mathematics for Economists"</a>, <a href="https://www.youtube.com/@sarajensen3039">Sara Jensen's channel</a>, <a href="https://www.youtube.com/@TobyHandfield">Toby Handfield's channel</a></div>
 
   <div class="label"><b>Blogs</b></div>
-  <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">Game Theory net</a></div>
+  <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">gameyheory.net</a></div>
 
 </div>
