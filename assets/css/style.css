@@ -37,7 +37,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;  /* centers the pill horizontally */
-  padding: 0;               /* remove padding outside the pill */
+  padding-top: 15px;               /* remove padding outside the pill */
   background-color: transparent; /* make top bar itself invisible */
   border-bottom: none;      /* remove the line */
   z-index: 999;
