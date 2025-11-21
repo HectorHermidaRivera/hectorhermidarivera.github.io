@@ -45,12 +45,15 @@ body {
 
 .top-nav .link-group {
   display: flex;
-  gap: 30px;
-  padding: 6px 20px;
-  border-radius: 25px;
-  background-color: #e0e0e0;
+  gap: 20px;                      /* spacing between links */
+  padding: 6px 20px;              /* inside the pill */
+  border-radius: 25px;            /* rounded pill shape */
+  background-color: rgba(255, 255, 255, 0.2); /* semi-transparent */
+  backdrop-filter: blur(10px);    /* frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* optional subtle border */
   align-items: center;
-  margin-top: 12px;
+  margin-top: 12px;               /* vertical space from top of page */
 }
 
 .top-nav .link-group a {
