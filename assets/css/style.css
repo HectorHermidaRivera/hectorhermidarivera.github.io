@@ -238,9 +238,10 @@ body.home-page .content {
   color: #556B2F;
 }
 
-/* PDF ICON ALIGNMENT */
+/* PDF & POWERPOINT ICONS ALIGNMENT */
 
-.fa-file-pdf {
+.fa-file-pdf,
+.fa-file-powerpoint {
   font-size: 0.8em;
   position: relative;
   top: -1.75px;              
