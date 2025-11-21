@@ -37,10 +37,10 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;  /* centers the pill horizontally */
-  padding: 12px 0;
-  background-color: #f2f2f2;
+  padding: 0;               /* remove padding outside the pill */
+  background-color: transparent; /* make top bar itself invisible */
+  border-bottom: none;      /* remove the line */
   z-index: 999;
-  border-bottom: 1px solid #ddd;
 }
 
 .top-nav .link-group {
