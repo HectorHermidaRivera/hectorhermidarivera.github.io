@@ -50,7 +50,7 @@ body {
 
 body.home-page .content {
   padding-left: 5px !important;
-  padding-right: 6px !important;
+  padding-right: 7px !important;
 }
 
 /* TITLE */
@@ -408,7 +408,7 @@ h2.collapsible-link {
     padding-left: 1dvw !important;
     padding-right: 1dvw !important;
     max-width: 1025px !important;
-    width: 100dvw !important;
+    width: 95dvw !important;
     text-align: left !important;
   }
 }
