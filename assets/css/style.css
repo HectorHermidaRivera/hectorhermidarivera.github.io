@@ -476,6 +476,10 @@ h2.collapsible-link {
   .top-nav a {
     color: #66ccff !important;
   }
+  .top-nar:hover {
+    text-decoration: none !important;
+    color: #cceeff !important;
+  }
   body, .content {
     background-color: #0d0d0d !important;
     color: #f2f2f2 !important;
@@ -488,7 +492,6 @@ h2.collapsible-link {
     text-decoration: none !important;
   }
   a:hover, .content a:hover, .icon-row a:hover {
-    color: #66ccff !important;
     text-decoration: none !important;
     color: #cceeff !important;
   }
@@ -519,7 +522,7 @@ h2.collapsible-link {
   }
   .two-column-2rows .value .top-row .collapsible-link:hover,
   .two-column-3rows .value .top-row .collapsible-link:hover, 
-  .two-column .value .collapsible-link:hoover {
+  .two-column .value .collapsible-link:hover {
     text-decoration: none !important;
     color: #cceeff !important;
   }
