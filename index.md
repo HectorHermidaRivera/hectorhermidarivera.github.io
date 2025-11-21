@@ -4,6 +4,13 @@ title: Héctor Hermida-Rivera
 body_class: home-page
 ---
 
+<div style="
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 85dvh;
+">
+
   <h1 class="main-name" style="padding-left:5px !important; padding-right:5px !important;">
     Héctor <strong>Hermida-Rivera</strong>
   </h1>
