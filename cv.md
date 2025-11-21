@@ -392,12 +392,14 @@ permalink: /cv/
 
 ## Presentations {#presentations}
 
+<div class="line14">
 <div class="two-column">
   <div class="label"><b>Conferences</b></div>
   <div class="value">Coalition Theory Network Workshop (<b>×3</b>)<span style="margin:10px;">•</span>Conference on Economic Design (<b>×3</b>)<span style="margin:10px;">•</span>Conference on Mechanism & Institution Design (<b>×3</b>)<span style="margin:10px;">•</span>European Meeting on Game Theory (<b>×4</b>)<span style="margin:10px;">•</span>Game Theory & Applications International Conference (<b>×1</b>)<span style="margin:10px;">•</span>Lisbon Meetings in Game Theory & Applications (<b>×1</b>)<span style="margin:10px;">•</span>Political Economy of International Organisations Conference (<b>×1</b>)<span style="margin:10px;">•</span>Stony Brook International Conference on Game Theory (<b>×1</b>)<span style="margin:10px;">•</span>World Congress of the Game Theory Society (<b>×1</b>)</div>
 
   <div class="label"><b>Seminars</b></div>
   <div class="value">Budapest University of Technology & Economics (<b>×2</b>)<span style="margin:10px;">•</span>Centre for Economic & Regional Studies (<b>×1</b>)<span style="margin:10px;">•</span>Corvinus University of Budapest (<b>×2</b>)<span style="margin:10px;">•</span>University of Barcelona (<b>×1</b>)<span style="margin:10px;">•</span>University of East Anglia (<b>×3</b>)<span style="margin:10px;">•</span>University of Granada (<b>×1</b>)<span style="margin:10px;">•</span>University of Liverpool (<b>×2</b>)<span style="margin:10px;">•</span>University of Rovira i Virgili (<b>×1</b>)<span style="margin:10px;">•</span>University of Vienna (<b>×1</b>)</div>
+</div>
 </div>
 
 ## Refereeing {#refereeing}
