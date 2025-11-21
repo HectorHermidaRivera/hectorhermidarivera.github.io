@@ -77,8 +77,7 @@ body_class: home-page
   <p>
     In my solo-authored job market paper, 
     <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">
-      <i><b>Self-Equivalent Voting Rules</b></i>
-    </a>, I introduce a <b>new stability axiom for stochastic voting rules</b> by which a society considering whether to replace its voting rule using itself will choose not to do so. 
+      <i><b>Self-Equivalent Voting Rules</b></i></a>, I introduce a <b>new stability axiom for stochastic voting rules</b> by which a society considering whether to replace its voting rule using itself will choose not to do so. 
     I then leverage this axiom to obtain a <b>novel characterization of the uniform random dictatorship</b> alongside the democratic principles of anonymity, neutrality, optimality, and monotonicity. 
     The paper will soon be ready for submission.
   </p>
