@@ -409,6 +409,7 @@ h2.collapsible-link {
     padding-right: 1dvw !important;
     max-width: 1025px !important;
     width: 96dvw !important;
+    text-align: left !important;
   }
 }
 
