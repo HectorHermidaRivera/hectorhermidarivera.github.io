@@ -44,6 +44,14 @@ permalink: /resources/
   </a>
 </div>
 
+<style>
+  .post-content {
+    line-height: 1.4;
+  }
+</style>
+
+<div class="post-content">
+
 ## Textbooks {#textbooks}
 
 <div class="two-column">
@@ -126,4 +134,5 @@ permalink: /resources/
   <div class="label"><b>Blogs</b></div>
   <div class="value"><a href="https://arielrubinstein.tau.ac.il">Ariel Rubinstein</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://gametheory.life">gametheory.life</a>, <a href="https://www.gametheory.net">gameyheory.net</a></div>
 
+</div>
 </div>
