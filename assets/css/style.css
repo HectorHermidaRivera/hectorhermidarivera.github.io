@@ -31,36 +31,34 @@ body {
 
 /* TOP BAR */
 
+/* TOP BAR */
+
 .top-nav {
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 12px 0;
+  padding: 10px;
+  background-color: transparent;
+  border-bottom: none;
   z-index: 999;
-  background: transparent; /* make top-nav itself transparent */
-  border-bottom: none;     /* hide the line */
 }
 
 .top-nav .link-group {
   display: flex;
-  gap: 20px;
-  padding: 6px 20px;
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.2); /* translucent */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  gap: 20px;          
+  padding: 6px 20px;           /* inside the pill */
+  border-radius: 25px;         /* rounded pill shape */
+  background-color: #e0e0e0;   /* pill background */
   align-items: center;
-  margin-top: 12px;       /* spacing from top of page */
 }
 
 .top-nav .link-group a {
   color: #00008B;
   text-decoration: none;
   font-weight: 700;
-  padding: 4px 8px;
+  padding: 4px 8px;            /* optional, for extra click area */
 }
 
 .top-nav .link-group a:hover {
