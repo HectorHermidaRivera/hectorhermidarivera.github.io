@@ -44,16 +44,9 @@ permalink: /resources/
   </a>
 </div>
 
-<style>
-  .post-content {
-    line-height: 1.4;
-  }
-</style>
-
-<div class="post-content">
-
 ## Textbooks {#textbooks}
 
+<div class="post-content">
 <div class="two-column">
   
   <div class="label"><b>Game Theory</b></div>
@@ -78,9 +71,11 @@ permalink: /resources/
   <div class="value">HICKS, J. (1973). <i><a href="https://global.oup.com/academic/product/a-theory-of-economic-history-9780198811633?cc=us&lang=en&">A Theory of Economic History</a></i>; RUBINSTEIN, A. (2012). <i><a href="https://www.openbookpublishers.com/books/10.11647/obp.0020">Economic Fables</a></i></div>
 
 </div>
+</div>
 
 ## Journals {#journals}
 
+<div class="post-content">
 <div class="two-column">
 
   <div class="label"><b>General</b></div>
@@ -90,9 +85,11 @@ permalink: /resources/
   <div class="value"><a href="https://www.aeaweb.org/journals/mic">AEJ: Microeconomics</a>, <a href="https://link.springer.com/journal/199">Economic Theory</a>, <a href="https://www.mdpi.com/journal/games">Games</a>, <a href="https://www.sciencedirect.com/journal/games-and-economic-behavior">Games and Economic Behavior</a>, <a href="https://www.worldscientific.com/worldscinet/igtr">International Game Theory Review</a>, <a href="https://link.springer.com/journal/182">International Journal of Game Theory</a>, <a href="https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization">Journal of Economic Behavior and Organization</a>, <a href="https://www.sciencedirect.com/journal/journal-of-economic-theory">Journal of Economic Theory</a>, <a href="https://www.mohrsiebeck.com/en/journal/journal-of-institutional-and-theoretical-economics-jite/current-issue/">Journal of Institutional and Theoretical Economics</a>, <a href="https://www.sciencedirect.com/journal/journal-of-mathematical-economics">Journal of Mathematical Economics</a>, <a href="https://www.sciencedirect.com/journal/journal-of-public-economics">Journal of Public Economics</a>, <a href="https://onlinelibrary.wiley.com/journal/14679779">Journal of Public Economic Theory</a>, <a href="https://www.sciencedirect.com/journal/mathematical-social-sciences">Mathematical Social Sciences</a>, <a href="https://link.springer.com/journal/11127">Public Choice</a>, <a href="https://link.springer.com/journal/10058">Review of Economic Design</a>, <a href="https://link.springer.com/journal/355">Social Choice & Welfare</a>, <a href="https://www.degruyterbrill.com/journal/key/bejte/html">The B.E. Journal of Theoretical Economics</a>, <a href="https://onlinelibrary.wiley.com/journal/15557561">Theoretical Economics</a>, <a href="https://link.springer.com/journal/11238">Theory and Decision</a></div>
 
 </div>
+</div>
 
 ## Conferences {#conferences}
 
+<div class="post-content">
 <div class="two-column">
 
   <div class="label"><b>General</b></div>
@@ -102,9 +99,11 @@ permalink: /resources/
   <div class="value">ASSET Meetings, European Meeting on Game Theory, European Workshop on Economic Theory, Coalition Theory Network Workshop, Conference on Economic Design, Conference on Mechanism & Institution Design, Game Theory & Applications International Conference, Lisbon Meetings in Game Theory & Applications, Meeting of the Society for Social Choice & Welfare, Stony Brook International Conference on Game Theory, World Congress of the Game Theory Society</div>
 
 </div>
+</div>
 
 ## Internet {#internet}
 
+<div class="post-content">
 <div class="two-column">
 
   <div class="label"><b>Q&A</b></div>
