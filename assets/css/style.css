@@ -63,6 +63,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* PARAGRAPH SPACING */
+
+p {
+  line-height: 1.1;
+}
+
 /* CV & RESOURCES CONTENT */
 
 .content {
