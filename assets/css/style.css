@@ -37,10 +37,10 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 0;
-  background-color: transparent;
-  border-bottom: none;      /* remove the line */
+  padding: 12px 0;
   z-index: 999;
+  background: transparent; /* make top-nav itself transparent */
+  border-bottom: none;     /* hide the line */
 }
 
 .top-nav .link-group {
@@ -48,12 +48,12 @@ body {
   gap: 20px;
   padding: 6px 20px;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2); /* translucent */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   align-items: center;
-  margin-top: 12px;
+  margin-top: 12px;       /* spacing from top of page */
 }
 
 .top-nav .link-group a {
