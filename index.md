@@ -72,12 +72,12 @@ body_class: home-page
     I am a microeconomic theorist specialising in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. 
     More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the 
     <b>stability of constitutions</b> and <b>individual rights</b>. As of today, my research has been published in 
-    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>.
+    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>. You can find my <b>research statement <a href="">here</a></b>.
   </p>
 
   <p>
     In my solo-authored job market paper, 
-    <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view" target="_blank">
+    <a href="https://drive.google.com/file/d/13vZ7mZ95rlw0s_VvOVO176N9I3Qy2Mhe/view">
       <i><b>Self-Equivalent Voting Rules</b></i>
     </a>, I introduce a <b>new stability axiom for stochastic voting rules</b> by which a society considering whether to replace its voting rule using itself will choose not to do so. 
     I then leverage this axiom to obtain a <b>novel characterization of the uniform random dictatorship</b> alongside the democratic principles of anonymity, neutrality, optimality, and monotonicity. 
@@ -88,6 +88,6 @@ body_class: home-page
     Throughout my career, I have taught <b>game theory</b>, <b>intermediate microeconomics</b>, and <b>bargaining theory</b>. 
     As a microeconomic theorist, I can teach courses at any level on <b>game theory</b>, <b>social choice</b>, <b>mechanism design</b>, <b>microeconomics</b>, and <b>mathematics</b>. 
     Given my background in political science, I can also teach courses on <b>political science</b> and related disciplines at the undergraduate level. 
-    Finally, I can also teach <b>LaTeX</b> at any level.
+    Finally, I can also teach <b>LaTeX</b> at any level. You can find my <b>teaching statement <a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
   </p>
 </div>
