@@ -405,10 +405,10 @@ h2.collapsible-link {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 30px !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 1dvw !important;
+    padding-right: 1dvw !important;
     max-width: 1025px !important;
-    width: 95vw !important;
+    width: 97dvw !important;
   }
 }
 
