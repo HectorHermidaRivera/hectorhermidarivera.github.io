@@ -20,6 +20,7 @@ document.querySelectorAll('.collapsible-link').forEach(link => {
 
 document.querySelectorAll('a').forEach(link => {
   if (
+    !link.closest('.top-nav') &&
     !link.classList.contains('collapsible-link') && 
     !link.classList.contains('same-tab') 
   ) {
