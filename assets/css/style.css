@@ -50,6 +50,7 @@ body {
   border-radius: 25px;         /* rounded pill shape */
   background-color: #e0e0e0;   /* pill background */
   align-items: center;
+  margin-top: 12px;            /* vertical space from top of page */
 }
 
 .top-nav .link-group a {
