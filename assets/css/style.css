@@ -23,6 +23,14 @@ body {
   overflow-x: hidden;
 }
 
+/* STYLE WITH BIG LINE SPACE */
+
+<style>
+  .post-content {
+    line-height: 1.4;
+  }
+</style>
+
 /* TOP BAR */
 
 .top-nav {
