@@ -34,26 +34,33 @@ body {
 .top-nav {
   position: fixed;
   top: 0;
-  z-index: 999;
   width: 100%;
-  max-width: 100%;
-  background-color: #f2f2f2;
-  padding: 12px 0;
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: center;  /* centers the pill horizontally */
+  padding: 12px 0;
+  background-color: #f2f2f2;
+  z-index: 999;
   border-bottom: 1px solid #ddd;
 }
 
-.top-nav a {
-  color: #00008B !important;
-  text-decoration: none;
-  font-weight: 700 !important;
+.top-nav .link-group {
+  display: flex;
+  gap: 20px;                   /* spacing between links */
+  padding: 6px 20px;           /* inside the pill */
+  border-radius: 25px;         /* rounded pill shape */
+  background-color: #e0e0e0;   /* pill background */
+  align-items: center;
 }
 
-.top-nav a:hover {
-  text-decoration: none !important;
-  color: #000044 !important;
+.top-nav .link-group a {
+  color: #00008B;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 4px 8px;            /* optional, for extra click area */
+}
+
+.top-nav .link-group a:hover {
+  color: #000044;
 }
 
 /* BODY */
@@ -67,6 +74,15 @@ body {
   word-spacing: -0.01em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   text-rendering: optimizeLegibility;
+}
+
+.top-nav .link-group {
+  display: flex;
+  gap: 12px;                  /* space between links */
+  padding: 6px 12px;          /* inside the pill */
+  border-radius: 25px;        /* rounded pill shape */
+  background-color: #e0e0e0;  /* pill color */
+  align-items: center;
 }
 
 /* PARAGRAPH SPACING */
