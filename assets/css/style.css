@@ -104,7 +104,7 @@ p {
 body.home-page .content {
   margin-left: auto !important;       
   margin-right: auto !important;  
-  padding-left: 60px 5px 40px 5px !important;
+  padding: 60px 5px 40px 5px !important;
   box-sizing: border-box;
 }
 
