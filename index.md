@@ -90,6 +90,6 @@ body_class: home-page
   </p>
 
   <p>
-    Thank you very much for your visit&ndashI hope you enjoy the site!
+    Thank you very much for your visit&ndash;I hope you enjoy the site!
   </p>
 </div>
