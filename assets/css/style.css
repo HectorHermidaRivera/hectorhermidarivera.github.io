@@ -490,7 +490,7 @@ h2.collapsible-link {
   a:hover, .content a:hover, .icon-row a:hover {
     color: #66ccff !important;
     text-decoration: none !important;
-    color: #99ddff !important;
+    color: #cceeff !important;
   }
   .two-column-2rows .value .second-row,
   .two-column-3rows .value .second-row,
@@ -521,9 +521,9 @@ h2.collapsible-link {
   .two-column-3rows .value .top-row .collapsible-link:hover, 
   .two-column .value .collapsible-link:hoover {
     text-decoration: none !important;
-    color: #99ddff;
+    color: #cceeff !important;
   }
 .ai-open-access::before {
-  color: #99dd77;
+  color: #cceeff !important;
   }
 }
