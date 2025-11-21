@@ -46,7 +46,7 @@ permalink: /resources/
 
 ## Textbooks {#textbooks}
 
-<div class="post-content">
+<div class="line14">
 <div class="two-column">
   
   <div class="label"><b>Game Theory</b></div>
@@ -75,7 +75,7 @@ permalink: /resources/
 
 ## Journals {#journals}
 
-<div class="post-content">
+<div class="line14">
 <div class="two-column">
 
   <div class="label"><b>General</b></div>
@@ -89,7 +89,7 @@ permalink: /resources/
 
 ## Conferences {#conferences}
 
-<div class="post-content">
+<div class="line14">
 <div class="two-column">
 
   <div class="label"><b>General</b></div>
@@ -103,7 +103,7 @@ permalink: /resources/
 
 ## Internet {#internet}
 
-<div class="post-content">
+<div class="line14">
 <div class="two-column">
 
   <div class="label"><b>Q&A</b></div>
