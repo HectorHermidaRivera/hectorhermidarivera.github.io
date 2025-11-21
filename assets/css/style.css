@@ -36,28 +36,28 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;  /* centers the pill horizontally */
-  padding: 0;               /* remove padding outside the pill */
-  background-color: transparent; /* make top bar itself invisible */
+  justify-content: center;
+  padding: 0;
+  background-color: transparent;
   border-bottom: none;      /* remove the line */
   z-index: 999;
 }
 
 .top-nav .link-group {
   display: flex;
-  gap: 20px;                   /* spacing between links */
-  padding: 6px 20px;           /* inside the pill */
-  border-radius: 25px;         /* rounded pill shape */
-  background-color: #e0e0e0;   /* pill background */
+  gap: 30px;
+  padding: 6px 20px;
+  border-radius: 25px;
+  background-color: #e0e0e0;
   align-items: center;
-  margin-top: 12px;            /* vertical space from top of page */
+  margin-top: 12px;
 }
 
 .top-nav .link-group a {
   color: #00008B;
   text-decoration: none;
   font-weight: 700;
-  padding: 4px 8px;            /* optional, for extra click area */
+  padding: 4px 8px;
 }
 
 .top-nav .link-group a:hover {
