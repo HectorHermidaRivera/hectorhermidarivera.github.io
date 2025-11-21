@@ -404,7 +404,7 @@ h2.collapsible-link {
     white-space: normal;
   }
   .content,
-  .body.home-page .content{
+  body.home-page .content{
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 30px !important;
