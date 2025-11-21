@@ -25,11 +25,9 @@ body {
 
 /* STYLE WITH BIG LINE SPACE */
 
-<style>
-  .post-content {
-    line-height: 1.4;
-  }
-</style>
+.line14 {
+  line-height: 1.4;
+}
 
 /* TOP BAR */
 
