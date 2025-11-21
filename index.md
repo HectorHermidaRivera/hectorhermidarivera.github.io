@@ -4,7 +4,7 @@ title: Héctor Hermida-Rivera
 body_class: home-page
 ---
 
-  <h1 class="main-name">
+  <h1 class="main-name" style="padding-left:0px !important; padding-right:0px !important!;">
     Héctor <strong>Hermida-Rivera</strong>
   </h1>
 
