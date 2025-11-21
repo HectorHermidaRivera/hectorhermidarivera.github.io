@@ -41,7 +41,7 @@ body {
   padding: 12px 0;
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 40px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -379,7 +379,7 @@ h2.collapsible-link {
 
 @media (max-width: 1023px) {
   .top-nav {
-    gap: 50px;
+    gap: 40px;
   }
   .main-name, .name-title {
     padding-left: 0 !important;
