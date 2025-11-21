@@ -37,9 +37,6 @@ body {
   justify-content: center;
   gap: 30px;
   border-bottom: none;
-  background-color: rgba(242, 242, 242, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 .top-nav a {
