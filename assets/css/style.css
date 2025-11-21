@@ -476,7 +476,7 @@ h2.collapsible-link {
   .top-nav a {
     color: #66ccff !important;
   }
-  .top-nav:hover {
+  .top-nav a:hover {
     text-decoration: none !important;
     color: #cceeff !important;
   }
