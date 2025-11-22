@@ -3,7 +3,7 @@ layout: default
 title: Héctor Hermida-Rivera
 ---
 
-  <div class="icon-row" style="paddng-bottom: 30px;">
+  <div class="icon-row" style="paddng-bottom: 30px !important;">
     <a href="https://drive.google.com/file/d/1U52WtfZQt0LltKnNHPnS9Ce1F0kYY_Sz/view?usp=sharing">
       <i class="ai ai-cv-square" style="font-size:1.50em;"></i>
     </a>
