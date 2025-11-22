@@ -470,7 +470,8 @@ h2.collapsible-link {
 
 @media (prefers-color-scheme: dark) {
   .top-nav .link-group {
-    background-color: #1a1a1a; /* slightly lighter than #0d0d0d */
+  background: rgba(13, 13, 13, 0.25);
+  border: 1px solid rgba(86, 86, 86, 0.4);
   }
   .top-nav {
     border-bottom: none;
