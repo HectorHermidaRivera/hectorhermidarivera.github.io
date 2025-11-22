@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Héctor Hermida-Rivera
-body_class: home-page
 ---
 
   <div class="icon-row">
@@ -40,7 +39,9 @@ body_class: home-page
     </a>
   </div>
 
-<div>
+<div class="two-column">
+  <div class="label"></div>
+  <div class="value">
   <p>Welcome to my webpage!</p>
 
   <p>
@@ -88,4 +89,6 @@ body_class: home-page
   <p>
     Thank you very much for your visit&mdash;I hope you enjoy my webpage!
   </p>
+  
+</div>
 </div>
