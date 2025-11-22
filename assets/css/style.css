@@ -378,7 +378,7 @@ h2.collapsible-link {
 
 /* SMALL SCREENS */
 
-@media (max-width: 1050px) {
+@media (max-width: 1100px) {
   .main-name, .name-title {
     padding-left: 0 !important;
     text-align: left !important;
