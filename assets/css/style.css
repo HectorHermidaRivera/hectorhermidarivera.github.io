@@ -26,10 +26,12 @@ body {
 /* VERTICAL CENTERING */
 
 .centered-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100dvh;
+/*  display: flex;
+/*  flex-direction: column;
+/*  justify-content: center;
+/*  min-height: 100dvh; */
+  margin-top: auto;
+  margin-bottom: autho;
 }
 
 /* STYLE WITH BIG LINE SPACE */
