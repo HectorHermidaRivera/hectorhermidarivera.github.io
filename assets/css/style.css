@@ -36,16 +36,16 @@ body {
 }
 
 .content-wrapper {
-  flex: 1;                /* take all remaining space */
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center if there's extra space */
+  justify-content: center;
 }
 
 .content-wrapper::before {
   content: '';
   flex-grow: 1;
-  min-height: 10%;        /* pushes content slightly up if space available */
+  min-height: 10%;
 }
 
 /* STYLE WITH BIG LINE SPACE */
