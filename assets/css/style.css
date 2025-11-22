@@ -23,6 +23,31 @@ body {
   overflow-x: hidden;
 }
 
+/* VERTICAL CENTERING */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;                /* take all remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center if there's extra space */
+}
+
+.content-wrapper::before {
+  content: '';
+  flex-grow: 1;
+  min-height: 10%;        /* pushes content slightly up if space available */
+}
+
 /* STYLE WITH BIG LINE SPACE */
 
 .line14 {
