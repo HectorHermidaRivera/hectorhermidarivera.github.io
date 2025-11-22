@@ -55,7 +55,7 @@ body {
 .top-nav .link-group {
   display: flex;
   gap: 20px;
-  padding: 9px 20px 6px 20px;
+  padding: 8px 20px 6px 20px;
   border-radius: 25px;
   background: rgba(242, 242, 242, 0.5);
   backdrop-filter: blur(5px);
