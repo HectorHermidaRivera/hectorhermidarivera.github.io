@@ -48,7 +48,10 @@ body {
   gap: 20px;
   padding: 6px 20px;
   border-radius: 25px;
-  background-color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* background-color: #e0e0e0; */
   align-items: center;
 }
 
