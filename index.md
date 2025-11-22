@@ -39,7 +39,7 @@ title: Héctor Hermida-Rivera
     </a>
   </div>
 
-<div class="two-column" style="max-width: 962px !important;">
+<div class="two-column" style="box-sizing: border-box; padding-right: 171px;">
   <div class="label"></div>
   <div class="value">
   <p>Welcome to my webpage!</p>
