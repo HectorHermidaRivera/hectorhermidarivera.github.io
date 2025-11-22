@@ -39,7 +39,7 @@ title: Héctor Hermida-Rivera
     </a>
   </div>
 
-<div class="two-column">
+<div class="three-column">
   <div class="label"></div>
   <div class="value">
   <p>Welcome to my webpage!</p>
@@ -91,4 +91,5 @@ title: Héctor Hermida-Rivera
   </p>
   
 </div>
+<div class="right-buffer"></div>
 </div>
