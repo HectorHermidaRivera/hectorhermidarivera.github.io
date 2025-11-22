@@ -48,10 +48,10 @@ body {
   gap: 20px;
   padding: 6px 20px;
   border-radius: 25px;
-  background: rgba(242, 242, 242, 0.25);
+  background: rgba(242, 242, 242, 0.5);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(169, 169, 169, 0.4);
+  border: 1px solid rgba(169, 169, 169, 0.5);
   align-items: center;
 }
 
@@ -469,8 +469,8 @@ h2.collapsible-link {
 
 @media (prefers-color-scheme: dark) {
   .top-nav .link-group {
-    background: rgba(13, 13, 13, 0.25);
-    border: 1px solid rgba(86, 86, 86, 0.4);
+    background: rgba(13, 13, 13, 0.5);
+    border: 1px solid rgba(86, 86, 86, 0.5);
   }
   .top-nav {
     border-bottom: none;
