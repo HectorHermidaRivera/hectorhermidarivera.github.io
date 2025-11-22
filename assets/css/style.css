@@ -25,27 +25,21 @@ body {
 
 /* VERTICAL CENTERING */
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
+/* Make the body fill the viewport and use flexbox */
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;  /* full viewport height */
 }
 
-.content-wrapper {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Push top-nav out of the flow and allow content to be centered */
+.content {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.content-wrapper::before {
-  content: '';
-  flex-grow: 1;
-  min-height: 10%;
+.content {
+  transform: translateY(-10%); /* shifts 10% up from vertical center */
 }
 
 /* STYLE WITH BIG LINE SPACE */
