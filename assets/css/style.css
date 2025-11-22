@@ -466,7 +466,7 @@ h2.collapsible-link {
     white-space: normal;
   }
   .content,
-  body.home-page .content{
+  body.home-page .content {
     margin-left: auto !important;
     margin-right: auto !important;
     padding-left: 5px !important;
@@ -474,6 +474,9 @@ h2.collapsible-link {
     max-width: 95% !important;
     width: 100% !important;
     text-align: left !important;
+  }
+ .two-column[style] {
+    padding-right: 0 !important; /* or 5px, whatever your small screen padding is */
   }
 }
 
