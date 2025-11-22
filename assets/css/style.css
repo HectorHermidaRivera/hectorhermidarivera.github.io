@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 50dvh;
+  min-height: 100dvh;
 }
 
 /* STYLE WITH BIG LINE SPACE */
