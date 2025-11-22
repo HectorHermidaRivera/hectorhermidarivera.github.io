@@ -68,7 +68,7 @@ title: Héctor Hermida-Rivera
     I am a microeconomic theorist specialising in <b>social choice</b>, <b>mechanism design</b>, <b>game theory</b>, and <b>political economy</b>. 
     More concretely, my research agenda revolves around two timeless challenges central to liberal democracies: the 
     <b>stability of constitutions</b> and <b>individual rights</b>. As of today, my research has been published in 
-    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>. You can find my <b>research statement <a href="https://drive.google.com/file/d/1MzI_XH-l469BI5YXob1DR1AR7Gf-YOBF/view?usp=share_link">here</a></b>.
+    <b>Games and Economic Behavior</b>, <b>Public Choice</b>, <b>Journal of Public Economic Theory</b>, and <b>International Interactions</b>. My <b>research statement</b> is available <b><a href="https://drive.google.com/file/d/1MzI_XH-l469BI5YXob1DR1AR7Gf-YOBF/view?usp=share_link">here</a></b>.
   </p>
 
   <p>
@@ -83,7 +83,7 @@ title: Héctor Hermida-Rivera
     Throughout my career, I have taught <b>game theory</b>, <b>intermediate microeconomics</b>, and <b>bargaining theory</b>. 
     As a microeconomic theorist, I can teach courses at any level on <b>game theory</b>, <b>social choice</b>, <b>mechanism design</b>, <b>microeconomics</b>, and <b>mathematics</b>. 
     Given my background in political science, I can also teach courses on <b>political science</b> and related disciplines at the undergraduate level. 
-    Finally, I can also teach <b>LaTeX</b> at any level. You can find my <b>teaching statement <a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
+    Finally, I can also teach <b>LaTeX</b> at any level.  My <b>teaching statement</b> is available here <b><a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
   </p>
 
   <p>
