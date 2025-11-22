@@ -40,7 +40,7 @@ body_class: home-page
     </a>
   </div>
 
-<div class="two-column" style="transform: translateX(-83px); box-sizing: border-box;">
+<div class="two-column">
   <div class="label"></div>
   <div class="value">
   <p>Welcome to my webpage!</p>
