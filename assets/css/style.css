@@ -25,11 +25,11 @@ body {
 
 /* VERTICAL CENTERING */
 
-.content {
+.centered-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 85dvh; /* tweak for desired vertical offset */
+  min-height: 85dvh;
 }
 
 /* STYLE WITH BIG LINE SPACE */
