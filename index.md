@@ -39,9 +39,8 @@ title: Héctor Hermida-Rivera
     </a>
   </div>
 
-<div class="two-column">
-  <div class="label"></div>
-  <div class="value">
+<div class="indented-block">
+  
   <p>Welcome to my webpage!</p>
 
   <p>
@@ -90,5 +89,4 @@ title: Héctor Hermida-Rivera
     Thank you very much for your visit&mdash;I hope you enjoy my webpage!
   </p>
   
-</div>
 </div>
