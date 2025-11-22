@@ -171,6 +171,18 @@ body.home-page .content {
   color: #000044 !important;
 }
 
+/* THREE-COLUMN LAYOUT */
+
+.three-column {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  gap: 8px 16px;
+  align-items: start;
+  margin-top: 0px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
 /* TWO-COLUMN ONE-ROW */
 
 .two-column {
