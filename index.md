@@ -83,7 +83,7 @@ title: Héctor Hermida-Rivera
     Throughout my career, I have taught <b>game theory</b>, <b>intermediate microeconomics</b>, and <b>bargaining theory</b>. 
     As a microeconomic theorist, I can teach courses at any level on <b>game theory</b>, <b>social choice</b>, <b>mechanism design</b>, <b>microeconomics</b>, and <b>mathematics</b>. 
     Given my background in political science, I can also teach courses on <b>political science</b> and related disciplines at the undergraduate level. 
-    Finally, I can also teach <b>LaTeX</b> at any level.  My <b>teaching statement</b> is available here <b><a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
+    Finally, I can also teach <b>LaTeX</b> at any level.  My <b>teaching statement</b> is available <b><a href="https://drive.google.com/file/d/1TmOaplEEzVfCKz7w3_LiyAzEg3wQrCEd/view?usp=share_link">here</a></b>.
   </p>
 
   <p>
