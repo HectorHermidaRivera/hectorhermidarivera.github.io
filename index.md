@@ -41,7 +41,7 @@ title: Héctor Hermida-Rivera
 
 <div class="three-column">
   <div class="label"></div>
-  <div class="value">
+  <div class="value" style="right-padding: 83px;">
   <p>Welcome to my webpage!</p>
 
   <p>
