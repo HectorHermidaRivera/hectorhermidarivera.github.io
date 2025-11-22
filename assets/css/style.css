@@ -25,26 +25,11 @@ body {
 
 /* VERTICAL CENTERING */
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 .content {
-  min-height: calc(100vh - 60px); /* full viewport minus top-nav height */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* start at top */
-  padding-top: 10%; /* nudges slightly down from top if space available */
-  max-width: 1010px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  min-height: 85dvh; /* tweak for desired vertical offset */
 }
 
 /* STYLE WITH BIG LINE SPACE */
