@@ -29,12 +29,6 @@ body {
   line-height: 1.4;
 }
 
-/* INDENTED BLOCK */
-
-.indented-block > p {
-  text-indent: 0px;
-}
-
 /* TOP BAR */
 
 .top-nav {
