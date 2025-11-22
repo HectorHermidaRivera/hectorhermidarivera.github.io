@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Héctor Hermida-Rivera
+body_class: home-page
 ---
 
   <div class="icon-row" style="padding-bottom: 30px !important;">
@@ -39,7 +40,7 @@ title: Héctor Hermida-Rivera
     </a>
   </div>
 
-<div class="three-column" style="padding-right: 5px;">
+<div class="three-column">
   <div class="label"></div>
   <div class="value">
   <p>Welcome to my webpage!</p>
